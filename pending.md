@@ -9,7 +9,7 @@
 
 1. Read **this whole file** and `CLAUDE.md` before writing any code, at the start of every session.
 2. Sections 0–6 say **what** to teach. Section 7 says **how** to build it. Section 8 lists open decisions and the default to use until the user answers.
-3. Build **one milestone at a time** (section 7.13), in order. After each milestone: run the quality gates (7.12), tick checkboxes, commit, report to the user, and **wait for the user's go-ahead**.
+3. Build **one milestone at a time** (section 7.13), in order, as small **steps** (10–20 minutes each). After each step: step gate (7.12), tick, commit, continue. After each milestone: full milestone gate, report, and **wait for the user's go-ahead**.
 4. If something is unclear, or two parts of this file disagree, **stop and ask the user**. Never guess. Never quietly change the plan.
 5. "The user" = the person giving instructions in chat (the learner's husband). "The learner" = his wife, who uses the website.
 
@@ -995,7 +995,18 @@ Bottom navigation, always visible, 5 items: **હોમ** `/` · **શીખો*
 | short vs long i | િ / ી | ship → શિપ, sheep → શીપ |
 | short vs long u | ુ / ૂ | book → બુક, food → ફૂડ |
 
-### 7.12 Quality gates (all must pass before saying any step is done)
+### 7.12 Quality gates
+There are two levels. The **step gate** is quick and runs after every step. The **milestone gate** is the full check and runs at the end of each milestone.
+
+**Step gate** (after every step, a few minutes):
+- `npm run typecheck` and `npm run lint` pass with zero errors and zero warnings.
+- `npx vitest run --changed` passes (tests related to the changed files), plus any test files written in this step.
+- If `content/` or a schema changed: `npm run validate:content` passes.
+- If this step added or changed an e2e spec: run only that spec (`npx playwright test <file>`).
+- If the UI changed: one quick look at the changed page in the browser preview at 360 × 800, console clean.
+- Then commit. Do **not** run the full `npm run check` or the full e2e suite at every step.
+
+**Milestone gate** (end of each milestone — everything below must pass):
 - [ ] `npm run check` = `typecheck` + `lint` + `test` + `validate:content` + `build`, all passing with **zero** errors and zero warnings.
 - [ ] `npm run e2e` passing.
 - [ ] Open the app in the browser preview at 360 × 800, click through every page changed in this step, and confirm the browser console has no errors or warnings.
@@ -1006,7 +1017,7 @@ Bottom navigation, always visible, 5 items: **હોમ** `/` · **શીખો*
 - [ ] End-to-end minimum: fresh start → welcome → dashboard → today's lesson → complete every step → lesson shows completed → reload → still completed; flashcard review; backup export then import round-trip; video step with no approved video shows the placeholder.
 - [ ] No `console.log`, no commented-out code, no `TODO` without a matching unticked item in this file.
 
-### 7.13 Milestones (in order — stop after each one and wait for the user)
+### 7.13 Milestones and steps (in order — stop after each milestone and wait for the user)
 **M1 — Project setup and app shell**
 - [x] `git init`, `.gitignore`, Vite + React + TypeScript, Tailwind, ESLint, Prettier, Vitest, Playwright, self-hosted fonts
 - [x] `src/i18n/gu.ts` with the glossary (7.10); `<En>` component; colour tokens (7.9)
@@ -1022,58 +1033,85 @@ Bottom navigation, always visible, 5 items: **હોમ** `/` · **શીખો*
 - [x] Learning path and topic pages render from content
 - Accept when: validator passes on real content and fails on every broken fixture; `/learn` shows all 26 topics.
 
+#### How steps work (M3 onwards)
+- Each milestone is split into **steps** (`M3.1`, `M3.2`, …). One step ≈ 10–20 minutes of work.
+- Do the steps **in order**, one at a time. For each step: build only that step → run the **step gate** (7.12) → tick its box → commit with a message starting with the step number (e.g. `M3.4: Lesson player frame with step bar and resume`) → write a one-line progress note → go straight on to the next step. **Do not wait for the user between steps**, except at steps marked 🛑.
+- At the **end of each milestone**: run the full **milestone gate** (7.12), report (7.15), and wait for the user's go-ahead.
+- If a step grows past ~30 minutes, it is too big: commit the part that passes the step gate, add the rest as a new step right after it (e.g. `M3.4b`) in this file, and continue.
+- A step is not done if its gate fails. Never commit failing code to move on.
+
 **M3 — Lesson player**
-- [x] All 9 lesson steps; all 8 exercise types; normalization and grading (7.6); feedback messages
-- [x] Text-to-speech `AudioButton` with slow option (7.7)
-- [x] Video step with YouTube player, watched tracking, resume, placeholder for no approved video, offline message
-- [x] ProgressProvider with save/load/safety (7.5); resume at saved step; completion rule; unlock rules and `unlockAll`; mistakes saved
-- Accept when: e2e lesson flow passes; works with zero videos and with the network off.
-- M3 notes (decisions the user can overrule):
-  - Step 6 (speak) in M3 is listen + say aloud only, and step 7 (write) has typing with a model answer and a "write on paper" note for handwriting. Recording, speech check, self-check list and the tracing canvas are M5, so the section 0 boxes for steps 6 and 7 stay unticked until then.
-  - A quiz or practice **match** exercise is finished when every pair is joined. Wrong taps flash ✖; in practice they are saved as a mistake but the exercise still ends right; in a quiz one wrong tap makes the question wrong.
-  - Wrong answers in the quiz are also saved in the mistakes list (not only in practice).
-  - The capital-letter tip shows for a right answer of 2+ words whose first letter is small while the listed answer starts with a capital.
-  - The YouTube player is tested with a fake YouTube API only. No video is approved yet, so real playback has not been seen; the V.5 boxes stay unticked until a real approved video has been checked.
-  - Lazily loaded font files cannot be fetched offline until the PWA cache of M8; the e2e offline test loads them first.
-  - Not in M3 (still unticked): V.5 notes box, topic words, check questions, video library; `storage.persist()` and backup export/import (M4).
+- [ ] **M3.1 Answer checking** — `src/lib/normalize.ts` + `grading.ts` for all 8 exercise types and the capital-letter tip (7.6). Unit tests: each type right and wrong, every normalization rule.
+- [ ] **M3.2 Saved progress** — progress zod schema (7.5), storage service (load, zod parse, keep broken copy, 500 ms debounced save, save on `visibilitychange`/`pagehide`), `ProgressProvider` + reducer, `BrokenProgress` screen. Unit tests incl. empty and corrupted data.
+- [ ] **M3.3 Unlocking** — `src/lib/dates.ts` (`today()` with injectable clock) and `unlock.ts` (recommended order, phase test, next phase, `unlockAll`). Learn and topic pages show locked/unlocked/completed from progress. Unit tests.
+- [ ] **M3.4 Lesson player frame** — `/lesson/:lessonId`: which steps a lesson has (`lessonSteps.ts`: warm-up rule, video step only when it applies), step progress bar, next/back, save and resume the current step, exit, guard for locked or unknown lessons.
+- [ ] **M3.5 Explanation and examples steps** — renderer for every `Block` type, `{{en:…}}` markup, examples list, transliteration per setting (`auto` by phase).
+- [ ] **M3.6 Text-to-speech** — tts service (voice choice, `voiceschanged`, normal/slow rate, cancel) and `AudioButton`; no-English-voice notice. Unit tests with a mocked `speechSynthesis`.
+- [ ] **M3.7 Exercises, part 1** — `mcq`, `trueFalse`, `fill`, `translate` + shared feedback (✔/✖, correct answer, `explainGu`, retry in practice, mistake saved). Component tests.
+- [ ] **M3.8 Exercises, part 2** — `order` (word tiles), `match`, `listenChoose`, `listenType`. Component tests.
+- [ ] **M3.9 Practice, quiz and finish** — practice step, quiz step (5 questions, no retry, score, ≥ 3/5 completes, fail path), "use it today" step, "શાબાશ!" finish screen. On completion: lesson status, new words into SRS box 1 due tomorrow, day stats and minutes.
+- [ ] **M3.10 Video step** — youtube service (load API once, 10 s timeout, offline detection) and `VideoPlayer` (nocookie host, `playsinline`, start/end, save position every 5 s, watched at 90 %, resume, 0.75x/1x). Approved-only filter, placeholder, offline message, notes box, "words from this video", quick-check questions. Topic page shows topic videos. Tests with a mocked `YT`.
+- [ ] **M3.11 Speak and write steps (simple version)** — show speak items with `AudioButton` and write tasks with a text box, both with "આગળ વધો" (full recording and handwriting come in M5).
+- [ ] **M3.12 Milestone check** — e2e: full sample-lesson flow, reload keeps progress, zero approved videos, network off. Full milestone gate, report, wait.
 
 **M4 — Progress and daily habits**
-- [ ] Welcome flow; dashboard; streak and minutes; flashcards with SRS (7.6); progress page; mistakes page; my words; settings; backup export/import + reminder; `storage.persist()`
-- Accept when: unit tests for SRS, streak, minutes pass; backup round-trip e2e passes; corrupted progress is kept and never overwritten.
+- [ ] **M4.1 Days, streak, minutes** — logic per 7.6 with unit tests (month/year boundaries, gaps, today not active yet).
+- [ ] **M4.2 Spaced repetition** — `srs.ts` per 7.6 with unit tests (box up/down, due dates, 30-card cap, oldest first).
+- [ ] **M4.3 Flashcards page** — `/review`: front/back, reversed cards from box 3, "ફરી બતાવો" re-queue, empty state.
+- [ ] **M4.4 Welcome flow** — `/welcome` (name + 3 short screens, shown once), first-launch redirect, `navigator.storage.persist()`.
+- [ ] **M4.5 Dashboard** — greeting, "આજનો પાઠ" button, due cards, streak, minutes vs goal, phase progress bar, backup reminder.
+- [ ] **M4.6 Settings** — every field in 7.5 `settings` plus name; "બધા પાઠ ખોલો".
+- [ ] **M4.7 Backup** — export/import (zod check, confirm before overwrite, `lastBackupAt`). e2e round-trip.
+- [ ] **M4.8 Mistakes and my words** — `/mistakes` with "practise these"; `/words` with learned words, own words (add/delete) and search.
+- [ ] **M4.9 Progress page** — "this week" summary, 30-day bars, completion per phase/topic, words learned, test results area.
+- [ ] **M4.10 Milestone check** — full milestone gate, report, wait.
 
 **M5 — Speaking and writing**
-- [ ] Speak step: listen, record, play back, speech check with fallbacks (7.7)
-- [ ] Write step: typing with model answer + self-check list (capital letter? full stop? verb? article?); handwriting tracing canvas with dotted letter guide and clear button (self-marked, not graded)
-- [ ] Recordings in IndexedDB with clean-up rules
-- Accept when: everything works in Chrome on Android size, and degrades gracefully with mic denied / no speech recognition.
+- [ ] **M5.1 Recorder** — recorder service (`MediaRecorder` type choice, 60 s / 5 min limits), IndexedDB storage, clean-up rules. Unit tests with mocks.
+- [ ] **M5.2 Speech check** — speech service (feature detection, best of 3 alternatives, word-sequence score, 80/50 thresholds, permission denied). Unit tests.
+- [ ] **M5.3 Speak step (full)** — listen, record, play back next to model audio, speech check result, fallbacks; never blocks.
+- [ ] **M5.4 Write step: typing** — min words, save last 5 writings, model answer after submit, self-check list.
+- [ ] **M5.5 Write step: handwriting** — tracing canvas with dotted letter guide, pointer events, clear button, self-marked.
+- [ ] **M5.6 Milestone check** — test mic denied and no speech recognition; full milestone gate, report, wait.
 
 **M6 — Phase 1 content, part 1**
-- [ ] Write `content/outlines/p1.md` (7.11) → **user approves it**
-- [ ] Search video candidates for all 10 Phase 1 topics → `video-review.md` → user reviews → update statuses
-- [ ] Write the first half of Phase 1 lessons in `recommendedOrder`, with vocab
-- Accept when: quality gates pass; user has seen the progress reports.
+- [ ] **M6.1 Phase 1 outline** — write `content/outlines/p1.md` (7.11): every Phase 1 lesson in recommended order with ID, title, the one idea, new words, GS ids. 🛑 **Stop: the user approves the outline before any lesson is written.**
+- [ ] **M6.2 Video candidates P1.1–P1.5** — search, confirm with oEmbed, add as `candidate`, list in `video-review.md` (V.3).
+- [ ] **M6.3 Video candidates P1.6–P1.10** — same. Then tell the user `video-review.md` is ready. (Lesson writing continues while the user reviews; do not wait.)
+- [ ] **M6.4 … M6.n Lesson batches** — 3 lessons per step, in recommended order, with their vocab, until the first half of Phase 1 is written. Add one checkbox per batch here when the outline is approved (e.g. `M6.4 Lessons 1–3`). Each batch: validator passes, English proofread twice, commit.
+- [ ] **M6.x Video decisions** — when the user has answered, set `approved`/`rejected` with review details. Tick 🎥 lines only for approved videos.
+- [ ] **M6.last Milestone check** — full milestone gate, report, wait.
 
 **M7 — Phase 1 content, part 2**
-- [ ] Rest of Phase 1 lessons; `p1-final` test; Gujarati certificate/badge screen when a final test is passed (also shown on `/progress`); practice zone (replay by type, minimal pairs, weekly dictation, weekly talk)
-- Accept when: all Phase 1 curriculum checkboxes can be ticked; GS ids for Phase 1 covered.
+- [ ] **M7.1 … M7.n Lesson batches** — 3 lessons per step for the rest of Phase 1 (add one checkbox per batch, as in M6).
+- [ ] **M7.a Final test content** — `content/tests/p1-final.json` covering every skill in the Phase 1 final test list.
+- [ ] **M7.b Test page** — `/test/:testId`: sections, auto-graded score, self-check sections (writing, recorded speaking), result per skill, pass rule (7.6).
+- [ ] **M7.c Certificate** — Gujarati certificate/badge screen when a final test is passed; also shown on `/progress`.
+- [ ] **M7.d Practice zone: replay** — `/practice` replay of exercises from completed lessons, by type.
+- [ ] **M7.e Practice zone: drills** — minimal-pair drills (from GS lessons) and weekly dictation.
+- [ ] **M7.f Weekly talk** — 2-minute weekly talk recording in `/practice`, listed on `/progress`.
+- [ ] **M7.g Milestone check** — all Phase 1 curriculum boxes and Phase 1 GS ids covered; full milestone gate, report, wait.
 
 **M8 — Ready for her to use**
-- [ ] Video library; help page; PWA (installable, written lessons work offline, videos show the offline message)
-- [ ] Accessibility and polish pass over every page at 320, 360 and 768 px
-- [ ] `vercel.json` with SPA rewrite + short deploy instructions for the user
-- Accept when: quality gates pass; the user can deploy and she can start Phase 1.
+- [ ] **M8.1 Video library** — `/videos`: approved videos by phase/topic, watched filter.
+- [ ] **M8.2 Help page** — how to use the site, how to add an English voice, daily study tips (incl. the family English-time tip).
+- [ ] **M8.3 Offline app (PWA)** — `vite-plugin-pwa`, manifest, icons, installable, written lessons offline, video offline message. e2e offline test.
+- [ ] **M8.4 Polish at phone sizes** — every page at 320 and 360 px: spacing, wrapping, tap targets, loading/empty/error states.
+- [ ] **M8.5 Polish at tablet size + accessibility** — every page at 768 px; aria-labels, contrast, keyboard use, reduced motion.
+- [ ] **M8.6 Deploy setup** — `vercel.json` with SPA rewrite and a short `DEPLOY.md` for the user.
+- [ ] **M8.7 Milestone check** — full milestone gate, report, wait. After this she can start Phase 1.
 
-**M9 — Phase 2**: outline → user approves → videos → lessons → `p2-final`.
-**M10 — Phase 3**: outline → user approves → videos → lessons → `p3-final`.
+**M9 — Phase 2**: outline (🛑 user approves) → video candidates → lesson batches of 3 → `p2-final`. Use the same small-step pattern as M6/M7; write the step list here when M9 starts.
+**M10 — Phase 3**: same pattern as M9, for Phase 3 and `p3-final`.
 **M11 — Full review**: re-run oEmbed link check on all videos; confirm all GS ids covered; fix issues the user reports from her real use.
 **M12 — Only if the user decides** (section 8): login + cloud sync, AI conversation partner, our own recorded videos.
 
 ### 7.14 Out of scope (do not build unless the user asks)
 Login/accounts/backend, payments, ads, analytics or tracking, push notifications, social sharing, more than one learner per device, dark mode, native app, English-language UI, AI features, extra libraries not listed in 7.1.
 
-### 7.15 Report after each milestone
-- What was built (short list), quality-gate results, anything skipped or not working, decisions that need the user, what the next milestone will do.
-- Tick the checkboxes in this file per the checkbox rules, commit, then **wait**.
+### 7.15 Reporting
+- **After each step:** one line — step number, what now works, step gate passed. Then continue.
+- **After each milestone:** what was built (short list), milestone-gate results, anything skipped or not working, decisions that need the user, what the next milestone will do. Tick the checkboxes in this file per the checkbox rules, commit, then **wait**.
 
 ---
 

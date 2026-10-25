@@ -19,8 +19,8 @@ A website that teaches English to an adult Gujarati speaker who is a complete be
 7. **Stick to the plan.** Use only the decisions in 7.1, stay inside the scope in 7.14, and follow the exact rules in 7.6 and 7.7. Ask before adding a library, page or feature.
 8. **When unsure, stop and ask.** Do not guess when the spec is unclear or contradicts itself.
 9. **Content lives in `content/` only.** It must pass `npm run validate:content`.
-10. **Done means checked.** Before saying a step is done, run every quality gate in 7.12 and click through the changed pages in the browser preview at 360 × 800 with no console errors. Report failures honestly.
-11. **One milestone at a time.** After each milestone: tick the checkboxes in `pending.md` (checkbox rules at the top of that file), commit, report (7.15), then wait for the user's go-ahead.
+10. **Done means checked.** After every step, run the quick **step gate** in 7.12. At the end of every milestone, run the full **milestone gate** in 7.12 and click through the changed pages in the browser preview at 360 × 800 with no console errors. Never commit failing code. Report failures honestly.
+11. **Small steps, one milestone at a time.** Work through the numbered steps in 7.13 (10–20 minutes each). After each step: step gate, tick its box, commit (`M3.4: …`), one-line note, then continue without waiting (except at 🛑 steps). After each milestone: milestone gate, report (7.15), then wait for the user's go-ahead.
 12. **Lesson outlines first.** Before writing a phase's lessons, write `content/outlines/p{n}.md` and get the user's approval.
 
 ## Commands
