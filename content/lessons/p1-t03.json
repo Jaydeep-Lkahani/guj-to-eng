@@ -1,0 +1,113 @@
+{
+  "topicId": "p1-t03",
+  "explanationGu": [
+    "આ પાઠમાં રોજ કામમાં આવતા 30 શબ્દો શીખીશું. આ શબ્દો વસ્તુ, શરીરના અંગ, ખાવા-પીવાની ચીજો અને કુદરતનાં નામ છે. અંગ્રેજીમાં આવા નામના શબ્દને [[Noun]] (નાઉન) કહેવાય.",
+    "શબ્દોના ચાર સમૂહ છે: (1) ઘરની વસ્તુઓ, (2) ખાવા-પીવાનું, (3) શરીરના અંગ, (4) કુદરત. નીચેનાં ઉદાહરણ આ જ ક્રમમાં છે.",
+    "શીખવાની સહેલી રીત: ઘરમાં જે વસ્તુ જુઓ, તેને અડીને તેનું અંગ્રેજી નામ મોટેથી બોલો. જેમ કે દરવાજાને અડીને કહો, \"[[Door]]\". રોજ 5 નવા શબ્દ શીખશો તો 6 દિવસમાં બધા આવડી જશે.",
+    "અંગ્રેજીમાં જોડણી અને ઉચ્ચાર હંમેશાં સરખા હોતા નથી. જેમ કે [[Eye]] નો ઉચ્ચાર \"આઇ\" છે. તેથી ગુજરાતીમાં લખેલો ઉચ્ચાર જોઈને શબ્દ બોલો. અક્ષરોના અવાજ પાછલા પાઠમાં શીખ્યા તે યાદ રાખો."
+  ],
+  "examples": [
+    { "en": "Door", "translit": "ડૉર", "gu": "દરવાજો" },
+    { "en": "Window", "translit": "વિન્ડો", "gu": "બારી" },
+    { "en": "Table", "translit": "ટેબલ", "gu": "ટેબલ (મેજ)" },
+    { "en": "Chair", "translit": "ચેર", "gu": "ખુરશી" },
+    { "en": "Bed", "translit": "બેડ", "gu": "પલંગ" },
+    { "en": "Book", "translit": "બુક", "gu": "પુસ્તક" },
+    { "en": "Bag", "translit": "બૅગ", "gu": "થેલો (બૅગ)" },
+    { "en": "Clock", "translit": "ક્લૉક", "gu": "ઘડિયાળ" },
+    { "en": "Phone", "translit": "ફોન", "gu": "ફોન" },
+    { "en": "Water", "translit": "વૉટર", "gu": "પાણી" },
+    { "en": "Milk", "translit": "મિલ્ક", "gu": "દૂધ" },
+    { "en": "Tea", "translit": "ટી", "gu": "ચા" },
+    { "en": "Rice", "translit": "રાઇસ", "gu": "ભાત" },
+    { "en": "Bread", "translit": "બ્રેડ", "gu": "બ્રેડ (પાંઉ)" },
+    { "en": "Banana", "translit": "બનાના", "gu": "કેળું" },
+    { "en": "Salt", "translit": "સૉલ્ટ", "gu": "મીઠું" },
+    { "en": "Sugar", "translit": "શુગર", "gu": "ખાંડ" },
+    { "en": "Hand", "translit": "હૅન્ડ", "gu": "હાથ" },
+    { "en": "Eye", "translit": "આઇ", "gu": "આંખ" },
+    { "en": "Ear", "translit": "ઇયર", "gu": "કાન" },
+    { "en": "Nose", "translit": "નોઝ", "gu": "નાક" },
+    { "en": "Mouth", "translit": "માઉથ", "gu": "મોઢું" },
+    { "en": "Head", "translit": "હેડ", "gu": "માથું" },
+    { "en": "Leg", "translit": "લેગ", "gu": "પગ" },
+    { "en": "Sun", "translit": "સન", "gu": "સૂરજ" },
+    { "en": "Moon", "translit": "મૂન", "gu": "ચંદ્ર" },
+    { "en": "Tree", "translit": "ટ્રી", "gu": "ઝાડ" },
+    { "en": "Flower", "translit": "ફ્લાવર", "gu": "ફૂલ" },
+    { "en": "Bird", "translit": "બર્ડ", "gu": "પક્ષી" },
+    { "en": "Cow", "translit": "કાઉ", "gu": "ગાય" }
+  ],
+  "practice": [
+    {
+      "type": "choice",
+      "questionGu": "\"દરવાજો\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Door", "Window", "Table"],
+      "answer": 0,
+      "explainGu": "Door – ડૉર – દરવાજો"
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[Water]] એટલે શું?",
+      "options": ["ચા", "દૂધ", "પાણી"],
+      "answer": 2,
+      "explainGu": "Water – વૉટર – પાણી"
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"બારી\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Chair", "Window", "Clock"],
+      "answer": 1,
+      "explainGu": "Window – વિન્ડો – બારી"
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[Milk]] એટલે શું?",
+      "options": ["દૂધ", "ખાંડ", "મીઠું"],
+      "answer": 0,
+      "explainGu": "Milk – મિલ્ક – દૂધ"
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"હાથ\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Leg", "Hand", "Head"],
+      "answer": 1,
+      "explainGu": "Hand – હૅન્ડ – હાથ"
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[Ear]] શરીરનું કયું અંગ છે?",
+      "options": ["આંખ", "નાક", "કાન"],
+      "answer": 2,
+      "explainGu": "Ear – ઇયર – કાન"
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"ચંદ્ર\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Sun", "Moon", "Tree"],
+      "answer": 1,
+      "explainGu": "Moon – મૂન – ચંદ્ર"
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[Chair]] એટલે શું?",
+      "options": ["ખુરશી", "પલંગ", "ઘડિયાળ"],
+      "answer": 0,
+      "explainGu": "Chair – ચેર – ખુરશી"
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"મીઠું\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Sugar", "Salt", "Rice"],
+      "answer": 1,
+      "explainGu": "Salt – સૉલ્ટ – મીઠું. Sugar – શુગર – ખાંડ."
+    },
+    {
+      "type": "choice",
+      "questionGu": "આમાંથી પીવાની વસ્તુ કઈ છે?",
+      "options": ["Book", "Chair", "Tea"],
+      "answer": 2,
+      "explainGu": "Tea – ટી – ચા. ચા પીવાય છે."
+    }
+  ]
+}

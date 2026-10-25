@@ -1,0 +1,111 @@
+{
+  "topicId": "p1-t05",
+  "explanationGu": [
+    "ગુજરાતીમાં આપણે \"કેમ છો?\" અને \"આવજો\" કહીએ છીએ. અંગ્રેજીમાં મળતી વખતે અને છૂટા પડતી વખતે પણ નક્કી શબ્દો છે. આ પાઠમાં એ બધા શીખીશું, અને પોતાની ઓળખાણ કેવી રીતે આપવી તે પણ.",
+    "સમય પ્રમાણે અલગ શબ્દ વપરાય છે: સવારે [[Good morning]], બપોરે [[Good afternoon]], સાંજે [[Good evening]]. [[Hello]] અને [[Hi]] કોઈ પણ સમયે કહી શકાય.",
+    "ધ્યાન રાખો: [[Good night]] મળતી વખતે નહીં, પણ રાત્રે સૂતા પહેલાં કે છૂટા પડતી વખતે કહેવાય. સાંજે કોઈને મળો ત્યારે [[Good evening]] કહેવાય, [[Good night]] નહીં.",
+    "કોઈ પૂછે [[How are you?]] (તમે કેમ છો?) તો જવાબ આપો [[I am fine, thank you.]] (હું મજામાં છું, આભાર). પછી સામે પૂછી શકાય [[And you?]] (અને તમે?).",
+    "નામ પૂછવા માટે [[What is your name?]] કહેવાય. જવાબમાં [[My name is]] પછી તમારું નામ બોલો, જેમ કે [[My name is Meena.]] નામનો પહેલો અક્ષર મોટો લખાય.",
+    "નાના શબ્દો રોજ વાપરો: [[Please]] (મહેરબાની કરીને), [[Thank you]] (આભાર), [[Sorry]] (માફ કરજો). કોઈ [[Thank you]] કહે તો જવાબમાં [[You are welcome]] કહેવાય.",
+    "[[I am]] અને [[My name is]] જેવાં વાક્યોનું વ્યાકરણ આગળ શીખીશું. હમણાં આખાં વાક્યો જેમ છે તેમ યાદ રાખો અને બોલો.",
+    "અરીસા સામે ઊભા રહીને રોજ એક વાર પોતાની ઓળખાણ બોલો. બોલવાથી ડર જતો રહેશે."
+  ],
+  "examples": [
+    { "en": "Hello", "translit": "હેલો", "gu": "નમસ્તે" },
+    { "en": "Hi", "translit": "હાય", "gu": "હાય (મિત્રો સાથે)" },
+    { "en": "Good morning", "translit": "ગુડ મૉર્નિંગ", "gu": "સુપ્રભાત (સવારે)" },
+    { "en": "Good afternoon", "translit": "ગુડ આફ્ટરનૂન", "gu": "શુભ બપોર" },
+    { "en": "Good evening", "translit": "ગુડ ઇવનિંગ", "gu": "શુભ સાંજ" },
+    { "en": "Good night", "translit": "ગુડ નાઇટ", "gu": "શુભ રાત્રિ (સૂતા પહેલાં)" },
+    { "en": "Goodbye", "translit": "ગુડબાય", "gu": "આવજો" },
+    { "en": "See you later", "translit": "સી યૂ લેટર", "gu": "ફરી મળીશું" },
+    { "en": "How are you?", "translit": "હાઉ આર યૂ?", "gu": "તમે કેમ છો?" },
+    { "en": "I am fine, thank you.", "translit": "આઇ ઍમ ફાઇન, થૅન્ક યૂ", "gu": "હું મજામાં છું, આભાર." },
+    { "en": "And you?", "translit": "ઍન્ડ યૂ?", "gu": "અને તમે?" },
+    { "en": "What is your name?", "translit": "વૉટ ઇઝ યૉર નેમ?", "gu": "તમારું નામ શું છે?" },
+    { "en": "My name is Meena.", "translit": "માય નેમ ઇઝ મીના", "gu": "મારું નામ મીના છે." },
+    { "en": "Nice to meet you.", "translit": "નાઇસ ટૂ મીટ યૂ", "gu": "તમને મળીને આનંદ થયો." },
+    { "en": "Where are you from?", "translit": "વેર આર યૂ ફ્રૉમ?", "gu": "તમે ક્યાંથી આવો છો?" },
+    { "en": "I am from Gujarat.", "translit": "આઇ ઍમ ફ્રૉમ ગુજરાત", "gu": "હું ગુજરાતથી છું." },
+    { "en": "Please", "translit": "પ્લીઝ", "gu": "મહેરબાની કરીને" },
+    { "en": "Thank you", "translit": "થૅન્ક યૂ", "gu": "આભાર" },
+    { "en": "You are welcome.", "translit": "યૂ આર વેલકમ", "gu": "કંઈ નહીં, આપનું સ્વાગત છે." },
+    { "en": "Sorry", "translit": "સૉરી", "gu": "માફ કરજો" },
+    { "en": "Excuse me", "translit": "ઇક્સ્ક્યૂઝ મી", "gu": "માફ કરશો, જરા સાંભળો" },
+    { "en": "Yes / No", "translit": "યેસ / નો", "gu": "હા / ના" },
+    { "en": "Meena: Hello! My name is Meena.", "translit": "મીના: હેલો! માય નેમ ઇઝ મીના", "gu": "મીના: નમસ્તે! મારું નામ મીના છે." },
+    { "en": "Raj: Hi Meena! I am Raj. Nice to meet you.", "translit": "રાજ: હાય મીના! આઇ ઍમ રાજ. નાઇસ ટૂ મીટ યૂ", "gu": "રાજ: હાય મીના! હું રાજ છું. તમને મળીને આનંદ થયો." }
+  ],
+  "practice": [
+    {
+      "type": "choice",
+      "questionGu": "સવારે કોઈને મળો ત્યારે શું કહેશો?",
+      "options": ["Good night", "Good evening", "Good morning"],
+      "answer": 2,
+      "explainGu": "Good morning – ગુડ મૉર્નિંગ – સુપ્રભાત"
+    },
+    {
+      "type": "choice",
+      "questionGu": "સાંજે કોઈને મળો ત્યારે શું કહેશો?",
+      "options": ["Good evening", "Good morning", "Good afternoon"],
+      "answer": 0,
+      "explainGu": "Good evening – ગુડ ઇવનિંગ. સાંજે મળતી વખતે Good night નથી કહેવાતું."
+    },
+    {
+      "type": "choice",
+      "questionGu": "રાત્રે સૂતા પહેલાં શું કહેશો?",
+      "options": ["Hello", "Good night", "Good evening"],
+      "answer": 1,
+      "explainGu": "Good night – ગુડ નાઇટ – શુભ રાત્રિ"
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"આભાર\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Sorry", "Please", "Thank you"],
+      "answer": 2,
+      "explainGu": "Thank you – થૅન્ક યૂ – આભાર"
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"માફ કરજો\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Sorry", "Please", "Hello"],
+      "answer": 0,
+      "explainGu": "Sorry – સૉરી – માફ કરજો"
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[How are you?]] નો અર્થ શું છે?",
+      "options": ["તમારું નામ શું છે?", "તમે કેમ છો?", "તમે ક્યાંથી આવો છો?"],
+      "answer": 1,
+      "explainGu": "How are you? – હાઉ આર યૂ? – તમે કેમ છો?"
+    },
+    {
+      "type": "choice",
+      "questionGu": "કોઈ પૂછે [[How are you?]] તો સારો જવાબ કયો?",
+      "options": ["I am fine, thank you.", "My name is Meena.", "Goodbye."],
+      "answer": 0,
+      "explainGu": "I am fine, thank you. – આઇ ઍમ ફાઇન, થૅન્ક યૂ – હું મજામાં છું, આભાર."
+    },
+    {
+      "type": "choice",
+      "questionGu": "કોઈ પૂછે [[What is your name?]] તો સારો જવાબ કયો?",
+      "options": ["I am fine, thank you.", "Thank you.", "My name is Raj."],
+      "answer": 2,
+      "explainGu": "My name is Raj. – માય નેમ ઇઝ રાજ – મારું નામ રાજ છે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[Nice to meet you.]] નો અર્થ શું છે?",
+      "options": ["ફરી મળીશું", "તમને મળીને આનંદ થયો", "માફ કરજો"],
+      "answer": 1,
+      "explainGu": "Nice to meet you. – નાઇસ ટૂ મીટ યૂ – તમને મળીને આનંદ થયો."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"મારું નામ મીના છે.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["My name is Meena.", "Your name is Meena.", "What is your name?"],
+      "answer": 0,
+      "explainGu": "My name is Meena. – માય નેમ ઇઝ મીના"
+    }
+  ]
+}

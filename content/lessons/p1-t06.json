@@ -1,0 +1,119 @@
+{
+  "topicId": "p1-t06",
+  "explanationGu": [
+    "આ પાઠમાં કુટુંબના સભ્યોના અને આસપાસના લોકોના શબ્દો શીખીશું. કુટુંબને અંગ્રેજીમાં [[Family]] (ફૅમિલી) કહેવાય.",
+    "મુખ્ય સભ્યો: [[Mother]] (માતા), [[Father]] (પિતા), [[Brother]] (ભાઈ), [[Sister]] (બહેન), [[Son]] (દીકરો), [[Daughter]] (દીકરી), [[Husband]] (પતિ), [[Wife]] (પત્ની). બોલચાલમાં [[Mother]] ને [[Mom]] અને [[Father]] ને [[Dad]] પણ કહેવાય.",
+    "ગુજરાતીમાં સંબંધ માટે જુદા જુદા શબ્દો છે, પણ અંગ્રેજીમાં એક જ શબ્દ હોય છે. કાકા, મામા, ફુઆ, માસા બધા માટે [[Uncle]]. કાકી, મામી, ફોઈ, માસી બધાં માટે [[Aunt]]. દાદા અને નાના બંને માટે [[Grandfather]]. દાદી અને નાની બંને માટે [[Grandmother]].",
+    "એવી જ રીતે મોટા ભાઈ અને નાના ભાઈ બંને માટે [[Brother]] કહેવાય. જરૂર હોય તો [[Elder brother]] (મોટા ભાઈ) કે [[Younger brother]] (નાના ભાઈ) કહી શકાય. કાકા, મામા, ફોઈ કે માસીનાં સંતાન માટે [[Cousin]] (કઝિન) શબ્દ વપરાય.",
+    "કોઈની ઓળખાણ આપવા માટે આ રીત વાપરો: [[This is my]] + સંબંધ. જેમ કે [[This is my mother.]] (આ મારી મા છે.) અહીં [[my]] એટલે \"મારું / મારી / મારા\".",
+    "કેટલાક શબ્દોનું એકથી વધારે (ઘણા) રૂપ અલગ બને છે: [[Man]] → [[Men]], [[Woman]] → [[Women]], [[Child]] → [[Children]]. ઘણા શબ્દોમાં છેલ્લે [[s]] લાગે છે, જેમ કે [[Brother]] → [[Brothers]].",
+    "તમારા કુટુંબ વિશે મોટેથી બોલો: \"This is my mother. This is my father.\" આમ રોજ થોડું બોલવાથી શબ્દો પાકા થશે."
+  ],
+  "examples": [
+    { "en": "Family", "translit": "ફૅમિલી", "gu": "કુટુંબ" },
+    { "en": "Mother", "translit": "મધર", "gu": "માતા" },
+    { "en": "Father", "translit": "ફાધર", "gu": "પિતા" },
+    { "en": "Mom", "translit": "મૉમ", "gu": "મમ્મી" },
+    { "en": "Dad", "translit": "ડૅડ", "gu": "પપ્પા" },
+    { "en": "Brother", "translit": "બ્રધર", "gu": "ભાઈ" },
+    { "en": "Sister", "translit": "સિસ્ટર", "gu": "બહેન" },
+    { "en": "Son", "translit": "સન", "gu": "દીકરો" },
+    { "en": "Daughter", "translit": "ડૉટર", "gu": "દીકરી" },
+    { "en": "Husband", "translit": "હસબન્ડ", "gu": "પતિ" },
+    { "en": "Wife", "translit": "વાઇફ", "gu": "પત્ની" },
+    { "en": "Grandfather", "translit": "ગ્રૅન્ડફાધર", "gu": "દાદા, નાના" },
+    { "en": "Grandmother", "translit": "ગ્રૅન્ડમધર", "gu": "દાદી, નાની" },
+    { "en": "Uncle", "translit": "અંકલ", "gu": "કાકા, મામા, ફુઆ, માસા" },
+    { "en": "Aunt", "translit": "આન્ટ", "gu": "કાકી, મામી, ફોઈ, માસી" },
+    { "en": "Cousin", "translit": "કઝિન", "gu": "કાકા, મામા, ફોઈ કે માસીનાં સંતાન" },
+    { "en": "Man", "translit": "મૅન", "gu": "પુરુષ" },
+    { "en": "Woman", "translit": "વુમન", "gu": "સ્ત્રી" },
+    { "en": "Boy", "translit": "બૉય", "gu": "છોકરો" },
+    { "en": "Girl", "translit": "ગર્લ", "gu": "છોકરી" },
+    { "en": "Child", "translit": "ચાઇલ્ડ", "gu": "બાળક" },
+    { "en": "Baby", "translit": "બેબી", "gu": "નાનું બાળક" },
+    { "en": "Friend", "translit": "ફ્રૅન્ડ", "gu": "મિત્ર" },
+    { "en": "Teacher", "translit": "ટીચર", "gu": "શિક્ષક" },
+    { "en": "Student", "translit": "સ્ટૂડન્ટ", "gu": "વિદ્યાર્થી" },
+    { "en": "Doctor", "translit": "ડૉક્ટર", "gu": "ડૉક્ટર" },
+    { "en": "Neighbour", "translit": "નેબર", "gu": "પડોશી" },
+    { "en": "Men", "translit": "મેન", "gu": "ઘણા પુરુષો" },
+    { "en": "Women", "translit": "વિમિન", "gu": "ઘણી સ્ત્રીઓ" },
+    { "en": "Children", "translit": "ચિલ્ડ્રન", "gu": "ઘણાં બાળકો" },
+    { "en": "This is my mother.", "translit": "ધિસ ઇઝ માય મધર", "gu": "આ મારી મા છે." },
+    { "en": "This is my brother.", "translit": "ધિસ ઇઝ માય બ્રધર", "gu": "આ મારો ભાઈ છે." },
+    { "en": "This is my friend, Raj.", "translit": "ધિસ ઇઝ માય ફ્રૅન્ડ, રાજ", "gu": "આ મારો મિત્ર રાજ છે." }
+  ],
+  "practice": [
+    {
+      "type": "choice",
+      "questionGu": "\"બહેન\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Brother", "Sister", "Mother"],
+      "answer": 1,
+      "explainGu": "Sister – સિસ્ટર – બહેન"
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[Father]] એટલે કોણ?",
+      "options": ["દાદા", "માતા", "પિતા"],
+      "answer": 2,
+      "explainGu": "Father – ફાધર – પિતા. બોલચાલમાં Dad – ડૅડ."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"દીકરી\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Daughter", "Son", "Wife"],
+      "answer": 0,
+      "explainGu": "Daughter – ડૉટર – દીકરી"
+    },
+    {
+      "type": "choice",
+      "questionGu": "કાકા, મામા, ફુઆ, માસા બધા માટે અંગ્રેજીમાં કયો એક શબ્દ વપરાય?",
+      "options": ["Aunt", "Uncle", "Cousin"],
+      "answer": 1,
+      "explainGu": "Uncle – અંકલ – કાકા, મામા, ફુઆ, માસા"
+    },
+    {
+      "type": "choice",
+      "questionGu": "કાકી, મામી, ફોઈ, માસી બધાં માટે અંગ્રેજીમાં કયો એક શબ્દ વપરાય?",
+      "options": ["Sister", "Uncle", "Aunt"],
+      "answer": 2,
+      "explainGu": "Aunt – આન્ટ – કાકી, મામી, ફોઈ, માસી"
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[Grandmother]] એટલે કોણ?",
+      "options": ["દાદી કે નાની", "દાદા કે નાના", "કાકી કે માસી"],
+      "answer": 0,
+      "explainGu": "Grandmother – ગ્રૅન્ડમધર – દાદી, નાની"
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"છોકરો\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Boy", "Girl", "Man"],
+      "answer": 0,
+      "explainGu": "Boy – બૉય – છોકરો. Girl – ગર્લ – છોકરી."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"શિક્ષક\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Student", "Doctor", "Teacher"],
+      "answer": 2,
+      "explainGu": "Teacher – ટીચર – શિક્ષક. Student – સ્ટૂડન્ટ – વિદ્યાર્થી."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"આ મારી મા છે.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["This is my mother.", "This is my sister.", "This is my father."],
+      "answer": 0,
+      "explainGu": "This is my mother. – ધિસ ઇઝ માય મધર"
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"ઘણા પુરુષો\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Mans", "Mens", "Men"],
+      "answer": 2,
+      "explainGu": "Man – મૅન (એક પુરુષ). Men – મેન (ઘણા પુરુષો)."
+    }
+  ]
+}

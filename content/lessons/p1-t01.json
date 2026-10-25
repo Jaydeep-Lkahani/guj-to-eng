@@ -1,318 +1,110 @@
 {
   "topicId": "p1-t01",
-  "lessons": [
+  "explanationGu": [
+    "અંગ્રેજી લખવા માટે કુલ 26 અક્ષર વપરાય છે. આ બધા અક્ષરોને મળીને [[Alphabet]] (ઍલ્ફબેટ) કહેવાય. ગુજરાતીની જેમ જ અંગ્રેજી પણ ડાબેથી જમણી બાજુ લખાય છે.",
+    "દરેક અક્ષર બે રીતે લખાય છે: મોટો અને નાનો. જેમ કે મોટો [[A]] અને નાનો [[a]]. વાક્યની શરૂઆતમાં અને નામના પહેલા અક્ષરમાં મોટો અક્ષર લખાય છે. જેમ કે [[Meena]], [[Ahmedabad]].",
+    "26 અક્ષરમાંથી 5 અક્ષર સ્વર છે: [[A]], [[E]], [[I]], [[O]], [[U]]. બાકીના 21 અક્ષર વ્યંજન છે.",
+    "દરેક અક્ષરનું એક નામ હોય છે. નીચે દરેક અક્ષર, તેનું નામ અને એક જાણીતો શબ્દ આપ્યો છે. શબ્દ બોલીને અક્ષર યાદ રાખો, જેમ કે \"એ ફૉર ઍપલ\".",
+    "રોજ 5 અક્ષર શીખશો તો 6 દિવસમાં બધા અક્ષર આવડી જશે. ધીરે ધીરે, રોજ થોડું શીખો."
+  ],
+  "examples": [
+    { "en": "A a – Apple", "translit": "એ – ઍપલ", "gu": "સફરજન" },
+    { "en": "B b – Ball", "translit": "બી – બૉલ", "gu": "દડો" },
+    { "en": "C c – Cat", "translit": "સી – કૅટ", "gu": "બિલાડી" },
+    { "en": "D d – Dog", "translit": "ડી – ડૉગ", "gu": "કૂતરો" },
+    { "en": "E e – Egg", "translit": "ઈ – ઍગ", "gu": "ઈંડું" },
+    { "en": "F f – Fish", "translit": "એફ – ફિશ", "gu": "માછલી" },
+    { "en": "G g – Goat", "translit": "જી – ગોટ", "gu": "બકરી" },
+    { "en": "H h – Hat", "translit": "એચ – હૅટ", "gu": "ટોપી" },
+    { "en": "I i – Ice", "translit": "આઈ – આઇસ", "gu": "બરફ" },
+    { "en": "J j – Jug", "translit": "જે – જગ", "gu": "પાણી ભરવાનો જગ" },
+    { "en": "K k – Kite", "translit": "કે – કાઇટ", "gu": "પતંગ" },
+    { "en": "L l – Lion", "translit": "એલ – લાયન", "gu": "સિંહ" },
+    { "en": "M m – Mango", "translit": "એમ – મૅંગો", "gu": "કેરી" },
+    { "en": "N n – Nose", "translit": "એન – નોઝ", "gu": "નાક" },
+    { "en": "O o – Orange", "translit": "ઓ – ઑરેન્જ", "gu": "સંતરું" },
+    { "en": "P p – Pen", "translit": "પી – પેન", "gu": "પેન" },
+    { "en": "Q q – Queen", "translit": "ક્યૂ – ક્વીન", "gu": "રાણી" },
+    { "en": "R r – Rose", "translit": "આર – રોઝ", "gu": "ગુલાબ" },
+    { "en": "S s – Sun", "translit": "એસ – સન", "gu": "સૂરજ" },
+    { "en": "T t – Tree", "translit": "ટી – ટ્રી", "gu": "ઝાડ" },
+    { "en": "U u – Umbrella", "translit": "યૂ – અમ્બ્રેલા", "gu": "છત્રી" },
+    { "en": "V v – Van", "translit": "વી – વૅન", "gu": "નાની ગાડી" },
+    { "en": "W w – Water", "translit": "ડબલ્યૂ – વૉટર", "gu": "પાણી" },
+    { "en": "X x – Box", "translit": "એક્સ – બૉક્સ", "gu": "ડબ્બો (X થી શરૂ થતા શબ્દો બહુ ઓછા છે, એટલે Box માં X વચ્ચે છે)" },
+    { "en": "Y y – Yellow", "translit": "વાય – યેલો", "gu": "પીળો" },
+    { "en": "Z z – Zebra", "translit": "ઝેડ – ઝીબ્રા", "gu": "પટ્ટાવાળું પ્રાણી" }
+  ],
+  "practice": [
     {
-      "id": "p1-t01-l01",
-      "topicId": "p1-t01",
-      "order": 1,
-      "titleGu": "પહેલા 5 અક્ષરો (એ થી ઈ)",
-      "titleEn": "The first five letters, A to E",
-      "estimatedMinutes": 20,
-      "videoIds": [],
-      "explanation": [
-        {
-          "type": "heading",
-          "gu": "અંગ્રેજી અક્ષરોની શરૂઆત"
-        },
-        {
-          "type": "text",
-          "gu": "ગુજરાતીમાં આપણે ક, ખ, ગ… લખીએ છીએ. અંગ્રેજીમાં કુલ 26 અક્ષરો છે. આજે આપણે પહેલા 5 અક્ષરો શીખીશું: {{en:A}}, {{en:B}}, {{en:C}}, {{en:D}} અને {{en:E}}."
-        },
-        {
-          "type": "heading",
-          "gu": "મોટો અક્ષર અને નાનો અક્ષર"
-        },
-        {
-          "type": "text",
-          "gu": "ગુજરાતી લિપિમાં મોટા-નાના અક્ષર હોતા નથી. અંગ્રેજીમાં દરેક અક્ષરના બે રૂપ હોય છે: મોટો અક્ષર (કૅપિટલ) અને નાનો અક્ષર (સ્મૉલ). જેમ કે {{en:A}} અને {{en:a}} બંને એક જ અક્ષર છે."
-        },
-        {
-          "type": "table",
-          "headers": [
-            "મોટો અક્ષર",
-            "નાનો અક્ષર",
-            "અક્ષરનું નામ",
-            "શબ્દમાં અવાજ"
-          ],
-          "rows": [
-            ["{{en:A}}", "{{en:a}}", "એ", "ઍ ({{en:Apple}})"],
-            ["{{en:B}}", "{{en:b}}", "બી", "બ ({{en:Ball}})"],
-            ["{{en:C}}", "{{en:c}}", "સી", "ક ({{en:Cat}})"],
-            ["{{en:D}}", "{{en:d}}", "ડી", "ડ ({{en:Dog}})"],
-            ["{{en:E}}", "{{en:e}}", "ઈ", "ટૂંકો એ ({{en:Egg}})"]
-          ]
-        },
-        {
-          "type": "heading",
-          "gu": "નામ અને અવાજ અલગ હોય છે"
-        },
-        {
-          "type": "text",
-          "gu": "દરેક અક્ષરનું એક નામ હોય છે, અને શબ્દમાં તેનો અવાજ અલગ હોઈ શકે છે. જેમ કે {{en:A}} નું નામ 'એ' છે, પણ {{en:Apple}} માં તેનો અવાજ 'ઍ' છે. {{en:C}} નું નામ 'સી' છે, પણ {{en:Cat}} માં તેનો અવાજ 'ક' જેવો છે."
-        },
-        {
-          "type": "compare",
-          "gu": "સફરજન",
-          "en": "Apple",
-          "noteGu": "ગુજરાતીમાં 'સફરજન', અંગ્રેજીમાં {{en:Apple}}."
-        },
-        {
-          "type": "example",
-          "en": "Ball",
-          "gu": "દડો",
-          "translit": "બૉલ"
-        },
-        {
-          "type": "mistake",
-          "wrong": "b = d",
-          "right": "b ≠ d",
-          "whyGu": "{{en:b}} અને {{en:d}} દેખાવમાં સરખા લાગે છે, પણ બંને અલગ અક્ષર છે. {{en:b}} નો અવાજ 'બ' અને {{en:d}} નો અવાજ 'ડ' છે."
-        },
-        {
-          "type": "tip",
-          "gu": "{{en:b}} માં સીધી લીટી ડાબી બાજુ અને ગોળ જમણી બાજુ હોય છે. {{en:d}} માં ગોળ ડાબી બાજુ અને સીધી લીટી જમણી બાજુ હોય છે."
-        },
-        {
-          "type": "tip",
-          "gu": "અવાજ માટે હંમેશાં ઑડિયો સાંભળો. ગુજરાતીમાં લખેલો ઉચ્ચાર ફક્ત મદદ માટે છે."
-        }
-      ],
-      "examples": [
-        {
-          "en": "Apple",
-          "gu": "સફરજન",
-          "translit": "ઍપલ",
-          "noteGu": "{{en:A}} નું નામ 'એ' છે. અહીં અવાજ 'ઍ' છે."
-        },
-        {
-          "en": "Ball",
-          "gu": "દડો",
-          "translit": "બૉલ",
-          "noteGu": "{{en:B}} નું નામ 'બી' છે. અવાજ 'બ' છે."
-        },
-        {
-          "en": "Cat",
-          "gu": "બિલાડી",
-          "translit": "કૅટ",
-          "noteGu": "{{en:C}} નું નામ 'સી' છે. અહીં અવાજ 'ક' છે."
-        },
-        {
-          "en": "Dog",
-          "gu": "કૂતરો",
-          "translit": "ડૉગ",
-          "noteGu": "{{en:D}} નું નામ 'ડી' છે. અવાજ 'ડ' છે."
-        },
-        {
-          "en": "Egg",
-          "gu": "ઈંડું",
-          "translit": "એગ",
-          "noteGu": "{{en:E}} નું નામ 'ઈ' છે. અહીં અવાજ ટૂંકો 'એ' છે."
-        }
-      ],
-      "practice": [
-        {
-          "id": "p1-t01-l01-practice-01",
-          "type": "mcq",
-          "promptGu": "નીચેનામાંથી કયો મોટો અક્ષર (કૅપિટલ) છે?",
-          "options": ["a", "b", "C", "d"],
-          "answer": 2,
-          "explainGu": "{{en:C}} મોટો અક્ષર છે. બાકીના {{en:a}}, {{en:b}} અને {{en:d}} નાના અક્ષરો છે."
-        },
-        {
-          "id": "p1-t01-l01-practice-02",
-          "type": "mcq",
-          "promptGu": "{{en:Apple}} શબ્દ કયા અક્ષરથી શરૂ થાય છે?",
-          "options": ["A", "B", "C", "E"],
-          "answer": 0,
-          "explainGu": "{{en:Apple}} ની શરૂઆતમાં {{en:A}} છે. તેનું નામ 'એ' છે."
-        },
-        {
-          "id": "p1-t01-l01-practice-03",
-          "type": "match",
-          "promptGu": "દરેક મોટા અક્ષર સાથે તેનો નાનો અક્ષર જોડો.",
-          "pairs": [
-            {
-              "left": "A",
-              "right": "a"
-            },
-            {
-              "left": "B",
-              "right": "b"
-            },
-            {
-              "left": "C",
-              "right": "c"
-            },
-            {
-              "left": "D",
-              "right": "d"
-            },
-            {
-              "left": "E",
-              "right": "e"
-            }
-          ],
-          "explainGu": "દરેક અક્ષરનું મોટું અને નાનું રૂપ એક જ અક્ષર છે, ફક્ત દેખાવ અલગ છે."
-        },
-        {
-          "id": "p1-t01-l01-practice-04",
-          "type": "listenChoose",
-          "promptGu": "શબ્દ સાંભળો અને સાચો શબ્દ પસંદ કરો.",
-          "audio": "Ball",
-          "options": ["Ball", "Cat", "Dog"],
-          "answer": 0,
-          "explainGu": "આ શબ્દ {{en:Ball}} છે. તેની શરૂઆતમાં 'બ' નો અવાજ છે."
-        },
-        {
-          "id": "p1-t01-l01-practice-05",
-          "type": "listenType",
-          "promptGu": "શબ્દ સાંભળો અને તે અંગ્રેજીમાં લખો.",
-          "audio": "Egg",
-          "answers": ["egg"],
-          "explainGu": "{{en:Egg}} માં ત્રણ અક્ષરો છે: {{en:E}}, {{en:g}}, {{en:g}}."
-        },
-        {
-          "id": "p1-t01-l01-practice-06",
-          "type": "fill",
-          "promptGu": "ખાલી જગ્યામાં સાચો શબ્દ લખો.",
-          "sentence": "A – Apple, B – ___, C – Cat",
-          "answers": ["Ball", "ball"],
-          "explainGu": "{{en:Ball}} ની શરૂઆતમાં {{en:B}} છે."
-        },
-        {
-          "id": "p1-t01-l01-practice-07",
-          "type": "order",
-          "promptGu": "અક્ષરોને સાચા ક્રમમાં ગોઠવો.",
-          "tiles": ["A", "B", "C", "D", "E"],
-          "answers": ["A B C D E"],
-          "explainGu": "અંગ્રેજીના પહેલા પાંચ અક્ષરો આ ક્રમમાં આવે છે: {{en:A}}, {{en:B}}, {{en:C}}, {{en:D}}, {{en:E}}."
-        },
-        {
-          "id": "p1-t01-l01-practice-08",
-          "type": "translate",
-          "promptGu": "આ ગુજરાતી શબ્દનો અંગ્રેજી શબ્દ લખો.",
-          "gu": "સફરજન",
-          "answers": ["apple"],
-          "explainGu": "સફરજનને અંગ્રેજીમાં {{en:Apple}} કહે છે."
-        },
-        {
-          "id": "p1-t01-l01-practice-09",
-          "type": "trueFalse",
-          "promptGu": "આ વિધાન સાચું છે કે ખોટું?",
-          "statementEn": "b = d",
-          "answer": false,
-          "explainGu": "{{en:b}} અને {{en:d}} અલગ અક્ષરો છે. {{en:b}} નો અવાજ 'બ' અને {{en:d}} નો અવાજ 'ડ' છે."
-        }
-      ],
-      "speak": [
-        {
-          "id": "p1-t01-l01-speak-01",
-          "en": "A, B, C, D, E",
-          "gu": "અંગ્રેજીના પહેલા પાંચ અક્ષરો",
-          "translit": "એ, બી, સી, ડી, ઈ"
-        },
-        {
-          "id": "p1-t01-l01-speak-02",
-          "en": "Apple",
-          "gu": "સફરજન",
-          "translit": "ઍપલ"
-        },
-        {
-          "id": "p1-t01-l01-speak-03",
-          "en": "Ball",
-          "gu": "દડો",
-          "translit": "બૉલ"
-        },
-        {
-          "id": "p1-t01-l01-speak-04",
-          "en": "Cat",
-          "gu": "બિલાડી",
-          "translit": "કૅટ"
-        },
-        {
-          "id": "p1-t01-l01-speak-05",
-          "en": "Dog",
-          "gu": "કૂતરો",
-          "translit": "ડૉગ"
-        },
-        {
-          "id": "p1-t01-l01-speak-06",
-          "en": "Egg",
-          "gu": "ઈંડું",
-          "translit": "એગ"
-        }
-      ],
-      "write": [
-        {
-          "id": "p1-t01-l01-write-01",
-          "kind": "handwrite",
-          "promptGu": "મોટા અક્ષરો {{en:A}}, {{en:B}}, {{en:C}}, {{en:D}}, {{en:E}} લખવાનો અભ્યાસ કરો.",
-          "letters": "ABCDE"
-        },
-        {
-          "id": "p1-t01-l01-write-02",
-          "kind": "handwrite",
-          "promptGu": "નાના અક્ષરો {{en:a}}, {{en:b}}, {{en:c}}, {{en:d}}, {{en:e}} લખવાનો અભ્યાસ કરો.",
-          "letters": "abcde"
-        },
-        {
-          "id": "p1-t01-l01-write-03",
-          "kind": "type",
-          "promptGu": "આ પાંચ શબ્દો અંગ્રેજીમાં લખો: સફરજન, દડો, બિલાડી, કૂતરો, ઈંડું.",
-          "model": "Apple, ball, cat, dog, egg.",
-          "minWords": 5
-        }
-      ],
-      "quiz": [
-        {
-          "id": "p1-t01-l01-quiz-01",
-          "type": "mcq",
-          "promptGu": "{{en:Cat}} શબ્દ કયા અક્ષરથી શરૂ થાય છે?",
-          "options": ["A", "B", "C", "D"],
-          "answer": 2,
-          "explainGu": "{{en:Cat}} ની શરૂઆતમાં {{en:C}} છે. તેનો અવાજ 'ક' જેવો છે."
-        },
-        {
-          "id": "p1-t01-l01-quiz-02",
-          "type": "mcq",
-          "promptGu": "{{en:e}} નો મોટો અક્ષર (કૅપિટલ) કયો છે?",
-          "options": ["A", "B", "D", "E"],
-          "answer": 3,
-          "explainGu": "{{en:e}} નો મોટો અક્ષર {{en:E}} છે."
-        },
-        {
-          "id": "p1-t01-l01-quiz-03",
-          "type": "listenChoose",
-          "promptGu": "શબ્દ સાંભળો અને સાચો શબ્દ પસંદ કરો.",
-          "audio": "Dog",
-          "options": ["Dog", "Egg", "Cat"],
-          "answer": 0,
-          "explainGu": "આ શબ્દ {{en:Dog}} છે. તેની શરૂઆતમાં 'ડ' નો અવાજ છે."
-        },
-        {
-          "id": "p1-t01-l01-quiz-04",
-          "type": "translate",
-          "promptGu": "આ ગુજરાતી શબ્દનો અંગ્રેજી શબ્દ લખો.",
-          "gu": "ઈંડું",
-          "answers": ["egg"],
-          "explainGu": "ઈંડાને અંગ્રેજીમાં {{en:Egg}} કહે છે."
-        },
-        {
-          "id": "p1-t01-l01-quiz-05",
-          "type": "fill",
-          "promptGu": "ખાલી જગ્યામાં સાચો અક્ષર લખો.",
-          "sentence": "A, B, C, ___, E",
-          "answers": ["D", "d"],
-          "explainGu": "{{en:C}} પછી {{en:D}} આવે છે, અને પછી {{en:E}}."
-        }
-      ],
-      "useToday": {
-        "en": "Apple, ball, cat, dog, egg.",
-        "gu": "આજે ઘરમાં આ પાંચ અંગ્રેજી શબ્દો મોટેથી બોલો, અને ઘરના એક સભ્યને પણ શીખવો."
-      },
-      "newWordIds": ["w-apple", "w-ball", "w-cat", "w-dog", "w-egg"],
-      "targetsMistakes": ["GS-25"],
-      "reviewedGu": false
+      "type": "choice",
+      "questionGu": "અંગ્રેજીમાં કુલ કેટલા અક્ષર છે?",
+      "options": ["20", "26", "36"],
+      "answer": 1,
+      "explainGu": "અંગ્રેજીમાં A થી Z સુધી કુલ 26 અક્ષર છે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "આમાંથી કયા 5 અક્ષર સ્વર છે?",
+      "options": ["B C D F G", "A E I O U", "P Q R S T"],
+      "answer": 1,
+      "explainGu": "સ્વર: A, E, I, O, U. બાકીના બધા વ્યંજન છે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"બી\" કયો અક્ષર છે?",
+      "options": ["D", "V", "B"],
+      "answer": 2,
+      "explainGu": "B – બી – Ball (દડો)"
+    },
+    {
+      "type": "choice",
+      "questionGu": "મોટા [[G]] નો નાનો અક્ષર કયો?",
+      "options": ["t", "h", "g"],
+      "answer": 2,
+      "explainGu": "G નો નાનો અક્ષર g છે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[Apple]] (સફરજન) કયા અક્ષરથી શરૂ થાય છે?",
+      "options": ["A", "P", "E"],
+      "answer": 0,
+      "explainGu": "A – એ – Apple – ઍપલ – સફરજન"
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"ડબલ્યૂ\" કયો અક્ષર છે?",
+      "options": ["V", "W", "U"],
+      "answer": 1,
+      "explainGu": "W – ડબલ્યૂ – Water (પાણી)"
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[Sun]] (સૂરજ) કયા અક્ષરથી શરૂ થાય છે?",
+      "options": ["C", "Z", "S"],
+      "answer": 2,
+      "explainGu": "S – એસ – Sun – સન – સૂરજ"
+    },
+    {
+      "type": "choice",
+      "questionGu": "છેલ્લો અક્ષર, \"ઝેડ\", કયો છે?",
+      "options": ["S", "Z", "X"],
+      "answer": 1,
+      "explainGu": "Z – ઝેડ – Zebra – ઝીબ્રા. આ અંગ્રેજીનો છેલ્લો અક્ષર છે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"વાય\" કયો અક્ષર છે?",
+      "options": ["Y", "I", "J"],
+      "answer": 0,
+      "explainGu": "Y – વાય – Yellow – યેલો – પીળો"
+    },
+    {
+      "type": "choice",
+      "questionGu": "નામનો પહેલો અક્ષર કેવો લખાય?",
+      "options": ["નાનો અક્ષર", "મોટો અક્ષર"],
+      "answer": 1,
+      "explainGu": "નામનો પહેલો અક્ષર મોટો લખાય, જેમ કે Meena."
     }
   ]
 }

@@ -1,0 +1,113 @@
+{
+  "topicId": "p1-t10",
+  "explanationGu": [
+    "આ છેલ્લા પાઠમાં રોજ કામમાં આવતાં ઉપયોગી વાક્યો શીખીશું. તેના ચાર સમૂહ છે: (1) ઘરમાં કહેવાનાં વાક્યો, (2) બહાર અને દુકાનમાં, (3) સમજ ન પડે ત્યારે, (4) શુભેચ્છાઓ.",
+    "આ વાક્યો આખેઆખાં યાદ રાખો. તેમાંના ઘણાનું વ્યાકરણ ભાગ 2 માં શીખીશું, એટલે હમણાં તેને જેમ છે તેમ બોલવાં.",
+    "કોઈને કંઈ કરવાનું કહેવું હોય તો વાક્ય ક્રિયાથી શરૂ કરો: [[Come here.]] (અહીં આવો.) [[Sit down.]] (બેસો.) [[Open the door.]] (દરવાજો ખોલો.) નમ્રતા માટે છેલ્લે [[please]] ઉમેરો: [[Sit down, please.]]",
+    "[[Give me water, please.]] માં [[me]] એટલે \"મને\". શબ્દોનો ક્રમ યાદ રાખો: પહેલાં [[Give]], પછી [[me]], પછી વસ્તુ. ગુજરાતીની જેમ \"પાણી મને આપો\" એવો ક્રમ અંગ્રેજીમાં ન ચાલે.",
+    "દુકાનમાં કે બહાર ત્રણ સવાલ બહુ કામ આવે: [[How much is this?]] (આ કેટલાનું છે?), [[What time is it?]] (કેટલા વાગ્યા છે?), [[Where is the toilet?]] (ટૉઇલેટ ક્યાં છે?) જવાબમાં આ રીતે કહી શકાય: [[It is ten rupees.]] (દસ રૂપિયા છે.)",
+    "અંગ્રેજી સમજાય નહીં ત્યારે શરમાશો નહીં, આ વાક્યો કહો: [[I don't understand.]] (મને સમજાતું નથી.) [[Please say it again.]] (ફરી કહો.) [[Speak slowly, please.]] (ધીમે બોલો.) સામેની વ્યક્તિ ખુશીથી ફરી કહેશે.",
+    "ખુશીના પ્રસંગે: [[Happy birthday!]], [[Congratulations!]], [[Good luck!]] છૂટા પડતી વખતે: [[Have a nice day!]], [[Take care.]], [[See you tomorrow.]]",
+    "ભાગ 1 પૂરો થયો! રોજ ઓછામાં ઓછાં 2 વાક્યો અંગ્રેજીમાં બોલવાનો નિયમ રાખો. ખોટું બોલાય તો પણ ચિંતા નહીં, બોલવાથી જ આવડે છે."
+  ],
+  "examples": [
+    { "en": "Come here.", "translit": "કમ હિયર", "gu": "અહીં આવો." },
+    { "en": "Sit down.", "translit": "સિટ ડાઉન", "gu": "બેસો." },
+    { "en": "Stand up.", "translit": "સ્ટૅન્ડ અપ", "gu": "ઊભા થાઓ." },
+    { "en": "Open the door.", "translit": "ઓપન ધ ડૉર", "gu": "દરવાજો ખોલો." },
+    { "en": "Close the door.", "translit": "ક્લોઝ ધ ડૉર", "gu": "દરવાજો બંધ કરો." },
+    { "en": "Wait a minute.", "translit": "વેઇટ અ મિનિટ", "gu": "એક મિનિટ રાહ જુઓ." },
+    { "en": "Give me water, please.", "translit": "ગિવ મી વૉટર, પ્લીઝ", "gu": "મને પાણી આપો." },
+    { "en": "Let's go.", "translit": "લેટ્સ ગો", "gu": "ચાલો." },
+    { "en": "How much is this?", "translit": "હાઉ મચ ઇઝ ધિસ?", "gu": "આ કેટલાનું છે?" },
+    { "en": "It is ten rupees.", "translit": "ઇટ ઇઝ ટેન રૂપીઝ", "gu": "દસ રૂપિયા છે." },
+    { "en": "What time is it?", "translit": "વૉટ ટાઇમ ઇઝ ઇટ?", "gu": "કેટલા વાગ્યા છે?" },
+    { "en": "Where is the toilet?", "translit": "વેર ઇઝ ધ ટૉઇલેટ?", "gu": "ટૉઇલેટ ક્યાં છે?" },
+    { "en": "I am late.", "translit": "આઇ ઍમ લેટ", "gu": "મને મોડું થયું છે." },
+    { "en": "I am ready.", "translit": "આઇ ઍમ રેડી", "gu": "હું તૈયાર છું." },
+    { "en": "Help me, please.", "translit": "હેલ્પ મી, પ્લીઝ", "gu": "મને મદદ કરો." },
+    { "en": "I don't understand.", "translit": "આઇ ડોન્ટ અન્ડરસ્ટૅન્ડ", "gu": "મને સમજાતું નથી." },
+    { "en": "Please say it again.", "translit": "પ્લીઝ સે ઇટ અગેન", "gu": "મહેરબાની કરીને ફરી કહો." },
+    { "en": "Speak slowly, please.", "translit": "સ્પીક સ્લોલી, પ્લીઝ", "gu": "ધીમે બોલો." },
+    { "en": "I don't know.", "translit": "આઇ ડોન્ટ નો", "gu": "મને ખબર નથી." },
+    { "en": "Yes, please. / No, thank you.", "translit": "યેસ, પ્લીઝ / નો, થૅન્ક યૂ", "gu": "હા, આપો. / ના, આભાર." },
+    { "en": "Happy birthday!", "translit": "હૅપી બર્થડે", "gu": "જન્મદિવસની શુભેચ્છા!" },
+    { "en": "Congratulations!", "translit": "કન્ગ્રૅચ્યુલેશન્સ", "gu": "અભિનંદન!" },
+    { "en": "Good luck!", "translit": "ગુડ લક", "gu": "શુભેચ્છા!" },
+    { "en": "Have a nice day!", "translit": "હૅવ અ નાઇસ ડે", "gu": "તમારો દિવસ સારો જાય!" },
+    { "en": "Take care.", "translit": "ટેક કેર", "gu": "ધ્યાન રાખજો." },
+    { "en": "See you tomorrow.", "translit": "સી યૂ ટુમૉરો", "gu": "કાલે મળીશું." }
+  ],
+  "practice": [
+    {
+      "type": "choice",
+      "questionGu": "કોઈને બેસવાનું કહેવું છે. શું કહેશો?",
+      "options": ["Stand up.", "Sit down.", "Come here."],
+      "answer": 1,
+      "explainGu": "Sit down. – સિટ ડાઉન – બેસો."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"અહીં આવો.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Come here.", "Sit down.", "Close the door."],
+      "answer": 0,
+      "explainGu": "Come here. – કમ હિયર – અહીં આવો."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"દરવાજો ખોલો.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Close the door.", "Come here.", "Open the door."],
+      "answer": 2,
+      "explainGu": "Open the door. – ઓપન ધ ડૉર. Close the door. – દરવાજો બંધ કરો."
+    },
+    {
+      "type": "choice",
+      "questionGu": "દુકાનમાં કિંમત પૂછવી છે. શું કહેશો?",
+      "options": ["How much is this?", "What time is it?", "Where is the toilet?"],
+      "answer": 0,
+      "explainGu": "How much is this? – હાઉ મચ ઇઝ ધિસ – આ કેટલાનું છે?"
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"કેટલા વાગ્યા છે?\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["I am late.", "How much is this?", "What time is it?"],
+      "answer": 2,
+      "explainGu": "What time is it? – વૉટ ટાઇમ ઇઝ ઇટ"
+    },
+    {
+      "type": "choice",
+      "questionGu": "અંગ્રેજી સમજાતું નથી. શું કહેશો?",
+      "options": ["Good luck!", "I don't understand.", "Take care."],
+      "answer": 1,
+      "explainGu": "I don't understand. – આઇ ડોન્ટ અન્ડરસ્ટૅન્ડ – મને સમજાતું નથી."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"ધીમે બોલો.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Speak slowly, please.", "Please say it again.", "Give me water, please."],
+      "answer": 0,
+      "explainGu": "Speak slowly, please. – સ્પીક સ્લોલી, પ્લીઝ"
+    },
+    {
+      "type": "choice",
+      "questionGu": "કોઈનો જન્મદિવસ છે. શું કહેશો?",
+      "options": ["Congratulations!", "Happy birthday!", "Good luck!"],
+      "answer": 1,
+      "explainGu": "Happy birthday! – હૅપી બર્થડે – જન્મદિવસની શુભેચ્છા!"
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"મને પાણી આપો, મહેરબાની કરીને.\" ને અંગ્રેજીમાં સાચી રીતે કેમ કહેવાય?",
+      "options": ["Water give me, please.", "Give me water, please.", "Me give water, please."],
+      "answer": 1,
+      "explainGu": "સાચો ક્રમ: Give me water, please. – ગિવ મી વૉટર, પ્લીઝ"
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"કાલે મળીશું.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Take care.", "Good luck!", "See you tomorrow."],
+      "answer": 2,
+      "explainGu": "See you tomorrow. – સી યૂ ટુમૉરો – કાલે મળીશું."
+    }
+  ]
+}

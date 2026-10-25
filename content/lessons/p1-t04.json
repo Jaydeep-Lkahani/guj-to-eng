@@ -1,0 +1,120 @@
+{
+  "topicId": "p1-t04",
+  "explanationGu": [
+    "આ પાઠમાં 1 થી 100 સુધીના આંકડા અંગ્રેજીમાં શીખીશું. 0 ને [[Zero]] (ઝીરો) કહેવાય.",
+    "પહેલા 1 થી 10 પાકા કરો: [[One]], [[Two]], [[Three]], [[Four]], [[Five]], [[Six]], [[Seven]], [[Eight]], [[Nine]], [[Ten]]. બાકીના બધા આંકડા આના પરથી જ બને છે.",
+    "13 થી 19 સુધીના આંકડા \"ટીન\" ([[-teen]]) થી પૂરા થાય છે. જેમ કે [[Thirteen]] (થર્ટીન), [[Fourteen]] (ફૉર્ટીન). 20, 30, 40… 90 \"ટી\" ([[-ty]]) થી પૂરા થાય છે. જેમ કે [[Thirty]] (થર્ટી), [[Forty]] (ફૉર્ટી).",
+    "ધ્યાન રાખો: [[Thirteen]] (13) અને [[Thirty]] (30) માં ગૂંચવાશો નહીં. 13 માં છેલ્લા ભાગ \"ટીન\" પર જોર આપો: થર્-ટીન. 30 માં પહેલા ભાગ પર જોર આપો: થર્-ટી.",
+    "વચ્ચેના આંકડા બનાવવા માટે પહેલાં દશક (દસ, વીસ, ત્રીસ…) બોલો, પછી એકમ (એક, બે, ત્રણ…) બોલો. જેમ કે 21 = [[Twenty-one]] (ટ્વેન્ટી-વન), 35 = [[Thirty-five]] (થર્ટી-ફાઇવ).",
+    "ગુજરાતીમાં 21 માટે \"એકવીસ\" કહીએ છીએ, એટલે પહેલાં એકમ \"એક\" અને પછી \"વીસ\". અંગ્રેજીમાં ઊલટું છે: પહેલાં \"ટ્વેન્ટી\" (20) અને પછી \"વન\" (1). આ ફરક યાદ રાખો.",
+    "100 ને [[One hundred]] (વન હન્ડ્રેડ) કહેવાય.",
+    "રોજ ગણવાની ટેવ પાડો: સીડીનાં પગથિયાં, ફોન નંબર, વસ્તુની કિંમત. બધું અંગ્રેજીમાં બોલો."
+  ],
+  "examples": [
+    { "en": "0 – Zero", "translit": "ઝીરો", "gu": "શૂન્ય" },
+    { "en": "1 – One", "translit": "વન", "gu": "એક" },
+    { "en": "2 – Two", "translit": "ટૂ", "gu": "બે" },
+    { "en": "3 – Three", "translit": "થ્રી", "gu": "ત્રણ" },
+    { "en": "4 – Four", "translit": "ફૉર", "gu": "ચાર" },
+    { "en": "5 – Five", "translit": "ફાઇવ", "gu": "પાંચ" },
+    { "en": "6 – Six", "translit": "સિક્સ", "gu": "છ" },
+    { "en": "7 – Seven", "translit": "સેવન", "gu": "સાત" },
+    { "en": "8 – Eight", "translit": "એઇટ", "gu": "આઠ" },
+    { "en": "9 – Nine", "translit": "નાઇન", "gu": "નવ" },
+    { "en": "10 – Ten", "translit": "ટેન", "gu": "દસ" },
+    { "en": "11 – Eleven", "translit": "ઇલેવન", "gu": "અગિયાર" },
+    { "en": "12 – Twelve", "translit": "ટ્વેલ્વ", "gu": "બાર" },
+    { "en": "13 – Thirteen", "translit": "થર્ટીન", "gu": "તેર" },
+    { "en": "14 – Fourteen", "translit": "ફૉર્ટીન", "gu": "ચૌદ" },
+    { "en": "15 – Fifteen", "translit": "ફિફ્ટીન", "gu": "પંદર" },
+    { "en": "16 – Sixteen", "translit": "સિક્સ્ટીન", "gu": "સોળ" },
+    { "en": "17 – Seventeen", "translit": "સેવન્ટીન", "gu": "સત્તર" },
+    { "en": "18 – Eighteen", "translit": "એઇટીન", "gu": "અઢાર" },
+    { "en": "19 – Nineteen", "translit": "નાઇન્ટીન", "gu": "ઓગણીસ" },
+    { "en": "20 – Twenty", "translit": "ટ્વેન્ટી", "gu": "વીસ" },
+    { "en": "30 – Thirty", "translit": "થર્ટી", "gu": "ત્રીસ" },
+    { "en": "40 – Forty", "translit": "ફૉર્ટી", "gu": "ચાળીસ" },
+    { "en": "50 – Fifty", "translit": "ફિફ્ટી", "gu": "પચાસ" },
+    { "en": "60 – Sixty", "translit": "સિક્સ્ટી", "gu": "સાઠ" },
+    { "en": "70 – Seventy", "translit": "સેવન્ટી", "gu": "સિત્તેર" },
+    { "en": "80 – Eighty", "translit": "એઇટી", "gu": "એંસી" },
+    { "en": "90 – Ninety", "translit": "નાઇન્ટી", "gu": "નેવું" },
+    { "en": "100 – One hundred", "translit": "વન હન્ડ્રેડ", "gu": "સો" },
+    { "en": "21 – Twenty-one", "translit": "ટ્વેન્ટી-વન", "gu": "એકવીસ" },
+    { "en": "35 – Thirty-five", "translit": "થર્ટી-ફાઇવ", "gu": "પાંત્રીસ" },
+    { "en": "48 – Forty-eight", "translit": "ફૉર્ટી-એઇટ", "gu": "અડતાલીસ" },
+    { "en": "99 – Ninety-nine", "translit": "નાઇન્ટી-નાઇન", "gu": "નવ્વાણું" }
+  ],
+  "practice": [
+    {
+      "type": "choice",
+      "questionGu": "\"પાંચ\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Four", "Five", "Six"],
+      "answer": 1,
+      "explainGu": "5 – Five – ફાઇવ – પાંચ"
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[Seven]] કયો આંકડો છે?",
+      "options": ["8", "6", "7"],
+      "answer": 2,
+      "explainGu": "7 – Seven – સેવન – સાત"
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"દસ\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Two", "Ten", "Three"],
+      "answer": 1,
+      "explainGu": "10 – Ten – ટેન – દસ"
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[Thirteen]] કયો આંકડો છે?",
+      "options": ["13", "30", "31"],
+      "answer": 0,
+      "explainGu": "13 – Thirteen – થર્ટીન. 30 – Thirty – થર્ટી."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[Forty]] કયો આંકડો છે?",
+      "options": ["14", "40", "4"],
+      "answer": 1,
+      "explainGu": "40 – Forty – ફૉર્ટી – ચાળીસ. 14 – Fourteen – ફૉર્ટીન."
+    },
+    {
+      "type": "choice",
+      "questionGu": "21 ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["One-twenty", "Twenty-two", "Twenty-one"],
+      "answer": 2,
+      "explainGu": "21 – Twenty-one – ટ્વેન્ટી-વન. અંગ્રેજીમાં પહેલાં \"ટ્વેન્ટી\", પછી \"વન\"."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[Thirty-five]] કયો આંકડો છે?",
+      "options": ["53", "35", "25"],
+      "answer": 1,
+      "explainGu": "35 – Thirty-five – થર્ટી-ફાઇવ – પાંત્રીસ"
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"સો\" (100) ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Ten", "One hundred", "Twenty"],
+      "answer": 1,
+      "explainGu": "100 – One hundred – વન હન્ડ્રેડ – સો"
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[Eighty]] કયો આંકડો છે?",
+      "options": ["18", "8", "80"],
+      "answer": 2,
+      "explainGu": "80 – Eighty – એઇટી – એંસી. 18 – Eighteen – એઇટીન."
+    },
+    {
+      "type": "choice",
+      "questionGu": "99 ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Ninety-nine", "Nineteen", "Nine hundred"],
+      "answer": 0,
+      "explainGu": "99 – Ninety-nine – નાઇન્ટી-નાઇન – નવ્વાણું"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "topicId": "p1-t08",
+  "explanationGu": [
+    "ગુજરાતીમાં આપણે \"છું, છે, છો, છીએ\" કહીએ છીએ. અંગ્રેજીમાં આ કામ ત્રણ શબ્દો કરે છે: [[am]], [[is]], [[are]]. ફરક એ છે કે ગુજરાતીમાં તે વાક્યના અંતે આવે છે અને અંગ્રેજીમાં વચ્ચે આવે છે. જેમ કે \"હું મીના છું\" = [[I am Meena.]]",
+    "કયો શબ્દ ક્યારે વપરાય, તે યાદ રાખો: [[I]] સાથે [[am]]. [[He]], [[She]], [[It]] સાથે [[is]]. [[You]], [[We]], [[They]] સાથે [[are]].",
+    "ગુજરાતી પ્રમાણે: \"હું ... છું\" = [[I am]]. \"તે ... છે\" = [[He is]] / [[She is]] / [[It is]]. \"તમે ... છો\" = [[You are]]. \"આપણે ... છીએ\" = [[We are]]. \"તેઓ ... છે\" = [[They are]].",
+    "ધ્યાન રાખો: [[am]], [[is]], [[are]] વગર અંગ્રેજી વાક્ય પૂરું ગણાતું નથી. [[He tall.]] ખોટું છે. સાચું છે [[He is tall.]]",
+    "એક વ્યક્તિ કે એક વસ્તુ હોય તો [[is]] વપરાય: [[Raj is my brother.]] બે કે વધારે હોય તો [[are]] વપરાય: [[Raj and Meena are friends.]] \"નામ\" પણ એક વસ્તુ છે, એટલે [[My name is Meena.]] માં [[is]] આવે છે.",
+    "ગુજરાતીમાં \"એક\" દર્શાવવા માટે અલગ શબ્દ જોઈતો નથી, પણ અંગ્રેજીમાં એક વસ્તુ માટે [[a]] કે [[an]] વપરાય છે. સ્વરના અવાજથી શરૂ થતા શબ્દ પહેલાં [[an]]: [[an apple]], [[an egg]]. બાકીના શબ્દ પહેલાં [[a]]: [[a book]], [[a teacher]]. એકથી વધારે હોય તો [[a]] કે [[an]] નથી આવતા: [[They are students.]]",
+    "રોજ પોતાના વિશે 3 વાક્ય બોલો: [[I am Meena.]] [[I am a teacher.]] [[I am happy.]] પછી ઘરના બીજા લોકો વિશે બોલો: [[He is my brother.]] [[She is my mother.]]"
+  ],
+  "examples": [
+    { "en": "am", "translit": "ઍમ", "gu": "છું (I સાથે)" },
+    { "en": "is", "translit": "ઇઝ", "gu": "છે (He, She, It સાથે)" },
+    { "en": "are", "translit": "આર", "gu": "છો, છીએ, છે (You, We, They સાથે)" },
+    { "en": "I am Meena.", "translit": "આઇ ઍમ મીના", "gu": "હું મીના છું." },
+    { "en": "I am happy.", "translit": "આઇ ઍમ હૅપી", "gu": "હું ખુશ છું." },
+    { "en": "I am a student.", "translit": "આઇ ઍમ અ સ્ટૂડન્ટ", "gu": "હું વિદ્યાર્થી છું." },
+    { "en": "You are my friend.", "translit": "યૂ આર માય ફ્રૅન્ડ", "gu": "તમે મારા મિત્ર છો." },
+    { "en": "You are tired.", "translit": "યૂ આર ટાયર્ડ", "gu": "તમે થાકેલા છો." },
+    { "en": "He is a doctor.", "translit": "હી ઇઝ અ ડૉક્ટર", "gu": "તે ડૉક્ટર છે." },
+    { "en": "He is tall.", "translit": "હી ઇઝ ટૉલ", "gu": "તે ઊંચો છે." },
+    { "en": "She is a teacher.", "translit": "શી ઇઝ અ ટીચર", "gu": "તે શિક્ષિકા છે." },
+    { "en": "She is hungry.", "translit": "શી ઇઝ હંગ્રી", "gu": "તે ભૂખી છે." },
+    { "en": "It is an apple.", "translit": "ઇટ ઇઝ ઍન ઍપલ", "gu": "આ સફરજન છે." },
+    { "en": "It is hot.", "translit": "ઇટ ઇઝ હૉટ", "gu": "તે ગરમ છે." },
+    { "en": "We are friends.", "translit": "વી આર ફ્રૅન્ડ્ઝ", "gu": "આપણે મિત્રો છીએ." },
+    { "en": "We are at home.", "translit": "વી આર ઍટ હોમ", "gu": "આપણે ઘરે છીએ." },
+    { "en": "They are students.", "translit": "ધે આર સ્ટૂડન્ટ્સ", "gu": "તેઓ વિદ્યાર્થીઓ છે." },
+    { "en": "They are happy.", "translit": "ધે આર હૅપી", "gu": "તેઓ ખુશ છે." },
+    { "en": "Raj is my brother.", "translit": "રાજ ઇઝ માય બ્રધર", "gu": "રાજ મારો ભાઈ છે." },
+    { "en": "Raj and Meena are friends.", "translit": "રાજ ઍન્ડ મીના આર ફ્રૅન્ડ્ઝ", "gu": "રાજ અને મીના મિત્રો છે." },
+    { "en": "My name is Meena.", "translit": "માય નેમ ઇઝ મીના", "gu": "મારું નામ મીના છે." },
+    { "en": "This is my house.", "translit": "ધિસ ઇઝ માય હાઉસ", "gu": "આ મારું ઘર છે." },
+    { "en": "a book / an apple", "translit": "અ બુક / ઍન ઍપલ", "gu": "એક પુસ્તક / એક સફરજન" }
+  ],
+  "practice": [
+    {
+      "type": "choice",
+      "questionGu": "\"હું ખુશ છું.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["I are happy.", "I is happy.", "I am happy."],
+      "answer": 2,
+      "explainGu": "I am happy. – આઇ ઍમ હૅપી. I સાથે am વપરાય."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: She ___ a teacher.",
+      "options": ["am", "is", "are"],
+      "answer": 1,
+      "explainGu": "She is a teacher. – શી ઇઝ અ ટીચર. He, She, It સાથે is વપરાય."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: We ___ at home.",
+      "options": ["are", "is", "am"],
+      "answer": 0,
+      "explainGu": "We are at home. – વી આર ઍટ હોમ. You, We, They સાથે are વપરાય."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: You ___ my friend.",
+      "options": ["am", "is", "are"],
+      "answer": 2,
+      "explainGu": "You are my friend. – યૂ આર માય ફ્રૅન્ડ"
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: I ___ hungry.",
+      "options": ["are", "is", "am"],
+      "answer": 2,
+      "explainGu": "I am hungry. – આઇ ઍમ હંગ્રી"
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: Raj and Meena ___ friends.",
+      "options": ["are", "is", "am"],
+      "answer": 0,
+      "explainGu": "બે લોકો હોય ત્યારે are. Raj and Meena are friends. – રાજ ઍન્ડ મીના આર ફ્રૅન્ડ્ઝ"
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"તે ડૉક્ટર છે.\" (પુરુષ માટે) ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["He is a doctor.", "He are a doctor.", "He am a doctor."],
+      "answer": 0,
+      "explainGu": "He is a doctor. – હી ઇઝ અ ડૉક્ટર"
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: It is ___ apple.",
+      "options": ["a", "an"],
+      "answer": 1,
+      "explainGu": "apple સ્વરના અવાજથી શરૂ થાય છે, એટલે an apple – ઍન ઍપલ."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: This is ___ book.",
+      "options": ["a", "an"],
+      "answer": 0,
+      "explainGu": "book સ્વરના અવાજથી શરૂ થતો નથી, એટલે a book – અ બુક."
+    },
+    {
+      "type": "choice",
+      "questionGu": "આમાંથી સાચું વાક્ય કયું છે?",
+      "options": ["She tall.", "She am tall.", "She is tall."],
+      "answer": 2,
+      "explainGu": "She is tall. – શી ઇઝ ટૉલ. is વગર વાક્ય પૂરું ગણાતું નથી."
+    }
+  ]
+}

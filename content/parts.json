@@ -1,0 +1,57 @@
+{
+  "parts": [
+    {
+      "id": "p1",
+      "number": 1,
+      "titleGu": "શરૂઆત",
+      "titleEn": "Basic",
+      "introGu": "અહીંથી શરૂ કરીએ. અક્ષરો, અવાજ, પહેલા શબ્દો, આંકડા અને રોજનાં નાનાં વાક્યો શીખીશું.",
+      "topics": [
+        { "id": "p1-t01", "titleGu": "ABCD — અંગ્રેજી અક્ષરો", "titleEn": "The Alphabet" },
+        { "id": "p1-t02", "titleGu": "અક્ષરોના અવાજ", "titleEn": "Letter Sounds" },
+        { "id": "p1-t03", "titleGu": "આપણા પહેલા શબ્દો", "titleEn": "First Words" },
+        { "id": "p1-t04", "titleGu": "આંકડા 1 થી 100", "titleEn": "Numbers 1–100" },
+        { "id": "p1-t05", "titleGu": "નમસ્તે અને ઓળખાણ", "titleEn": "Greetings & Introducing Yourself" },
+        { "id": "p1-t06", "titleGu": "કુટુંબ અને લોકો", "titleEn": "Family & People" },
+        { "id": "p1-t07", "titleGu": "હું, તમે, તે", "titleEn": "Pronouns" },
+        { "id": "p1-t08", "titleGu": "am / is / are વાળાં સાદાં વાક્યો", "titleEn": "Simple Sentences with am/is/are" },
+        { "id": "p1-t09", "titleGu": "રંગ, વાર અને મહિના", "titleEn": "Colours, Days & Months" },
+        { "id": "p1-t10", "titleGu": "રોજબરોજનાં વાક્યો", "titleEn": "Daily-Life Phrases" }
+      ]
+    },
+    {
+      "id": "p2",
+      "number": 2,
+      "titleGu": "આગળ વધીએ",
+      "titleEn": "Intermediate",
+      "introGu": "હવે કામની વાત કરતાં શીખીશું — આજે, ગઈકાલે અને કાલે. સવાલ પૂછીશું, વાતચીત કરીશું અને નાના પાઠ વાંચીશું.",
+      "topics": [
+        { "id": "p2-t01", "titleGu": "રોજ શું કરો છો?", "titleEn": "Present Simple" },
+        { "id": "p2-t02", "titleGu": "અત્યારે શું ચાલે છે?", "titleEn": "Present Continuous" },
+        { "id": "p2-t03", "titleGu": "ગઈકાલે શું કર્યું?", "titleEn": "Past Simple" },
+        { "id": "p2-t04", "titleGu": "કાલે શું કરશો?", "titleEn": "Future (will / going to)" },
+        { "id": "p2-t05", "titleGu": "\"ના\" વાળાં વાક્યો", "titleEn": "Negative Sentences" },
+        { "id": "p2-t06", "titleGu": "સવાલ પૂછતાં શીખો", "titleEn": "Questions" },
+        { "id": "p2-t07", "titleGu": "વાતચીત", "titleEn": "Conversations" },
+        { "id": "p2-t08", "titleGu": "નાના પાઠ વાંચીએ", "titleEn": "Reading Short Passages" }
+      ]
+    },
+    {
+      "id": "p3",
+      "number": 3,
+      "titleGu": "પાકું કરીએ",
+      "titleEn": "Advanced",
+      "introGu": "હવે અંગ્રેજી પાકું કરીશું. થોડું અઘરું વ્યાકરણ, લખવાનું, રૂઢિપ્રયોગો અને છૂટથી બોલવાનું શીખીશું.",
+      "topics": [
+        { "id": "p3-t01", "titleGu": "કામ પૂરું થયું", "titleEn": "Present Perfect" },
+        { "id": "p3-t02", "titleGu": "can, should, must", "titleEn": "Modal Verbs" },
+        { "id": "p3-t03", "titleGu": "જો… તો…", "titleEn": "If Sentences" },
+        { "id": "p3-t04", "titleGu": "સરખામણી", "titleEn": "Comparisons" },
+        { "id": "p3-t05", "titleGu": "વાક્યો જોડીએ", "titleEn": "Joining Sentences" },
+        { "id": "p3-t06", "titleGu": "લખતાં શીખો", "titleEn": "Writing" },
+        { "id": "p3-t07", "titleGu": "રૂઢિપ્રયોગો", "titleEn": "Idioms & Common Expressions" },
+        { "id": "p3-t08", "titleGu": "સાંભળો અને છૂટથી બોલો", "titleEn": "Fluent Listening & Speaking" }
+      ]
+    }
+  ]
+}

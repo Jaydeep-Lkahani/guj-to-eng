@@ -1,0 +1,123 @@
+{
+  "topicId": "p1-t09",
+  "explanationGu": [
+    "આ પાઠમાં ત્રણ સમૂહના શબ્દો શીખીશું: રંગ ([[Colour]] – કલર), અઠવાડિયાના વાર ([[Day]] – ડે) અને વર્ષના મહિના ([[Month]] – મન્થ).",
+    "રંગના શબ્દો વાક્યમાં આ રીતે વપરાય છે: [[It is red.]] (તે લાલ છે.) [[My bag is black.]] (મારી બૅગ કાળી છે.) અહીં [[is]] પાછલા પાઠમાં શીખ્યા તે જ છે. ગુજરાતીમાં રંગ લિંગ પ્રમાણે બદલાય છે (કાળો, કાળી, કાળું), પણ અંગ્રેજીમાં [[black]] હંમેશાં એક જ રહે છે.",
+    "અઠવાડિયાના 7 વાર ક્રમમાં: [[Monday]], [[Tuesday]], [[Wednesday]], [[Thursday]], [[Friday]], [[Saturday]], [[Sunday]]. [[Wednesday]] ની જોડણી લાંબી છે, પણ બોલાય છે \"વેન્ઝડે\".",
+    "વર્ષના 12 મહિના: [[January]], [[February]], [[March]], [[April]], [[May]], [[June]], [[July]], [[August]], [[September]], [[October]], [[November]], [[December]]. આ અંગ્રેજી કૅલેન્ડરના મહિના છે. ગુજરાતી મહિના (કારતક, માગશર…) અલગ છે.",
+    "ધ્યાન રાખો: વાર અને મહિનાના નામનો પહેલો અક્ષર હંમેશાં મોટો લખાય છે. [[Monday]] સાચું, [[monday]] ખોટું. [[March]] સાચું, [[march]] ખોટું.",
+    "વાર સાથે [[on]] વપરાય અને મહિના સાથે [[in]] વપરાય. જેમ કે [[I am at home on Sunday.]] (હું રવિવારે ઘરે છું.) અને [[My birthday is in May.]] (મારો જન્મદિવસ મે મહિનામાં છે.)",
+    "ઉપયોગી શબ્દો: [[Today]] (આજે), [[Tomorrow]] (કાલે, આવતી કાલે). જેમ કે [[Today is Monday.]] (આજે સોમવાર છે.)"
+  ],
+  "examples": [
+    { "en": "Red", "translit": "રેડ", "gu": "લાલ" },
+    { "en": "Blue", "translit": "બ્લૂ", "gu": "વાદળી" },
+    { "en": "Green", "translit": "ગ્રીન", "gu": "લીલો" },
+    { "en": "Yellow", "translit": "યેલો", "gu": "પીળો" },
+    { "en": "Orange", "translit": "ઑરેન્જ", "gu": "નારંગી" },
+    { "en": "Pink", "translit": "પિંક", "gu": "ગુલાબી" },
+    { "en": "Purple", "translit": "પર્પલ", "gu": "જાંબલી" },
+    { "en": "Black", "translit": "બ્લૅક", "gu": "કાળો" },
+    { "en": "White", "translit": "વ્હાઇટ", "gu": "સફેદ" },
+    { "en": "Brown", "translit": "બ્રાઉન", "gu": "બદામી" },
+    { "en": "Grey", "translit": "ગ્રે", "gu": "રાખોડી" },
+    { "en": "Monday", "translit": "મન્ડે", "gu": "સોમવાર" },
+    { "en": "Tuesday", "translit": "ટ્યૂઝડે", "gu": "મંગળવાર" },
+    { "en": "Wednesday", "translit": "વેન્ઝડે", "gu": "બુધવાર" },
+    { "en": "Thursday", "translit": "થર્ઝડે", "gu": "ગુરુવાર" },
+    { "en": "Friday", "translit": "ફ્રાઇડે", "gu": "શુક્રવાર" },
+    { "en": "Saturday", "translit": "સૅટરડે", "gu": "શનિવાર" },
+    { "en": "Sunday", "translit": "સન્ડે", "gu": "રવિવાર" },
+    { "en": "January", "translit": "જૅન્યુઅરી", "gu": "જાન્યુઆરી" },
+    { "en": "February", "translit": "ફેબ્રુઅરી", "gu": "ફેબ્રુઆરી" },
+    { "en": "March", "translit": "માર્ચ", "gu": "માર્ચ" },
+    { "en": "April", "translit": "એપ્રિલ", "gu": "એપ્રિલ" },
+    { "en": "May", "translit": "મે", "gu": "મે" },
+    { "en": "June", "translit": "જૂન", "gu": "જૂન" },
+    { "en": "July", "translit": "જુલાઈ", "gu": "જુલાઈ" },
+    { "en": "August", "translit": "ઑગસ્ટ", "gu": "ઑગસ્ટ" },
+    { "en": "September", "translit": "સપ્ટેમ્બર", "gu": "સપ્ટેમ્બર" },
+    { "en": "October", "translit": "ઑક્ટોબર", "gu": "ઑક્ટોબર" },
+    { "en": "November", "translit": "નવેમ્બર", "gu": "નવેમ્બર" },
+    { "en": "December", "translit": "ડિસેમ્બર", "gu": "ડિસેમ્બર" },
+    { "en": "Today", "translit": "ટુડે", "gu": "આજે" },
+    { "en": "Tomorrow", "translit": "ટુમૉરો", "gu": "કાલે" },
+    { "en": "It is red.", "translit": "ઇટ ઇઝ રેડ", "gu": "તે લાલ છે." },
+    { "en": "My bag is black.", "translit": "માય બૅગ ઇઝ બ્લૅક", "gu": "મારી બૅગ કાળી છે." },
+    { "en": "Today is Monday.", "translit": "ટુડે ઇઝ મન્ડે", "gu": "આજે સોમવાર છે." },
+    { "en": "I am at home on Sunday.", "translit": "આઇ ઍમ ઍટ હોમ ઑન સન્ડે", "gu": "હું રવિવારે ઘરે છું." },
+    { "en": "My birthday is in May.", "translit": "માય બર્થડે ઇઝ ઇન મે", "gu": "મારો જન્મદિવસ મે મહિનામાં છે." }
+  ],
+  "practice": [
+    {
+      "type": "choice",
+      "questionGu": "\"લાલ\" રંગને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Blue", "Red", "Green"],
+      "answer": 1,
+      "explainGu": "Red – રેડ – લાલ"
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"પીળો\" રંગને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Yellow", "Pink", "Brown"],
+      "answer": 0,
+      "explainGu": "Yellow – યેલો – પીળો"
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"કાળો\" રંગને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["White", "Grey", "Black"],
+      "answer": 2,
+      "explainGu": "Black – બ્લૅક – કાળો. White – વ્હાઇટ – સફેદ."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[Blue]] કયો રંગ છે?",
+      "options": ["લીલો", "વાદળી", "સફેદ"],
+      "answer": 1,
+      "explainGu": "Blue – બ્લૂ – વાદળી"
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"સોમવાર\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Monday", "Sunday", "Tuesday"],
+      "answer": 0,
+      "explainGu": "Monday – મન્ડે – સોમવાર"
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"રવિવાર\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Saturday", "Monday", "Sunday"],
+      "answer": 2,
+      "explainGu": "Sunday – સન્ડે – રવિવાર. Saturday – સૅટરડે – શનિવાર."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"જાન્યુઆરી\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["June", "January", "July"],
+      "answer": 1,
+      "explainGu": "January – જૅન્યુઅરી – જાન્યુઆરી"
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: I am at home ___ Sunday.",
+      "options": ["in", "on"],
+      "answer": 1,
+      "explainGu": "વાર સાથે on વપરાય: on Sunday – ઑન સન્ડે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: My birthday is ___ May.",
+      "options": ["in", "on"],
+      "answer": 0,
+      "explainGu": "મહિના સાથે in વપરાય: in May – ઇન મે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "વાર અને મહિનાના નામનો પહેલો અક્ષર કેવો લખાય?",
+      "options": ["નાનો અક્ષર (monday)", "મોટો અક્ષર (Monday)"],
+      "answer": 1,
+      "explainGu": "હંમેશાં મોટો અક્ષર: Monday, March."
+    }
+  ]
+}
