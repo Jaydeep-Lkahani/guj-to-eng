@@ -608,6 +608,8 @@ Do not change any of these without asking the user first.
 
 Exact package versions = current stable on the day M1 starts. Record them in `package.json`. Never upgrade a major version mid-project without asking.
 
+> M1 note: TypeScript is `~6.0.3`, not 7.x. typescript-eslint 8.72 only supports TypeScript below 6.1, and ESLint with typescript-eslint is a locked decision. Move to TypeScript 7 only after typescript-eslint supports it, and ask the user first.
+
 ### 7.2 Folder structure
 ```
 guj-eng/
@@ -1006,11 +1008,11 @@ Bottom navigation, always visible, 5 items: **હોમ** `/` · **શીખો*
 
 ### 7.13 Milestones (in order — stop after each one and wait for the user)
 **M1 — Project setup and app shell**
-- [ ] `git init`, `.gitignore`, Vite + React + TypeScript, Tailwind, ESLint, Prettier, Vitest, Playwright, self-hosted fonts
-- [ ] `src/i18n/gu.ts` with the glossary (7.10); `<En>` component; colour tokens (7.9)
-- [ ] All routes from 7.8 as placeholder pages with their Gujarati title; bottom navigation; not-found page
-- [ ] npm scripts: `dev`, `build`, `preview`, `typecheck`, `lint`, `test`, `e2e`, `validate:content` (placeholder that passes), `check`
-- [ ] Fill in the "Commands" section of `CLAUDE.md`
+- [x] `git init`, `.gitignore`, Vite + React + TypeScript, Tailwind, ESLint, Prettier, Vitest, Playwright, self-hosted fonts
+- [x] `src/i18n/gu.ts` with the glossary (7.10); `<En>` component; colour tokens (7.9)
+- [x] All routes from 7.8 as placeholder pages with their Gujarati title; bottom navigation; not-found page
+- [x] npm scripts: `dev`, `build`, `preview`, `typecheck`, `lint`, `test`, `e2e`, `validate:content` (placeholder that passes), `check`
+- [x] Fill in the "Commands" section of `CLAUDE.md`
 - Accept when: quality gates pass; every route shows its Gujarati title at 360 px; no English UI text visible; no console errors.
 
 **M2 — Content system**

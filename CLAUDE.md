@@ -24,8 +24,14 @@ A website that teaches English to an adult Gujarati speaker who is a complete be
 12. **Lesson outlines first.** Before writing a phase's lessons, write `content/outlines/p{n}.md` and get the user's approval.
 
 ## Commands
-To be filled in during milestone M1. Planned:
-- `npm run dev` — start the dev server
-- `npm run check` — typecheck + lint + unit tests + content validation + build (must pass)
-- `npm run e2e` — Playwright end-to-end tests at phone size
-- `npm run validate:content` — check all JSON in `content/`
+Node 22.18 or newer (type stripping is used to run `scripts/*.ts`). First time on a machine: `npm install`, then `npx playwright install chromium`.
+- `npm run dev` — start the dev server (http://localhost:5173)
+- `npm run build` — typecheck, then build to `dist/`
+- `npm run preview` — serve the built `dist/`
+- `npm run typecheck` — `tsc -b` (strict)
+- `npm run lint` — ESLint with zero warnings allowed, then Prettier `--check`. It also fails on text typed inside JSX in `src/components`, `src/pages` and `src/App.tsx` (rule 1)
+- `npm run format` — Prettier `--write`
+- `npm run test` — Vitest unit and component tests (`src/**/*.test.ts(x)`, `tests/unit`)
+- `npm run validate:content` — check all JSON in `content/` (placeholder until M2)
+- `npm run check` — typecheck + lint + test + validate:content + build (must pass, zero warnings)
+- `npm run e2e` — Playwright end-to-end tests at 360 × 800; builds the site and serves it on port 4173 itself. Any browser console error or warning fails a test
