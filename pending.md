@@ -1000,9 +1000,9 @@ Bottom navigation, always visible, 5 items: **હોમ** `/` · **શીખો*
 - [ ] `npm run e2e` passing.
 - [ ] Open the app in the browser preview at 360 × 800, click through every page changed in this step, and confirm the browser console has no errors or warnings.
 - [ ] Unit tests for every function in `src/lib/`, including edge cases: month and year boundaries for dates, empty progress, corrupted progress, every exercise type right and wrong, unlock rules, SRS box changes, streak gaps.
-- [ ] **Content validator errors** (fail the build): schema; ID formats (7.3); all IDs unique across all files; every reference exists (`videoIds`, `newWordIds`, `keyWordIds`, `topicIds`, `targetsMistakes`, `finalTestId`); `recommendedOrder` holds every lesson of its phase exactly once and keeps each topic's lesson order; counts (examples ≥ 5, practice 6–12, speak 3–6, write 1–3, quiz exactly 5, MCQ 2–4 options with a valid answer index, match 3–6 pairs); `fill` sentence has exactly one `___`; for `order`, the tiles joined with spaces equal one accepted answer after normalization; no empty strings; every `gu` and `*Gu` field contains Gujarati letters (U+0A80–U+0AFF); English fields (`en`, `titleEn`, `statementEn`, `promptEn`, `audio`, `answers`, `tiles`, `sentence`, `model`, `passageEn`, `exampleEn`) contain no Gujarati letters; `youtubeId` matches `^[A-Za-z0-9_-]{11}$`; approved/rejected videos have `reviewedBy` and `reviewedAt`.
-- [ ] **Content validator warnings** (printed, do not fail): lessons with `reviewedGu: false`; topics with no approved video; GS ids not yet covered; vocab words not used in any lesson.
-- [ ] The validator has its own tests: one broken fixture per error rule, each proven to fail.
+- [x] **Content validator errors** (fail the build): schema; ID formats (7.3); all IDs unique across all files; every reference exists (`videoIds`, `newWordIds`, `keyWordIds`, `topicIds`, `targetsMistakes`, `finalTestId`); `recommendedOrder` holds every lesson of its phase exactly once and keeps each topic's lesson order; counts (examples ≥ 5, practice 6–12, speak 3–6, write 1–3, quiz exactly 5, MCQ 2–4 options with a valid answer index, match 3–6 pairs); `fill` sentence has exactly one `___`; for `order`, the tiles joined with spaces equal one accepted answer after normalization; no empty strings; every `gu` and `*Gu` field contains Gujarati letters (U+0A80–U+0AFF); English fields (`en`, `titleEn`, `statementEn`, `promptEn`, `audio`, `answers`, `tiles`, `sentence`, `model`, `passageEn`, `exampleEn`) contain no Gujarati letters; `youtubeId` matches `^[A-Za-z0-9_-]{11}$`; approved/rejected videos have `reviewedBy` and `reviewedAt`.
+- [x] **Content validator warnings** (printed, do not fail): lessons with `reviewedGu: false`; topics with no approved video; GS ids not yet covered; vocab words not used in any lesson.
+- [x] The validator has its own tests: one broken fixture per error rule, each proven to fail.
 - [ ] End-to-end minimum: fresh start → welcome → dashboard → today's lesson → complete every step → lesson shows completed → reload → still completed; flashcard review; backup export then import round-trip; video step with no approved video shows the placeholder.
 - [ ] No `console.log`, no commented-out code, no `TODO` without a matching unticked item in this file.
 
@@ -1016,10 +1016,10 @@ Bottom navigation, always visible, 5 items: **હોમ** `/` · **શીખો*
 - Accept when: quality gates pass; every route shows its Gujarati title at 360 px; no English UI text visible; no console errors.
 
 **M2 — Content system**
-- [ ] zod schemas (7.4), content loader (`import.meta.glob` over `content/`), full validator (7.12) with its fixture tests
-- [ ] `content/phases.json` with 3 phases and all 26 topics (Gujarati titles and intros); empty `videos.json`; `video-review.md` template
-- [ ] One complete sample lesson `p1-t01-l01` (+ its vocab), following every rule in 7.11; `recommendedOrder` for now = this one lesson
-- [ ] Learning path and topic pages render from content
+- [x] zod schemas (7.4), content loader (`import.meta.glob` over `content/`), full validator (7.12) with its fixture tests
+- [x] `content/phases.json` with 3 phases and all 26 topics (Gujarati titles and intros); empty `videos.json`; `video-review.md` template
+- [x] One complete sample lesson `p1-t01-l01` (+ its vocab), following every rule in 7.11; `recommendedOrder` for now = this one lesson
+- [x] Learning path and topic pages render from content
 - Accept when: validator passes on real content and fails on every broken fixture; `/learn` shows all 26 topics.
 
 **M3 — Lesson player**

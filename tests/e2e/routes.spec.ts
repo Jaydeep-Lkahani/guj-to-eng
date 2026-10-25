@@ -1,11 +1,12 @@
 import { gu } from '../../src/i18n/gu.ts';
+import { PHASES } from './content.ts';
 import { expect, test } from './fixtures.ts';
 
 const ROUTES: readonly (readonly [string, string])[] = [
   ['/', gu.pages.dashboard],
   ['/welcome', gu.pages.welcome],
   ['/learn', gu.pages.learn],
-  ['/topic/p1-t01', gu.pages.topic],
+  ['/topic/p1-t01', PHASES[0]!.topics[0]!.titleGu],
   ['/lesson/p1-t01-l01', gu.pages.lesson],
   ['/review', gu.pages.review],
   ['/practice', gu.pages.practice],

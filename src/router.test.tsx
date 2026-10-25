@@ -15,7 +15,7 @@ const ROUTE_TITLES: readonly (readonly [string, string])[] = [
   ['/', gu.pages.dashboard],
   ['/welcome', gu.pages.welcome],
   ['/learn', gu.pages.learn],
-  ['/topic/p1-t01', gu.pages.topic],
+  ['/topic/p1-t01', 'અંગ્રેજી મૂળાક્ષરો'],
   ['/lesson/p1-t01-l01', gu.pages.lesson],
   ['/review', gu.pages.review],
   ['/practice', gu.pages.practice],

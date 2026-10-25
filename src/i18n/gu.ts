@@ -68,7 +68,6 @@ export const gu = {
     dashboard: glossary.home,
     welcome: 'સ્વાગત',
     learn: glossary.learn,
-    topic: glossary.topic,
     lesson: glossary.lesson,
     review: glossary.review,
     practice: glossary.practice,
@@ -81,6 +80,20 @@ export const gu = {
     settings: glossary.settings,
     help: glossary.help,
     notFound: 'પાનું મળ્યું નથી',
+  },
+
+  learn: {
+    lessonCount: (count: number) => `${count} ${glossary.lesson}`,
+    lessonsComingSoon: 'ટૂંક સમયમાં',
+  },
+
+  topic: {
+    notFoundTitle: 'વિષય મળ્યો નથી',
+    notFoundMessage:
+      'આ વિષય અહીં નથી. ચિંતા ન કરો, શીખો પાનામાંથી બીજો વિષય પસંદ કરો.',
+    noVideo: 'આ વિષયનો વિડિયો ટૂંક સમયમાં આવશે',
+    noLessons: 'આ વિષયના પાઠ ટૂંક સમયમાં આવશે',
+    minutes: (count: number) => `${count} મિનિટ`,
   },
 
   placeholder: {

@@ -80,6 +80,13 @@ describe('gu strings', () => {
   });
 
   it('give every route page a title', () => {
-    expect(Object.keys(gu.pages)).toHaveLength(16);
+    expect(Object.keys(gu.pages)).toHaveLength(15);
+  });
+});
+
+describe('gu string builders', () => {
+  it('count lessons and minutes with English digits', () => {
+    expect(gu.learn.lessonCount(3)).toBe('3 પાઠ');
+    expect(gu.topic.minutes(20)).toBe('20 મિનિટ');
   });
 });

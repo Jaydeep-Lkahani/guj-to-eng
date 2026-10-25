@@ -31,7 +31,7 @@ Node 22.18 or newer (type stripping is used to run `scripts/*.ts`). First time o
 - `npm run typecheck` — `tsc -b` (strict)
 - `npm run lint` — ESLint with zero warnings allowed, then Prettier `--check`. It also fails on text typed inside JSX in `src/components`, `src/pages` and `src/App.tsx` (rule 1)
 - `npm run format` — Prettier `--write`
-- `npm run test` — Vitest unit and component tests (`src/**/*.test.ts(x)`, `tests/unit`)
-- `npm run validate:content` — check all JSON in `content/` (placeholder until M2)
+- `npm run test` — Vitest unit and component tests (`src/**/*.test.ts(x)`, `scripts/*.test.ts`, `tests/unit`)
+- `npm run validate:content` — check all JSON in `content/` (errors fail; warnings are only printed). Rules live in `src/lib/validateContent.ts`; every error rule has a broken fixture in its test
 - `npm run check` — typecheck + lint + test + validate:content + build (must pass, zero warnings)
 - `npm run e2e` — Playwright end-to-end tests at 360 × 800; builds the site and serves it on port 4173 itself. Any browser console error or warning fails a test
