@@ -122,7 +122,7 @@ Tick a topic when its real lesson is written **and** I've reviewed it.
 2. [ ] I review the Part 1 lessons and send changes.
 3. [ ] Write Part 2 lessons, then review.
 4. [ ] Write Part 3 lessons, then review.
-5. [ ] Commit the new project to git. *(Nothing is committed yet. The old project's files are still shown as deleted in `git status`.)*
+5. [x] Commit the new project to git and push to GitHub: https://github.com/Jaydeep-Lkahani/guj-to-eng *(Done 2026-10-26)*
 6. [ ] Decide where to host the site (e.g. GitHub Pages or Netlify) so she can open it on her phone.
 
 ### Ideas for later (not agreed yet, ask before building)
@@ -187,3 +187,4 @@ An earlier, much bigger version of this site was built in this folder before 202
 | 2026-10-26 | Asked to start p1-t09. Claude wrote the Colours, Days & Months lesson: 7 short paragraphs (colours don't change like Gujarati ones, 7 days, 12 months, capital first letter, "on" with days and "in" with months, Today/Tomorrow), 37 examples, 10 practice questions. Tests and build pass. Not yet looked at in the browser. Waiting for my review. |
 | 2026-10-26 | Asked to start p1-t10. Claude wrote the Daily-Life Phrases lesson: 8 short paragraphs (4 groups of phrases, commands with please, "Give me water" word order, shop questions, what to say when you don't understand, wishes), 26 examples, 10 practice questions. This finishes writing all of Part 1. Tests and build pass. Opened all 10 Part 1 lessons at phone width: all show, no sideways scrolling. Waiting for my review of p1-t01 to p1-t10. |
 | 2026-10-26 | Said the site looked bad. Claude redesigned it: new colours and fonts, icons everywhere, light/dark mode, header search, custom logo in header and footer, small animations. Added packages `@phosphor-icons/react`, `@fontsource/baloo-bhai-2`, `@fontsource-variable/plus-jakarta-sans`. Tests and build pass; checked in the browser on desktop and phone, light and dark. Not committed. |
+| 2026-10-26 | Asked to push all code to https://github.com/Jaydeep-Lkahani/guj-to-eng. Claude committed everything (new site, redesign, Part 1 lessons, removal of the old project's files) and pushed `main`. The old project's commits are in the history too. |
