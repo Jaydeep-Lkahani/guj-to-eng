@@ -93,3 +93,45 @@ export function approvedVideos(
   }
   return result;
 }
+
+export function findLesson(
+  content: Content,
+  lessonId: string,
+): Lesson | undefined {
+  for (const lessons of Object.values(content.lessonsByTopic)) {
+    const lesson = lessons.find((l) => l.id === lessonId);
+    if (lesson) return lesson;
+  }
+  return undefined;
+}
+
+/** The phase whose recommended order holds this lesson. */
+export function phaseOfLesson(
+  content: Content,
+  lessonId: string,
+): Phase | undefined {
+  return content.phases.find((p) => p.recommendedOrder.includes(lessonId));
+}
+
+export function findWord(content: Content, wordId: string): Word | undefined {
+  return content.words.find((w) => w.id === wordId);
+}
+
+export function isFirstLessonOfTopic(
+  content: Content,
+  lesson: Lesson,
+): boolean {
+  return lessonsOfTopic(content, lesson.topicId)[0]?.id === lesson.id;
+}
+
+/**
+ * The approved videos of lesson step 2 (pending.md V.1): the topic videos come first in the
+ * topic's first lesson; every lesson adds its own. Only approved videos are returned.
+ */
+export function lessonVideos(content: Content, lesson: Lesson): Video[] {
+  const topicIds = isFirstLessonOfTopic(content, lesson)
+    ? (findTopic(content, lesson.topicId)?.topic.videoIds ?? [])
+    : [];
+  const ids = [...new Set([...topicIds, ...lesson.videoIds])];
+  return approvedVideos(content, ids);
+}

@@ -1,8 +1,13 @@
 import { RouterProvider } from 'react-router/dom';
 import { createAppRouter } from './router';
+import { ProgressProvider } from './state/ProgressProvider';
 
 const router = createAppRouter();
 
 export function App() {
-  return <RouterProvider router={router} />;
+  return (
+    <ProgressProvider>
+      <RouterProvider router={router} />
+    </ProgressProvider>
+  );
 }

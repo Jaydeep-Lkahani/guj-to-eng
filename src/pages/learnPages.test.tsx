@@ -1,15 +1,8 @@
-import { render, screen, within } from '@testing-library/react';
+import { screen, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { createMemoryRouter, RouterProvider } from 'react-router';
 import { describe, expect, it } from 'vitest';
 import { gu } from '../i18n/gu';
-import { routes } from '../router';
-
-function renderAt(path: string) {
-  const router = createMemoryRouter(routes, { initialEntries: [path] });
-  render(<RouterProvider router={router} />);
-  return router;
-}
+import { renderAt } from '../test/renderRoutes';
 
 describe('Learn page (real content)', () => {
   it('shows 3 phases and all 26 topics, each linking to its topic page', () => {
@@ -47,7 +40,7 @@ describe('Learn page (real content)', () => {
   });
 
   it('opens a topic when its link is clicked', async () => {
-    const router = renderAt('/learn');
+    const { router } = renderAt('/learn');
     await userEvent.click(
       within(screen.getByRole('main')).getAllByRole('link')[0]!,
     );

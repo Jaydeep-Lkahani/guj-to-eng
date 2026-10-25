@@ -1,5 +1,5 @@
 import { gu } from '../../src/i18n/gu.ts';
-import { PHASES } from './content.ts';
+import { LESSON, PHASES } from './content.ts';
 import { expect, test } from './fixtures.ts';
 
 test('/learn shows 3 phases and all 26 topics from the content', async ({
@@ -40,7 +40,7 @@ test('a topic opens from /learn, shows its lesson, and the lesson link works', a
   await main.locator('a[href="/lesson/p1-t01-l01"]').click();
   await expect(page).toHaveURL('/lesson/p1-t01-l01');
   await expect(page.getByRole('heading', { level: 1 })).toHaveText(
-    gu.pages.lesson,
+    LESSON.titleGu,
   );
 });
 

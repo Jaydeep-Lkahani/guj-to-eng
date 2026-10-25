@@ -51,15 +51,15 @@
 8. **4 skills in natural order:** Listening → Speaking → Reading → Writing.
 
 ### Standard lesson structure (every lesson follows this)
-- [ ] 1. Warm-up — quick review of yesterday (2 min)
-- [ ] 2. **🎥 Watch the videos first** — 1 to 3 short videos where a tutor explains the topic **in Gujarati** (10–15 min). Topic videos play in the **first** lesson of each topic; later lessons show their own video if they have one. See section 2.
-- [ ] 3. Detailed explanation on the page, in Gujarati — same topic, step by step, with tables and examples (5–10 min)
-- [ ] 4. Examples with audio (5 min)
-- [ ] 5. Guided practice — tap / match / fill-in (10 min)
+- [x] 1. Warm-up — quick review of yesterday (2 min)
+- [x] 2. **🎥 Watch the videos first** — 1 to 3 short videos where a tutor explains the topic **in Gujarati** (10–15 min). Topic videos play in the **first** lesson of each topic; later lessons show their own video if they have one. See section 2.
+- [x] 3. Detailed explanation on the page, in Gujarati — same topic, step by step, with tables and examples (5–10 min)
+- [x] 4. Examples with audio (5 min)
+- [x] 5. Guided practice — tap / match / fill-in (10 min)
 - [ ] 6. Speak aloud — repeat after audio, then say it alone (5 min)
 - [ ] 7. Write — type or handwrite 3–5 sentences (5 min)
-- [ ] 8. Mini quiz — 5 questions (3 min)
-- [ ] 9. "Use it today" task — one real-life sentence to use at home
+- [x] 8. Mini quiz — 5 questions (3 min)
+- [x] 9. "Use it today" task — one real-life sentence to use at home
 
 > Why videos first: watching and hearing a tutor explain in her own language makes the idea easy to understand. The written explanation then fills in the details and stays there to re-read anytime.
 
@@ -821,12 +821,12 @@ type Progress = {
 };
 ```
 **Never lose her progress:**
-- [ ] Load → parse with zod. If parsing fails, **do not overwrite**: copy the raw text to `gujeng.progress.broken.<timestamp>`, show a Gujarati message, offer "download backup", then start fresh only after she confirms.
-- [ ] Every schema change bumps `schemaVersion` and adds a migration function + unit test. Never remove or rename a field without a migration.
-- [ ] Save 500 ms after each change and immediately on `visibilitychange` (hidden) and `pagehide`.
+- [x] Load → parse with zod. If parsing fails, **do not overwrite**: copy the raw text to `gujeng.progress.broken.<timestamp>`, show a Gujarati message, offer "download backup", then start fresh only after she confirms.
+- [x] Every schema change bumps `schemaVersion` and adds a migration function + unit test. Never remove or rename a field without a migration.
+- [x] Save 500 ms after each change and immediately on `visibilitychange` (hidden) and `pagehide`.
 - [ ] On first launch call `navigator.storage.persist()`.
 - [ ] Settings → "બેકઅપ લો" downloads `gujeng-backup-YYYY-MM-DD.json`; "બેકઅપ પાછું લાવો" imports a file (validate with zod, confirm before overwriting). Dashboard shows a backup reminder if `lastBackupAt` is missing or older than 14 days.
-- [ ] Never call `localStorage.clear()`.
+- [x] Never call `localStorage.clear()`.
 
 ### 7.6 Learning rules (exact behaviour)
 **Recommended order and unlocking**
@@ -835,18 +835,18 @@ type Progress = {
   - alphabet and phonics lessons (P1.1, P1.2) are spread over the first weeks, alternating with speaking (P1.9), vocabulary (P1.6) and listening (P1.10) lessons;
   - inside one topic, lessons always keep their own order (`l01` before `l02`);
   - a lesson never uses a word or grammar point that comes later in the order (except its own `newWordIds`).
-- [ ] A lesson is **unlocked** when the lesson before it in `recommendedOrder` is completed. The first lesson of an unlocked phase is unlocked.
-- [ ] The phase final test unlocks when every lesson of the phase is completed.
-- [ ] The next phase unlocks when the previous phase's final test is passed.
-- [ ] `settings.unlockAll = true` unlocks everything (for the user to look around). Label: "બધા પાઠ ખોલો".
+- [x] A lesson is **unlocked** when the lesson before it in `recommendedOrder` is completed. The first lesson of an unlocked phase is unlocked.
+- [x] The phase final test unlocks when every lesson of the phase is completed.
+- [x] The next phase unlocks when the previous phase's final test is passed.
+- [x] `settings.unlockAll = true` unlocks everything (for the user to look around). Label: "બધા પાઠ ખોલો".
 
 **Lessons**
-- [ ] Step 1 warm-up is generated automatically (no content field): up to 3 flashcards that are due, else up to 3 quiz questions from the previous completed lesson. Skipped when there is nothing to review (e.g. the very first lesson). Not scored.
-- [ ] The lesson player saves the current step. Reopening the lesson resumes at that step.
-- [ ] Practice: a wrong answer shows ✖, the correct answer and `explainGu`, saves the mistake, and lets her try again.
-- [ ] Quiz: 5 questions, no retry inside one attempt. **Lesson completed when the score is ≥ 3 / 5.** Below that: encouraging message, and "quiz again" (options reshuffled) or "read the lesson again".
-- [ ] Completing a lesson adds each `newWordId` to SRS in box 1, due tomorrow.
-- [ ] Speaking and writing steps **never block** progress (always an "આગળ વધો" button).
+- [x] Step 1 warm-up is generated automatically (no content field): up to 3 flashcards that are due, else up to 3 quiz questions from the previous completed lesson. Skipped when there is nothing to review (e.g. the very first lesson). Not scored.
+- [x] The lesson player saves the current step. Reopening the lesson resumes at that step.
+- [x] Practice: a wrong answer shows ✖, the correct answer and `explainGu`, saves the mistake, and lets her try again.
+- [x] Quiz: 5 questions, no retry inside one attempt. **Lesson completed when the score is ≥ 3 / 5.** Below that: encouraging message, and "quiz again" (options reshuffled) or "read the lesson again".
+- [x] Completing a lesson adds each `newWordId` to SRS in box 1, due tomorrow.
+- [x] Speaking and writing steps **never block** progress (always an "આગળ વધો" button).
 
 **Spaced repetition (flashcards)**
 - [ ] Intervals by box: 1 → 1 day, 2 → 3 days, 3 → 7 days, 4 → 14 days, 5 → 30 days.
@@ -862,17 +862,17 @@ type Progress = {
 - [ ] Minutes: completed lesson adds its `estimatedMinutes`; each flashcard review adds 0.2; a watched video adds its duration rounded to whole minutes. Daily goal bar uses this.
 
 **Answer checking (`src/lib/normalize.ts`, `grading.ts`)**
-- [ ] For typed answers and word tiles: trim, collapse spaces, lower-case, curly quotes/apostrophes → straight, remove a final `.`, `!` or `?`. Then compare with every string in `answers`.
-- [ ] Content must list **every** acceptable answer (e.g. both "I'm" and "I am"). The code never guesses synonyms.
-- [ ] If the answer is right but the first letter of a sentence answer is not a capital: mark correct and show the tip "વાક્યની શરૂઆત કૅપિટલ અક્ષરથી કરો".
-- [ ] Match: correct only when every pair is right; a wrong tap flashes ✖ for 1 second.
+- [x] For typed answers and word tiles: trim, collapse spaces, lower-case, curly quotes/apostrophes → straight, remove a final `.`, `!` or `?`. Then compare with every string in `answers`.
+- [x] Content must list **every** acceptable answer (e.g. both "I'm" and "I am"). The code never guesses synonyms.
+- [x] If the answer is right but the first letter of a sentence answer is not a capital: mark correct and show the tip "વાક્યની શરૂઆત કૅપિટલ અક્ષરથી કરો".
+- [x] Match: correct only when every pair is right; a wrong tap flashes ✖ for 1 second.
 - [ ] Test score = auto-graded items only. Pass = score ≥ `passPercent` **and** all self-check sections done.
 
 ### 7.7 Browser features (exact behaviour)
 **Text-to-speech**
-- [ ] Voices load asynchronously — wait for `voiceschanged`. Pick the first voice whose language matches `settings.voiceLang` (treat `en-IN` and `en_IN` as the same), else `en-GB`, else `en-US`, else any `en-*`.
-- [ ] Normal speed = `settings.voiceRate` (default 0.9); slow ("🐢") = 0.6. Cancel any current speech before speaking.
-- [ ] No English voice found → hide speaker buttons and show one Gujarati notice with how to add an English voice (Android: Settings → Text-to-speech).
+- [x] Voices load asynchronously — wait for `voiceschanged`. Pick the first voice whose language matches `settings.voiceLang` (treat `en-IN` and `en_IN` as the same), else `en-GB`, else `en-US`, else any `en-*`.
+- [x] Normal speed = `settings.voiceRate` (default 0.9); slow ("🐢") = 0.6. Cancel any current speech before speaking.
+- [x] No English voice found → hide speaker buttons and show one Gujarati notice with how to add an English voice (Android: Settings → Text-to-speech).
 
 **Speech check**
 - [ ] Feature-detect `SpeechRecognition || webkitSpeechRecognition`. `lang = settings.voiceLang`, `interimResults = false`, `maxAlternatives = 3`.
@@ -885,11 +885,11 @@ type Progress = {
 - [ ] Store in IndexedDB; keep the last 3 per item and every weekly talk. Play back next to the model audio.
 
 **YouTube**
-- [ ] Load `https://www.youtube.com/iframe_api` once. Create players with `host: "https://www.youtube-nocookie.com"`, `playerVars: { playsinline: 1, rel: 0, start, end }`.
-- [ ] While playing, save the position every 5 s. **Watched** = `ENDED` event, or position ≥ 90 % of the playable length (`(end ?? duration) − (start ?? 0)`).
-- [ ] Resume from `lastPosition` unless already watched. Speed buttons 0.75x / 1x via `setPlaybackRate`.
-- [ ] Offline, or the API has not loaded within 10 s → "વિડિયો જોવા માટે ઇન્ટરનેટ જોઈએ" and the lesson continues.
-- [ ] Only videos with `status: "approved"` are ever rendered.
+- [x] Load `https://www.youtube.com/iframe_api` once. Create players with `host: "https://www.youtube-nocookie.com"`, `playerVars: { playsinline: 1, rel: 0, start, end }`.
+- [x] While playing, save the position every 5 s. **Watched** = `ENDED` event, or position ≥ 90 % of the playable length (`(end ?? duration) − (start ?? 0)`).
+- [x] Resume from `lastPosition` unless already watched. Speed buttons 0.75x / 1x via `setPlaybackRate`.
+- [x] Offline, or the API has not loaded within 10 s → "વિડિયો જોવા માટે ઇન્ટરનેટ જોઈએ" and the lesson continues.
+- [x] Only videos with `status: "approved"` are ever rendered.
 
 ### 7.8 Pages and routes
 Bottom navigation, always visible, 5 items: **હોમ** `/` · **શીખો** `/learn` · **પુનરાવર્તન** `/review` · **પ્રગતિ** `/progress` · **વધુ** `/more`.
@@ -1023,11 +1023,19 @@ Bottom navigation, always visible, 5 items: **હોમ** `/` · **શીખો*
 - Accept when: validator passes on real content and fails on every broken fixture; `/learn` shows all 26 topics.
 
 **M3 — Lesson player**
-- [ ] All 9 lesson steps; all 8 exercise types; normalization and grading (7.6); feedback messages
-- [ ] Text-to-speech `AudioButton` with slow option (7.7)
-- [ ] Video step with YouTube player, watched tracking, resume, placeholder for no approved video, offline message
-- [ ] ProgressProvider with save/load/safety (7.5); resume at saved step; completion rule; unlock rules and `unlockAll`; mistakes saved
+- [x] All 9 lesson steps; all 8 exercise types; normalization and grading (7.6); feedback messages
+- [x] Text-to-speech `AudioButton` with slow option (7.7)
+- [x] Video step with YouTube player, watched tracking, resume, placeholder for no approved video, offline message
+- [x] ProgressProvider with save/load/safety (7.5); resume at saved step; completion rule; unlock rules and `unlockAll`; mistakes saved
 - Accept when: e2e lesson flow passes; works with zero videos and with the network off.
+- M3 notes (decisions the user can overrule):
+  - Step 6 (speak) in M3 is listen + say aloud only, and step 7 (write) has typing with a model answer and a "write on paper" note for handwriting. Recording, speech check, self-check list and the tracing canvas are M5, so the section 0 boxes for steps 6 and 7 stay unticked until then.
+  - A quiz or practice **match** exercise is finished when every pair is joined. Wrong taps flash ✖; in practice they are saved as a mistake but the exercise still ends right; in a quiz one wrong tap makes the question wrong.
+  - Wrong answers in the quiz are also saved in the mistakes list (not only in practice).
+  - The capital-letter tip shows for a right answer of 2+ words whose first letter is small while the listed answer starts with a capital.
+  - The YouTube player is tested with a fake YouTube API only. No video is approved yet, so real playback has not been seen; the V.5 boxes stay unticked until a real approved video has been checked.
+  - Lazily loaded font files cannot be fetched offline until the PWA cache of M8; the e2e offline test loads them first.
+  - Not in M3 (still unticked): V.5 notes box, topic words, check questions, video library; `storage.persist()` and backup export/import (M4).
 
 **M4 — Progress and daily habits**
 - [ ] Welcome flow; dashboard; streak and minutes; flashcards with SRS (7.6); progress page; mistakes page; my words; settings; backup export/import + reminder; `storage.persist()`

@@ -2,6 +2,8 @@ import { render, screen } from '@testing-library/react';
 import { createMemoryRouter, RouterProvider } from 'react-router';
 import { afterEach, describe, expect, it, vi } from 'vitest';
 import { gu } from '../i18n/gu';
+import { MemoryStorage } from '../test/memoryStorage';
+import { ProgressProvider } from '../state/ProgressProvider';
 import { AppLayout } from './AppLayout';
 import { RouteError } from './RouteError';
 
@@ -31,7 +33,11 @@ describe('RouteError', () => {
       ],
       { initialEntries: ['/'] },
     );
-    render(<RouterProvider router={router} />);
+    render(
+      <ProgressProvider storage={new MemoryStorage()}>
+        <RouterProvider router={router} />
+      </ProgressProvider>,
+    );
 
     expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent(
       gu.states.errorTitle,

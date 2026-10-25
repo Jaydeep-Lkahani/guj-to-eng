@@ -1,22 +1,15 @@
-import { render, screen, within } from '@testing-library/react';
+import { screen, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { createMemoryRouter, RouterProvider } from 'react-router';
 import { describe, expect, it } from 'vitest';
 import { gu } from './i18n/gu';
-import { routes } from './router';
-
-function renderAt(path: string) {
-  const router = createMemoryRouter(routes, { initialEntries: [path] });
-  render(<RouterProvider router={router} />);
-  return router;
-}
+import { renderAt } from './test/renderRoutes';
 
 const ROUTE_TITLES: readonly (readonly [string, string])[] = [
   ['/', gu.pages.dashboard],
   ['/welcome', gu.pages.welcome],
   ['/learn', gu.pages.learn],
   ['/topic/p1-t01', 'અંગ્રેજી મૂળાક્ષરો'],
-  ['/lesson/p1-t01-l01', gu.pages.lesson],
+  ['/lesson/p1-t01-l01', 'પહેલા 5 અક્ષરો (એ થી ઈ)'],
   ['/review', gu.pages.review],
   ['/practice', gu.pages.practice],
   ['/test/p1-final', gu.pages.test],
@@ -39,11 +32,7 @@ describe('routes', () => {
 
   it('keeps the bottom navigation on every page', () => {
     for (const [path] of ROUTE_TITLES) {
-      const { unmount } = render(
-        <RouterProvider
-          router={createMemoryRouter(routes, { initialEntries: [path] })}
-        />,
-      );
+      const { unmount } = renderAt(path);
       expect(
         screen.getByRole('navigation', { name: gu.nav.ariaLabel }),
       ).toBeInTheDocument();
@@ -52,7 +41,7 @@ describe('routes', () => {
   });
 
   it('the not-found page has a home button that goes home', async () => {
-    const router = renderAt('/no-such-page');
+    const { router } = renderAt('/no-such-page');
     await userEvent.click(
       within(screen.getByRole('main')).getByRole('link', {
         name: gu.notFound.homeButton,

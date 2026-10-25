@@ -3,10 +3,13 @@ import { GuText } from '../components/GuText';
 import { Page } from '../components/Page';
 import { gu } from '../i18n/gu';
 import { lessonsOfTopic } from '../lib/content';
+import { isPhaseUnlocked } from '../lib/unlock';
 import { getContent } from '../services/content';
+import { useProgress } from '../state/progressContext';
 
 export function LearnPage() {
   const content = getContent();
+  const { progress } = useProgress();
 
   return (
     <Page title={gu.pages.learn}>
@@ -22,9 +25,15 @@ export function LearnPage() {
           <p className="text-muted mb-3">
             <GuText text={phase.goalGu} />
           </p>
+          {!isPhaseUnlocked(content, progress, phase.id) && (
+            <p className="mb-3 font-bold">{gu.learn.phaseLocked}</p>
+          )}
           <ol className="flex flex-col gap-2">
             {phase.topics.map((topic) => {
-              const lessonCount = lessonsOfTopic(content, topic.id).length;
+              const lessons = lessonsOfTopic(content, topic.id);
+              const done = lessons.filter(
+                (l) => progress.lessons[l.id]?.status === 'completed',
+              ).length;
               return (
                 <li key={topic.id}>
                   <Link
@@ -39,8 +48,8 @@ export function LearnPage() {
                         <GuText text={topic.titleGu} />
                       </span>
                       <span className="text-muted block">
-                        {lessonCount > 0
-                          ? gu.learn.lessonCount(lessonCount)
+                        {lessons.length > 0
+                          ? `${gu.learn.lessonCount(lessons.length)} · ${gu.learn.completedCount(done, lessons.length)}`
                           : gu.learn.lessonsComingSoon}
                       </span>
                     </span>

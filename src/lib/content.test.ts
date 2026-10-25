@@ -4,8 +4,13 @@ import {
   approvedVideos,
   buildContent,
   ContentError,
+  findLesson,
   findTopic,
+  findWord,
+  isFirstLessonOfTopic,
   lessonsOfTopic,
+  lessonVideos,
+  phaseOfLesson,
 } from './content';
 
 function build() {
@@ -117,5 +122,65 @@ describe('content helpers', () => {
         (v) => v.id,
       ),
     ).toEqual(['v-TEST_VIDEO2', 'v-TEST_VIDEO1']);
+  });
+});
+
+describe('lesson lookups', () => {
+  it('finds a lesson and a word by ID', () => {
+    const content = build();
+    expect(findLesson(content, 'p1-t01-l02')?.order).toBe(2);
+    expect(findLesson(content, 'p1-t09-l01')).toBeUndefined();
+    expect(findWord(content, 'w-ball')?.gu).toBe('દડો');
+    expect(findWord(content, 'w-nothing')).toBeUndefined();
+  });
+
+  it('finds the phase of a lesson from the recommended order', () => {
+    const content = build();
+    expect(phaseOfLesson(content, 'p1-t02-l01')?.id).toBe('p1');
+    expect(phaseOfLesson(content, 'p9-t01-l01')).toBeUndefined();
+  });
+
+  it('knows the first lesson of a topic', () => {
+    const content = build();
+    expect(
+      isFirstLessonOfTopic(content, findLesson(content, 'p1-t01-l01')!),
+    ).toBe(true);
+    expect(
+      isFirstLessonOfTopic(content, findLesson(content, 'p1-t01-l02')!),
+    ).toBe(false);
+  });
+
+  it('gives the topic videos to the first lesson only', () => {
+    const content = build();
+    expect(
+      lessonVideos(content, findLesson(content, 'p1-t01-l01')!).map(
+        (v) => v.id,
+      ),
+    ).toEqual(['v-TEST_VIDEO1']);
+    expect(lessonVideos(content, findLesson(content, 'p1-t01-l02')!)).toEqual(
+      [],
+    );
+  });
+
+  it('adds the own videos of a lesson once, after the topic videos', () => {
+    const bundle = makeBundle();
+    bundle.lessonsT01.lessons[0]!.videoIds = ['v-TEST_VIDEO1'];
+    bundle.lessonsT01.lessons[1]!.videoIds = ['v-TEST_VIDEO1'];
+    const content = buildContent(toFiles(bundle));
+    expect(
+      lessonVideos(content, findLesson(content, 'p1-t01-l01')!),
+    ).toHaveLength(1);
+    expect(
+      lessonVideos(content, findLesson(content, 'p1-t01-l02')!),
+    ).toHaveLength(1);
+  });
+
+  it('never returns a video that is not approved', () => {
+    const bundle = makeBundle();
+    bundle.videos.videos[0]!.status = 'candidate';
+    const content = buildContent(toFiles(bundle));
+    expect(lessonVideos(content, findLesson(content, 'p1-t01-l01')!)).toEqual(
+      [],
+    );
   });
 });
