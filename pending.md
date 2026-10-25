@@ -1041,17 +1041,18 @@ There are two levels. The **step gate** is quick and runs after every step. The 
 - A step is not done if its gate fails. Never commit failing code to move on.
 
 **M3 — Lesson player**
-- [ ] **M3.1 Answer checking** — `src/lib/normalize.ts` + `grading.ts` for all 8 exercise types and the capital-letter tip (7.6). Unit tests: each type right and wrong, every normalization rule.
-- [ ] **M3.2 Saved progress** — progress zod schema (7.5), storage service (load, zod parse, keep broken copy, 500 ms debounced save, save on `visibilitychange`/`pagehide`), `ProgressProvider` + reducer, `BrokenProgress` screen. Unit tests incl. empty and corrupted data.
-- [ ] **M3.3 Unlocking** — `src/lib/dates.ts` (`today()` with injectable clock) and `unlock.ts` (recommended order, phase test, next phase, `unlockAll`). Learn and topic pages show locked/unlocked/completed from progress. Unit tests.
-- [ ] **M3.4 Lesson player frame** — `/lesson/:lessonId`: which steps a lesson has (`lessonSteps.ts`: warm-up rule, video step only when it applies), step progress bar, next/back, save and resume the current step, exit, guard for locked or unknown lessons.
-- [ ] **M3.5 Explanation and examples steps** — renderer for every `Block` type, `{{en:…}}` markup, examples list, transliteration per setting (`auto` by phase).
-- [ ] **M3.6 Text-to-speech** — tts service (voice choice, `voiceschanged`, normal/slow rate, cancel) and `AudioButton`; no-English-voice notice. Unit tests with a mocked `speechSynthesis`.
-- [ ] **M3.7 Exercises, part 1** — `mcq`, `trueFalse`, `fill`, `translate` + shared feedback (✔/✖, correct answer, `explainGu`, retry in practice, mistake saved). Component tests.
-- [ ] **M3.8 Exercises, part 2** — `order` (word tiles), `match`, `listenChoose`, `listenType`. Component tests.
-- [ ] **M3.9 Practice, quiz and finish** — practice step, quiz step (5 questions, no retry, score, ≥ 3/5 completes, fail path), "use it today" step, "શાબાશ!" finish screen. On completion: lesson status, new words into SRS box 1 due tomorrow, day stats and minutes.
-- [ ] **M3.10 Video step** — youtube service (load API once, 10 s timeout, offline detection) and `VideoPlayer` (nocookie host, `playsinline`, start/end, save position every 5 s, watched at 90 %, resume, 0.75x/1x). Approved-only filter, placeholder, offline message, notes box, "words from this video", quick-check questions. Topic page shows topic videos. Tests with a mocked `YT`.
-- [ ] **M3.11 Speak and write steps (simple version)** — show speak items with `AudioButton` and write tasks with a text box, both with "આગળ વધો" (full recording and handwriting come in M5).
+- [x] **M3.1 Answer checking** — `src/lib/normalize.ts` + `grading.ts` for all 8 exercise types and the capital-letter tip (7.6). Unit tests: each type right and wrong, every normalization rule.
+- [x] **M3.2 Saved progress** — progress zod schema (7.5), storage service (load, zod parse, keep broken copy, 500 ms debounced save, save on `visibilitychange`/`pagehide`), `ProgressProvider` + reducer, `BrokenProgress` screen. Unit tests incl. empty and corrupted data.
+- [x] **M3.3 Unlocking** — `src/lib/dates.ts` (`today()` with injectable clock) and `unlock.ts` (recommended order, phase test, next phase, `unlockAll`). Learn and topic pages show locked/unlocked/completed from progress. Unit tests.
+- [x] **M3.4 Lesson player frame** — `/lesson/:lessonId`: which steps a lesson has (`lessonSteps.ts`: warm-up rule, video step only when it applies), step progress bar, next/back, save and resume the current step, exit, guard for locked or unknown lessons.
+- [x] **M3.5 Explanation and examples steps** — renderer for every `Block` type, `{{en:…}}` markup, examples list, transliteration per setting (`auto` by phase).
+- [x] **M3.6 Text-to-speech** — tts service (voice choice, `voiceschanged`, normal/slow rate, cancel) and `AudioButton`; no-English-voice notice. Unit tests with a mocked `speechSynthesis`.
+- [x] **M3.7 Exercises, part 1** — `mcq`, `trueFalse`, `fill`, `translate` + shared feedback (✔/✖, correct answer, `explainGu`, retry in practice, mistake saved). Component tests.
+- [x] **M3.8 Exercises, part 2** — `order` (word tiles), `match`, `listenChoose`, `listenType`. Component tests.
+- [x] **M3.9 Practice, quiz and finish** — practice step, quiz step (5 questions, no retry, score, ≥ 3/5 completes, fail path), "use it today" step, "શાબાશ!" finish screen. On completion: lesson status, new words into SRS box 1 due tomorrow, day stats and minutes.
+- [x] **M3.10 Video step** — youtube service (load API once, 10 s timeout, offline detection) and `VideoPlayer` (nocookie host, `playsinline`, start/end, save position every 5 s, watched at 90 %, resume, 0.75x/1x). Approved-only filter, placeholder, offline message, notes box, "words from this video", quick-check questions. Topic page shows topic videos. Tests with a mocked `YT`.
+- [ ] **M3.10b Video extras** — split from M3.10 (audited: the player, approved-only filter, placeholder, offline message and topic-page videos were done; these V.5 parts were missing): a notes box under each video (saved in `progress.notes`, key = video id), "words from this video" (`keyWordIds`, with audio and Gujarati meaning) and the 2–3 quick questions after the video (`checkQuestions`), in the lesson's video step and on the topic page. Component tests.
+- [x] **M3.11 Speak and write steps (simple version)** — show speak items with `AudioButton` and write tasks with a text box, both with "આગળ વધો" (full recording and handwriting come in M5).
 - [ ] **M3.12 Milestone check** — e2e: full sample-lesson flow, reload keeps progress, zero approved videos, network off. Full milestone gate, report, wait.
 
 **M4 — Progress and daily habits**
