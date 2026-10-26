@@ -9,6 +9,7 @@
     "ઘણાંમાંથી સૌથી ચડિયાતું (Superlative): ટૂંકા શબ્દને [[est]] લગાડો અને આગળ [[the]] મૂકો: [[tall]] → [[the tallest]], [[cheap]] → [[the cheapest]], [[big]] → [[the biggest]], [[happy]] → [[the happiest]]. લાંબા શબ્દ સાથે [[the most]]: [[the most beautiful]], [[the most expensive]]. જેમ કે [[Ravi is the tallest boy in the class.]]",
     "કેટલાક શબ્દો અનિયમિત છે, તેમને યાદ રાખવા: [[good]] → [[better]] → [[the best]] (સારું – વધારે સારું – સૌથી સારું). [[bad]] → [[worse]] → [[the worst]] (ખરાબ – વધારે ખરાબ – સૌથી ખરાબ). [[many]] / [[much]] → [[more]] → [[the most]] (ઘણું – વધારે – સૌથી વધારે).",
     "બે વસ્તુ સરખી હોય ત્યારે [[as]] + શબ્દ + [[as]] વપરાય છે: [[He is as tall as me.]] (તે મારા જેટલો ઊંચો છે). સરખા ન હોય તો [[not as]] + શબ્દ + [[as]]: [[This is not as expensive as that.]] (આ પેલા જેટલું મોંઘું નથી).",
+    "ક્રમ યાદ રાખો: કર્તા + is/are + વિશેષણ-er / more + than + બીજું. ગુજરાતીમાં \"કરતાં\" વાળો ભાગ પહેલાં આવે છે: \"રવિ મારા કરતાં ઊંચો છે.\" અંગ્રેજીમાં સરખામણીનો ભાગ [[than]] પછી આવે છે, અંતે: [[Ravi is taller than me.]] સૌથી ચડિયાતા માટે: કર્તા + is + [[the]] + વિશેષણ-est + જગ્યા: [[Ravi is the tallest boy in the class.]]",
     "યાદ રાખવાની સરળ રીત: બે વસ્તુ હોય તો [[er]] / [[more]] + [[than]]. બે થી વધારે હોય અને સૌથી ચડિયાતું શોધવું હોય તો [[the]] + [[est]] / [[the most]]."
   ],
   "examples": [
@@ -38,7 +39,8 @@
     { "en": "This is not as expensive as that.", "translit": "ધિસ ઇઝ નૉટ ઍઝ ઇક્સ્પેન્સિવ ઍઝ ધૅટ", "gu": "આ પેલા જેટલું મોંઘું નથી." },
     { "en": "than", "translit": "ધૅન", "gu": "કરતાં" },
     { "en": "more", "translit": "મોર", "gu": "વધારે" },
-    { "en": "the most", "translit": "ધ મોસ્ટ", "gu": "સૌથી વધારે" }
+    { "en": "the most", "translit": "ધ મોસ્ટ", "gu": "સૌથી વધારે" },
+    { "en": "Ravi + is + taller + than me", "translit": "રવિ + ઇઝ + ટૉલર + ધૅન મી", "gu": "રવિ + મારા કરતાં + ઊંચો + છે (\"કરતાં\" વાળો ભાગ અંતે આવે)" }
   ],
   "practice": [
     {
@@ -110,6 +112,20 @@
       "options": ["જેટલું", "કરતાં", "સૌથી"],
       "answer": 1,
       "explainGu": "than – ધૅન – કરતાં."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"રવિ મારા કરતાં ઊંચો છે.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Ravi is than me taller.", "Than me Ravi is taller.", "Ravi is taller than me."],
+      "answer": 2,
+      "explainGu": "Ravi is taller than me. – રવિ ઇઝ ટૉલર ધૅન મી. than વાળો ભાગ છેલ્લે આવે છે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"આ થેલી પેલી કરતાં વધારે મોંઘી છે.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["This bag than that bag is more expensive.", "This bag is more expensive than that bag.", "This bag is expensive more that bag than."],
+      "answer": 1,
+      "explainGu": "This bag is more expensive than that bag. – ધિસ બૅગ ઇઝ મોર ઇક્સ્પેન્સિવ ધૅન ધૅટ બૅગ."
     }
   ]
 }

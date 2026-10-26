@@ -9,6 +9,7 @@
     "Present Perfect માં કામ ક્યારે થયું તે કહેવાતું નથી, કામ થઈ ગયું છે એ મહત્ત્વનું છે. ચોક્કસ સમય (ગઈકાલે, ગયા વર્ષે) હોય તો Past Simple વપરાય: [[I went to Surat yesterday.]] પણ [[I have been to Surat.]] (હું સુરત ગયો છું, ક્યારે એ મહત્ત્વનું નથી). [[I have gone yesterday.]] ખોટું છે.",
     "આ શબ્દો Present Perfect સાથે વપરાય છે: [[just]] (હમણાં જ), [[already]] (પહેલેથી જ), [[yet]] (હજી – નકારમાં અને સવાલમાં), [[ever]] (ક્યારેય – સવાલમાં), [[never]] (ક્યારેય નહીં). જેમ કે [[She has just come.]], [[I have already eaten.]], [[Have you ever seen a tiger?]]",
     "[[for]] અને [[since]]: [[for]] પછી કેટલો સમય: [[for two years]] (બે વર્ષથી). [[since]] પછી ક્યારથી: [[since 2020]] (૨૦૨૦ થી), [[since Monday]] (સોમવારથી). [[I have lived here for two years.]] અને [[I have lived here since 2020.]]",
+    "ક્રમ યાદ રાખો: કર્તા + have/has + (just / already) + ક્રિયાનું ત્રીજું રૂપ + કર્મ. ગુજરાતીમાં \"લીધું છે / કર્યું છે\" છેલ્લે આવે છે: \"તેણે કામ પૂરું કરી લીધું છે.\" અંગ્રેજીમાં have/has કર્તા પછી તરત આવે છે: [[She has already finished the work.]] [[yet]] વાક્યના અંતે આવે છે: [[I haven't eaten yet.]]",
     "નકાર અને સવાલ: [[have not]] = [[haven't]], [[has not]] = [[hasn't]]: [[I haven't eaten yet.]], [[She hasn't come yet.]] સવાલમાં [[Have]] / [[Has]] શરૂઆતમાં આવે: [[Have you finished?]], [[Has he come?]] જવાબ: [[Yes, I have.]] / [[No, he hasn't.]]"
   ],
   "examples": [
@@ -49,7 +50,8 @@
     { "en": "yet", "translit": "યેટ", "gu": "હજી" },
     { "en": "ever", "translit": "એવર", "gu": "ક્યારેય (સવાલમાં)" },
     { "en": "for two years", "translit": "ફૉર ટૂ યર્ઝ", "gu": "બે વર્ષથી" },
-    { "en": "since Monday", "translit": "સિન્સ મન્ડે", "gu": "સોમવારથી" }
+    { "en": "since Monday", "translit": "સિન્સ મન્ડે", "gu": "સોમવારથી" },
+    { "en": "I + have + already + eaten", "translit": "આઇ + હૅવ + ઑલ્રેડી + ઈટન", "gu": "હું + પહેલેથી જ + જમી લીધું છે" }
   ],
   "practice": [
     {
@@ -121,6 +123,20 @@
       "options": ["I have lived here since two years.", "I live here for two years.", "I have lived here for two years."],
       "answer": 2,
       "explainGu": "કેટલો સમય એ માટે for: I have lived here for two years. ક્યારથી એ માટે since."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"તેણે કામ પૂરું કર્યું છે.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["She finished has the work.", "She has finished the work.", "She has the work finished."],
+      "answer": 1,
+      "explainGu": "She has finished the work. – શી હૅઝ ફિનિશ્ટ ધ વર્ક. ક્રમ: કર્તા + has + ત્રીજું રૂપ + કર્મ."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"મેં પહેલેથી જ જમી લીધું છે.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["I have already eaten.", "I eaten have already.", "Already eaten I have."],
+      "answer": 0,
+      "explainGu": "I have already eaten. – આઇ હૅવ ઑલ્રેડી ઈટન. already, have અને ક્રિયાની વચ્ચે આવે છે."
     }
   ]
 }

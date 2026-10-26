@@ -9,6 +9,7 @@
     "વિચારવા માટે સમય જોઈએ ત્યારે આ શબ્દો વાપરી શકાય: [[Well...]] (વેલ – તો...), [[Let me think.]] (લેટ મી થિંક – મને વિચારવા દો), [[You know...]] (યૂ નો – જુઓ...), [[Actually...]] (ઍક્ચ્યુઅલી – ખરેખર તો...), [[I mean...]] (આઇ મીન – મારો કહેવાનો અર્થ...). ચૂપ રહેવા કરતાં આ શબ્દો સારા લાગે છે.",
     "ઇન્ટોનેશન (અવાજનો ચઢાવ-ઉતાર): હા/ના જવાબ વાળા સવાલના અંતે અવાજ થોડો ઊંચો જાય છે: [[Are you coming?]] ↗. સામાન્ય વાક્ય અને [[What]], [[Where]] વાળા સવાલના અંતે અવાજ નીચે ઊતરે છે: [[I am coming.]] ↘, [[Where are you?]] ↘.",
     "બોલવાનો રોજિંદો અભ્યાસ: (૧) સવારે ઊઠીને પોતાને કહો [[I'm waking up. I'm drinking tea.]] (૨) દિવસ દરમિયાન જે કામ કરો તે મનમાં અંગ્રેજીમાં બોલો. (૩) તમારો પોતાનો અવાજ રેકૉર્ડ કરીને સાંભળો. (૪) રોજ 3 નવા શબ્દો શીખો અને દરેકને 3 વાર વાપરો. (૫) કોઈ સાથે અંગ્રેજીમાં વાત કરવાની તક શોધો.",
+    "બોલતાં પહેલાં વાક્યને ટુકડે ટુકડે બનાવો: પહેલાં નાનું વાક્ય [[I drink tea.]], પછી જગ્યા ઉમેરો [[I drink tea at home.]], પછી સમય [[I drink tea at home every morning.]] આ રીતે ક્રમ બગડતો નથી: કર્તા + ક્રિયા + કર્મ + જગ્યા + સમય. અટકી જાઓ તો ટૂંકું વાક્ય બોલી દો, પછી ઉમેરતા જાઓ.",
     "છેલ્લે, આ પાઠોમાંથી મુખ્ય ભૂલો ફરી યાદ કરો: [[I drink tea.]] ([[I am drink]] નહીં), [[He works.]] ([[s]] ભૂલશો નહીં), [[I went.]] ([[I go yesterday]] નહીં), [[She doesn't like.]] ([[doesn't likes]] નહીં), [[Where are you going?]] ([[Where you going]] નહીં). આ યાદ રાખશો તો તમારું અંગ્રેજી ઘણું સારું થઈ જશે. શાબાશ!"
   ],
   "examples": [
@@ -35,7 +36,8 @@
     { "en": "He works in a bank.", "translit": "હી વર્ક્સ ઇન અ બૅન્ક", "gu": "તે બૅન્કમાં કામ કરે છે." },
     { "en": "I went to school yesterday.", "translit": "આઇ વેન્ટ ટૂ સ્કૂલ યેસ્ટરડે", "gu": "હું ગઈકાલે શાળાએ ગયો." },
     { "en": "She doesn't like milk.", "translit": "શી ડઝન્ટ લાઇક મિલ્ક", "gu": "તેને દૂધ ગમતું નથી." },
-    { "en": "Where are you going?", "translit": "વેર આર યૂ ગોઇંગ", "gu": "તમે ક્યાં જાઓ છો?" }
+    { "en": "Where are you going?", "translit": "વેર આર યૂ ગોઇંગ", "gu": "તમે ક્યાં જાઓ છો?" },
+    { "en": "I drink tea. → I drink tea at home. → I drink tea at home every morning.", "translit": "આઇ ડ્રિન્ક ટી → આઇ ડ્રિન્ક ટી ઍટ હોમ → આઇ ડ્રિન્ક ટી ઍટ હોમ ઍવરી મૉર્નિંગ", "gu": "ટુકડે ટુકડે વાક્ય મોટું કરો" }
   ],
   "practice": [
     {
@@ -107,6 +109,20 @@
       "options": ["She doesn't likes milk.", "She doesn't like milk.", "She not like milk."],
       "answer": 1,
       "explainGu": "doesn't પછી s ન લાગે: She doesn't like milk."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"હું રોજ સવારે ઘરે ચા પીઉં છું.\" નો સાચો ક્રમ કયો?",
+      "options": ["I at home drink every morning tea.", "Every morning at home tea I drink.", "I drink tea at home every morning."],
+      "answer": 2,
+      "explainGu": "I drink tea at home every morning. – આઇ ડ્રિન્ક ટી ઍટ હોમ ઍવરી મૉર્નિંગ. કર્તા, ક્રિયા, કર્મ, જગ્યા, સમય."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"તેઓ કાલે બજારમાં જશે.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["They will go to the market tomorrow.", "They go will to the market tomorrow.", "Tomorrow the market to they will go."],
+      "answer": 0,
+      "explainGu": "They will go to the market tomorrow. – ધે વિલ ગો ટૂ ધ માર્કેટ ટુમૉરો."
     }
   ]
 }

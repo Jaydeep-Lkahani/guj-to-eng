@@ -8,6 +8,7 @@
     "સૌથી મોટી ભૂલ: ગુજરાતીમાં \"પીઉં છું\" માં \"છું\" આવે છે, એટલે ઘણા લોકો [[I am drink tea.]] બોલે છે. આ ખોટું છે! બીજી ક્રિયા સાથે [[am]], [[is]], [[are]] નથી આવતા. સાચું છે [[I drink tea.]] અને [[He works.]]",
     "કેટલી વાર થાય છે તે દર્શાવવા માટે આ શબ્દો વપરાય: [[always]] (હંમેશાં), [[usually]] (સામાન્ય રીતે), [[often]] (ઘણી વાર), [[sometimes]] (ક્યારેક), [[never]] (ક્યારેય નહીં). તે ક્રિયાની પહેલાં આવે છે: [[I always drink tea.]], [[She never eats meat.]]",
     "સમય માટે આ શબ્દો ઉપયોગી છે: [[every day]] (રોજ), [[in the morning]] (સવારે), [[at night]] (રાત્રે), [[at six]] (છ વાગ્યે), [[on Sunday]] (રવિવારે).",
+    "વાક્ય ગોઠવવાનો ક્રમ: કર્તા + (always / often જેવો શબ્દ) + ક્રિયા + કર્મ + જગ્યા + સમય. ગુજરાતીમાં ક્રિયા છેલ્લે આવે છે: \"તે હંમેશાં સવારે ચા પીએ છે.\" અંગ્રેજીમાં ક્રિયા કર્તા પછી (અથવા always પછી) આવે છે અને સમય છેલ્લે: [[She always drinks tea in the morning.]]",
     "આ પાઠમાં \"નથી\" વાળાં વાક્યો અને સવાલો નથી. તે ભાગ 2 ના આગળના પાઠમાં શીખીશું."
   ],
   "examples": [
@@ -44,7 +45,8 @@
     { "en": "sometimes", "translit": "સમટાઇમ્ઝ", "gu": "ક્યારેક" },
     { "en": "never", "translit": "નેવર", "gu": "ક્યારેય નહીં" },
     { "en": "I always drink tea in the morning.", "translit": "આઇ ઑલ્વેઝ ડ્રિંક ટી ઇન ધ મૉર્નિંગ", "gu": "હું હંમેશાં સવારે ચા પીઉં છું." },
-    { "en": "She never eats meat.", "translit": "શી નેવર ઈટ્સ મીટ", "gu": "તે ક્યારેય માંસ ખાતી નથી." }
+    { "en": "She never eats meat.", "translit": "શી નેવર ઈટ્સ મીટ", "gu": "તે ક્યારેય માંસ ખાતી નથી." },
+    { "en": "She + always + drinks + tea + in the morning", "translit": "શી + ઑલ્વેઝ + ડ્રિન્ક્સ + ટી + ઇન ધ મૉર્નિંગ", "gu": "તે + હંમેશાં + ચા પીએ છે + સવારે" }
   ],
   "practice": [
     {
@@ -120,6 +122,20 @@
       ],
       "answer": 0,
       "explainGu": "always ક્રિયા (drink) ની પહેલાં આવે: I always drink tea."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"હું રોજ ચા પીઉં છું.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["I every day tea drink.", "I drink tea every day.", "Every day I am drink tea."],
+      "answer": 1,
+      "explainGu": "I drink tea every day. – આઇ ડ્રિન્ક ટી ઍવરી ડે. ક્રમ: કર્તા + ક્રિયા + કર્મ + સમય."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"તે હંમેશાં સવારે ચા પીએ છે.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["She drinks always tea in the morning.", "Always she tea drinks in the morning.", "She always drinks tea in the morning."],
+      "answer": 2,
+      "explainGu": "She always drinks tea in the morning. – શી ઑલ્વેઝ ડ્રિન્ક્સ ટી ઇન ધ મૉર્નિંગ. always ક્રિયાની પહેલાં આવે છે."
     }
   ]
 }

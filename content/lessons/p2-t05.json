@@ -9,6 +9,7 @@
     "ભૂતકાળ (Past Simple) માં બધા સાથે [[did not]] (ટૂંકમાં [[didn't]] – ડિડન્ટ) આવે, અને પછી ક્રિયા જેમ છે તેમ આવે. [[I didn't go.]], [[She didn't come.]], [[They didn't play.]] અહીં [[went]] કે [[came]] નથી આવતું, કારણ કે ભૂતકાળનું કામ [[did]] એ કરી દીધું. [[I didn't went.]] ખોટું છે.",
     "ભવિષ્યકાળ માટે [[will not]] ટૂંકમાં [[won't]] (વોન્ટ) થાય છે: [[I won't go tomorrow.]] (હું કાલે નહીં જાઉં). અત્યારે ચાલતા કામ માટે [[am not]] / [[isn't]] / [[aren't]] + [[ing]]: [[He isn't sleeping.]], [[We aren't watching TV.]]",
     "બીજા નકારાત્મક શબ્દો: [[no]] (નહીં, કોઈ નહીં), [[never]] (ક્યારેય નહીં), [[nothing]] (કંઈ નહીં), [[nobody]] (કોઈ નહીં). અંગ્રેજીમાં એક વાક્યમાં એક જ \"ના\" રાખો: [[I don't know anything.]] અથવા [[I know nothing.]] — [[I don't know nothing.]] ખોટું છે.",
+    "ક્રમ યાદ રાખો: કર્તા + don't / doesn't / didn't / won't (અથવા am/is/are + not) + ક્રિયા + બાકીનું. ગુજરાતીમાં \"નથી\" છેલ્લે આવે છે: \"હું ચા પીતો નથી.\" અંગ્રેજીમાં \"ના\" નો શબ્દ કર્તા પછી તરત, ક્રિયાની પહેલાં આવે છે: [[I don't drink tea.]]",
     "આ પાઠમાં સવાલો નથી. તે હવે પછીના પાઠમાં શીખીશું."
   ],
   "examples": [
@@ -40,7 +41,8 @@
     { "en": "nothing", "translit": "નથિંગ", "gu": "કંઈ નહીં" },
     { "en": "nobody", "translit": "નોબડી", "gu": "કોઈ નહીં" },
     { "en": "I don't know anything.", "translit": "આઇ ડોન્ટ નો ઍનિથિંગ", "gu": "મને કંઈ ખબર નથી." },
-    { "en": "I know nothing.", "translit": "આઇ નો નથિંગ", "gu": "મને કંઈ ખબર નથી." }
+    { "en": "I know nothing.", "translit": "આઇ નો નથિંગ", "gu": "મને કંઈ ખબર નથી." },
+    { "en": "I + don't + drink + tea", "translit": "આઇ + ડોન્ટ + ડ્રિન્ક + ટી", "gu": "હું + ચા + પીતો નથી (\"નથી\" ક્રિયાની પહેલાં આવે)" }
   ],
   "practice": [
     {
@@ -112,6 +114,20 @@
       "options": ["I don't know nothing.", "I don't know anything.", "I no know anything."],
       "answer": 1,
       "explainGu": "એક વાક્યમાં એક જ ના: I don't know anything. અથવા I know nothing."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"હું ચા પીતો નથી.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["I drink not tea.", "I tea don't drink.", "I don't drink tea."],
+      "answer": 2,
+      "explainGu": "I don't drink tea. – આઇ ડોન્ટ ડ્રિન્ક ટી. \"નથી\" (don't) ક્રિયાની પહેલાં આવે છે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"અમે ગઈકાલે શાળાએ ગયા નહોતા.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["We didn't went to school yesterday.", "We didn't go to school yesterday.", "We went not to school yesterday."],
+      "answer": 1,
+      "explainGu": "We didn't go to school yesterday. – વી ડિડન્ટ ગો ટૂ સ્કૂલ યેસ્ટરડે. didn't પછી ક્રિયા જેમ છે તેમ આવે."
     }
   ]
 }

@@ -9,6 +9,7 @@
     "[[because]] (બિકૉઝ) = કારણ કે. કારણ બતાવવા: [[I slept because I was tired.]] (હું સૂઈ ગયો કારણ કે હું થાકેલો હતો). [[because]] પછી કારણ આવે, જ્યારે [[so]] પછી પરિણામ આવે.",
     "સૌથી મોટી ભૂલ: ગુજરાતીમાં \"કારણ કે… એટલે…\" બોલાય છે, પણ અંગ્રેજીમાં બંને સાથે ન વપરાય. [[Because I was tired, so I slept.]] ખોટું છે. સાચું છે [[I was tired, so I slept.]] અથવા [[I slept because I was tired.]] — એક જ શબ્દ વાપરો.",
     "સમય જોડવા: [[when]] (વેન) = જ્યારે, [[while]] (વાઇલ) = જે દરમિયાન, [[before]] (બિફૉર) = પહેલાં, [[after]] (આફ્ટર) = પછી. [[When I came home, she was cooking.]], [[I read a book while I was waiting.]], [[Wash your hands before you eat.]], [[I will call you after I reach home.]]",
+    "બે વાક્ય જોડવાની રીત: પહેલાં દરેક નાનો ભાગ અલગ અલગ અંગ્રેજી ક્રમમાં (કર્તા + ક્રિયા + કર્મ) બનાવો, પછી વચ્ચે [[and]] / [[but]] / [[so]] / [[because]] મૂકો. \"મેં ચા પીધી અને ટીવી જોયું\" → [[I drank tea and watched TV.]] \"તે ઘરે ગઈ કારણ કે તે થાકેલી હતી\" → [[She went home because she was tired.]]",
     "ભવિષ્યની વાતમાં [[when]], [[before]], [[after]] પછી [[will]] ન આવે, [[if]] ની જેમ Present Simple આવે: [[I will call you when I reach home.]] સાચું છે. [[when I will reach home]] ખોટું છે."
   ],
   "examples": [
@@ -36,7 +37,8 @@
     { "en": "when", "translit": "વેન", "gu": "જ્યારે" },
     { "en": "while", "translit": "વાઇલ", "gu": "દરમિયાન" },
     { "en": "before", "translit": "બિફૉર", "gu": "પહેલાં" },
-    { "en": "after", "translit": "આફ્ટર", "gu": "પછી" }
+    { "en": "after", "translit": "આફ્ટર", "gu": "પછી" },
+    { "en": "I + drank + tea + and + watched + TV", "translit": "આઇ + ડ્રૅન્ક + ટી + ઍન્ડ + વૉચ્ટ + ટીવી", "gu": "મેં + ચા પીધી + અને + ટીવી જોયું" }
   ],
   "practice": [
     {
@@ -108,6 +110,20 @@
       "options": ["પછી", "અથવા", "દરમિયાન"],
       "answer": 2,
       "explainGu": "while – વાઇલ – દરમિયાન."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"મેં ચા પીધી અને ટીવી જોયું.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["I tea drank and TV watched.", "I drank tea and watched TV.", "I drank tea and I watched TV I."],
+      "answer": 1,
+      "explainGu": "I drank tea and watched TV. – આઇ ડ્રૅન્ક ટી ઍન્ડ વૉચ્ટ ટીવી. બીજા ભાગમાં કર્તા ફરીથી લખવો જરૂરી નથી."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"તે ઘરે ગઈ કારણ કે તે થાકેલી હતી.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["She went home because was tired she.", "Because she went home she was tired.", "She went home because she was tired."],
+      "answer": 2,
+      "explainGu": "She went home because she was tired. – શી વેન્ટ હોમ બિકૉઝ શી વૉઝ ટાયર્ડ. because પછી પૂરું વાક્ય (કર્તા + ક્રિયા) આવે છે."
     }
   ]
 }

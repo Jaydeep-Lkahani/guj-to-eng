@@ -9,6 +9,7 @@
     "સામે સવાલ પૂછવા માટે [[And you?]] કે [[What about you?]] કહો. કોઈ તમને પૂછે [[How are you?]] તો જવાબ આપીને પાછું પૂછો: [[I'm fine, thanks. And you?]] આથી વાતચીત આગળ ચાલે છે.",
     "સાથે કંઈ કરવાનું સૂચન કરવા માટે [[Let's]] + ક્રિયા વપરાય છે: [[Let's go.]] (ચાલો જઈએ), [[Let's meet at the market.]] (ચાલો બજારમાં મળીએ), [[Let's eat.]] (ચાલો જમીએ). [[Let's]] પછી ક્રિયા જેમ છે તેમ આવે.",
     "દુકાનમાં કંઈ આપતી વખતે [[Here you are.]] (હીયર યૂ આર – લો, આ રહ્યું) કહેવાય. વાત પૂરી થાય ત્યારે [[See you tomorrow.]] (કાલે મળીશું) અથવા [[Goodbye.]] કહો.",
+    "સવાલનો જવાબ સવાલના જ શબ્દોથી બનાવો, કર્તા પછી ક્રિયાના ક્રમમાં: [[Where do you live?]] ના જવાબમાં [[I live in Surat.]] (કર્તા + ક્રિયા + જગ્યા). [[Do you drink tea?]] ના જવાબમાં [[Yes, I do.]] ગુજરાતીનો ક્રમ \"હું સુરતમાં રહું છું\" અંગ્રેજીમાં ફેરવવો હોય તો કર્તા પછી તરત ક્રિયા મૂકો.",
     "અભ્યાસ માટે: દરેક વાતચીતમાં બંને ભૂમિકા જાતે બોલો. પહેલા એક વ્યક્તિ બનો, પછી બીજી. ગુજરાતી શબ્દે શબ્દે ભાષાંતર કરવાને બદલે આખું અંગ્રેજી વાક્ય યાદ કરો."
   ],
   "examples": [
@@ -45,7 +46,8 @@
     { "en": "What about you?", "translit": "વૉટ અબાઉટ યૂ", "gu": "અને તમે?" },
     { "en": "Let's go.", "translit": "લેટ્સ ગો", "gu": "ચાલો જઈએ." },
     { "en": "Let's eat.", "translit": "લેટ્સ ઈટ", "gu": "ચાલો જમીએ." },
-    { "en": "See you tomorrow.", "translit": "સી યૂ ટુમૉરો", "gu": "કાલે મળીશું." }
+    { "en": "See you tomorrow.", "translit": "સી યૂ ટુમૉરો", "gu": "કાલે મળીશું." },
+    { "en": "Where do you live? – I live in Surat.", "translit": "વેર ડૂ યૂ લિવ? – આઇ લિવ ઇન સુરત", "gu": "તમે ક્યાં રહો છો? – હું સુરતમાં રહું છું." }
   ],
   "practice": [
     {
@@ -117,6 +119,20 @@
       "options": ["ખરેખર?", "અલબત્ત", "ધીમે બોલો"],
       "answer": 0,
       "explainGu": "Really? – રિયલી – ખરેખર? Of course – ઑફ કૉર્સ – અલબત્ત."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"Where do you live?\" નો સાચો જવાબ કયો?",
+      "options": ["I Surat live in.", "Live I in Surat.", "I live in Surat."],
+      "answer": 2,
+      "explainGu": "I live in Surat. – આઇ લિવ ઇન સુરત. ક્રમ: કર્તા + ક્રિયા + જગ્યા."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"ચાલો બજારમાં મળીએ.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Let's the market meet at.", "Let's meet at the market.", "Meet let's at the market."],
+      "answer": 1,
+      "explainGu": "Let's meet at the market. – લેટ્સ મીટ ઍટ ધ માર્કેટ. Let's પછી ક્રિયા, પછી જગ્યા."
     }
   ]
 }

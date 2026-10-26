@@ -9,6 +9,7 @@
     "અત્યારે ચાલતા કામ માટે આ શબ્દો ઉપયોગી છે: [[now]] (હમણાં), [[right now]] (અત્યારે જ), [[at the moment]] (આ સમયે), [[today]] (આજે). [[Look!]] (જુઓ!) અને [[Listen!]] (સાંભળો!) પછી પણ આ જ રીત આવે છે: [[Look! It is raining.]]",
     "બંને વચ્ચેનો ફરક યાદ રાખો: [[I drink tea every day.]] = હું રોજ ચા પીઉં છું (ટેવ). [[I am drinking tea now.]] = હું અત્યારે ચા પી રહી છું (હમણાં ચાલે છે). રોજ કે વારંવાર હોય તો સાદું રૂપ, અત્યારે ચાલતું હોય તો [[ing]] વાળું રૂપ.",
     "કેટલીક ક્રિયાઓ સાથે [[ing]] નથી લાગતું, કારણ કે તે કામ નથી પણ લાગણી કે જાણકારી છે: [[like]] (ગમવું), [[love]] (પ્રેમ કરવો), [[want]] (જોઈએ), [[know]] (જાણવું). આપણે [[I like tea.]] કહીએ, [[I am liking tea.]] ખોટું છે.",
+    "ક્રમ યાદ રાખો: કર્તા + am/is/are + ક્રિયા-ing + કર્મ + જગ્યા/સમય. ગુજરાતીમાં \"ચા પી રહી છું\" ના બંને ભાગ (ક્રિયા અને \"રહી છું\") છેલ્લે આવે છે. અંગ્રેજીમાં am/is/are કર્તા પછી તરત આવે છે અને ક્રિયા-ing તેની પાછળ: [[I am drinking tea now.]]",
     "આ પાઠમાં \"નથી\" વાળાં વાક્યો અને સવાલો નથી. તે ભાગ 2 ના આગળના પાઠમાં શીખીશું."
   ],
   "examples": [
@@ -39,7 +40,8 @@
     { "en": "I drink tea every day.", "translit": "આઇ ડ્રિંક ટી એવરી ડે", "gu": "હું રોજ ચા પીઉં છું." },
     { "en": "I am drinking tea now.", "translit": "આઇ ઍમ ડ્રિંકિંગ ટી નાઉ", "gu": "હું અત્યારે ચા પી રહી છું." },
     { "en": "I like tea.", "translit": "આઇ લાઇક ટી", "gu": "મને ચા ગમે છે." },
-    { "en": "She wants water.", "translit": "શી વૉન્ટ્સ વૉટર", "gu": "તેને પાણી જોઈએ છે." }
+    { "en": "She wants water.", "translit": "શી વૉન્ટ્સ વૉટર", "gu": "તેને પાણી જોઈએ છે." },
+    { "en": "I + am + drinking + tea + now", "translit": "આઇ + ઍમ + ડ્રિન્કિંગ + ટી + નાઉ", "gu": "હું + ચા + પી રહી છું + અત્યારે" }
   ],
   "practice": [
     {
@@ -111,6 +113,20 @@
       "options": ["રોજ", "ગઈકાલે", "અત્યારે જ"],
       "answer": 2,
       "explainGu": "right now – રાઇટ નાઉ – અત્યારે જ. every day – એવરી ડે – રોજ."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"તે પુસ્તક વાંચી રહી છે.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["She reading is a book.", "She is reading a book.", "She reads is a book."],
+      "answer": 1,
+      "explainGu": "She is reading a book. – શી ઇઝ રીડિંગ અ બુક. ક્રમ: કર્તા + is + ક્રિયા-ing + કર્મ."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"અમે અત્યારે ભાત ખાઈ રહ્યા છીએ.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Now we rice are eating.", "We eating are rice now.", "We are eating rice now."],
+      "answer": 2,
+      "explainGu": "We are eating rice now. – વી આર ઈટિંગ રાઇસ નાઉ. સમય (now) વાક્યના અંતે આવે છે."
     }
   ]
 }

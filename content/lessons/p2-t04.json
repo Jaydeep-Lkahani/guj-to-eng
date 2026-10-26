@@ -8,6 +8,7 @@
     "ક્યારે કયું વાપરવું: જે કામનું પહેલેથી વિચારી રાખ્યું હોય, પ્લાન હોય, તેના માટે [[going to]]: [[I am going to buy a car.]] (મેં નક્કી કર્યું છે). જે કામનું હમણાં જ નક્કી કર્યું હોય, વચન આપતા હો કે અંદાજ લગાવતા હો, તેના માટે [[will]]: [[I will help you.]] (હું તમારી મદદ કરીશ), [[It will rain tomorrow.]] (કાલે વરસાદ પડશે).",
     "[[I will]] ને ટૂંકમાં [[I'll]] (આઇલ) કહેવાય છે. બોલવામાં આ ખૂબ વપરાય છે: [[I'll call you.]] (હું તમને ફોન કરીશ). [[She will]] નું [[She'll]] થાય છે.",
     "ભવિષ્યકાળ દર્શાવતા શબ્દો: [[tomorrow]] (કાલે), [[tonight]] (આજે રાત્રે), [[next week]] (આવતા અઠવાડિયે), [[next year]] (આવતા વર્ષે), [[soon]] (જલ્દી), [[in two days]] (બે દિવસ પછી). જેમ કે [[We will meet next week.]]",
+    "ક્રમ યાદ રાખો: કર્તા + will + ક્રિયા + કર્મ/જગ્યા + સમય. ગુજરાતીમાં \"જઈશ\" ક્રિયા સાથે જોડાયેલું છે અને છેલ્લે આવે છે: \"હું કાલે શાળાએ જઈશ.\" અંગ્રેજીમાં [[will]] અલગ શબ્દ છે અને કર્તા પછી આવે છે: [[I will go to school tomorrow.]] [[going to]] માં કર્તા + am/is/are + going to + ક્રિયા.",
     "આ પાઠમાં \"નથી\" વાળાં વાક્યો અને સવાલો નથી. તે ભાગ 2 ના આગળના પાઠમાં શીખીશું."
   ],
   "examples": [
@@ -33,7 +34,8 @@
     { "en": "next year", "translit": "નેક્સ્ટ યર", "gu": "આવતા વર્ષે" },
     { "en": "soon", "translit": "સૂન", "gu": "જલ્દી" },
     { "en": "in two days", "translit": "ઇન ટૂ ડેઝ", "gu": "બે દિવસ પછી" },
-    { "en": "I will see you soon.", "translit": "આઇ વિલ સી યૂ સૂન", "gu": "હું તમને જલ્દી મળીશ." }
+    { "en": "I will see you soon.", "translit": "આઇ વિલ સી યૂ સૂન", "gu": "હું તમને જલ્દી મળીશ." },
+    { "en": "I + will + go + to school + tomorrow", "translit": "આઇ + વિલ + ગો + ટૂ સ્કૂલ + ટુમૉરો", "gu": "હું + શાળાએ + જઈશ + કાલે" }
   ],
   "practice": [
     {
@@ -105,6 +107,20 @@
       "options": ["ગયા અઠવાડિયે", "આ અઠવાડિયે", "આવતા અઠવાડિયે"],
       "answer": 2,
       "explainGu": "next week – નેક્સ્ટ વીક – આવતા અઠવાડિયે. last week – લાસ્ટ વીક – ગયા અઠવાડિયે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"હું કાલે શાળાએ જઈશ.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["I go will to school tomorrow.", "I will to go school tomorrow.", "I will go to school tomorrow."],
+      "answer": 2,
+      "explainGu": "I will go to school tomorrow. – આઇ વિલ ગો ટૂ સ્કૂલ ટુમૉરો. ક્રમ: કર્તા + will + ક્રિયા + જગ્યા + સમય."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"તે કાલે આવશે.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["She comes will tomorrow.", "She will come tomorrow.", "She will comes tomorrow."],
+      "answer": 1,
+      "explainGu": "She will come tomorrow. – શી વિલ કમ ટુમૉરો. will પછી ક્રિયા જેમ છે તેમ આવે."
     }
   ]
 }

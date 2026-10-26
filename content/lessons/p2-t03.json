@@ -9,6 +9,7 @@
     "સૌથી મોટી ભૂલ: ભૂતકાળમાં ક્રિયાનું મૂળ રૂપ ન વાપરો. [[I go to school yesterday.]] ખોટું છે, સાચું છે [[I went to school yesterday.]] અને [[am]] / [[is]] / [[are]] પણ ન ઉમેરો: [[I am went]] ખોટું છે.",
     "[[am]] / [[is]] / [[are]] નું ભૂતકાળનું રૂપ [[was]] અને [[were]] છે. [[I]], [[He]], [[She]], [[It]] સાથે [[was]]: [[I was at home.]] [[You]], [[We]], [[They]] સાથે [[were]]: [[They were happy.]]",
     "ભૂતકાળ દર્શાવતા શબ્દો: [[yesterday]] (ગઈકાલે), [[last night]] (ગઈ રાત્રે), [[last week]] (ગયા અઠવાડિયે), [[last year]] (ગયા વર્ષે), [[two days ago]] (બે દિવસ પહેલાં). જેમ કે [[We watched TV last night.]]",
+    "ગુજરાતીમાં ભૂતકાળમાં \"મેં\", \"તેણે\", \"અમે\" જેવા શબ્દો આવે છે: \"મેં ગઈકાલે ચા પીધી.\" અંગ્રેજીમાં કર્તા હંમેશાં [[I]], [[She]], [[We]] જેવો જ રહે છે, [[Me drank]] ન કહેવાય. ક્રમ: કર્તા + ભૂતકાળની ક્રિયા + કર્મ + જગ્યા + સમય: [[I drank tea yesterday.]]",
     "આ પાઠમાં \"નથી\" વાળાં વાક્યો અને સવાલો નથી. તે ભાગ 2 ના આગળના પાઠમાં શીખીશું."
   ],
   "examples": [
@@ -44,7 +45,8 @@
     { "en": "yesterday", "translit": "યેસ્ટરડે", "gu": "ગઈકાલે" },
     { "en": "last night", "translit": "લાસ્ટ નાઇટ", "gu": "ગઈ રાત્રે" },
     { "en": "last week", "translit": "લાસ્ટ વીક", "gu": "ગયા અઠવાડિયે" },
-    { "en": "two days ago", "translit": "ટૂ ડેઝ અગો", "gu": "બે દિવસ પહેલાં" }
+    { "en": "two days ago", "translit": "ટૂ ડેઝ અગો", "gu": "બે દિવસ પહેલાં" },
+    { "en": "I + drank + tea + yesterday", "translit": "આઇ + ડ્રૅન્ક + ટી + યેસ્ટરડે", "gu": "હું (મેં) + ચા પીધી + ગઈકાલે" }
   ],
   "practice": [
     {
@@ -116,6 +118,20 @@
       "options": ["બે દિવસ પછી", "બે દિવસ પહેલાં", "આજે બે દિવસ"],
       "answer": 1,
       "explainGu": "two days ago – ટૂ ડેઝ અગો – બે દિવસ પહેલાં."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"મેં ગઈકાલે ચા પીધી.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Me drank tea yesterday.", "I tea drank yesterday.", "I drank tea yesterday."],
+      "answer": 2,
+      "explainGu": "I drank tea yesterday. – આઇ ડ્રૅન્ક ટી યેસ્ટરડે. \"મેં\" નું I બને છે અને yesterday છેલ્લે આવે છે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"અમે ગઈકાલે ટીવી જોયું.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["We TV watched yesterday.", "We watched TV yesterday.", "Yesterday we are watched TV."],
+      "answer": 1,
+      "explainGu": "We watched TV yesterday. – વી વૉચ્ટ ટીવી યેસ્ટરડે. ક્રમ: કર્તા + ક્રિયા + કર્મ + સમય."
     }
   ]
 }

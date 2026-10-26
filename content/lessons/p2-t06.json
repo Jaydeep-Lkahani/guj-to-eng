@@ -9,6 +9,7 @@
     "જ્યારે \"શું, ક્યાં, ક્યારે, કોણ, કેમ\" જેવા સવાલ હોય ત્યારે આ સવાલ-શબ્દો વાપરવા: [[What]] (શું), [[Where]] (ક્યાં), [[When]] (ક્યારે), [[Who]] (કોણ), [[Why]] (કેમ), [[How]] (કેવી રીતે), [[Which]] (કયું), [[Whose]] (કોનું).",
     "સવાલ-શબ્દ પહેલાં આવે, પછી મદદગાર શબ્દ, પછી કર્તા (I, you, he…), પછી ક્રિયા. [[What do you want?]] (તમને શું જોઈએ છે?), [[Where does she live?]] (તે ક્યાં રહે છે?), [[When did you come?]] (તમે ક્યારે આવ્યા?), [[Why are you crying?]] (તમે કેમ રડો છો?).",
     "સૌથી મોટી ભૂલ: ગુજરાતીના ક્રમમાં બોલવું. [[What you want?]] અને [[Where you are going?]] ખોટા છે. સાચા છે [[What do you want?]] અને [[Where are you going?]] — મદદગાર શબ્દ કર્તાની પહેલાં આવે.",
+    "સવાલનો ક્રમ: સવાલ-શબ્દ + do/does/did + કર્તા + ક્રિયા + બાકીનું. ગુજરાતીમાં સવાલ-શબ્દ વાક્યની વચ્ચે આવે છે: \"તમે શું ખાઓ છો?\" અંગ્રેજીમાં સવાલ-શબ્દ સૌથી પહેલાં આવે છે: [[What do you eat?]] તે જ રીતે \"તે ક્યાં રહે છે?\" = [[Where does she live?]]",
     "ગણતરી અને ઉંમર માટે: [[How many]] (કેટલા, ગણી શકાય તેવા માટે): [[How many children do you have?]]. [[How much]] (કેટલું, માપી શકાય તેવા માટે): [[How much is this?]] (આની કિંમત કેટલી છે?). [[How old]] (કેટલી ઉંમર): [[How old are you?]]"
   ],
   "examples": [
@@ -45,7 +46,8 @@
     { "en": "Whose bag is this?", "translit": "હૂઝ બૅગ ઇઝ ધિસ", "gu": "આ કોની થેલી છે?" },
     { "en": "How many children do you have?", "translit": "હાઉ મેની ચિલ્ડ્રન ડૂ યૂ હૅવ", "gu": "તમારે કેટલાં બાળકો છે?" },
     { "en": "How much is this?", "translit": "હાઉ મચ ઇઝ ધિસ", "gu": "આની કિંમત કેટલી છે?" },
-    { "en": "How old are you?", "translit": "હાઉ ઓલ્ડ આર યૂ", "gu": "તમારી ઉંમર કેટલી છે?" }
+    { "en": "How old are you?", "translit": "હાઉ ઓલ્ડ આર યૂ", "gu": "તમારી ઉંમર કેટલી છે?" },
+    { "en": "What + do + you + eat?", "translit": "વૉટ + ડૂ + યૂ + ઈટ", "gu": "શું + (do) + તમે + ખાઓ છો" }
   ],
   "practice": [
     {
@@ -117,6 +119,27 @@
       "options": ["How old are you?", "How many are you?", "How much old you?"],
       "answer": 0,
       "explainGu": "How old are you? – હાઉ ઓલ્ડ આર યૂ"
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"તમે શું ખાઓ છો?\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["You what eat?", "What you eat?", "What do you eat?"],
+      "answer": 2,
+      "explainGu": "What do you eat? – વૉટ ડૂ યૂ ઈટ? સવાલ-શબ્દ પહેલાં, પછી do, પછી કર્તા, પછી ક્રિયા."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"તે ક્યાં રહે છે?\" (સ્ત્રી) ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Where she lives?", "Where does she live?", "She where lives?"],
+      "answer": 1,
+      "explainGu": "Where does she live? – વેર ડઝ શી લિવ? does પછી ક્રિયામાં s ન લાગે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"તેઓ ક્યારે આવ્યા?\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["When did they come?", "When they came?", "They when came?"],
+      "answer": 0,
+      "explainGu": "When did they come? – વેન ડિડ ધે કમ? did પછી ક્રિયા જેમ છે તેમ આવે."
     }
   ]
 }

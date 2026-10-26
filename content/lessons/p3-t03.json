@@ -9,6 +9,7 @@
     "હંમેશાં સાચી વાત માટે બંને ભાગમાં Present Simple આવે: [[If you heat ice, it melts.]] (બરફને ગરમ કરો તો તે ઓગળે છે). [[If you mix red and yellow, you get orange.]]",
     "જે શક્ય નથી કે કલ્પના છે, તેના માટે [[if]] પછી ભૂતકાળનું રૂપ અને પરિણામમાં [[would]] (વુડ) + ક્રિયા: [[If I had a lot of money, I would buy a house.]] (જો મારી પાસે બહુ પૈસા હોત તો હું ઘર ખરીદત). સલાહ આપવા: [[If I were you, I would go.]] (હું તમારી જગ્યાએ હોઉં તો જાઉં). અહીં [[I were]] કહેવાય, [[I was]] નહીં.",
     "[[unless]] (અનલેસ) નો અર્થ \"જો ન હોય તો\": [[I will go unless it rains.]] (વરસાદ ન પડે તો હું જઈશ). [[unless]] સાથે નકાર નથી આવતો: [[unless it doesn't rain]] ખોટું છે.",
+    "ક્રમ યાદ રાખો: If + કર્તા + ક્રિયા, કર્તા + will + ક્રિયા. ગુજરાતીમાં \"જો\" શરૂઆતમાં આવે છે અને દરેક ભાગમાં ક્રિયા છેલ્લે: \"જો તે આવશે તો હું જઈશ.\" અંગ્રેજીમાં દરેક ભાગમાં કર્તા પછી તરત ક્રિયા: [[If he comes, I will go.]] દરેક ભાગનો પોતાનો કર્તા હોય છે, અને \"તો\" માટે કોઈ શબ્દ નથી, ફક્ત comma.",
     "આ પાઠમાં આપણે [[if]] ની ત્રણ રીત શીખ્યા: સાચી શક્યતા ([[will]]), હંમેશાંની વાત (Present Simple) અને કલ્પના ([[would]])."
   ],
   "examples": [
@@ -29,7 +30,8 @@
     { "en": "I will go unless it rains.", "translit": "આઇ વિલ ગો અનલેસ ઇટ રેઇન્ઝ", "gu": "વરસાદ ન પડે તો હું જઈશ." },
     { "en": "if", "translit": "ઇફ", "gu": "જો" },
     { "en": "unless", "translit": "અનલેસ", "gu": "જો ન હોય તો" },
-    { "en": "would", "translit": "વુડ", "gu": "(કલ્પનામાં) કરત, ખરીદત" }
+    { "en": "would", "translit": "વુડ", "gu": "(કલ્પનામાં) કરત, ખરીદત" },
+    { "en": "If + he + comes, I + will + go", "translit": "ઇફ + હી + કમ્ઝ, આઇ + વિલ + ગો", "gu": "જો + તે + આવશે, તો હું + જઈશ" }
   ],
   "practice": [
     {
@@ -101,6 +103,20 @@
       "options": ["જો", "કેમ", "ક્યારે"],
       "answer": 0,
       "explainGu": "if – ઇફ – જો."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"જો તે આવશે તો હું જઈશ.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["If he will come, I will go.", "If comes he, I will go.", "If he comes, I will go."],
+      "answer": 2,
+      "explainGu": "If he comes, I will go. – ઇફ હી કમ્ઝ, આઇ વિલ ગો. if પછી will ન આવે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"જો વરસાદ પડશે તો અમે ઘરે રહીશું.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["If it rains, we stay will at home.", "If it rains, we will stay at home.", "If rains it, we will stay at home."],
+      "answer": 1,
+      "explainGu": "If it rains, we will stay at home. – ઇફ ઇટ રેન્ઝ, વી વિલ સ્ટે ઍટ હોમ. બંને ભાગમાં કર્તા પછી ક્રિયા."
     }
   ]
 }
