@@ -7,6 +7,7 @@
     "એવી જ રીતે મોટા ભાઈ અને નાના ભાઈ બંને માટે [[Brother]] કહેવાય. જરૂર હોય તો [[Elder brother]] (મોટા ભાઈ) કે [[Younger brother]] (નાના ભાઈ) કહી શકાય. કાકા, મામા, ફોઈ કે માસીનાં સંતાન માટે [[Cousin]] (કઝિન) શબ્દ વપરાય.",
     "કોઈની ઓળખાણ આપવા માટે આ રીત વાપરો: [[This is my]] + સંબંધ. જેમ કે [[This is my mother.]] (આ મારી મા છે.) અહીં [[my]] એટલે \"મારું / મારી / મારા\".",
     "કેટલાક શબ્દોનું એકથી વધારે (ઘણા) રૂપ અલગ બને છે: [[Man]] → [[Men]], [[Woman]] → [[Women]], [[Child]] → [[Children]]. ઘણા શબ્દોમાં છેલ્લે [[s]] લાગે છે, જેમ કે [[Brother]] → [[Brothers]].",
+    "ઓળખાણ આપતાં ક્રમ યાદ રાખો: ગુજરાતી \"આ મારી મા છે\" માં \"છે\" છેલ્લે છે. અંગ્રેજીમાં \"છે\" (is) વચ્ચે આવે છે: [[This is my mother.]] ક્રમ: [[This]] (આ) + [[is]] (છે) + [[my mother]] (મારી મા). બીજાં સભ્યો માટે પણ આ જ ક્રમ: [[This is my brother.]]",
     "તમારા કુટુંબ વિશે મોટેથી બોલો: \"This is my mother. This is my father.\" આમ રોજ થોડું બોલવાથી શબ્દો પાકા થશે."
   ],
   "examples": [
@@ -114,6 +115,13 @@
       "options": ["Mans", "Mens", "Men"],
       "answer": 2,
       "explainGu": "Man – મૅન (એક પુરુષ). Men – મેન (ઘણા પુરુષો)."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"આ મારા પિતા છે.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["This my father is.", "My father this is.", "This is my father."],
+      "answer": 2,
+      "explainGu": "This is my father. – ધિસ ઇઝ માય ફાધર. ક્રમ: This + is + my father."
     }
   ]
 }

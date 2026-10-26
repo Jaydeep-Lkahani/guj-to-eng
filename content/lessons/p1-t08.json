@@ -7,6 +7,7 @@
     "ધ્યાન રાખો: [[am]], [[is]], [[are]] વગર અંગ્રેજી વાક્ય પૂરું ગણાતું નથી. [[He tall.]] ખોટું છે. સાચું છે [[He is tall.]]",
     "એક વ્યક્તિ કે એક વસ્તુ હોય તો [[is]] વપરાય: [[Raj is my brother.]] બે કે વધારે હોય તો [[are]] વપરાય: [[Raj and Meena are friends.]] \"નામ\" પણ એક વસ્તુ છે, એટલે [[My name is Meena.]] માં [[is]] આવે છે.",
     "ગુજરાતીમાં \"એક\" દર્શાવવા માટે અલગ શબ્દ જોઈતો નથી, પણ અંગ્રેજીમાં એક વસ્તુ માટે [[a]] કે [[an]] વપરાય છે. સ્વરના અવાજથી શરૂ થતા શબ્દ પહેલાં [[an]]: [[an apple]], [[an egg]]. બાકીના શબ્દ પહેલાં [[a]]: [[a book]], [[a teacher]]. એકથી વધારે હોય તો [[a]] કે [[an]] નથી આવતા: [[They are students.]]",
+    "સૂત્ર યાદ રાખો: કર્તા + am/is/are + બાકીનું. ગુજરાતીમાં છેલ્લો શબ્દ \"છું / છે / છો / છીએ\" હોય છે, અંગ્રેજીમાં તેને બીજા નંબરે લાવો. \"તે / ઊંચો / છે\" → [[He is tall.]] \"રાજ / મારો ભાઈ / છે\" → [[Raj is my brother.]] ક્રિયાવાળાં વાક્યો (જેમ કે \"ચા પીઉં છું\") બનાવવાની આખી રીત પાઠ 11 માં છે.",
     "રોજ પોતાના વિશે 3 વાક્ય બોલો: [[I am Meena.]] [[I am a teacher.]] [[I am happy.]] પછી ઘરના બીજા લોકો વિશે બોલો: [[He is my brother.]] [[She is my mother.]]"
   ],
   "examples": [
@@ -32,7 +33,8 @@
     { "en": "Raj and Meena are friends.", "translit": "રાજ ઍન્ડ મીના આર ફ્રૅન્ડ્ઝ", "gu": "રાજ અને મીના મિત્રો છે." },
     { "en": "My name is Meena.", "translit": "માય નેમ ઇઝ મીના", "gu": "મારું નામ મીના છે." },
     { "en": "This is my house.", "translit": "ધિસ ઇઝ માય હાઉસ", "gu": "આ મારું ઘર છે." },
-    { "en": "a book / an apple", "translit": "અ બુક / ઍન ઍપલ", "gu": "એક પુસ્તક / એક સફરજન" }
+    { "en": "a book / an apple", "translit": "અ બુક / ઍન ઍપલ", "gu": "એક પુસ્તક / એક સફરજન" },
+    { "en": "He + is + tall", "translit": "હી + ઇઝ + ટૉલ", "gu": "તે + ઊંચો + છે (\"છે\" બીજા નંબરે આવે)" }
   ],
   "practice": [
     {
@@ -104,6 +106,20 @@
       "options": ["She tall.", "She am tall.", "She is tall."],
       "answer": 2,
       "explainGu": "She is tall. – શી ઇઝ ટૉલ. is વગર વાક્ય પૂરું ગણાતું નથી."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"અમે મિત્રો છીએ.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["We friends are.", "We are friends.", "Are we friends."],
+      "answer": 1,
+      "explainGu": "We are friends. – વી આર ફ્રૅન્ડ્ઝ. \"છીએ\" બીજા નંબરે આવે છે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"તે ઊંચો છે.\" (પુરુષ) ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Tall he is.", "He tall is.", "He is tall."],
+      "answer": 2,
+      "explainGu": "He is tall. – હી ઇઝ ટૉલ. ક્રમ: કર્તા + is + વર્ણન."
     }
   ]
 }

@@ -7,6 +7,7 @@
     "વર્ષના 12 મહિના: [[January]], [[February]], [[March]], [[April]], [[May]], [[June]], [[July]], [[August]], [[September]], [[October]], [[November]], [[December]]. આ અંગ્રેજી કૅલેન્ડરના મહિના છે. ગુજરાતી મહિના (કારતક, માગશર…) અલગ છે.",
     "ધ્યાન રાખો: વાર અને મહિનાના નામનો પહેલો અક્ષર હંમેશાં મોટો લખાય છે. [[Monday]] સાચું, [[monday]] ખોટું. [[March]] સાચું, [[march]] ખોટું.",
     "વાર સાથે [[on]] વપરાય અને મહિના સાથે [[in]] વપરાય. જેમ કે [[I am at home on Sunday.]] (હું રવિવારે ઘરે છું.) અને [[My birthday is in May.]] (મારો જન્મદિવસ મે મહિનામાં છે.)",
+    "સમયની વાત: ગુજરાતીમાં વાર પહેલાં કહેવાય છે, \"રવિવારે હું ઘરે છું.\" અંગ્રેજીમાં સામાન્ય રીતે વાર કે મહિનો વાક્યના અંતે મૂકાય છે: [[I am at home on Sunday.]] વાર સાથે [[on]] અને મહિના સાથે [[in]] યાદ રાખો: [[My birthday is in May.]]",
     "ઉપયોગી શબ્દો: [[Today]] (આજે), [[Tomorrow]] (કાલે, આવતી કાલે). જેમ કે [[Today is Monday.]] (આજે સોમવાર છે.)"
   ],
   "examples": [
@@ -118,6 +119,13 @@
       "options": ["નાનો અક્ષર (monday)", "મોટો અક્ષર (Monday)"],
       "answer": 1,
       "explainGu": "હંમેશાં મોટો અક્ષર: Monday, March."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"હું સોમવારે ઘરે છું.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["On Monday I at home am.", "I on Monday home at am.", "I am at home on Monday."],
+      "answer": 2,
+      "explainGu": "I am at home on Monday. – આઇ ઍમ ઍટ હોમ ઑન મન્ડે. વાર વાક્યના અંતે આવે છે."
     }
   ]
 }
