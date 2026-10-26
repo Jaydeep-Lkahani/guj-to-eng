@@ -1,0 +1,113 @@
+{
+  "topicId": "p2-t08",
+  "explanationGu": [
+    "હવે આપણે નાના પાઠ (Reading passages – રીડિંગ પૅસિજિસ) વાંચતાં શીખીશું. આ પાઠમાં ત્રણ નાના પાઠ છે. પહેલો રવિના રોજના દિવસ વિશે (Present Simple), બીજો મીનાના ગઈકાલ વિશે (Past Simple) અને ત્રીજો આવતા રવિવારની યોજના વિશે (Future). દરેક લીટીનો ગુજરાતી અર્થ તેની નીચે આપ્યો છે.",
+    "વાંચવાની સાચી રીત: પહેલાં આખો પાઠ એક વાર શાંતિથી વાંચો. દરેક શબ્દ પર અટકશો નહીં. ફક્ત એ સમજવાનો પ્રયત્ન કરો કે પાઠ શેના વિશે છે. પછી બીજી વાર ધ્યાનથી, દરેક લીટીનો અર્થ જોઈને વાંચો.",
+    "જો કોઈ શબ્દ ન આવડે તો આખું વાક્ય વાંચો અને અંદાજ લગાવો. જેમ કે [[I drink tea and eat breakfast.]] માં [[tea]] અને [[eat]] ખબર છે, એટલે [[breakfast]] એ ખાવાની કોઈ વસ્તુ છે (સવારનો નાસ્તો). ઘણી વાર આસપાસના શબ્દો અર્થ કહી દે છે.",
+    "દરેક વાક્યમાં પહેલાં જુઓ: કોણ? (who) શું કરે છે? (what) ક્યાં? (where) ક્યારે? (when). આ સવાલોના જવાબ મળી જાય તો વાક્ય સમજાઈ ગયું.",
+    "સમય ઓળખો. ક્રિયાનું રૂપ જોઈને ખબર પડે કે વાત ક્યારની છે. [[I go]], [[He works]] = રોજની ટેવ. [[Meena went]], [[she cooked]] = ભૂતકાળ. [[We will go]], [[we are going to visit]] = ભવિષ્યકાળ. આ આપણે ભાગ 2 ના પાઠોમાં શીખ્યા છીએ.",
+    "ઊંચા અવાજે વાંચો. આથી ઉચ્ચાર સુધરે છે અને શબ્દો યાદ રહે છે. દરેક લીટીની નીચે આપેલો ગુજરાતી ઉચ્ચાર (જેમ કે \"આઇ વેઇક અપ\") જોઈને બોલવાનો અભ્યાસ કરો.",
+    "નવા શબ્દો: [[breakfast]] (બ્રેકફાસ્ટ – સવારનો નાસ્તો), [[lunch]] (લંચ – બપોરનું જમણ), [[afternoon]] (આફ્ટરનૂન – બપોર), [[evening]] (ઇવનિંગ – સાંજ), [[village]] (વિલેજ – ગામ), [[bus]] (બસ – બસ), [[fruit]] (ફ્રૂટ – ફળ), [[help]] (હૅલ્પ – મદદ કરવી).",
+    "પાઠ વાંચ્યા પછી તમારી જાતને સવાલો પૂછો: \"રવિ ક્યાં કામ કરે છે?\", \"મીનાએ શું ખરીદ્યું?\" આ રીતે તમે સમજ્યા કે નહીં તે ખબર પડે છે. નીચેના પ્રશ્નોમાં પણ એવું જ છે."
+  ],
+  "examples": [
+    { "en": "Passage 1: Ravi's Day", "translit": "પૅસિજ વન: રવિઝ ડે", "gu": "પાઠ ૧: રવિનો દિવસ" },
+    { "en": "My name is Ravi. I live in Surat with my family.", "translit": "માય નેમ ઇઝ રવિ. આઇ લિવ ઇન સુરત વિથ માય ફૅમિલી", "gu": "મારું નામ રવિ છે. હું મારા કુટુંબ સાથે સુરતમાં રહું છું." },
+    { "en": "I wake up at six every morning.", "translit": "આઇ વેઇક અપ ઍટ સિક્સ એવરી મૉર્નિંગ", "gu": "હું રોજ સવારે છ વાગ્યે જાગું છું." },
+    { "en": "I drink tea and eat breakfast.", "translit": "આઇ ડ્રિંક ટી ઍન્ડ ઈટ બ્રેકફાસ્ટ", "gu": "હું ચા પીઉં છું અને નાસ્તો કરું છું." },
+    { "en": "At eight I go to work. I work in a bank.", "translit": "ઍટ એઇટ આઇ ગો ટૂ વર્ક. આઇ વર્ક ઇન અ બૅન્ક", "gu": "આઠ વાગ્યે હું કામ પર જાઉં છું. હું બૅન્કમાં કામ કરું છું." },
+    { "en": "In the evening I play cricket with my friends.", "translit": "ઇન ધ ઇવનિંગ આઇ પ્લે ક્રિકેટ વિથ માય ફ્રેન્ડ્ઝ", "gu": "સાંજે હું મારા મિત્રો સાથે ક્રિકેટ રમું છું." },
+    { "en": "I sleep at ten.", "translit": "આઇ સ્લીપ ઍટ ટેન", "gu": "હું દસ વાગ્યે સૂઈ જાઉં છું." },
+    { "en": "Passage 2: Meena's Sunday", "translit": "પૅસિજ ટૂ: મીનાઝ સન્ડે", "gu": "પાઠ ૨: મીનાનો રવિવાર" },
+    { "en": "Yesterday was Sunday. Meena was at home.", "translit": "યેસ્ટરડે વૉઝ સન્ડે. મીના વૉઝ ઍટ હોમ", "gu": "ગઈકાલે રવિવાર હતો. મીના ઘરે હતી." },
+    { "en": "In the morning she cooked lunch. Her mother helped her.", "translit": "ઇન ધ મૉર્નિંગ શી કુક્ડ લંચ. હર મધર હૅલ્પ્ડ હર", "gu": "સવારે તેણે બપોરનું જમવાનું બનાવ્યું. તેની મમ્મીએ તેને મદદ કરી." },
+    { "en": "In the afternoon they watched TV.", "translit": "ઇન ધ આફ્ટરનૂન ધે વૉચ્ડ ટી.વી.", "gu": "બપોરે તેમણે ટીવી જોયું." },
+    { "en": "In the evening Meena went to the market. She bought milk and fruits.", "translit": "ઇન ધ ઇવનિંગ મીના વેન્ટ ટૂ ધ માર્કિટ. શી બૉટ મિલ્ક ઍન્ડ ફ્રૂટ્સ", "gu": "સાંજે મીના બજારમાં ગઈ. તેણે દૂધ અને ફળો ખરીદ્યાં." },
+    { "en": "She came home at seven.", "translit": "શી કેઇમ હોમ ઍટ સેવન", "gu": "તે સાત વાગ્યે ઘરે આવી." },
+    { "en": "Passage 3: Next Sunday", "translit": "પૅસિજ થ્રી: નેક્સ્ટ સન્ડે", "gu": "પાઠ ૩: આવતો રવિવાર" },
+    { "en": "Next Sunday we are going to visit my grandmother.", "translit": "નેક્સ્ટ સન્ડે વી આર ગોઇંગ ટૂ વિઝિટ માય ગ્રૅન્ડમધર", "gu": "આવતા રવિવારે અમે મારી દાદીને મળવા જવાના છીએ." },
+    { "en": "She lives in a village. We will go by bus.", "translit": "શી લિવ્ઝ ઇન અ વિલેજ. વી વિલ ગો બાય બસ", "gu": "તે ગામમાં રહે છે. અમે બસમાં જઈશું." },
+    { "en": "My grandmother will cook food for us.", "translit": "માય ગ્રૅન્ડમધર વિલ કુક ફૂડ ફૉર અસ", "gu": "મારી દાદી અમારા માટે જમવાનું બનાવશે." },
+    { "en": "I am very happy.", "translit": "આઇ ઍમ વેરી હૅપી", "gu": "હું ખૂબ ખુશ છું." },
+    { "en": "breakfast", "translit": "બ્રેકફાસ્ટ", "gu": "સવારનો નાસ્તો" },
+    { "en": "lunch", "translit": "લંચ", "gu": "બપોરનું જમણ" },
+    { "en": "afternoon", "translit": "આફ્ટરનૂન", "gu": "બપોર" },
+    { "en": "evening", "translit": "ઇવનિંગ", "gu": "સાંજ" },
+    { "en": "village", "translit": "વિલેજ", "gu": "ગામ" },
+    { "en": "bus", "translit": "બસ", "gu": "બસ" },
+    { "en": "fruit", "translit": "ફ્રૂટ", "gu": "ફળ" },
+    { "en": "help", "translit": "હૅલ્પ", "gu": "મદદ કરવી" }
+  ],
+  "practice": [
+    {
+      "type": "choice",
+      "questionGu": "પાઠમાં લખ્યું છે: \"I wake up at six every morning.\" રવિ સવારે ક્યારે જાગે છે?",
+      "options": ["છ વાગ્યે", "આઠ વાગ્યે", "દસ વાગ્યે"],
+      "answer": 0,
+      "explainGu": "at six = છ વાગ્યે. I wake up at six every morning. – આઇ વેઇક અપ ઍટ સિક્સ એવરી મૉર્નિંગ"
+    },
+    {
+      "type": "choice",
+      "questionGu": "પાઠમાં લખ્યું છે: \"I work in a bank.\" રવિ ક્યાં કામ કરે છે?",
+      "options": ["શાળામાં", "બૅન્કમાં", "દુકાનમાં"],
+      "answer": 1,
+      "explainGu": "bank = બૅન્ક. I work in a bank. – આઇ વર્ક ઇન અ બૅન્ક"
+    },
+    {
+      "type": "choice",
+      "questionGu": "પાઠમાં લખ્યું છે: \"In the evening I play cricket with my friends.\" રવિ સાંજે શું કરે છે?",
+      "options": ["ટીવી જુએ છે", "ક્રિકેટ રમે છે", "બજારમાં જાય છે"],
+      "answer": 1,
+      "explainGu": "evening = સાંજ, play cricket = ક્રિકેટ રમવું."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"Meena went to the market.\" આ વાક્ય કયા સમયનું છે?",
+      "options": ["ભૂતકાળ", "ભવિષ્યકાળ", "રોજની ટેવ"],
+      "answer": 0,
+      "explainGu": "went એ go નું ભૂતકાળનું રૂપ છે, એટલે મીના બજારમાં ગઈ હતી."
+    },
+    {
+      "type": "choice",
+      "questionGu": "પાઠમાં લખ્યું છે: \"She bought milk and fruits.\" મીનાએ શું ખરીદ્યું?",
+      "options": ["દૂધ અને ફળો", "ચા અને ખાંડ", "ભાત અને દાળ"],
+      "answer": 0,
+      "explainGu": "bought = ખરીદ્યું, milk = દૂધ, fruits = ફળો."
+    },
+    {
+      "type": "choice",
+      "questionGu": "પાઠમાં લખ્યું છે: \"In the afternoon they watched TV.\" તેમણે ટીવી ક્યારે જોયું?",
+      "options": ["સવારે", "બપોરે", "રાત્રે"],
+      "answer": 1,
+      "explainGu": "afternoon = બપોર. In the afternoon – ઇન ધ આફ્ટરનૂન – બપોરે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "પાઠમાં લખ્યું છે: \"We will go by bus.\" તેઓ કેવી રીતે જશે?",
+      "options": ["ટ્રેનમાં", "ગાડીમાં", "બસમાં"],
+      "answer": 2,
+      "explainGu": "by bus = બસમાં. We will go by bus. – વી વિલ ગો બાય બસ"
+    },
+    {
+      "type": "choice",
+      "questionGu": "પાઠમાં લખ્યું છે: \"My grandmother will cook food for us.\" દાદી શું કરશે?",
+      "options": ["જમવાનું બનાવશે", "ટીવી જોશે", "બજારમાં જશે"],
+      "answer": 0,
+      "explainGu": "will cook food = જમવાનું બનાવશે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[village]] નો અર્થ શું છે?",
+      "options": ["શહેર", "ગામ", "બજાર"],
+      "answer": 1,
+      "explainGu": "village – વિલેજ – ગામ."
+    },
+    {
+      "type": "choice",
+      "questionGu": "વાંચતી વખતે એક અજાણ્યો શબ્દ આવે તો શું કરવું જોઈએ?",
+      "options": ["વાંચવાનું બંધ કરી દેવું", "આખું વાક્ય વાંચી અર્થનો અંદાજ લગાવવો", "આખો પાઠ છોડી દેવો"],
+      "answer": 1,
+      "explainGu": "આસપાસના શબ્દો જોઈને અર્થનો અંદાજ લગાવો, અને વાંચવાનું ચાલુ રાખો."
+    }
+  ]
+}

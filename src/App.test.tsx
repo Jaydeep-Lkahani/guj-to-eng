@@ -1,9 +1,16 @@
-import { afterEach, beforeEach, describe, expect, it } from "vitest";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { cleanup, render, screen, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { App } from "./App";
 import { getLesson } from "./content";
 import { resetProgress } from "./progress";
+
+// Every topic now has a lesson, so one test hides a lesson to see the "coming soon" note.
+const hidden = vi.hoisted(() => ({ topicId: "" }));
+vi.mock("./content", async (importOriginal) => {
+  const real = await importOriginal<typeof import("./content")>();
+  return { ...real, getLesson: (id: string) => (id === hidden.topicId ? undefined : real.getLesson(id)) };
+});
 
 // jsdom has no scrolling.
 window.scrollTo = () => {};
@@ -12,7 +19,10 @@ beforeEach(() => {
   window.location.hash = "#/";
   resetProgress();
 });
-afterEach(cleanup);
+afterEach(() => {
+  cleanup();
+  hidden.topicId = "";
+});
 
 describe("navigation and lesson", () => {
   it("goes Home → Part → Topic, finishes the practice and saves progress", async () => {
@@ -53,7 +63,8 @@ describe("navigation and lesson", () => {
   });
 
   it("shows a coming-soon note for topics without a lesson file", () => {
-    window.location.hash = "#/topic/p2-t01";
+    hidden.topicId = "p3-t08";
+    window.location.hash = "#/topic/p3-t08";
     render(<App />);
     expect(screen.getByText("આ પાઠ હજી તૈયાર થાય છે. જલ્દી આવશે.")).toBeTruthy();
   });

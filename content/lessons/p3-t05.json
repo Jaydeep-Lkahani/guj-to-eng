@@ -1,0 +1,113 @@
+{
+  "topicId": "p3-t05",
+  "explanationGu": [
+    "આપણે નાનાં નાનાં વાક્યો ઘણાં શીખ્યા. હવે બે વાક્યોને એકમાં જોડતાં શીખીએ, જેથી તમારું અંગ્રેજી વધારે સ્વાભાવિક લાગે. જોડનારા શબ્દોને [[Conjunctions]] (કન્જંક્શન્સ) કહેવાય છે. જેમ કે \"અને\", \"પણ\", \"કારણ કે\".",
+    "[[and]] (ઍન્ડ) = અને. બે વાત ઉમેરવા: [[I like tea and coffee.]] (મને ચા અને કૉફી ગમે છે). [[She cooked dinner and washed the dishes.]] બીજા ભાગમાં કર્તા (she) ફરીથી લખવો જરૂરી નથી.",
+    "[[but]] (બટ) = પણ. વિરોધી વાત દર્શાવવા: [[I like tea, but I don't like coffee.]] (મને ચા ગમે છે, પણ કૉફી ગમતી નથી). [[but]] ની આગળ comma મૂકવો સારું છે.",
+    "[[or]] (ઓર) = કે, અથવા. વિકલ્પ બતાવવા: [[Do you want tea or coffee?]] (તમને ચા જોઈએ કે કૉફી?).",
+    "[[so]] (સો) = એટલે, તેથી. પરિણામ બતાવવા: [[I was tired, so I slept.]] (હું થાકેલો હતો, એટલે સૂઈ ગયો). [[so]] ની આગળ comma આવે અને પહેલાં કારણ, પછી પરિણામ.",
+    "[[because]] (બિકૉઝ) = કારણ કે. કારણ બતાવવા: [[I slept because I was tired.]] (હું સૂઈ ગયો કારણ કે હું થાકેલો હતો). [[because]] પછી કારણ આવે, જ્યારે [[so]] પછી પરિણામ આવે.",
+    "સૌથી મોટી ભૂલ: ગુજરાતીમાં \"કારણ કે… એટલે…\" બોલાય છે, પણ અંગ્રેજીમાં બંને સાથે ન વપરાય. [[Because I was tired, so I slept.]] ખોટું છે. સાચું છે [[I was tired, so I slept.]] અથવા [[I slept because I was tired.]] — એક જ શબ્દ વાપરો.",
+    "સમય જોડવા: [[when]] (વેન) = જ્યારે, [[while]] (વાઇલ) = જે દરમિયાન, [[before]] (બિફૉર) = પહેલાં, [[after]] (આફ્ટર) = પછી. [[When I came home, she was cooking.]], [[I read a book while I was waiting.]], [[Wash your hands before you eat.]], [[I will call you after I reach home.]]",
+    "ભવિષ્યની વાતમાં [[when]], [[before]], [[after]] પછી [[will]] ન આવે, [[if]] ની જેમ Present Simple આવે: [[I will call you when I reach home.]] સાચું છે. [[when I will reach home]] ખોટું છે."
+  ],
+  "examples": [
+    { "en": "I like tea and coffee.", "translit": "આઇ લાઇક ટી ઍન્ડ કૉફી", "gu": "મને ચા અને કૉફી ગમે છે." },
+    { "en": "She cooked dinner and washed the dishes.", "translit": "શી કુક્ડ ડિનર ઍન્ડ વૉશ્ડ ધ ડિશિઝ", "gu": "તેણે જમવાનું બનાવ્યું અને વાસણ ધોયાં." },
+    { "en": "I like tea, but I don't like coffee.", "translit": "આઇ લાઇક ટી, બટ આઇ ડોન્ટ લાઇક કૉફી", "gu": "મને ચા ગમે છે, પણ કૉફી ગમતી નથી." },
+    { "en": "He is poor, but he is happy.", "translit": "હી ઇઝ પૂર, બટ હી ઇઝ હૅપી", "gu": "તે ગરીબ છે, પણ ખુશ છે." },
+    { "en": "Do you want tea or coffee?", "translit": "ડૂ યૂ વૉન્ટ ટી ઓર કૉફી", "gu": "તમને ચા જોઈએ કે કૉફી?" },
+    { "en": "Is it Monday or Tuesday?", "translit": "ઇઝ ઇટ મન્ડે ઓર ટ્યૂઝડે", "gu": "સોમવાર છે કે મંગળવાર?" },
+    { "en": "I was tired, so I slept.", "translit": "આઇ વૉઝ ટાયર્ડ, સો આઇ સ્લેપ્ટ", "gu": "હું થાકેલો હતો, એટલે સૂઈ ગયો." },
+    { "en": "It was raining, so we stayed at home.", "translit": "ઇટ વૉઝ રેઇનિંગ, સો વી સ્ટેડ ઍટ હોમ", "gu": "વરસાદ પડતો હતો, એટલે અમે ઘરે રહ્યા." },
+    { "en": "I slept because I was tired.", "translit": "આઇ સ્લેપ્ટ બિકૉઝ આઇ વૉઝ ટાયર્ડ", "gu": "હું સૂઈ ગયો કારણ કે હું થાકેલો હતો." },
+    { "en": "She is happy because she passed.", "translit": "શી ઇઝ હૅપી બિકૉઝ શી પાસ્ટ", "gu": "તે ખુશ છે કારણ કે તે પાસ થઈ." },
+    { "en": "Why are you late? Because I missed the bus.", "translit": "વાય આર યૂ લેઇટ? બિકૉઝ આઇ મિસ્ટ ધ બસ", "gu": "તમે કેમ મોડા છો? કારણ કે મારી બસ ચૂકી ગઈ." },
+    { "en": "When I came home, she was cooking.", "translit": "વેન આઇ કેઇમ હોમ, શી વૉઝ કુકિંગ", "gu": "હું ઘરે આવ્યો ત્યારે તે રાંધી રહી હતી." },
+    { "en": "I read a book while I was waiting.", "translit": "આઇ રેડ અ બુક વાઇલ આઇ વૉઝ વેઇટિંગ", "gu": "હું રાહ જોતો હતો તે દરમિયાન મેં પુસ્તક વાંચ્યું." },
+    { "en": "Wash your hands before you eat.", "translit": "વૉશ યોર હૅન્ડ્ઝ બિફૉર યૂ ઈટ", "gu": "જમતાં પહેલાં હાથ ધોવો." },
+    { "en": "I will call you after I reach home.", "translit": "આઇ વિલ કૉલ યૂ આફ્ટર આઇ રીચ હોમ", "gu": "હું ઘરે પહોંચ્યા પછી તમને ફોન કરીશ." },
+    { "en": "I will call you when I reach home.", "translit": "આઇ વિલ કૉલ યૂ વેન આઇ રીચ હોમ", "gu": "હું ઘરે પહોંચીશ ત્યારે તમને ફોન કરીશ." },
+    { "en": "and", "translit": "ઍન્ડ", "gu": "અને" },
+    { "en": "but", "translit": "બટ", "gu": "પણ" },
+    { "en": "or", "translit": "ઓર", "gu": "કે, અથવા" },
+    { "en": "so", "translit": "સો", "gu": "એટલે, તેથી" },
+    { "en": "because", "translit": "બિકૉઝ", "gu": "કારણ કે" },
+    { "en": "when", "translit": "વેન", "gu": "જ્યારે" },
+    { "en": "while", "translit": "વાઇલ", "gu": "દરમિયાન" },
+    { "en": "before", "translit": "બિફૉર", "gu": "પહેલાં" },
+    { "en": "after", "translit": "આફ્ટર", "gu": "પછી" }
+  ],
+  "practice": [
+    {
+      "type": "choice",
+      "questionGu": "\"મને ચા ગમે છે, પણ કૉફી ગમતી નથી.\" માટે ખાલી જગ્યામાં શું આવે? I like tea, ___ I don't like coffee.",
+      "options": ["and", "but", "so"],
+      "answer": 1,
+      "explainGu": "વિરોધી વાત માટે but (પણ)."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: Do you want tea ___ coffee?",
+      "options": ["or", "but", "because"],
+      "answer": 0,
+      "explainGu": "વિકલ્પ માટે or (કે)."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: I was tired, ___ I slept. (એટલે)",
+      "options": ["because", "so", "or"],
+      "answer": 1,
+      "explainGu": "પરિણામ માટે so: I was tired, so I slept."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: I slept ___ I was tired. (કારણ કે)",
+      "options": ["so", "but", "because"],
+      "answer": 2,
+      "explainGu": "કારણ માટે because: I slept because I was tired."
+    },
+    {
+      "type": "choice",
+      "questionGu": "કયું વાક્ય સાચું છે?",
+      "options": ["Because I was tired, so I slept.", "I was tired, so I slept.", "So I was tired, because I slept."],
+      "answer": 1,
+      "explainGu": "because અને so સાથે ન વપરાય. એક જ વાપરો: I was tired, so I slept."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[before]] નો અર્થ શું છે?",
+      "options": ["પછી", "પહેલાં", "જ્યારે"],
+      "answer": 1,
+      "explainGu": "before – બિફૉર – પહેલાં. after – આફ્ટર – પછી."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"જમતાં પહેલાં હાથ ધોવો.\" નું સાચું વાક્ય કયું છે?",
+      "options": ["Wash your hands after you eat.", "Wash your hands before you eat.", "Wash your hands because you eat."],
+      "answer": 1,
+      "explainGu": "Wash your hands before you eat. – વૉશ યોર હૅન્ડ્ઝ બિફૉર યૂ ઈટ"
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"હું ઘરે પહોંચીશ ત્યારે તમને ફોન કરીશ.\" નું સાચું વાક્ય કયું છે?",
+      "options": ["I will call you when I will reach home.", "I will call you when I reach home.", "I call you when I will reach home."],
+      "answer": 1,
+      "explainGu": "when પછી will ન આવે: I will call you when I reach home."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"તમે કેમ મોડા છો?\" નો જવાબ કયો છે?",
+      "options": ["Because I missed the bus.", "So I missed the bus.", "But I missed the bus."],
+      "answer": 0,
+      "explainGu": "કારણ આપવા because: Because I missed the bus."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[while]] નો અર્થ શું છે?",
+      "options": ["પછી", "અથવા", "દરમિયાન"],
+      "answer": 2,
+      "explainGu": "while – વાઇલ – દરમિયાન."
+    }
+  ]
+}

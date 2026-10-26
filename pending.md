@@ -73,26 +73,26 @@ Tick a topic when its real lesson is written **and** I've reviewed it.
 ### ભાગ 2 — આગળ વધીએ (Intermediate)
 | ✓ | ID | ગુજરાતી | English | Lesson status |
 |---|---|---|---|---|
-| [ ] | p2-t01 | રોજ શું કરો છો? | Present Simple | Not written |
-| [ ] | p2-t02 | અત્યારે શું ચાલે છે? | Present Continuous | Not written |
-| [ ] | p2-t03 | ગઈકાલે શું કર્યું? | Past Simple | Not written |
-| [ ] | p2-t04 | કાલે શું કરશો? | Future (will / going to) | Not written |
-| [ ] | p2-t05 | "ના" વાળાં વાક્યો | Negative Sentences | Not written |
-| [ ] | p2-t06 | સવાલ પૂછતાં શીખો | Questions | Not written |
-| [ ] | p2-t07 | વાતચીત | Conversations | Not written |
-| [ ] | p2-t08 | નાના પાઠ વાંચીએ | Reading Short Passages | Not written |
+| [ ] | p2-t01 | રોજ શું કરો છો? | Present Simple | Written 2026-10-26, waiting for my review |
+| [ ] | p2-t02 | અત્યારે શું ચાલે છે? | Present Continuous | Written 2026-10-26, waiting for my review |
+| [ ] | p2-t03 | ગઈકાલે શું કર્યું? | Past Simple | Written 2026-10-26, waiting for my review |
+| [ ] | p2-t04 | કાલે શું કરશો? | Future (will / going to) | Written 2026-10-26, waiting for my review |
+| [ ] | p2-t05 | "ના" વાળાં વાક્યો | Negative Sentences | Written 2026-10-26, waiting for my review |
+| [ ] | p2-t06 | સવાલ પૂછતાં શીખો | Questions | Written 2026-10-26, waiting for my review |
+| [ ] | p2-t07 | વાતચીત | Conversations | Written 2026-10-26, waiting for my review |
+| [ ] | p2-t08 | નાના પાઠ વાંચીએ | Reading Short Passages | Written 2026-10-26, waiting for my review |
 
 ### ભાગ 3 — પાકું કરીએ (Advanced)
 | ✓ | ID | ગુજરાતી | English | Lesson status |
 |---|---|---|---|---|
-| [ ] | p3-t01 | કામ પૂરું થયું | Present Perfect | Not written |
-| [ ] | p3-t02 | can, should, must | Modal Verbs | Not written |
-| [ ] | p3-t03 | જો… તો… | If Sentences | Not written |
-| [ ] | p3-t04 | સરખામણી | Comparisons | Not written |
-| [ ] | p3-t05 | વાક્યો જોડીએ | Joining Sentences | Not written |
-| [ ] | p3-t06 | લખતાં શીખો | Writing | Not written |
-| [ ] | p3-t07 | રૂઢિપ્રયોગો | Idioms & Common Expressions | Not written |
-| [ ] | p3-t08 | સાંભળો અને છૂટથી બોલો | Fluent Listening & Speaking | Not written |
+| [ ] | p3-t01 | કામ પૂરું થયું | Present Perfect | Written 2026-10-26, waiting for my review |
+| [ ] | p3-t02 | can, should, must | Modal Verbs | Written 2026-10-26, waiting for my review |
+| [ ] | p3-t03 | જો… તો… | If Sentences | Written 2026-10-26, waiting for my review |
+| [ ] | p3-t04 | સરખામણી | Comparisons | Written 2026-10-26, waiting for my review |
+| [ ] | p3-t05 | વાક્યો જોડીએ | Joining Sentences | Written 2026-10-26, waiting for my review |
+| [ ] | p3-t06 | લખતાં શીખો | Writing | Written 2026-10-26, waiting for my review |
+| [ ] | p3-t07 | રૂઢિપ્રયોગો | Idioms & Common Expressions | Written 2026-10-26, waiting for my review |
+| [ ] | p3-t08 | સાંભળો અને છૂટથી બોલો | Fluent Listening & Speaking | Written 2026-10-26, waiting for my review |
 
 ## 5. Decisions made
 
@@ -120,8 +120,8 @@ Tick a topic when its real lesson is written **and** I've reviewed it.
 
 1. [x] **Write the real lessons for Part 1** (10 topics): explanation, examples with transliteration, and practice questions. *(All 10 written 2026-10-26, waiting for review.)*
 2. [ ] I review the Part 1 lessons and send changes.
-3. [ ] Write Part 2 lessons, then review.
-4. [ ] Write Part 3 lessons, then review.
+3. [ ] Write Part 2 lessons, then review. *(All 8 written 2026-10-26, waiting for review.)* *(Started before the Part 1 review, as asked. p2-t01 written, waiting for review; p2-t02 to p2-t08 not written.)*
+4. [ ] Write Part 3 lessons, then review. *(All 8 written 2026-10-26, waiting for review.)*
 5. [x] Commit the new project to git and push to GitHub: https://github.com/Jaydeep-Lkahani/guj-to-eng *(Done 2026-10-26)*
 6. [ ] Decide where to host the site (e.g. GitHub Pages or Netlify) so she can open it on her phone.
 
@@ -188,3 +188,20 @@ An earlier, much bigger version of this site was built in this folder before 202
 | 2026-10-26 | Asked to start p1-t10. Claude wrote the Daily-Life Phrases lesson: 8 short paragraphs (4 groups of phrases, commands with please, "Give me water" word order, shop questions, what to say when you don't understand, wishes), 26 examples, 10 practice questions. This finishes writing all of Part 1. Tests and build pass. Opened all 10 Part 1 lessons at phone width: all show, no sideways scrolling. Waiting for my review of p1-t01 to p1-t10. |
 | 2026-10-26 | Said the site looked bad. Claude redesigned it: new colours and fonts, icons everywhere, light/dark mode, header search, custom logo in header and footer, small animations. Added packages `@phosphor-icons/react`, `@fontsource/baloo-bhai-2`, `@fontsource-variable/plus-jakarta-sans`. Tests and build pass; checked in the browser on desktop and phone, light and dark. Not committed. |
 | 2026-10-26 | Asked to push all code to https://github.com/Jaydeep-Lkahani/guj-to-eng. Claude committed everything (new site, redesign, Part 1 lessons, removal of the old project's files) and pushed `main`. The old project's commits are in the history too. |
+| 2026-10-26 | Asked to start p2-t01 (before reviewing Part 1). Claude wrote the Present Simple lesson: 8 short paragraphs (what it is for, I/You/We/They vs He/She/It + s, es / ies / has, never "I am drink", always/usually/often/sometimes/never, time words), 33 examples, 10 practice questions. Made the "coming soon" test in `src/App.test.tsx` pick any topic with no lesson, because it used p2-t01. Tests and build pass. Not yet looked at in the browser. Not committed. Waiting for my review. |
+| 2026-10-26 | Asked to start p2-t02. Claude wrote the Present Continuous lesson: 9 short paragraphs (am/is/are + -ing vs "રહ્યો/રહી છું", which pronoun takes which, never leave am/is/are out, -ing spelling rules, time words like now/right now, difference from Present Simple, verbs like like/want that don't take -ing), 28 examples, 10 practice questions. Also found p2-t01 (Present Simple) already written but not recorded, so marked it "waiting for my review" here. Changed `src/App.test.tsx` so the "coming soon" test picks any topic without a lesson instead of fixed p2-t01. Tests and build pass. Not yet looked at in the browser. Not committed. |
+| 2026-10-26 | Asked to start p2-t03. Claude wrote the Past Simple lesson: 9 short paragraphs (one past form for every pronoun, -ed verbs and spelling rules, 10 common irregular verbs, never use am/is/are with them, was/were, time words like yesterday/ago), 33 examples, 10 practice questions. Tests and build pass. Not yet looked at in the browser. Not committed. |
+| 2026-10-26 | Asked to start p2-t04. Claude wrote the Future lesson: 8 short paragraphs (will + verb with nothing added, am/is/are going to + verb, when to use which: plans vs quick decisions/promises/guesses, short form I'll, time words like tomorrow/next week/soon), 22 examples, 10 practice questions. Tests and build pass. Not yet looked at in the browser. Not committed. |
+| 2026-10-26 | Asked to start p2-t05. Claude wrote the Negative Sentences lesson: 9 short paragraphs (not after am/is/are, short forms isn't/aren't/wasn't/weren't/I'm not, don't/doesn't with the plain verb, didn't with the plain verb, won't, -ing with isn't/aren't, one "no" word per sentence), 29 examples, 10 practice questions. Questions are left for p2-t06. Tests and build pass. Not yet looked at in the browser. Not committed. |
+| 2026-10-26 | Asked to start p2-t06. Claude wrote the Questions lesson: 9 short paragraphs (no Gujarati "શું" in English, am/is/are to the front, Do/Does/Did/Will + plain verb, short answers, question words What/Where/When/Who/Why/How/Which/Whose, word order mistake "What you want?", How many/much/old), 32 examples, 10 practice questions. Tests and build pass. Not yet looked at in the browser. Not committed. |
+| 2026-10-26 | Asked to start p2-t07. Claude wrote the Conversations lesson: 9 short paragraphs (short natural answers, polite words, reactions like Really?/Great!, what to say when you don't understand, And you?, Let's + verb, Here you are, how to practise both roles), 3 short dialogues (friends on the phone, at a shop, asking the way) plus 15 useful phrases (34 examples), 10 practice questions. Tests and build pass. Not yet looked at in the browser. Not committed. |
+| 2026-10-26 | Asked to start p2-t08. Claude wrote the Reading Short Passages lesson: 8 short paragraphs (how to read a passage: once for the idea, guess new words from the sentence, ask who/what/where/when, spot the tense, read aloud), 3 short passages (Ravi's day, Meena's Sunday, Next Sunday) with a Gujarati meaning under each line, 8 new words, 10 practice questions that quote the passage line they ask about. This finishes writing all of Part 2 (p2-t01 to p2-t08). Tests and build pass. Not yet looked at in the browser. Not committed. |
+| 2026-10-26 | Asked to start p3-t01. Claude wrote the Present Perfect lesson: 9 short paragraphs (have/has + third form, regular and 12 irregular third forms, mistakes "I have went" / "He have" / "I am finished", Present Perfect vs Past Simple with a fixed time like yesterday, just/already/yet/ever/never, for vs since, haven't/hasn't and Have you…?), 38 examples, 10 practice questions. Tests and build pass. Not yet looked at in the browser. Not committed. |
+| 2026-10-26 | Asked to start p3-t02. Claude wrote the Modal Verbs lesson: 9 short paragraphs (three rules: no s, plain verb after, no do/does; mistakes "He cans swim" / "I can to swim" / "Does he can swim?"; can/can't, should/shouldn't, must/mustn't; should is soft advice and must is a strong rule, though Gujarati uses "જોઈએ" for both), 28 examples, 10 practice questions. Tests and build pass. Not yet looked at in the browser. Not committed. |
+| 2026-10-26 | Asked to start p3-t03. Claude wrote the If Sentences lesson: 9 short paragraphs (two parts and the comma, if + Present Simple with will, mistake "If it will rain", can/should in the result part, always-true facts, imaginary if + would incl. "If I were you", unless), 17 examples, 10 practice questions. Tests and build pass. Not yet looked at in the browser. Not committed. |
+| 2026-10-26 | Asked to start p3-t04. Claude wrote the Comparisons lesson: 9 short paragraphs ("than" for Gujarati "કરતાં", short words +er, spelling rules big→bigger / happy→happier / large→larger, long words with more, mistakes "more taller" / "taller from" / "more better", the + est / the most, good-better-best and bad-worse-worst, as…as), 27 examples, 10 practice questions. Tests and build pass. Not yet looked at in the browser. Not committed. |
+| 2026-10-26 | Asked to start p3-t05. Claude wrote the Joining Sentences lesson: 9 short paragraphs (and, but, or, so, because, when/while/before/after; mistake of using "because" and "so" together like Gujarati "કારણ કે… એટલે…"; no will after when/before/after), 25 examples, 10 practice questions. Tests and build pass. Not yet looked at in the browser. Not committed. |
+| 2026-10-26 | Asked to start p3-t06. Claude wrote the Writing lesson: 9 short paragraphs (capital letters, full stop / question mark / comma / apostrophe, English word order is subject-verb-object unlike Gujarati, complete sentences, plan-write-check, First/Then/Finally, how to write a letter or email), 22 examples including a short email to a friend, 10 practice questions. Tests and build pass. Not yet looked at in the browser. Not committed. |
+| 2026-10-26 | Asked to start p3-t07. Claude wrote the Idioms & Common Expressions lesson: 9 short paragraphs (what an idiom is, why word-for-word translation fails, wording can't be changed, 6 easy idioms, 5 proverbs, everyday expressions like Get well soon / Long time no see, wishes for guests and festivals, don't overuse), 22 examples, 10 practice questions. Tests and build pass. Not yet looked at in the browser. Not committed. |
+| 2026-10-26 | Asked to start p3-t08. Claude wrote the Fluent Listening & Speaking lesson: 9 short paragraphs (listen for the main idea, daily listening and shadowing, spoken short forms gonna/wanna/gotta, speak even with mistakes, thinking words like Well/Actually, voice up for yes/no questions and down for statements, a daily speaking routine, a recap of the main mistakes from all lessons), a short phone conversation plus 24 examples in total, 10 practice questions. This finishes writing all of Part 3. **All 26 lessons are now written; none are reviewed yet.** Since every topic now has a lesson, the "coming soon" test in `src/App.test.tsx` now hides one lesson on purpose to check the note still works. Tests and build pass. Not yet looked at in the browser. |
+| 2026-10-26 | Asked to push all code to git. Claude committed p2-t01 to p3-t08, the test change and this tracker, and pushed `main` to GitHub. |

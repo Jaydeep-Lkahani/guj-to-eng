@@ -1,0 +1,125 @@
+{
+  "topicId": "p2-t01",
+  "explanationGu": [
+    "જે કામ રોજ કે વારંવાર થાય છે, જે આપણી ટેવ છે, અને જે હકીકત છે, તેના માટે [[Present Simple]] (પ્રેઝન્ટ સિમ્પલ) વપરાય છે. જેમ કે \"હું રોજ ચા પીઉં છું\" = [[I drink tea every day.]] અને \"જુલાઈમાં વરસાદ પડે છે\" = [[It rains in July.]]",
+    "[[I]], [[You]], [[We]], [[They]] સાથે ક્રિયા (verb) જેમ છે તેમ વપરાય: [[I drink]], [[You work]], [[We eat]], [[They play]].",
+    "[[He]], [[She]], [[It]] સાથે ક્રિયાના અંતે [[s]] લાગે છે: [[He drinks]], [[She works]], [[It rains]]. આ [[s]] ભૂલશો નહીં.",
+    "કેટલીક ક્રિયામાં [[s]] ની જગ્યાએ [[es]] લાગે છે: [[go]] → [[goes]], [[watch]] → [[watches]]. જો ક્રિયાના અંતે [[y]] હોય તો [[y]] નો [[ies]] થાય છે: [[study]] → [[studies]]. [[have]] નું [[has]] થાય છે: [[She has a car.]]",
+    "સૌથી મોટી ભૂલ: ગુજરાતીમાં \"પીઉં છું\" માં \"છું\" આવે છે, એટલે ઘણા લોકો [[I am drink tea.]] બોલે છે. આ ખોટું છે! બીજી ક્રિયા સાથે [[am]], [[is]], [[are]] નથી આવતા. સાચું છે [[I drink tea.]] અને [[He works.]]",
+    "કેટલી વાર થાય છે તે દર્શાવવા માટે આ શબ્દો વપરાય: [[always]] (હંમેશાં), [[usually]] (સામાન્ય રીતે), [[often]] (ઘણી વાર), [[sometimes]] (ક્યારેક), [[never]] (ક્યારેય નહીં). તે ક્રિયાની પહેલાં આવે છે: [[I always drink tea.]], [[She never eats meat.]]",
+    "સમય માટે આ શબ્દો ઉપયોગી છે: [[every day]] (રોજ), [[in the morning]] (સવારે), [[at night]] (રાત્રે), [[at six]] (છ વાગ્યે), [[on Sunday]] (રવિવારે).",
+    "આ પાઠમાં \"નથી\" વાળાં વાક્યો અને સવાલો નથી. તે ભાગ 2 ના આગળના પાઠમાં શીખીશું."
+  ],
+  "examples": [
+    { "en": "eat", "translit": "ઈટ", "gu": "ખાવું" },
+    { "en": "drink", "translit": "ડ્રિંક", "gu": "પીવું" },
+    { "en": "go", "translit": "ગો", "gu": "જવું" },
+    { "en": "come", "translit": "કમ", "gu": "આવવું" },
+    { "en": "work", "translit": "વર્ક", "gu": "કામ કરવું" },
+    { "en": "study", "translit": "સ્ટડી", "gu": "ભણવું" },
+    { "en": "read", "translit": "રીડ", "gu": "વાંચવું" },
+    { "en": "write", "translit": "રાઇટ", "gu": "લખવું" },
+    { "en": "play", "translit": "પ્લે", "gu": "રમવું" },
+    { "en": "sleep", "translit": "સ્લીપ", "gu": "સૂવું" },
+    { "en": "cook", "translit": "કુક", "gu": "રાંધવું" },
+    { "en": "watch", "translit": "વૉચ", "gu": "જોવું" },
+    { "en": "like", "translit": "લાઇક", "gu": "ગમવું" },
+    { "en": "live", "translit": "લિવ", "gu": "રહેવું" },
+    { "en": "wake up", "translit": "વેઇક અપ", "gu": "જાગવું" },
+    { "en": "I drink tea every day.", "translit": "આઇ ડ્રિંક ટી એવરી ડે", "gu": "હું રોજ ચા પીઉં છું." },
+    { "en": "You study English.", "translit": "યૂ સ્ટડી ઇંગ્લિશ", "gu": "તમે અંગ્રેજી ભણો છો." },
+    { "en": "We eat dinner at eight.", "translit": "વી ઈટ ડિનર ઍટ એઇટ", "gu": "આપણે આઠ વાગ્યે જમીએ છીએ." },
+    { "en": "They play cricket on Sunday.", "translit": "ધે પ્લે ક્રિકેટ ઑન સન્ડે", "gu": "તેઓ રવિવારે ક્રિકેટ રમે છે." },
+    { "en": "I wake up at six.", "translit": "આઇ વેઇક અપ ઍટ સિક્સ", "gu": "હું છ વાગ્યે જાગું છું." },
+    { "en": "He drinks milk.", "translit": "હી ડ્રિંક્સ મિલ્ક", "gu": "તે દૂધ પીએ છે." },
+    { "en": "She cooks dinner.", "translit": "શી કુક્સ ડિનર", "gu": "તે રાત્રે જમવાનું બનાવે છે." },
+    { "en": "go → goes: He goes to school.", "translit": "ગો → ગોઝ: હી ગોઝ ટૂ સ્કૂલ", "gu": "તે શાળાએ જાય છે." },
+    { "en": "watch → watches: She watches TV at night.", "translit": "વૉચ → વૉચિઝ: શી વૉચિઝ ટી.વી. ઍટ નાઇટ", "gu": "તે રાત્રે ટીવી જુએ છે." },
+    { "en": "study → studies: He studies English.", "translit": "સ્ટડી → સ્ટડીઝ: હી સ્ટડીઝ ઇંગ્લિશ", "gu": "તે અંગ્રેજી ભણે છે." },
+    { "en": "have → has: She has a car.", "translit": "હૅવ → હૅઝ: શી હૅઝ અ કાર", "gu": "તેની પાસે ગાડી છે." },
+    { "en": "It rains in July.", "translit": "ઇટ રેઇન્ઝ ઇન જુલાઈ", "gu": "જુલાઈમાં વરસાદ પડે છે." },
+    { "en": "always", "translit": "ઑલ્વેઝ", "gu": "હંમેશાં" },
+    { "en": "usually", "translit": "યૂઝ્યુઅલી", "gu": "સામાન્ય રીતે" },
+    { "en": "often", "translit": "ઑફ્ન", "gu": "ઘણી વાર" },
+    { "en": "sometimes", "translit": "સમટાઇમ્ઝ", "gu": "ક્યારેક" },
+    { "en": "never", "translit": "નેવર", "gu": "ક્યારેય નહીં" },
+    { "en": "I always drink tea in the morning.", "translit": "આઇ ઑલ્વેઝ ડ્રિંક ટી ઇન ધ મૉર્નિંગ", "gu": "હું હંમેશાં સવારે ચા પીઉં છું." },
+    { "en": "She never eats meat.", "translit": "શી નેવર ઈટ્સ મીટ", "gu": "તે ક્યારેય માંસ ખાતી નથી." }
+  ],
+  "practice": [
+    {
+      "type": "choice",
+      "questionGu": "\"હું રોજ ચા પીઉં છું.\" ને અંગ્રેજીમાં સાચી રીતે કેમ કહેવાય?",
+      "options": ["I am drink tea every day.", "I drink tea every day.", "I drinks tea every day."],
+      "answer": 1,
+      "explainGu": "I drink tea every day. બીજી ક્રિયા સાથે am ન આવે, અને I સાથે s ન લાગે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: She ___ tea. (drink)",
+      "options": ["drinks", "drink", "drinking"],
+      "answer": 0,
+      "explainGu": "She સાથે ક્રિયાના અંતે s લાગે: She drinks tea."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: They ___ cricket. (play)",
+      "options": ["is play", "plays", "play"],
+      "answer": 2,
+      "explainGu": "They સાથે s ન લાગે: They play cricket."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: He ___ to school. (go)",
+      "options": ["go", "goes", "gos"],
+      "answer": 1,
+      "explainGu": "go નું goes થાય: He goes to school."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: She ___ TV at night. (watch)",
+      "options": ["watchs", "watch", "watches"],
+      "answer": 2,
+      "explainGu": "watch નું watches થાય: She watches TV at night."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: He ___ English. (study)",
+      "options": ["studys", "studies", "study"],
+      "answer": 1,
+      "explainGu": "study નું studies થાય: He studies English."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: She ___ a car. (have)",
+      "options": ["has", "have", "haves"],
+      "answer": 0,
+      "explainGu": "have નું has થાય: She has a car."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"તે બૅન્કમાં કામ કરે છે.\" (પુરુષ) નું સાચું વાક્ય કયું છે?",
+      "options": ["He work in a bank.", "He is work in a bank.", "He works in a bank."],
+      "answer": 2,
+      "explainGu": "He works in a bank. – હી વર્ક્સ ઇન અ બૅન્ક"
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[always]] નો અર્થ શું છે?",
+      "options": ["ક્યારેય નહીં", "હંમેશાં", "ક્યારેક"],
+      "answer": 1,
+      "explainGu": "always – ઑલ્વેઝ – હંમેશાં. never – નેવર – ક્યારેય નહીં. sometimes – સમટાઇમ્ઝ – ક્યારેક."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"હું હંમેશાં સવારે ચા પીઉં છું.\" ને અંગ્રેજીમાં સાચી રીતે કેમ કહેવાય?",
+      "options": [
+        "I always drink tea in the morning.",
+        "I drink always tea in the morning.",
+        "Always I am drink tea in the morning."
+      ],
+      "answer": 0,
+      "explainGu": "always ક્રિયા (drink) ની પહેલાં આવે: I always drink tea."
+    }
+  ]
+}

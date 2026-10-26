@@ -1,0 +1,116 @@
+{
+  "topicId": "p2-t02",
+  "explanationGu": [
+    "જે કામ અત્યારે, આ જ ક્ષણે ચાલી રહ્યું છે, તેના માટે [[Present Continuous]] (પ્રેઝન્ટ કન્ટિન્યુઅસ) વપરાય છે. ગુજરાતીમાં \"ખાઈ રહ્યો છું\", \"વાંચી રહી છું\", \"રમી રહ્યા છે\" કહીએ છીએ, તે જ આ છે. જેમ કે \"હું ચા પી રહી છું\" = [[I am drinking tea.]]",
+    "બનાવવાની રીત: [[am]] / [[is]] / [[are]] + ક્રિયા સાથે [[ing]]. ગુજરાતીમાં \"રહ્યો/રહી છું\" નો ભાગ અંગ્રેજીમાં [[am]] / [[is]] / [[are]] બને છે, અને ક્રિયાના અંતે [[ing]] લાગે છે. [[eat]] → [[eating]], [[read]] → [[reading]].",
+    "કયા સાથે કયું આવે: [[I]] સાથે [[am]]. [[He]], [[She]], [[It]] સાથે [[is]]. [[You]], [[We]], [[They]] સાથે [[are]]. જેમ કે [[I am eating.]], [[She is reading.]], [[They are playing.]]",
+    "અહીં [[am]] / [[is]] / [[are]] જરૂર લખવા! આગળના પાઠમાં આપણે શીખ્યા કે રોજની ટેવમાં [[I am drink tea.]] ખોટું છે. પણ \"અત્યારે ચાલે છે\" વાળા વાક્યમાં [[am]] / [[is]] / [[are]] વગર ચાલે નહીં: [[I am drinking tea.]] સાચું, [[I drinking tea.]] ખોટું.",
+    "[[ing]] લગાડવાના નિયમો: મોટા ભાગની ક્રિયામાં સીધો [[ing]] લાગે છે: [[play]] → [[playing]], [[go]] → [[going]]. જો ક્રિયાના અંતે [[e]] હોય તો [[e]] કાઢી નાખીને [[ing]] લગાડો: [[make]] → [[making]], [[write]] → [[writing]]. ટૂંકા શબ્દોમાં છેલ્લો અક્ષર બેવડાય છે: [[sit]] → [[sitting]], [[run]] → [[running]].",
+    "અત્યારે ચાલતા કામ માટે આ શબ્દો ઉપયોગી છે: [[now]] (હમણાં), [[right now]] (અત્યારે જ), [[at the moment]] (આ સમયે), [[today]] (આજે). [[Look!]] (જુઓ!) અને [[Listen!]] (સાંભળો!) પછી પણ આ જ રીત આવે છે: [[Look! It is raining.]]",
+    "બંને વચ્ચેનો ફરક યાદ રાખો: [[I drink tea every day.]] = હું રોજ ચા પીઉં છું (ટેવ). [[I am drinking tea now.]] = હું અત્યારે ચા પી રહી છું (હમણાં ચાલે છે). રોજ કે વારંવાર હોય તો સાદું રૂપ, અત્યારે ચાલતું હોય તો [[ing]] વાળું રૂપ.",
+    "કેટલીક ક્રિયાઓ સાથે [[ing]] નથી લાગતું, કારણ કે તે કામ નથી પણ લાગણી કે જાણકારી છે: [[like]] (ગમવું), [[love]] (પ્રેમ કરવો), [[want]] (જોઈએ), [[know]] (જાણવું). આપણે [[I like tea.]] કહીએ, [[I am liking tea.]] ખોટું છે.",
+    "આ પાઠમાં \"નથી\" વાળાં વાક્યો અને સવાલો નથી. તે ભાગ 2 ના આગળના પાઠમાં શીખીશું."
+  ],
+  "examples": [
+    { "en": "eat → eating", "translit": "ઈટ → ઈટિંગ", "gu": "ખાવું → ખાઈ રહ્યું" },
+    { "en": "drink → drinking", "translit": "ડ્રિંક → ડ્રિંકિંગ", "gu": "પીવું → પી રહ્યું" },
+    { "en": "read → reading", "translit": "રીડ → રીડિંગ", "gu": "વાંચવું → વાંચી રહ્યું" },
+    { "en": "play → playing", "translit": "પ્લે → પ્લેઇંગ", "gu": "રમવું → રમી રહ્યું" },
+    { "en": "make → making", "translit": "મેઇક → મેઇકિંગ", "gu": "બનાવવું → બનાવી રહ્યું" },
+    { "en": "write → writing", "translit": "રાઇટ → રાઇટિંગ", "gu": "લખવું → લખી રહ્યું" },
+    { "en": "sit → sitting", "translit": "સિટ → સિટિંગ", "gu": "બેસવું → બેસી રહ્યું" },
+    { "en": "run → running", "translit": "રન → રનિંગ", "gu": "દોડવું → દોડી રહ્યું" },
+    { "en": "I am eating.", "translit": "આઇ ઍમ ઈટિંગ", "gu": "હું ખાઈ રહ્યો/રહી છું." },
+    { "en": "He is reading a book.", "translit": "હી ઇઝ રીડિંગ અ બુક", "gu": "તે પુસ્તક વાંચી રહ્યો છે." },
+    { "en": "She is cooking dinner.", "translit": "શી ઇઝ કુકિંગ ડિનર", "gu": "તે જમવાનું બનાવી રહી છે." },
+    { "en": "It is raining.", "translit": "ઇટ ઇઝ રેઇનિંગ", "gu": "વરસાદ પડી રહ્યો છે." },
+    { "en": "You are writing a letter.", "translit": "યૂ આર રાઇટિંગ અ લેટર", "gu": "તમે પત્ર લખી રહ્યા છો." },
+    { "en": "We are watching TV.", "translit": "વી આર વૉચિંગ ટી.વી.", "gu": "આપણે ટીવી જોઈ રહ્યા છીએ." },
+    { "en": "They are playing cricket.", "translit": "ધે આર પ્લેઇંગ ક્રિકેટ", "gu": "તેઓ ક્રિકેટ રમી રહ્યા છે." },
+    { "en": "I am drinking tea now.", "translit": "આઇ ઍમ ડ્રિંકિંગ ટી નાઉ", "gu": "હું હમણાં ચા પી રહી છું." },
+    { "en": "The children are sleeping.", "translit": "ધ ચિલ્ડ્રન આર સ્લીપિંગ", "gu": "બાળકો સૂઈ રહ્યાં છે." },
+    { "en": "My mother is working in the kitchen.", "translit": "માય મધર ઇઝ વર્કિંગ ઇન ધ કિચન", "gu": "મારી મમ્મી રસોડામાં કામ કરી રહી છે." },
+    { "en": "now", "translit": "નાઉ", "gu": "હમણાં" },
+    { "en": "right now", "translit": "રાઇટ નાઉ", "gu": "અત્યારે જ" },
+    { "en": "at the moment", "translit": "ઍટ ધ મોમન્ટ", "gu": "આ સમયે" },
+    { "en": "today", "translit": "ટુડે", "gu": "આજે" },
+    { "en": "Look! It is raining.", "translit": "લુક! ઇટ ઇઝ રેઇનિંગ", "gu": "જુઓ! વરસાદ પડી રહ્યો છે." },
+    { "en": "Listen! He is singing.", "translit": "લિસન! હી ઇઝ સિંગિંગ", "gu": "સાંભળો! તે ગાઈ રહ્યો છે." },
+    { "en": "I drink tea every day.", "translit": "આઇ ડ્રિંક ટી એવરી ડે", "gu": "હું રોજ ચા પીઉં છું." },
+    { "en": "I am drinking tea now.", "translit": "આઇ ઍમ ડ્રિંકિંગ ટી નાઉ", "gu": "હું અત્યારે ચા પી રહી છું." },
+    { "en": "I like tea.", "translit": "આઇ લાઇક ટી", "gu": "મને ચા ગમે છે." },
+    { "en": "She wants water.", "translit": "શી વૉન્ટ્સ વૉટર", "gu": "તેને પાણી જોઈએ છે." }
+  ],
+  "practice": [
+    {
+      "type": "choice",
+      "questionGu": "\"હું અત્યારે ખાઈ રહ્યો છું.\" ને અંગ્રેજીમાં સાચી રીતે કેમ કહેવાય?",
+      "options": ["I eating now.", "I am eating now.", "I eat now."],
+      "answer": 1,
+      "explainGu": "I am eating now. am / is / are અને ક્રિયા સાથે ing – બંને જોઈએ."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: She ___ reading a book.",
+      "options": ["am", "is", "are"],
+      "answer": 1,
+      "explainGu": "She સાથે is આવે: She is reading a book."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: They ___ playing cricket.",
+      "options": ["is", "am", "are"],
+      "answer": 2,
+      "explainGu": "They સાથે are આવે: They are playing cricket."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: I ___ writing a letter.",
+      "options": ["am", "are", "is"],
+      "answer": 0,
+      "explainGu": "I સાથે am આવે: I am writing a letter."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[make]] ને [[ing]] લગાડીએ તો શું બને?",
+      "options": ["makeing", "making", "makking"],
+      "answer": 1,
+      "explainGu": "છેલ્લો e કાઢીને ing લગાડવાનું: make → making."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[run]] ને [[ing]] લગાડીએ તો શું બને?",
+      "options": ["runing", "runeing", "running"],
+      "answer": 2,
+      "explainGu": "ટૂંકા શબ્દમાં છેલ્લો અક્ષર બેવડાય: run → running."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"વરસાદ પડી રહ્યો છે.\" નું સાચું વાક્ય કયું છે?",
+      "options": ["It is raining.", "It raining.", "It are raining."],
+      "answer": 0,
+      "explainGu": "It is raining. – ઇટ ઇઝ રેઇનિંગ"
+    },
+    {
+      "type": "choice",
+      "questionGu": "કયું વાક્ય \"રોજની ટેવ\" દર્શાવે છે?",
+      "options": ["I am drinking tea now.", "I drink tea every day.", "She is cooking now."],
+      "answer": 1,
+      "explainGu": "every day (રોજ) હોય એટલે સાદું રૂપ: I drink tea every day. now હોય તો ing વાળું રૂપ."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"મને ચા ગમે છે.\" નું સાચું વાક્ય કયું છે?",
+      "options": ["I am liking tea.", "I like tea.", "I liking tea."],
+      "answer": 1,
+      "explainGu": "like સાથે ing નથી લાગતું: I like tea. – આઇ લાઇક ટી"
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[right now]] નો અર્થ શું છે?",
+      "options": ["રોજ", "ગઈકાલે", "અત્યારે જ"],
+      "answer": 2,
+      "explainGu": "right now – રાઇટ નાઉ – અત્યારે જ. every day – એવરી ડે – રોજ."
+    }
+  ]
+}

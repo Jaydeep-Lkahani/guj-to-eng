@@ -1,0 +1,110 @@
+{
+  "topicId": "p2-t04",
+  "explanationGu": [
+    "જે કામ હજી થયું નથી, કાલે કે પછી થશે, તેના માટે ભવિષ્યકાળ (Future) વપરાય છે. ગુજરાતીમાં \"જઈશ\", \"કરશે\", \"આવશું\" કહીએ છીએ. અંગ્રેજીમાં આ માટે બે રીત છે: [[will]] (વિલ) અને [[going to]] (ગોઇંગ ટૂ).",
+    "પહેલી રીત: [[will]] + ક્રિયા. [[will]] બધા સાથે એક જ રહે છે, તેમાં [[s]] કે [[ing]] કે [[ed]] કંઈ નથી લાગતું. [[I will go.]], [[She will go.]], [[They will go.]] ગુજરાતીમાં \"હું જઈશ\", \"તે જશે\", \"તેઓ જશે\" માં શબ્દ બદલાય છે, અંગ્રેજીમાં નહીં.",
+    "[[will]] પછી ક્રિયા જેમ છે તેમ આવે, [[to]] કે [[s]] વગર. [[I will go to market.]] સાચું છે. [[I will to go.]], [[She will goes.]] અને [[I will going.]] ખોટાં છે.",
+    "બીજી રીત: [[am]] / [[is]] / [[are]] + [[going to]] + ક્રિયા. [[I]] સાથે [[am]], [[He]], [[She]], [[It]] સાથે [[is]], [[You]], [[We]], [[They]] સાથે [[are]]. જેમ કે [[I am going to cook.]], [[He is going to study.]], [[We are going to travel.]]",
+    "ક્યારે કયું વાપરવું: જે કામનું પહેલેથી વિચારી રાખ્યું હોય, પ્લાન હોય, તેના માટે [[going to]]: [[I am going to buy a car.]] (મેં નક્કી કર્યું છે). જે કામનું હમણાં જ નક્કી કર્યું હોય, વચન આપતા હો કે અંદાજ લગાવતા હો, તેના માટે [[will]]: [[I will help you.]] (હું તમારી મદદ કરીશ), [[It will rain tomorrow.]] (કાલે વરસાદ પડશે).",
+    "[[I will]] ને ટૂંકમાં [[I'll]] (આઇલ) કહેવાય છે. બોલવામાં આ ખૂબ વપરાય છે: [[I'll call you.]] (હું તમને ફોન કરીશ). [[She will]] નું [[She'll]] થાય છે.",
+    "ભવિષ્યકાળ દર્શાવતા શબ્દો: [[tomorrow]] (કાલે), [[tonight]] (આજે રાત્રે), [[next week]] (આવતા અઠવાડિયે), [[next year]] (આવતા વર્ષે), [[soon]] (જલ્દી), [[in two days]] (બે દિવસ પછી). જેમ કે [[We will meet next week.]]",
+    "આ પાઠમાં \"નથી\" વાળાં વાક્યો અને સવાલો નથી. તે ભાગ 2 ના આગળના પાઠમાં શીખીશું."
+  ],
+  "examples": [
+    { "en": "I will go.", "translit": "આઇ વિલ ગો", "gu": "હું જઈશ." },
+    { "en": "She will come.", "translit": "શી વિલ કમ", "gu": "તે આવશે." },
+    { "en": "They will play.", "translit": "ધે વિલ પ્લે", "gu": "તેઓ રમશે." },
+    { "en": "I will go to the market tomorrow.", "translit": "આઇ વિલ ગો ટૂ ધ માર્કિટ ટુમૉરો", "gu": "હું કાલે બજારમાં જઈશ." },
+    { "en": "He will call you tonight.", "translit": "હી વિલ કૉલ યૂ ટુનાઇટ", "gu": "તે તમને આજે રાત્રે ફોન કરશે." },
+    { "en": "We will meet next week.", "translit": "વી વિલ મીટ નેક્સ્ટ વીક", "gu": "આપણે આવતા અઠવાડિયે મળીશું." },
+    { "en": "It will rain tomorrow.", "translit": "ઇટ વિલ રેઇન ટુમૉરો", "gu": "કાલે વરસાદ પડશે." },
+    { "en": "I will help you.", "translit": "આઇ વિલ હૅલ્પ યૂ", "gu": "હું તમારી મદદ કરીશ." },
+    { "en": "I'll call you.", "translit": "આઇલ કૉલ યૂ", "gu": "હું તમને ફોન કરીશ." },
+    { "en": "She'll cook dinner.", "translit": "શીલ કુક ડિનર", "gu": "તે રાત્રે જમવાનું બનાવશે." },
+    { "en": "I am going to cook.", "translit": "આઇ ઍમ ગોઇંગ ટૂ કુક", "gu": "હું રાંધવાની છું." },
+    { "en": "He is going to study.", "translit": "હી ઇઝ ગોઇંગ ટૂ સ્ટડી", "gu": "તે ભણવાનો છે." },
+    { "en": "We are going to travel.", "translit": "વી આર ગોઇંગ ટૂ ટ્રૅવલ", "gu": "અમે પ્રવાસે જવાના છીએ." },
+    { "en": "They are going to buy a house.", "translit": "ધે આર ગોઇંગ ટૂ બાય અ હાઉસ", "gu": "તેઓ ઘર ખરીદવાના છે." },
+    { "en": "I am going to buy a car.", "translit": "આઇ ઍમ ગોઇંગ ટૂ બાય અ કાર", "gu": "હું ગાડી ખરીદવાનો/ખરીદવાની છું." },
+    { "en": "She is going to visit her mother.", "translit": "શી ઇઝ ગોઇંગ ટૂ વિઝિટ હર મધર", "gu": "તે તેની મમ્મીને મળવા જવાની છે." },
+    { "en": "tomorrow", "translit": "ટુમૉરો", "gu": "કાલે" },
+    { "en": "tonight", "translit": "ટુનાઇટ", "gu": "આજે રાત્રે" },
+    { "en": "next week", "translit": "નેક્સ્ટ વીક", "gu": "આવતા અઠવાડિયે" },
+    { "en": "next year", "translit": "નેક્સ્ટ યર", "gu": "આવતા વર્ષે" },
+    { "en": "soon", "translit": "સૂન", "gu": "જલ્દી" },
+    { "en": "in two days", "translit": "ઇન ટૂ ડેઝ", "gu": "બે દિવસ પછી" },
+    { "en": "I will see you soon.", "translit": "આઇ વિલ સી યૂ સૂન", "gu": "હું તમને જલ્દી મળીશ." }
+  ],
+  "practice": [
+    {
+      "type": "choice",
+      "questionGu": "\"હું કાલે જઈશ.\" ને અંગ્રેજીમાં સાચી રીતે કેમ કહેવાય?",
+      "options": ["I will go tomorrow.", "I will to go tomorrow.", "I will going tomorrow."],
+      "answer": 0,
+      "explainGu": "will પછી ક્રિયા જેમ છે તેમ આવે: I will go tomorrow."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: She will ___ tomorrow. (come)",
+      "options": ["comes", "come", "coming"],
+      "answer": 1,
+      "explainGu": "will પછી s કે ing ન લાગે: She will come tomorrow."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: They ___ meet next week.",
+      "options": ["will", "wills", "are will"],
+      "answer": 0,
+      "explainGu": "will બધા સાથે એક જ રહે છે: They will meet next week."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: I ___ going to cook.",
+      "options": ["is", "am", "are"],
+      "answer": 1,
+      "explainGu": "I સાથે am આવે: I am going to cook."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: He ___ going to study.",
+      "options": ["are", "am", "is"],
+      "answer": 2,
+      "explainGu": "He સાથે is આવે: He is going to study."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: We are going to ___ . (travel)",
+      "options": ["travel", "travels", "travelling"],
+      "answer": 0,
+      "explainGu": "going to પછી ક્રિયા જેમ છે તેમ આવે: We are going to travel."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"કાલે વરસાદ પડશે.\" નું સાચું વાક્ય કયું છે?",
+      "options": ["It will rains tomorrow.", "It is rain tomorrow.", "It will rain tomorrow."],
+      "answer": 2,
+      "explainGu": "It will rain tomorrow. – ઇટ વિલ રેઇન ટુમૉરો"
+    },
+    {
+      "type": "choice",
+      "questionGu": "તમે નક્કી કરી રાખ્યું છે કે ગાડી ખરીદશો. કયું વાક્ય વધારે યોગ્ય છે?",
+      "options": ["I am going to buy a car.", "I bought a car.", "I buy a car."],
+      "answer": 0,
+      "explainGu": "પહેલેથી નક્કી કરેલા પ્લાન માટે going to: I am going to buy a car."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[I'll]] નું પૂરું રૂપ શું છે?",
+      "options": ["I am", "I will", "I was"],
+      "answer": 1,
+      "explainGu": "I'll = I will. I'll call you. – આઇલ કૉલ યૂ"
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[next week]] નો અર્થ શું છે?",
+      "options": ["ગયા અઠવાડિયે", "આ અઠવાડિયે", "આવતા અઠવાડિયે"],
+      "answer": 2,
+      "explainGu": "next week – નેક્સ્ટ વીક – આવતા અઠવાડિયે. last week – લાસ્ટ વીક – ગયા અઠવાડિયે."
+    }
+  ]
+}

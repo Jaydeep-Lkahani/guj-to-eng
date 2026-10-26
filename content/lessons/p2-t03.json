@@ -1,0 +1,121 @@
+{
+  "topicId": "p2-t03",
+  "explanationGu": [
+    "જે કામ પૂરું થઈ ગયું છે, ગઈકાલે કે પહેલાં થયું હતું, તેના માટે [[Past Simple]] (પાસ્ટ સિમ્પલ) વપરાય છે. જેમ કે \"હું ગઈકાલે શાળાએ ગયો\" = [[I went to school yesterday.]] અને \"તેણે ચા પીધી\" = [[She drank tea.]]",
+    "ગુજરાતીમાં \"ગયો\", \"ગઈ\", \"ગયા\" એમ શબ્દ બદલાય છે. અંગ્રેજીમાં આવું નથી. [[I]], [[You]], [[He]], [[She]], [[It]], [[We]], [[They]] બધા સાથે ક્રિયાનું એક જ ભૂતકાળનું રૂપ આવે છે. [[s]] પણ નથી લાગતો: [[He played]], [[They played]].",
+    "મોટા ભાગની ક્રિયામાં અંતે [[ed]] લાગે છે (આને regular verbs કહેવાય): [[play]] → [[played]], [[work]] → [[worked]], [[watch]] → [[watched]].",
+    "[[ed]] લગાડવાના નિયમો: જો અંતે [[e]] હોય તો ફક્ત [[d]] લાગે: [[live]] → [[lived]]. જો અંતે [[y]] હોય તો [[y]] નો [[ied]] થાય: [[study]] → [[studied]]. ટૂંકા શબ્દમાં છેલ્લો અક્ષર બેવડાય: [[stop]] → [[stopped]].",
+    "કેટલીક જાણીતી ક્રિયાઓમાં [[ed]] નથી લાગતો, તેનું આખું રૂપ બદલાઈ જાય છે (આને irregular verbs કહેવાય). આ યાદ કરવા જ પડે: [[go]] → [[went]], [[eat]] → [[ate]], [[see]] → [[saw]], [[have]] → [[had]], [[come]] → [[came]], [[drink]] → [[drank]], [[buy]] → [[bought]], [[make]] → [[made]], [[take]] → [[took]], [[write]] → [[wrote]].",
+    "સૌથી મોટી ભૂલ: ભૂતકાળમાં ક્રિયાનું મૂળ રૂપ ન વાપરો. [[I go to school yesterday.]] ખોટું છે, સાચું છે [[I went to school yesterday.]] અને [[am]] / [[is]] / [[are]] પણ ન ઉમેરો: [[I am went]] ખોટું છે.",
+    "[[am]] / [[is]] / [[are]] નું ભૂતકાળનું રૂપ [[was]] અને [[were]] છે. [[I]], [[He]], [[She]], [[It]] સાથે [[was]]: [[I was at home.]] [[You]], [[We]], [[They]] સાથે [[were]]: [[They were happy.]]",
+    "ભૂતકાળ દર્શાવતા શબ્દો: [[yesterday]] (ગઈકાલે), [[last night]] (ગઈ રાત્રે), [[last week]] (ગયા અઠવાડિયે), [[last year]] (ગયા વર્ષે), [[two days ago]] (બે દિવસ પહેલાં). જેમ કે [[We watched TV last night.]]",
+    "આ પાઠમાં \"નથી\" વાળાં વાક્યો અને સવાલો નથી. તે ભાગ 2 ના આગળના પાઠમાં શીખીશું."
+  ],
+  "examples": [
+    { "en": "play → played", "translit": "પ્લે → પ્લેડ", "gu": "રમવું → રમ્યો/રમી" },
+    { "en": "work → worked", "translit": "વર્ક → વર્ક્ડ", "gu": "કામ કરવું → કામ કર્યું" },
+    { "en": "watch → watched", "translit": "વૉચ → વૉચ્ડ", "gu": "જોવું → જોયું" },
+    { "en": "live → lived", "translit": "લિવ → લિવ્ડ", "gu": "રહેવું → રહ્યો/રહી" },
+    { "en": "study → studied", "translit": "સ્ટડી → સ્ટડીડ", "gu": "ભણવું → ભણ્યો/ભણી" },
+    { "en": "stop → stopped", "translit": "સ્ટૉપ → સ્ટૉપ્ડ", "gu": "અટકવું → અટક્યો/અટકી" },
+    { "en": "go → went", "translit": "ગો → વેન્ટ", "gu": "જવું → ગયો/ગઈ" },
+    { "en": "eat → ate", "translit": "ઈટ → એઇટ", "gu": "ખાવું → ખાધું" },
+    { "en": "see → saw", "translit": "સી → સૉ", "gu": "જોવું → જોયું" },
+    { "en": "have → had", "translit": "હૅવ → હૅડ", "gu": "હોવું → હતું" },
+    { "en": "come → came", "translit": "કમ → કેઇમ", "gu": "આવવું → આવ્યો/આવી" },
+    { "en": "drink → drank", "translit": "ડ્રિંક → ડ્રૅંક", "gu": "પીવું → પીધું" },
+    { "en": "buy → bought", "translit": "બાય → બૉટ", "gu": "ખરીદવું → ખરીદ્યું" },
+    { "en": "make → made", "translit": "મેઇક → મેઇડ", "gu": "બનાવવું → બનાવ્યું" },
+    { "en": "take → took", "translit": "ટેઇક → ટુક", "gu": "લેવું → લીધું" },
+    { "en": "write → wrote", "translit": "રાઇટ → રોટ", "gu": "લખવું → લખ્યું" },
+    { "en": "I played cricket yesterday.", "translit": "આઇ પ્લેડ ક્રિકેટ યેસ્ટરડે", "gu": "હું ગઈકાલે ક્રિકેટ રમ્યો." },
+    { "en": "She worked in a bank.", "translit": "શી વર્ક્ડ ઇન અ બૅન્ક", "gu": "તેણે બૅન્કમાં કામ કર્યું." },
+    { "en": "We watched TV last night.", "translit": "વી વૉચ્ડ ટી.વી. લાસ્ટ નાઇટ", "gu": "અમે ગઈ રાત્રે ટીવી જોયું." },
+    { "en": "He studied English.", "translit": "હી સ્ટડીડ ઇંગ્લિશ", "gu": "તેણે અંગ્રેજી ભણ્યું." },
+    { "en": "I went to school yesterday.", "translit": "આઇ વેન્ટ ટૂ સ્કૂલ યેસ્ટરડે", "gu": "હું ગઈકાલે શાળાએ ગયો." },
+    { "en": "She ate rice.", "translit": "શી એઇટ રાઇસ", "gu": "તેણે ભાત ખાધા." },
+    { "en": "They came home.", "translit": "ધે કેઇમ હોમ", "gu": "તેઓ ઘરે આવ્યા." },
+    { "en": "I drank water.", "translit": "આઇ ડ્રૅંક વૉટર", "gu": "મેં પાણી પીધું." },
+    { "en": "We bought a car.", "translit": "વી બૉટ અ કાર", "gu": "અમે ગાડી ખરીદી." },
+    { "en": "He wrote a letter.", "translit": "હી રોટ અ લેટર", "gu": "તેણે પત્ર લખ્યો." },
+    { "en": "I saw a bird.", "translit": "આઇ સૉ અ બર્ડ", "gu": "મેં પક્ષી જોયું." },
+    { "en": "I was at home.", "translit": "આઇ વૉઝ ઍટ હોમ", "gu": "હું ઘરે હતો/હતી." },
+    { "en": "They were happy.", "translit": "ધે વર હૅપી", "gu": "તેઓ ખુશ હતા." },
+    { "en": "yesterday", "translit": "યેસ્ટરડે", "gu": "ગઈકાલે" },
+    { "en": "last night", "translit": "લાસ્ટ નાઇટ", "gu": "ગઈ રાત્રે" },
+    { "en": "last week", "translit": "લાસ્ટ વીક", "gu": "ગયા અઠવાડિયે" },
+    { "en": "two days ago", "translit": "ટૂ ડેઝ અગો", "gu": "બે દિવસ પહેલાં" }
+  ],
+  "practice": [
+    {
+      "type": "choice",
+      "questionGu": "\"હું ગઈકાલે શાળાએ ગયો.\" ને અંગ્રેજીમાં સાચી રીતે કેમ કહેવાય?",
+      "options": ["I go to school yesterday.", "I am went to school yesterday.", "I went to school yesterday."],
+      "answer": 2,
+      "explainGu": "go નું ભૂતકાળનું રૂપ went છે: I went to school yesterday."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: They ___ cricket yesterday. (play)",
+      "options": ["played", "plays", "play"],
+      "answer": 0,
+      "explainGu": "play નું played થાય: They played cricket yesterday."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[study]] નું ભૂતકાળનું રૂપ શું છે?",
+      "options": ["studyed", "studied", "studed"],
+      "answer": 1,
+      "explainGu": "y નો ied થાય: study → studied."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[live]] નું ભૂતકાળનું રૂપ શું છે?",
+      "options": ["lived", "liveed", "livd"],
+      "answer": 0,
+      "explainGu": "અંતે e હોય તો ફક્ત d લાગે: live → lived."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[stop]] નું ભૂતકાળનું રૂપ શું છે?",
+      "options": ["stoped", "stopeed", "stopped"],
+      "answer": 2,
+      "explainGu": "છેલ્લો અક્ષર બેવડાય: stop → stopped."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: She ___ a letter. (write)",
+      "options": ["writed", "wrote", "write"],
+      "answer": 1,
+      "explainGu": "write → wrote. આ irregular verb છે, તેમાં ed ન લાગે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: We ___ a car last year. (buy)",
+      "options": ["buyed", "buy", "bought"],
+      "answer": 2,
+      "explainGu": "buy → bought. We bought a car last year."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: I ___ water. (drink)",
+      "options": ["drank", "drinked", "drinks"],
+      "answer": 0,
+      "explainGu": "drink → drank. I drank water."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: They ___ happy yesterday.",
+      "options": ["was", "were", "are"],
+      "answer": 1,
+      "explainGu": "They સાથે were આવે: They were happy yesterday."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[two days ago]] નો અર્થ શું છે?",
+      "options": ["બે દિવસ પછી", "બે દિવસ પહેલાં", "આજે બે દિવસ"],
+      "answer": 1,
+      "explainGu": "two days ago – ટૂ ડેઝ અગો – બે દિવસ પહેલાં."
+    }
+  ]
+}

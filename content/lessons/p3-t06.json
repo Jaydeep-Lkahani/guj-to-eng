@@ -1,0 +1,111 @@
+{
+  "topicId": "p3-t06",
+  "explanationGu": [
+    "બોલવા કરતાં લખવામાં થોડા વધારે નિયમો જોવા પડે છે, કારણ કે વાંચનાર તમારો અવાજ સાંભળતો નથી. આ પાઠમાં આપણે શીખીશું કે અંગ્રેજી વાક્ય સાચી રીતે કેવી રીતે લખાય, અને એક નાનો પત્ર કે ઈમેઇલ કેવી રીતે લખાય.",
+    "મોટા અક્ષર (Capital letter): (૧) વાક્યની શરૂઆતમાં. (૨) [[I]] હંમેશાં મોટો. (૩) નામ: [[Ravi]], [[Surat]], [[India]]. (૪) વાર અને મહિના: [[Monday]], [[July]]. (૫) ભાષા: [[English]], [[Gujarati]]. જેમ કે [[On Monday I speak English with Ravi.]]",
+    "ચિહ્નો (Punctuation): વાક્યના અંતે [[full stop]] (.), સવાલના અંતે [[question mark]] (?). [[comma]] (,) થોડો અટકવા માટે અને યાદીમાં: [[I bought milk, rice and sugar.]] [[apostrophe]] (') ટૂંકા રૂપમાં: [[I'm]], [[don't]], અને માલિકી બતાવવા: [[Ravi's bag]] (રવિની થેલી).",
+    "શબ્દોનો ક્રમ: આ સૌથી મહત્ત્વનું છે. ગુજરાતીમાં ક્રિયા છેલ્લે આવે છે: \"હું ચા પીઉં છું.\" અંગ્રેજીમાં ક્રમ છે કર્તા (કોણ) + ક્રિયા (શું કરે છે) + કર્મ (શું): [[I drink tea.]] [[I tea drink.]] ખોટું છે.",
+    "દરેક વાક્યમાં કર્તા અને ક્રિયા હોવાં જોઈએ. [[Going to market.]] અધૂરું છે, પૂરું વાક્ય છે [[I am going to the market.]] [[Very tired.]] ના બદલે [[I am very tired.]]",
+    "લખતાં પહેલાં વિચારો: શું લખવું છે? પછી ટૂંકાં, સાદાં વાક્યોમાં લખો. એક પરિચ્છેદ (paragraph) માં એક જ વિષય રાખો. લખ્યા પછી એક વાર વાંચી જાઓ અને મોટા અક્ષર, ચિહ્નો, [[s]] અને [[ed]] તપાસો.",
+    "ક્રમ બતાવવા માટે આ શબ્દો વપરાય: [[First]] (પહેલાં), [[Then]] (પછી), [[After that]] (ત્યાર બાદ), [[Finally]] (છેલ્લે). જેમ કે [[First I woke up. Then I had tea. Finally I went to work.]]",
+    "પત્ર કે ઈમેઇલ લખવા: શરૂઆતમાં [[Dear Meena,]] (પ્રિય મીના), પછી મુખ્ય વાત, છેલ્લે [[Your friend,]] (તમારો મિત્ર) અને નીચે તમારું નામ. વડીલ કે અજાણી વ્યક્તિને [[Yours sincerely,]] (આપનો વિશ્વાસુ) લખાય.",
+    "નીચે એક નાનો ઈમેઇલ આપ્યો છે. તેની દરેક લીટીનો ગુજરાતી અર્થ તેની નીચે છે. તેને જોઈને તમે પણ કોઈ મિત્રને થોડી લીટીઓ લખવાનો પ્રયત્ન કરો."
+  ],
+  "examples": [
+    { "en": "On Monday I speak English with Ravi.", "translit": "ઑન મન્ડે આઇ સ્પીક ઇંગ્લિશ વિથ રવિ", "gu": "સોમવારે હું રવિ સાથે અંગ્રેજી બોલું છું." },
+    { "en": "I bought milk, rice and sugar.", "translit": "આઇ બૉટ મિલ્ક, રાઇસ ઍન્ડ શુગર", "gu": "મેં દૂધ, ચોખા અને ખાંડ ખરીદ્યાં." },
+    { "en": "Where do you live?", "translit": "વેર ડૂ યૂ લિવ", "gu": "તમે ક્યાં રહો છો?" },
+    { "en": "I'm tired.", "translit": "આઇમ ટાયર્ડ", "gu": "હું થાકેલો/થાકેલી છું." },
+    { "en": "Ravi's bag is new.", "translit": "રવિઝ બૅગ ઇઝ ન્યૂ", "gu": "રવિની થેલી નવી છે." },
+    { "en": "I drink tea.", "translit": "આઇ ડ્રિંક ટી", "gu": "હું ચા પીઉં છું." },
+    { "en": "She reads a book.", "translit": "શી રીડ્ઝ અ બુક", "gu": "તે પુસ્તક વાંચે છે." },
+    { "en": "I am going to the market.", "translit": "આઇ ઍમ ગોઇંગ ટૂ ધ માર્કિટ", "gu": "હું બજારમાં જઈ રહ્યો છું." },
+    { "en": "I am very tired.", "translit": "આઇ ઍમ વેરી ટાયર્ડ", "gu": "હું ખૂબ થાકેલો છું." },
+    { "en": "First I woke up. Then I had tea. Finally I went to work.", "translit": "ફર્સ્ટ આઇ વોક અપ. ધેન આઇ હૅડ ટી. ફાઇનલી આઇ વેન્ટ ટૂ વર્ક", "gu": "પહેલાં હું જાગ્યો. પછી ચા પીધી. છેલ્લે કામ પર ગયો." },
+    { "en": "Dear Meena,", "translit": "ડિયર મીના,", "gu": "પ્રિય મીના," },
+    { "en": "How are you? I am fine.", "translit": "હાઉ આર યૂ? આઇ ઍમ ફાઇન", "gu": "તું કેમ છે? હું મજામાં છું." },
+    { "en": "Yesterday I went to the market with my mother.", "translit": "યેસ્ટરડે આઇ વેન્ટ ટૂ ધ માર્કિટ વિથ માય મધર", "gu": "ગઈકાલે હું મારી મમ્મી સાથે બજારમાં ગયો/ગઈ." },
+    { "en": "We bought milk and fruits.", "translit": "વી બૉટ મિલ્ક ઍન્ડ ફ્રૂટ્સ", "gu": "અમે દૂધ અને ફળો ખરીદ્યાં." },
+    { "en": "Next Sunday I am going to visit you.", "translit": "નેક્સ્ટ સન્ડે આઇ ઍમ ગોઇંગ ટૂ વિઝિટ યૂ", "gu": "આવતા રવિવારે હું તને મળવા આવવાનો/આવવાની છું." },
+    { "en": "Please write soon.", "translit": "પ્લીઝ રાઇટ સૂન", "gu": "જલ્દી લખજે." },
+    { "en": "Your friend,", "translit": "યોર ફ્રેન્ડ,", "gu": "તારો મિત્ર," },
+    { "en": "Ravi", "translit": "રવિ", "gu": "રવિ" },
+    { "en": "Yours sincerely,", "translit": "યોર્ઝ સિન્સિયરલી,", "gu": "આપનો વિશ્વાસુ," },
+    { "en": "First", "translit": "ફર્સ્ટ", "gu": "પહેલાં" },
+    { "en": "Then", "translit": "ધેન", "gu": "પછી" },
+    { "en": "After that", "translit": "આફ્ટર ધૅટ", "gu": "ત્યાર બાદ" },
+    { "en": "Finally", "translit": "ફાઇનલી", "gu": "છેલ્લે" }
+  ],
+  "practice": [
+    {
+      "type": "choice",
+      "questionGu": "કયું વાક્ય મોટા અક્ષરના નિયમ પ્રમાણે સાચું છે?",
+      "options": ["on monday i speak english.", "On Monday I speak English.", "on Monday i speak English."],
+      "answer": 1,
+      "explainGu": "વાક્યની શરૂઆત, I, વાર અને ભાષાના નામ મોટા અક્ષરથી."
+    },
+    {
+      "type": "choice",
+      "questionGu": "સવાલના અંતે કયું ચિહ્ન આવે?",
+      "options": [". (full stop)", "? (question mark)", ", (comma)"],
+      "answer": 1,
+      "explainGu": "સવાલના અંતે question mark (?) : Where do you live?"
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"હું ચા પીઉં છું.\" નું સાચું અંગ્રેજી વાક્ય કયું છે?",
+      "options": ["I tea drink.", "Tea I drink.", "I drink tea."],
+      "answer": 2,
+      "explainGu": "ક્રમ: કર્તા + ક્રિયા + કર્મ. I drink tea."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"રવિની થેલી નવી છે.\" નું સાચું વાક્ય કયું છે?",
+      "options": ["Ravis bag is new.", "Ravi's bag is new.", "Ravi bag's is new."],
+      "answer": 1,
+      "explainGu": "માલિકી બતાવવા apostrophe + s: Ravi's bag."
+    },
+    {
+      "type": "choice",
+      "questionGu": "કયું વાક્ય પૂરું (કર્તા અને ક્રિયા સાથે) છે?",
+      "options": ["Going to market.", "I am going to the market.", "Very tired."],
+      "answer": 1,
+      "explainGu": "દરેક વાક્યમાં કર્તા (I) અને ક્રિયા (am going) જોઈએ."
+    },
+    {
+      "type": "choice",
+      "questionGu": "યાદી માટે comma વાળું સાચું વાક્ય કયું છે?",
+      "options": ["I bought milk rice and sugar.", "I bought, milk, rice, and, sugar.", "I bought milk, rice and sugar."],
+      "answer": 2,
+      "explainGu": "યાદીમાં વસ્તુઓ વચ્ચે comma: milk, rice and sugar."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ક્રમ બતાવવા \"છેલ્લે\" માટે કયો શબ્દ વપરાય?",
+      "options": ["First", "Finally", "Then"],
+      "answer": 1,
+      "explainGu": "Finally – ફાઇનલી – છેલ્લે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "મિત્રને ઈમેઇલ કે પત્રની શરૂઆત કેવી રીતે કરાય?",
+      "options": ["Dear Meena,", "Goodbye Meena", "Your friend,"],
+      "answer": 0,
+      "explainGu": "શરૂઆતમાં Dear + નામ: Dear Meena,"
+    },
+    {
+      "type": "choice",
+      "questionGu": "પત્રના અંતે \"તારો મિત્ર\" માટે શું લખાય?",
+      "options": ["Dear friend,", "Your friend,", "Hello friend,"],
+      "answer": 1,
+      "explainGu": "અંતે Your friend, અને તેની નીચે તમારું નામ."
+    },
+    {
+      "type": "choice",
+      "questionGu": "લખ્યા પછી શું કરવું જોઈએ?",
+      "options": ["એક વાર વાંચી જઈને ભૂલો તપાસવી", "તરત જ મોકલી દેવું", "ફેંકી દેવું"],
+      "answer": 0,
+      "explainGu": "મોટા અક્ષર, ચિહ્નો, s અને ed તપાસવા."
+    }
+  ]
+}

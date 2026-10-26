@@ -1,0 +1,122 @@
+{
+  "topicId": "p2-t06",
+  "explanationGu": [
+    "ગુજરાતીમાં સવાલ પૂછવા માટે વાક્યની શરૂઆતમાં \"શું\" મૂકીએ છીએ: \"શું તમે ચા પીઓ છો?\" અંગ્રેજીમાં \"શું\" જેવો કોઈ શબ્દ નથી. તેના બદલે મદદગાર શબ્દ (am, is, are, do, does, did, will) વાક્યની શરૂઆતમાં આવે છે. આને [[Questions]] (ક્વેશ્ચન્સ) કહેવાય.",
+    "[[am]] / [[is]] / [[are]] / [[was]] / [[were]] વાળા સવાલમાં આ શબ્દ ને વાક્યની શરૂઆતમાં લઈ આવો. [[You are happy.]] → [[Are you happy?]] (શું તમે ખુશ છો?). [[She is at home.]] → [[Is she at home?]] (શું તે ઘરે છે?).",
+    "રોજની ટેવ (Present Simple) ના સવાલમાં શરૂઆતમાં [[Do]] કે [[Does]] આવે અને પછી ક્રિયા જેમ છે તેમ આવે. [[I]], [[You]], [[We]], [[They]] સાથે [[Do]]: [[Do you drink tea?]] [[He]], [[She]], [[It]] સાથે [[Does]]: [[Does she drink tea?]] [[Does]] પછી ક્રિયામાં [[s]] ન લાગે: [[Does he likes tea?]] ખોટું છે, સાચું છે [[Does he like tea?]]",
+    "ભૂતકાળ (Past Simple) ના સવાલમાં બધા સાથે [[Did]] આવે અને પછી ક્રિયા જેમ છે તેમ આવે: [[Did you go to school?]] (શું તમે શાળાએ ગયા હતા?). [[Did you went?]] ખોટું છે, સાચું છે [[Did you go?]] ભવિષ્યકાળમાં [[Will]] શરૂઆતમાં આવે: [[Will you come tomorrow?]] અત્યારે ચાલતા કામમાં [[Are you eating?]], [[Is he sleeping?]]",
+    "સવાલના જવાબ ટૂંકા રાખી શકાય. હા માટે [[Yes, I do.]], [[Yes, she does.]], [[Yes, I did.]], [[Yes, I am.]]. ના માટે [[No, I don't.]], [[No, he doesn't.]], [[No, I didn't.]], [[No, I'm not.]] જે મદદગાર શબ્દથી સવાલ શરૂ થયો હોય તે જ જવાબમાં વાપરવો.",
+    "જ્યારે \"શું, ક્યાં, ક્યારે, કોણ, કેમ\" જેવા સવાલ હોય ત્યારે આ સવાલ-શબ્દો વાપરવા: [[What]] (શું), [[Where]] (ક્યાં), [[When]] (ક્યારે), [[Who]] (કોણ), [[Why]] (કેમ), [[How]] (કેવી રીતે), [[Which]] (કયું), [[Whose]] (કોનું).",
+    "સવાલ-શબ્દ પહેલાં આવે, પછી મદદગાર શબ્દ, પછી કર્તા (I, you, he…), પછી ક્રિયા. [[What do you want?]] (તમને શું જોઈએ છે?), [[Where does she live?]] (તે ક્યાં રહે છે?), [[When did you come?]] (તમે ક્યારે આવ્યા?), [[Why are you crying?]] (તમે કેમ રડો છો?).",
+    "સૌથી મોટી ભૂલ: ગુજરાતીના ક્રમમાં બોલવું. [[What you want?]] અને [[Where you are going?]] ખોટા છે. સાચા છે [[What do you want?]] અને [[Where are you going?]] — મદદગાર શબ્દ કર્તાની પહેલાં આવે.",
+    "ગણતરી અને ઉંમર માટે: [[How many]] (કેટલા, ગણી શકાય તેવા માટે): [[How many children do you have?]]. [[How much]] (કેટલું, માપી શકાય તેવા માટે): [[How much is this?]] (આની કિંમત કેટલી છે?). [[How old]] (કેટલી ઉંમર): [[How old are you?]]"
+  ],
+  "examples": [
+    { "en": "Are you happy?", "translit": "આર યૂ હૅપી", "gu": "શું તમે ખુશ છો?" },
+    { "en": "Is she at home?", "translit": "ઇઝ શી ઍટ હોમ", "gu": "શું તે ઘરે છે?" },
+    { "en": "Was he late?", "translit": "વૉઝ હી લેઇટ", "gu": "શું તે મોડો હતો?" },
+    { "en": "Do you drink tea?", "translit": "ડૂ યૂ ડ્રિંક ટી", "gu": "શું તમે ચા પીઓ છો?" },
+    { "en": "Does she drink tea?", "translit": "ડઝ શી ડ્રિંક ટી", "gu": "શું તે ચા પીએ છે?" },
+    { "en": "Does he like milk?", "translit": "ડઝ હી લાઇક મિલ્ક", "gu": "શું તેને દૂધ ગમે છે?" },
+    { "en": "Do they live here?", "translit": "ડૂ ધે લિવ હિયર", "gu": "શું તેઓ અહીં રહે છે?" },
+    { "en": "Did you go to school?", "translit": "ડિડ યૂ ગો ટૂ સ્કૂલ", "gu": "શું તમે શાળાએ ગયા હતા?" },
+    { "en": "Did she call you?", "translit": "ડિડ શી કૉલ યૂ", "gu": "શું તેણે તમને ફોન કર્યો હતો?" },
+    { "en": "Will you come tomorrow?", "translit": "વિલ યૂ કમ ટુમૉરો", "gu": "શું તમે કાલે આવશો?" },
+    { "en": "Are you eating?", "translit": "આર યૂ ઈટિંગ", "gu": "શું તમે ખાઈ રહ્યા છો?" },
+    { "en": "Is he sleeping?", "translit": "ઇઝ હી સ્લીપિંગ", "gu": "શું તે સૂઈ રહ્યો છે?" },
+    { "en": "Yes, I do.", "translit": "યેસ, આઇ ડૂ", "gu": "હા, હું પીઉં છું." },
+    { "en": "No, he doesn't.", "translit": "નો, હી ડઝન્ટ", "gu": "ના, તે નથી પીતો." },
+    { "en": "Yes, I did.", "translit": "યેસ, આઇ ડિડ", "gu": "હા, હું ગયો હતો." },
+    { "en": "No, I'm not.", "translit": "નો, આઇમ નૉટ", "gu": "ના, હું નથી." },
+    { "en": "What", "translit": "વૉટ", "gu": "શું" },
+    { "en": "Where", "translit": "વેર", "gu": "ક્યાં" },
+    { "en": "When", "translit": "વેન", "gu": "ક્યારે" },
+    { "en": "Who", "translit": "હૂ", "gu": "કોણ" },
+    { "en": "Why", "translit": "વાય", "gu": "કેમ" },
+    { "en": "How", "translit": "હાઉ", "gu": "કેવી રીતે" },
+    { "en": "Which", "translit": "વિચ", "gu": "કયું" },
+    { "en": "Whose", "translit": "હૂઝ", "gu": "કોનું" },
+    { "en": "What do you want?", "translit": "વૉટ ડૂ યૂ વૉન્ટ", "gu": "તમને શું જોઈએ છે?" },
+    { "en": "Where does she live?", "translit": "વેર ડઝ શી લિવ", "gu": "તે ક્યાં રહે છે?" },
+    { "en": "When did you come?", "translit": "વેન ડિડ યૂ કમ", "gu": "તમે ક્યારે આવ્યા?" },
+    { "en": "Why are you crying?", "translit": "વાય આર યૂ ક્રાઇંગ", "gu": "તમે કેમ રડો છો?" },
+    { "en": "Where are you going?", "translit": "વેર આર યૂ ગોઇંગ", "gu": "તમે ક્યાં જાઓ છો?" },
+    { "en": "Who is that?", "translit": "હૂ ઇઝ ધૅટ", "gu": "તે કોણ છે?" },
+    { "en": "Whose bag is this?", "translit": "હૂઝ બૅગ ઇઝ ધિસ", "gu": "આ કોની થેલી છે?" },
+    { "en": "How many children do you have?", "translit": "હાઉ મેની ચિલ્ડ્રન ડૂ યૂ હૅવ", "gu": "તમારે કેટલાં બાળકો છે?" },
+    { "en": "How much is this?", "translit": "હાઉ મચ ઇઝ ધિસ", "gu": "આની કિંમત કેટલી છે?" },
+    { "en": "How old are you?", "translit": "હાઉ ઓલ્ડ આર યૂ", "gu": "તમારી ઉંમર કેટલી છે?" }
+  ],
+  "practice": [
+    {
+      "type": "choice",
+      "questionGu": "\"શું તે ઘરે છે?\" ને અંગ્રેજીમાં સાચી રીતે કેમ કહેવાય?",
+      "options": ["She is at home?", "Is she at home?", "Does she at home?"],
+      "answer": 1,
+      "explainGu": "is ને શરૂઆતમાં લાવો: Is she at home?"
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: ___ you drink tea?",
+      "options": ["Does", "Is", "Do"],
+      "answer": 2,
+      "explainGu": "you સાથે Do આવે: Do you drink tea?"
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: ___ she like milk?",
+      "options": ["Do", "Does", "Did"],
+      "answer": 1,
+      "explainGu": "she સાથે (રોજની ટેવ માટે) Does આવે: Does she like milk?"
+    },
+    {
+      "type": "choice",
+      "questionGu": "કયું વાક્ય સાચું છે?",
+      "options": ["Does he likes tea?", "Do he like tea?", "Does he like tea?"],
+      "answer": 2,
+      "explainGu": "Does પછી ક્રિયામાં s ન લાગે: Does he like tea?"
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"શું તમે શાળાએ ગયા હતા?\" નું સાચું વાક્ય કયું છે?",
+      "options": ["Did you went to school?", "Did you go to school?", "Do you went to school?"],
+      "answer": 1,
+      "explainGu": "Did પછી ક્રિયા જેમ છે તેમ આવે: Did you go to school?"
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"તમને શું જોઈએ છે?\" નું સાચું વાક્ય કયું છે?",
+      "options": ["What you want?", "What want you?", "What do you want?"],
+      "answer": 2,
+      "explainGu": "સવાલ-શબ્દ + મદદગાર શબ્દ + કર્તા + ક્રિયા: What do you want?"
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"તમે ક્યાં જાઓ છો?\" નું સાચું વાક્ય કયું છે?",
+      "options": ["Where you are going?", "Where are you going?", "Where you going are?"],
+      "answer": 1,
+      "explainGu": "are કર્તા (you) ની પહેલાં આવે: Where are you going?"
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"Do you live here?\" નો સાચો ટૂંકો જવાબ (હા) કયો છે?",
+      "options": ["Yes, I am.", "Yes, I do.", "Yes, I does."],
+      "answer": 1,
+      "explainGu": "સવાલ Do થી શરૂ થયો એટલે જવાબમાં do: Yes, I do."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[Why]] નો અર્થ શું છે?",
+      "options": ["ક્યાં", "કેમ", "ક્યારે"],
+      "answer": 1,
+      "explainGu": "Why – વાય – કેમ. Where – વેર – ક્યાં. When – વેન – ક્યારે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"તમારી ઉંમર કેટલી છે?\" નું સાચું વાક્ય કયું છે?",
+      "options": ["How old are you?", "How many are you?", "How much old you?"],
+      "answer": 0,
+      "explainGu": "How old are you? – હાઉ ઓલ્ડ આર યૂ"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "topicId": "p3-t01",
+  "explanationGu": [
+    "\"મેં જમી લીધું છે\", \"તેણે કામ પૂરું કર્યું છે\", \"અમે ત્યાં ગયા છીએ\" — આ એવા કામ છે જે થઈ ગયા છે અને તેની અસર અત્યારે પણ છે. તેના માટે [[Present Perfect]] (પ્રેઝન્ટ પર્ફેક્ટ) વપરાય છે. જેમ કે \"મેં જમી લીધું છે\" = [[I have eaten.]]",
+    "બનાવવાની રીત: [[have]] / [[has]] + ક્રિયાનું ત્રીજું રૂપ (past participle – પાસ્ટ પાર્ટિસિપલ). [[I]], [[You]], [[We]], [[They]] સાથે [[have]]: [[I have finished.]] [[He]], [[She]], [[It]] સાથે [[has]]: [[She has finished.]]",
+    "નિયમિત ક્રિયામાં ત્રીજું રૂપ ભૂતકાળ જેવું જ છે, અંતે [[ed]] લાગે: [[work]] → [[worked]], [[finish]] → [[finished]]. જેમ કે [[I have worked.]], [[He has finished.]]",
+    "અનિયમિત ક્રિયાનું ત્રીજું રૂપ યાદ કરવું પડે: [[go]] → [[gone]], [[eat]] → [[eaten]], [[see]] → [[seen]], [[do]] → [[done]], [[write]] → [[written]], [[take]] → [[taken]], [[give]] → [[given]], [[know]] → [[known]], [[come]] → [[come]], [[buy]] → [[bought]], [[make]] → [[made]], [[have]] → [[had]].",
+    "સૌથી મોટી ભૂલ: ઘણા લોકો ભૂતકાળનું રૂપ વાપરે છે. [[I have went.]] અને [[I have ate.]] ખોટા છે, સાચા છે [[I have gone.]] અને [[I have eaten.]] વળી [[He have finished.]] ખોટું છે, [[He]] સાથે [[has]] આવે: [[He has finished.]] અને ગુજરાતીમાં \"હું પરવારી ગયો છું\" ના બદલે [[I am finished.]] ન કહો, સાચું છે [[I have finished.]]",
+    "Present Perfect માં કામ ક્યારે થયું તે કહેવાતું નથી, કામ થઈ ગયું છે એ મહત્ત્વનું છે. ચોક્કસ સમય (ગઈકાલે, ગયા વર્ષે) હોય તો Past Simple વપરાય: [[I went to Surat yesterday.]] પણ [[I have been to Surat.]] (હું સુરત ગયો છું, ક્યારે એ મહત્ત્વનું નથી). [[I have gone yesterday.]] ખોટું છે.",
+    "આ શબ્દો Present Perfect સાથે વપરાય છે: [[just]] (હમણાં જ), [[already]] (પહેલેથી જ), [[yet]] (હજી – નકારમાં અને સવાલમાં), [[ever]] (ક્યારેય – સવાલમાં), [[never]] (ક્યારેય નહીં). જેમ કે [[She has just come.]], [[I have already eaten.]], [[Have you ever seen a tiger?]]",
+    "[[for]] અને [[since]]: [[for]] પછી કેટલો સમય: [[for two years]] (બે વર્ષથી). [[since]] પછી ક્યારથી: [[since 2020]] (૨૦૨૦ થી), [[since Monday]] (સોમવારથી). [[I have lived here for two years.]] અને [[I have lived here since 2020.]]",
+    "નકાર અને સવાલ: [[have not]] = [[haven't]], [[has not]] = [[hasn't]]: [[I haven't eaten yet.]], [[She hasn't come yet.]] સવાલમાં [[Have]] / [[Has]] શરૂઆતમાં આવે: [[Have you finished?]], [[Has he come?]] જવાબ: [[Yes, I have.]] / [[No, he hasn't.]]"
+  ],
+  "examples": [
+    { "en": "finish → finished", "translit": "ફિનિશ → ફિનિશ્ડ", "gu": "પૂરું કરવું → પૂરું કર્યું છે" },
+    { "en": "go → gone", "translit": "ગો → ગૉન", "gu": "જવું → ગયા છે" },
+    { "en": "eat → eaten", "translit": "ઈટ → ઈટન", "gu": "ખાવું → ખાધું છે" },
+    { "en": "see → seen", "translit": "સી → સીન", "gu": "જોવું → જોયું છે" },
+    { "en": "do → done", "translit": "ડૂ → ડન", "gu": "કરવું → કર્યું છે" },
+    { "en": "write → written", "translit": "રાઇટ → રિટન", "gu": "લખવું → લખ્યું છે" },
+    { "en": "take → taken", "translit": "ટેઇક → ટેઇકન", "gu": "લેવું → લીધું છે" },
+    { "en": "give → given", "translit": "ગિવ → ગિવન", "gu": "આપવું → આપ્યું છે" },
+    { "en": "know → known", "translit": "નો → નોન", "gu": "જાણવું → જાણ્યું છે" },
+    { "en": "come → come", "translit": "કમ → કમ", "gu": "આવવું → આવ્યા છે" },
+    { "en": "buy → bought", "translit": "બાય → બૉટ", "gu": "ખરીદવું → ખરીદ્યું છે" },
+    { "en": "make → made", "translit": "મેઇક → મેઇડ", "gu": "બનાવવું → બનાવ્યું છે" },
+    { "en": "I have eaten.", "translit": "આઇ હૅવ ઈટન", "gu": "મેં જમી લીધું છે." },
+    { "en": "You have finished your work.", "translit": "યૂ હૅવ ફિનિશ્ડ યોર વર્ક", "gu": "તમે તમારું કામ પૂરું કર્યું છે." },
+    { "en": "She has finished.", "translit": "શી હૅઝ ફિનિશ્ડ", "gu": "તેણે કામ પૂરું કર્યું છે." },
+    { "en": "He has gone to school.", "translit": "હી હૅઝ ગૉન ટૂ સ્કૂલ", "gu": "તે શાળાએ ગયો છે." },
+    { "en": "We have bought a car.", "translit": "વી હૅવ બૉટ અ કાર", "gu": "અમે ગાડી ખરીદી છે." },
+    { "en": "They have seen the film.", "translit": "ધે હૅવ સીન ધ ફિલ્મ", "gu": "તેમણે ફિલ્મ જોઈ છે." },
+    { "en": "I have written a letter.", "translit": "આઇ હૅવ રિટન અ લેટર", "gu": "મેં પત્ર લખ્યો છે." },
+    { "en": "I have been to Surat.", "translit": "આઇ હૅવ બીન ટૂ સુરત", "gu": "હું સુરત જઈ આવ્યો છું." },
+    { "en": "She has just come.", "translit": "શી હૅઝ જસ્ટ કમ", "gu": "તે હમણાં જ આવી છે." },
+    { "en": "I have already eaten.", "translit": "આઇ હૅવ ઑલ્રેડી ઈટન", "gu": "મેં પહેલેથી જમી લીધું છે." },
+    { "en": "I haven't eaten yet.", "translit": "આઇ હૅવન્ટ ઈટન યેટ", "gu": "મેં હજી જમ્યું નથી." },
+    { "en": "She hasn't come yet.", "translit": "શી હૅઝન્ટ કમ યેટ", "gu": "તે હજી આવી નથી." },
+    { "en": "Have you finished?", "translit": "હૅવ યૂ ફિનિશ્ડ", "gu": "શું તમે પૂરું કર્યું છે?" },
+    { "en": "Has he come?", "translit": "હૅઝ હી કમ", "gu": "શું તે આવ્યો છે?" },
+    { "en": "Have you ever seen a tiger?", "translit": "હૅવ યૂ એવર સીન અ ટાઇગર", "gu": "શું તમે ક્યારેય વાઘ જોયો છે?" },
+    { "en": "I have never seen a tiger.", "translit": "આઇ હૅવ નેવર સીન અ ટાઇગર", "gu": "મેં ક્યારેય વાઘ જોયો નથી." },
+    { "en": "I have lived here for two years.", "translit": "આઇ હૅવ લિવ્ડ હિયર ફૉર ટૂ યર્ઝ", "gu": "હું અહીં બે વર્ષથી રહું છું." },
+    { "en": "I have lived here since 2020.", "translit": "આઇ હૅવ લિવ્ડ હિયર સિન્સ ટ્વેન્ટી ટ્વેન્ટી", "gu": "હું અહીં ૨૦૨૦ થી રહું છું." },
+    { "en": "Yes, I have.", "translit": "યેસ, આઇ હૅવ", "gu": "હા, મેં કર્યું છે." },
+    { "en": "No, he hasn't.", "translit": "નો, હી હૅઝન્ટ", "gu": "ના, તેણે નથી કર્યું." },
+    { "en": "just", "translit": "જસ્ટ", "gu": "હમણાં જ" },
+    { "en": "already", "translit": "ઑલ્રેડી", "gu": "પહેલેથી જ" },
+    { "en": "yet", "translit": "યેટ", "gu": "હજી" },
+    { "en": "ever", "translit": "એવર", "gu": "ક્યારેય (સવાલમાં)" },
+    { "en": "for two years", "translit": "ફૉર ટૂ યર્ઝ", "gu": "બે વર્ષથી" },
+    { "en": "since Monday", "translit": "સિન્સ મન્ડે", "gu": "સોમવારથી" }
+  ],
+  "practice": [
+    {
+      "type": "choice",
+      "questionGu": "\"મેં જમી લીધું છે.\" ને અંગ્રેજીમાં સાચી રીતે કેમ કહેવાય?",
+      "options": ["I have ate.", "I have eaten.", "I am eaten."],
+      "answer": 1,
+      "explainGu": "eat નું ત્રીજું રૂપ eaten છે: I have eaten."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: She ___ finished her work.",
+      "options": ["have", "has", "is"],
+      "answer": 1,
+      "explainGu": "She સાથે has આવે: She has finished her work."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: They have ___ to Mumbai. (go)",
+      "options": ["went", "go", "gone"],
+      "answer": 2,
+      "explainGu": "go નું ત્રીજું રૂપ gone છે: They have gone to Mumbai."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: We have ___ a car. (buy)",
+      "options": ["bought", "buyed", "buy"],
+      "answer": 0,
+      "explainGu": "buy → bought. We have bought a car."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: I have ___ a letter. (write)",
+      "options": ["wrote", "written", "writed"],
+      "answer": 1,
+      "explainGu": "write નું ત્રીજું રૂપ written છે: I have written a letter."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"મેં કામ પૂરું કર્યું છે.\" નું સાચું વાક્ય કયું છે?",
+      "options": ["I am finished my work.", "I have finished my work.", "I has finished my work."],
+      "answer": 1,
+      "explainGu": "I સાથે have આવે: I have finished my work."
+    },
+    {
+      "type": "choice",
+      "questionGu": "કયું વાક્ય સાચું છે?",
+      "options": ["I have gone to Surat yesterday.", "I went to Surat yesterday.", "I have went to Surat yesterday."],
+      "answer": 1,
+      "explainGu": "yesterday (ચોક્કસ સમય) હોય તો Past Simple વપરાય: I went to Surat yesterday."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"મેં હજી જમ્યું નથી.\" નું સાચું વાક્ય કયું છે?",
+      "options": ["I haven't eaten yet.", "I don't eaten yet.", "I haven't ate yet."],
+      "answer": 0,
+      "explainGu": "I haven't eaten yet. – આઇ હૅવન્ટ ઈટન યેટ"
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"શું તમે પૂરું કર્યું છે?\" નું સાચું વાક્ય કયું છે?",
+      "options": ["Are you finished?", "Have you finished?", "Did you have finish?"],
+      "answer": 1,
+      "explainGu": "Have શરૂઆતમાં આવે: Have you finished?"
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"હું અહીં બે વર્ષથી રહું છું.\" નું સાચું વાક્ય કયું છે?",
+      "options": ["I have lived here since two years.", "I live here for two years.", "I have lived here for two years."],
+      "answer": 2,
+      "explainGu": "કેટલો સમય એ માટે for: I have lived here for two years. ક્યારથી એ માટે since."
+    }
+  ]
+}

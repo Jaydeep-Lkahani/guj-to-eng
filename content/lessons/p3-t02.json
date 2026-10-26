@@ -1,0 +1,116 @@
+{
+  "topicId": "p3-t02",
+  "explanationGu": [
+    "\"હું તરી શકું છું\", \"તમારે ડૉક્ટરને બતાવવું જોઈએ\", \"અહીં ધૂમ્રપાન કરવું નહીં\" — આ વાક્યોમાં શક્તિ, સલાહ અને ફરજની વાત છે. તેના માટે [[can]] (કૅન), [[should]] (શુડ) અને [[must]] (મસ્ટ) જેવા શબ્દો વપરાય છે. તેમને [[Modal verbs]] (મોડલ વર્બ્ઝ) કહેવાય છે.",
+    "ત્રણ નિયમો યાદ રાખો. (૧) આ શબ્દો બધા સાથે એક જ રહે છે: [[I can]], [[He can]], [[They can]] — [[s]] નથી લાગતો. (૨) તેમની પછી ક્રિયા જેમ છે તેમ આવે, [[to]] કે [[ing]] વગર: [[I can swim.]] (૩) નકાર અને સવાલમાં [[do]] / [[does]] નથી આવતા.",
+    "સામાન્ય ભૂલો: [[He cans swim.]], [[I can to swim.]], [[She can swims.]] અને [[Does he can swim?]] બધાં ખોટાં છે. સાચાં છે [[He can swim.]], [[I can swim.]], [[She can swim.]] અને [[Can he swim?]]",
+    "[[can]] = શક્તિ કે છૂટ: [[I can swim.]] (હું તરી શકું છું), [[You can go now.]] (તમે હવે જઈ શકો છો). નકાર: [[can't]] (કાન્ટ) કે [[cannot]]: [[I can't swim.]] (હું તરી શકતો નથી). સવાલ: [[Can you swim?]] (શું તમે તરી શકો છો?) જવાબ: [[Yes, I can.]] / [[No, I can't.]] મદદ માંગવા પણ [[Can you help me?]] વપરાય છે.",
+    "[[should]] = સલાહ, \"જોઈએ\": [[You should rest.]] (તમારે આરામ કરવો જોઈએ), [[He should study.]] (તેણે ભણવું જોઈએ). નકાર: [[shouldn't]] (શુડન્ટ): [[You shouldn't eat too much.]] (તમારે બહુ ખાવું ન જોઈએ). સવાલ: [[Should I go?]] (મારે જવું જોઈએ?)",
+    "[[must]] = ફરજ કે બહુ જરૂરી, \"જ જોઈએ\": [[You must wear a helmet.]] (તમારે હેલ્મેટ પહેરવું જ જોઈએ). [[must]] ની સલાહ [[should]] કરતાં કડક છે. ગુજરાતીમાં બંને માટે \"જોઈએ\" વપરાય છે, પણ અંગ્રેજીમાં [[should]] નરમ અને [[must]] કડક છે.",
+    "[[mustn't]] (મસન્ટ) = મનાઈ, \"ન કરવું\": [[You mustn't smoke here.]] (અહીં ધૂમ્રપાન કરવું નહીં), [[You mustn't be late.]] (મોડું ન કરવું). [[shouldn't]] સલાહ છે પણ [[mustn't]] મનાઈ છે.",
+    "ઘણાં નિયમો [[must]] થી લખાય છે: [[Students must come on time.]] (વિદ્યાર્થીઓએ સમયસર આવવું જ જોઈએ).",
+    "આ શબ્દો પછી તમારું જાણીતું ક્રિયાપદ જ મૂકો: [[can eat]], [[should sleep]], [[must go]]. બીજું કંઈ ઉમેરવાની જરૂર નથી."
+  ],
+  "examples": [
+    { "en": "I can swim.", "translit": "આઇ કૅન સ્વિમ", "gu": "હું તરી શકું છું." },
+    { "en": "She can cook very well.", "translit": "શી કૅન કુક વેરી વેલ", "gu": "તે બહુ સરસ રાંધી શકે છે." },
+    { "en": "They can speak English.", "translit": "ધે કૅન સ્પીક ઇંગ્લિશ", "gu": "તેઓ અંગ્રેજી બોલી શકે છે." },
+    { "en": "You can go now.", "translit": "યૂ કૅન ગો નાઉ", "gu": "તમે હવે જઈ શકો છો." },
+    { "en": "I can't swim.", "translit": "આઇ કાન્ટ સ્વિમ", "gu": "હું તરી શકતો/શકતી નથી." },
+    { "en": "He can't drive a car.", "translit": "હી કાન્ટ ડ્રાઇવ અ કાર", "gu": "તે ગાડી ચલાવી શકતો નથી." },
+    { "en": "Can you swim?", "translit": "કૅન યૂ સ્વિમ", "gu": "શું તમે તરી શકો છો?" },
+    { "en": "Can she drive?", "translit": "કૅન શી ડ્રાઇવ", "gu": "શું તે ગાડી ચલાવી શકે છે?" },
+    { "en": "Can you help me?", "translit": "કૅન યૂ હૅલ્પ મી", "gu": "શું તમે મને મદદ કરશો?" },
+    { "en": "Yes, I can.", "translit": "યેસ, આઇ કૅન", "gu": "હા, હું કરી શકું છું." },
+    { "en": "No, I can't.", "translit": "નો, આઇ કાન્ટ", "gu": "ના, હું નથી કરી શકતો/શકતી." },
+    { "en": "You should rest.", "translit": "યૂ શુડ રેસ્ટ", "gu": "તમારે આરામ કરવો જોઈએ." },
+    { "en": "He should study.", "translit": "હી શુડ સ્ટડી", "gu": "તેણે ભણવું જોઈએ." },
+    { "en": "You should drink water.", "translit": "યૂ શુડ ડ્રિંક વૉટર", "gu": "તમારે પાણી પીવું જોઈએ." },
+    { "en": "You shouldn't eat too much.", "translit": "યૂ શુડન્ટ ઈટ ટૂ મચ", "gu": "તમારે બહુ ખાવું ન જોઈએ." },
+    { "en": "Should I go?", "translit": "શુડ આઇ ગો", "gu": "મારે જવું જોઈએ?" },
+    { "en": "You must wear a helmet.", "translit": "યૂ મસ્ટ વેર અ હેલ્મિટ", "gu": "તમારે હેલ્મેટ પહેરવું જ જોઈએ." },
+    { "en": "We must go now.", "translit": "વી મસ્ટ ગો નાઉ", "gu": "આપણે હવે જવું જ જોઈએ." },
+    { "en": "Students must come on time.", "translit": "સ્ટ્યૂડન્ટ્સ મસ્ટ કમ ઑન ટાઇમ", "gu": "વિદ્યાર્થીઓએ સમયસર આવવું જ જોઈએ." },
+    { "en": "You mustn't smoke here.", "translit": "યૂ મસન્ટ સ્મોક હિયર", "gu": "અહીં ધૂમ્રપાન કરવું નહીં." },
+    { "en": "You mustn't be late.", "translit": "યૂ મસન્ટ બી લેઇટ", "gu": "મોડું ન કરવું." },
+    { "en": "Children mustn't play on the road.", "translit": "ચિલ્ડ્રન મસન્ટ પ્લે ઑન ધ રોડ", "gu": "બાળકોએ રસ્તા પર રમવું નહીં." },
+    { "en": "can", "translit": "કૅન", "gu": "શકવું" },
+    { "en": "should", "translit": "શુડ", "gu": "જોઈએ (સલાહ)" },
+    { "en": "must", "translit": "મસ્ટ", "gu": "જ જોઈએ (ફરજ)" },
+    { "en": "can't", "translit": "કાન્ટ", "gu": "શકતા નથી" },
+    { "en": "shouldn't", "translit": "શુડન્ટ", "gu": "ન જોઈએ" },
+    { "en": "mustn't", "translit": "મસન્ટ", "gu": "ન કરવું (મનાઈ)" }
+  ],
+  "practice": [
+    {
+      "type": "choice",
+      "questionGu": "\"તે તરી શકે છે.\" ને અંગ્રેજીમાં સાચી રીતે કેમ કહેવાય?",
+      "options": ["She cans swim.", "She can swim.", "She can swims."],
+      "answer": 1,
+      "explainGu": "can બધા સાથે એક જ રહે છે, s ન લાગે: She can swim."
+    },
+    {
+      "type": "choice",
+      "questionGu": "કયું વાક્ય સાચું છે?",
+      "options": ["I can to swim.", "I can swimming.", "I can swim."],
+      "answer": 2,
+      "explainGu": "can પછી ક્રિયા જેમ છે તેમ આવે: I can swim."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"શું તે ગાડી ચલાવી શકે છે?\" નું સાચું વાક્ય કયું છે?",
+      "options": ["Does she can drive?", "Can she drive?", "She can drive?"],
+      "answer": 1,
+      "explainGu": "can ને શરૂઆતમાં લાવો, does ન વાપરો: Can she drive?"
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"હું તરી શકતો નથી.\" નું સાચું વાક્ય કયું છે?",
+      "options": ["I don't can swim.", "I can't swim.", "I not can swim."],
+      "answer": 1,
+      "explainGu": "can ની નકાર બનાવવા can't વપરાય: I can't swim."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ડૉક્ટર કહે છે: \"તમારે આરામ કરવો જોઈએ.\" સલાહ માટે કયું વાક્ય છે?",
+      "options": ["You can rest.", "You should rest.", "You mustn't rest."],
+      "answer": 1,
+      "explainGu": "સલાહ માટે should: You should rest."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"તમારે હેલ્મેટ પહેરવું જ જોઈએ.\" (કડક નિયમ) નું સાચું વાક્ય કયું છે?",
+      "options": ["You should wear a helmet.", "You must wear a helmet.", "You can wear a helmet."],
+      "answer": 1,
+      "explainGu": "ફરજ કે કડક નિયમ માટે must: You must wear a helmet."
+    },
+    {
+      "type": "choice",
+      "questionGu": "બોર્ડ પર લખ્યું છે: \"You mustn't smoke here.\" તેનો અર્થ શું છે?",
+      "options": ["અહીં ધૂમ્રપાન કરી શકાય", "અહીં ધૂમ્રપાન કરવું નહીં", "ધૂમ્રપાન કરવું જોઈએ"],
+      "answer": 1,
+      "explainGu": "mustn't = મનાઈ, ન કરવું: You mustn't smoke here."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: You ___ eat too much. (સલાહ: બહુ ખાવું ન જોઈએ)",
+      "options": ["shouldn't", "can", "must"],
+      "answer": 0,
+      "explainGu": "સલાહની નકાર માટે shouldn't: You shouldn't eat too much."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"Can you swim?\" નો સાચો ટૂંકો જવાબ (ના) કયો છે?",
+      "options": ["No, I don't.", "No, I can't.", "No, I am not."],
+      "answer": 1,
+      "explainGu": "સવાલ Can થી શરૂ થયો એટલે જવાબમાં can: No, I can't."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[should]] અને [[must]] માં શું ફરક છે?",
+      "options": ["should નરમ સલાહ છે, must કડક ફરજ છે", "બંને સરખા છે", "should કડક છે, must નરમ છે"],
+      "answer": 0,
+      "explainGu": "should = સલાહ (જોઈએ), must = ફરજ (જ જોઈએ)."
+    }
+  ]
+}

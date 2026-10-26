@@ -1,0 +1,122 @@
+{
+  "topicId": "p2-t07",
+  "explanationGu": [
+    "વાતચીત (Conversation – કન્વર્સેશન) એટલે બે જણ વારાફરતી બોલે. આ પાઠમાં ત્રણ નાની વાતચીત છે: મિત્રો સાથે, દુકાનમાં અને રસ્તો પૂછવામાં. તેમાં આપણે અત્યાર સુધી શીખેલા બધા નિયમો વપરાયા છે. દરેક લીટી ઊંચા અવાજે બોલીને વાંચો.",
+    "વાતચીતમાં હંમેશાં પૂરું વાક્ય બોલવું જરૂરી નથી. ટૂંકા જવાબ ચાલે: [[How are you?]] ના જવાબમાં [[Fine, thanks.]] અને [[Where is the bank?]] ના જવાબમાં [[Near the school.]] પણ ચાલે. ટૂંકા જવાબ બોલવા એ સ્વાભાવિક છે.",
+    "વાત શરૂ કરવા અને નમ્રતા માટે: [[Excuse me]] (એક્સક્યૂઝ મી – માફ કરજો, કોઈને બોલાવવા), [[Sorry]] (સૉરી – માફ કરજો, ભૂલ થઈ હોય ત્યારે), [[Please]] (પ્લીઝ – મહેરબાની કરીને), [[Thank you]] (આભાર). \"આભાર\" ના જવાબમાં ચૂપ ન રહો, [[You're welcome]] (યૉર વેલકમ – કંઈ નહીં) કે [[No problem]] (નો પ્રૉબ્લમ) કહો.",
+    "સામેવાળાની વાતનો પ્રતિભાવ આપવા માટે: [[Really?]] (ખરેખર?), [[Great!]] (સરસ!), [[Okay]] (સારું), [[I see]] (સમજ્યો), [[Of course]] (અલબત્ત), [[Sure]] (જરૂર), [[Oh no!]] (અરેરે!). આ શબ્દોથી તમારી વાતચીત કુદરતી લાગે છે.",
+    "જો કંઈ સમજાય નહીં તો ગભરાશો નહીં. કહો: [[Pardon?]] (પાર્ડન – શું કહ્યું?), [[Sorry?]] (સૉરી?), [[Please say it again.]] (ફરીથી કહો) અથવા [[Slowly, please.]] (ધીમે બોલો). આમાં કોઈ શરમ નથી.",
+    "સામે સવાલ પૂછવા માટે [[And you?]] કે [[What about you?]] કહો. કોઈ તમને પૂછે [[How are you?]] તો જવાબ આપીને પાછું પૂછો: [[I'm fine, thanks. And you?]] આથી વાતચીત આગળ ચાલે છે.",
+    "સાથે કંઈ કરવાનું સૂચન કરવા માટે [[Let's]] + ક્રિયા વપરાય છે: [[Let's go.]] (ચાલો જઈએ), [[Let's meet at the market.]] (ચાલો બજારમાં મળીએ), [[Let's eat.]] (ચાલો જમીએ). [[Let's]] પછી ક્રિયા જેમ છે તેમ આવે.",
+    "દુકાનમાં કંઈ આપતી વખતે [[Here you are.]] (હીયર યૂ આર – લો, આ રહ્યું) કહેવાય. વાત પૂરી થાય ત્યારે [[See you tomorrow.]] (કાલે મળીશું) અથવા [[Goodbye.]] કહો.",
+    "અભ્યાસ માટે: દરેક વાતચીતમાં બંને ભૂમિકા જાતે બોલો. પહેલા એક વ્યક્તિ બનો, પછી બીજી. ગુજરાતી શબ્દે શબ્દે ભાષાંતર કરવાને બદલે આખું અંગ્રેજી વાક્ય યાદ કરો."
+  ],
+  "examples": [
+    { "en": "Neha: Hello, Anita! How are you?", "translit": "નેહા: હેલો, અનિતા! હાઉ આર યૂ", "gu": "નેહા: નમસ્તે અનિતા! તું કેમ છે?" },
+    { "en": "Anita: I'm fine, thanks. And you?", "translit": "અનિતા: આઇમ ફાઇન, થૅન્ક્સ. ઍન્ડ યૂ", "gu": "અનિતા: હું મજામાં છું, આભાર. અને તું?" },
+    { "en": "Neha: I'm good. What are you doing?", "translit": "નેહા: આઇમ ગુડ. વૉટ આર યૂ ડૂઇંગ", "gu": "નેહા: હું સારી છું. તું શું કરી રહી છે?" },
+    { "en": "Anita: I'm cooking dinner. Are you free tomorrow?", "translit": "અનિતા: આઇમ કુકિંગ ડિનર. આર યૂ ફ્રી ટુમૉરો", "gu": "અનિતા: હું જમવાનું બનાવી રહી છું. તું કાલે નવરી છે?" },
+    { "en": "Neha: Yes, I am. Let's meet at the market.", "translit": "નેહા: યેસ, આઇ ઍમ. લેટ્સ મીટ ઍટ ધ માર્કિટ", "gu": "નેહા: હા, નવરી છું. ચાલો બજારમાં મળીએ." },
+    { "en": "Anita: Great! See you tomorrow.", "translit": "અનિતા: ગ્રેઇટ! સી યૂ ટુમૉરો", "gu": "અનિતા: સરસ! કાલે મળીશું." },
+    { "en": "Customer: Good morning. Do you have milk?", "translit": "કસ્ટમર: ગુડ મૉર્નિંગ. ડૂ યૂ હૅવ મિલ્ક", "gu": "ગ્રાહક: સુપ્રભાત. તમારી પાસે દૂધ છે?" },
+    { "en": "Seller: Yes, we do.", "translit": "સેલર: યેસ, વી ડૂ", "gu": "વેપારી: હા, છે." },
+    { "en": "Customer: How much is it?", "translit": "કસ્ટમર: હાઉ મચ ઇઝ ઇટ", "gu": "ગ્રાહક: તેની કિંમત કેટલી છે?" },
+    { "en": "Seller: It is fifty rupees.", "translit": "સેલર: ઇટ ઇઝ ફિફ્ટી રૂપીઝ", "gu": "વેપારી: પચાસ રૂપિયા છે." },
+    { "en": "Customer: Okay. Give me two, please.", "translit": "કસ્ટમર: ઓકે. ગિવ મી ટૂ, પ્લીઝ", "gu": "ગ્રાહક: સારું. મને બે આપો, મહેરબાની કરીને." },
+    { "en": "Seller: Here you are.", "translit": "સેલર: હીયર યૂ આર", "gu": "વેપારી: લો, આ રહ્યું." },
+    { "en": "Customer: Thank you.", "translit": "કસ્ટમર: થૅન્ક યૂ", "gu": "ગ્રાહક: આભાર." },
+    { "en": "Seller: You're welcome.", "translit": "સેલર: યૉર વેલકમ", "gu": "વેપારી: કંઈ નહીં." },
+    { "en": "Raj: Excuse me. Where is the bank?", "translit": "રાજ: એક્સક્યૂઝ મી. વેર ઇઝ ધ બૅન્ક", "gu": "રાજ: માફ કરજો. બૅન્ક ક્યાં છે?" },
+    { "en": "Man: It is near the school.", "translit": "મૅન: ઇટ ઇઝ નિયર ધ સ્કૂલ", "gu": "માણસ: તે શાળાની પાસે છે." },
+    { "en": "Raj: Is it far?", "translit": "રાજ: ઇઝ ઇટ ફાર", "gu": "રાજ: શું તે દૂર છે?" },
+    { "en": "Man: No, it isn't. It is five minutes from here.", "translit": "મૅન: નો, ઇટ ઇઝન્ટ. ઇટ ઇઝ ફાઇવ મિનિટ્સ ફ્રૉમ હિયર", "gu": "માણસ: ના, દૂર નથી. અહીંથી પાંચ મિનિટ છે." },
+    { "en": "Raj: Thank you very much.", "translit": "રાજ: થૅન્ક યૂ વેરી મચ", "gu": "રાજ: ખૂબ ખૂબ આભાર." },
+    { "en": "Man: No problem.", "translit": "મૅન: નો પ્રૉબ્લમ", "gu": "માણસ: કંઈ વાંધો નહીં." },
+    { "en": "Excuse me", "translit": "એક્સક્યૂઝ મી", "gu": "માફ કરજો (બોલાવવા માટે)" },
+    { "en": "Sorry", "translit": "સૉરી", "gu": "માફ કરજો (ભૂલ થઈ હોય ત્યારે)" },
+    { "en": "Really?", "translit": "રિયલી", "gu": "ખરેખર?" },
+    { "en": "I see", "translit": "આઇ સી", "gu": "સમજ્યો/સમજી" },
+    { "en": "Of course", "translit": "ઑફ કૉર્સ", "gu": "અલબત્ત" },
+    { "en": "Sure", "translit": "શૉર", "gu": "જરૂર" },
+    { "en": "Oh no!", "translit": "ઓહ નો", "gu": "અરેરે!" },
+    { "en": "Pardon?", "translit": "પાર્ડન", "gu": "શું કહ્યું?" },
+    { "en": "Please say it again.", "translit": "પ્લીઝ સે ઇટ અગેન", "gu": "મહેરબાની કરીને ફરીથી કહો." },
+    { "en": "Slowly, please.", "translit": "સ્લોલી, પ્લીઝ", "gu": "ધીમે બોલો, મહેરબાની કરીને." },
+    { "en": "What about you?", "translit": "વૉટ અબાઉટ યૂ", "gu": "અને તમે?" },
+    { "en": "Let's go.", "translit": "લેટ્સ ગો", "gu": "ચાલો જઈએ." },
+    { "en": "Let's eat.", "translit": "લેટ્સ ઈટ", "gu": "ચાલો જમીએ." },
+    { "en": "See you tomorrow.", "translit": "સી યૂ ટુમૉરો", "gu": "કાલે મળીશું." }
+  ],
+  "practice": [
+    {
+      "type": "choice",
+      "questionGu": "કોઈ કહે \"Thank you.\" તો જવાબમાં શું કહેવાય?",
+      "options": ["Excuse me.", "You're welcome.", "Pardon?"],
+      "answer": 1,
+      "explainGu": "Thank you ના જવાબમાં You're welcome (કંઈ નહીં) કહેવાય."
+    },
+    {
+      "type": "choice",
+      "questionGu": "રસ્તે ચાલતા કોઈને બોલાવીને કંઈ પૂછવું છે. શરૂઆતમાં શું કહેશો?",
+      "options": ["Excuse me.", "Goodbye.", "Of course."],
+      "answer": 0,
+      "explainGu": "Excuse me – એક્સક્યૂઝ મી – કોઈને બોલાવવા માટે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "તમને સામેવાળાની વાત સમજાઈ નહીં. શું કહેશો?",
+      "options": ["Great!", "Pardon?", "See you tomorrow."],
+      "answer": 1,
+      "explainGu": "Pardon? – પાર્ડન – શું કહ્યું?"
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"How are you?\" ના સારા જવાબ તરીકે કયો છે?",
+      "options": ["I'm fine, thanks. And you?", "My name is Raj.", "It is fifty rupees."],
+      "answer": 0,
+      "explainGu": "I'm fine, thanks. And you? – આઇમ ફાઇન, થૅન્ક્સ. ઍન્ડ યૂ"
+    },
+    {
+      "type": "choice",
+      "questionGu": "દુકાનમાં ગ્રાહકે પૂછ્યું: \"How much is it?\" વેપારી શું જવાબ આપશે?",
+      "options": ["Yes, we do.", "It is fifty rupees.", "Near the school."],
+      "answer": 1,
+      "explainGu": "How much નો જવાબ કિંમતથી અપાય: It is fifty rupees."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"ચાલો બજારમાં મળીએ.\" ને અંગ્રેજીમાં સાચી રીતે કેમ કહેવાય?",
+      "options": ["Let's meeting at the market.", "Let's to meet at the market.", "Let's meet at the market."],
+      "answer": 2,
+      "explainGu": "Let's પછી ક્રિયા જેમ છે તેમ આવે: Let's meet at the market."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"Where is the bank?\" નો જવાબ કયો છે?",
+      "options": ["It is near the school.", "Yes, I do.", "Thank you."],
+      "answer": 0,
+      "explainGu": "Where (ક્યાં) નો જવાબ જગ્યા બતાવે: It is near the school."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"Do you have milk?\" નો સાચો ટૂંકો જવાબ (હા) કયો છે?",
+      "options": ["Yes, we are.", "Yes, we do.", "Yes, we does."],
+      "answer": 1,
+      "explainGu": "સવાલ Do થી શરૂ થયો એટલે જવાબમાં do: Yes, we do."
+    },
+    {
+      "type": "choice",
+      "questionGu": "દુકાનદાર વસ્તુ આપતી વખતે \"લો, આ રહ્યું\" માટે શું કહે છે?",
+      "options": ["Here you are.", "I see.", "Oh no!"],
+      "answer": 0,
+      "explainGu": "Here you are – હીયર યૂ આર – લો, આ રહ્યું."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[Really?]] નો અર્થ શું છે?",
+      "options": ["ખરેખર?", "અલબત્ત", "ધીમે બોલો"],
+      "answer": 0,
+      "explainGu": "Really? – રિયલી – ખરેખર? Of course – ઑફ કૉર્સ – અલબત્ત."
+    }
+  ]
+}

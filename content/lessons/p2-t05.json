@@ -1,0 +1,117 @@
+{
+  "topicId": "p2-t05",
+  "explanationGu": [
+    "\"હું ચા પીતો નથી\", \"તે આવ્યો નહોતો\", \"અમે કાલે જઈશું નહીં\" — આ \"નથી / નહીં\" વાળાં વાક્યો છે, તેને [[Negative sentences]] (નેગેટિવ સેન્ટન્સિસ) કહેવાય. ગુજરાતીમાં \"નથી\" વાક્યના છેડે આવે છે. અંગ્રેજીમાં [[not]] (નૉટ) વાક્યની વચ્ચે, મદદગાર શબ્દ પછી આવે છે.",
+    "[[am]] / [[is]] / [[are]] વાળાં વાક્યોમાં સીધું [[not]] લગાડો: [[I am not tired.]] (હું થાક્યો નથી), [[She is not at home.]] (તે ઘરે નથી), [[They are not here.]] (તેઓ અહીં નથી). ભૂતકાળમાં [[was not]] અને [[were not]]: [[He was not ready.]], [[We were not late.]]",
+    "બોલતી વખતે [[is not]] ને [[isn't]] (ઇઝન્ટ), [[are not]] ને [[aren't]] (આર્ન્ટ), [[was not]] ને [[wasn't]] (વૉઝન્ટ), [[were not]] ને [[weren't]] (વર્ન્ટ) કહેવાય. [[I am not]] ને [[I'm not]] કહેવાય, [[amn't]] નથી હોતું.",
+    "રોજની ટેવ (Present Simple) માં ક્રિયા સાથે સીધું [[not]] નથી આવતું. [[do not]] અથવા [[does not]] આવે છે, અને પછી ક્રિયા જેમ છે તેમ આવે. [[I]], [[You]], [[We]], [[They]] સાથે [[do not]] (ટૂંકમાં [[don't]] – ડોન્ટ): [[I don't drink tea.]] [[He]], [[She]], [[It]] સાથે [[does not]] (ટૂંકમાં [[doesn't]] – ડઝન્ટ): [[She doesn't drink tea.]]",
+    "યાદ રાખો: [[does not]] પછી ક્રિયામાં [[s]] ન લગાડો, કારણ કે [[s]] નું કામ [[does]] એ કરી દીધું. [[He doesn't likes tea.]] ખોટું છે, સાચું છે [[He doesn't like tea.]] અને [[am]] / [[is]] / [[are]] ન ઉમેરો: [[I am not drink tea.]] ખોટું છે.",
+    "ભૂતકાળ (Past Simple) માં બધા સાથે [[did not]] (ટૂંકમાં [[didn't]] – ડિડન્ટ) આવે, અને પછી ક્રિયા જેમ છે તેમ આવે. [[I didn't go.]], [[She didn't come.]], [[They didn't play.]] અહીં [[went]] કે [[came]] નથી આવતું, કારણ કે ભૂતકાળનું કામ [[did]] એ કરી દીધું. [[I didn't went.]] ખોટું છે.",
+    "ભવિષ્યકાળ માટે [[will not]] ટૂંકમાં [[won't]] (વોન્ટ) થાય છે: [[I won't go tomorrow.]] (હું કાલે નહીં જાઉં). અત્યારે ચાલતા કામ માટે [[am not]] / [[isn't]] / [[aren't]] + [[ing]]: [[He isn't sleeping.]], [[We aren't watching TV.]]",
+    "બીજા નકારાત્મક શબ્દો: [[no]] (નહીં, કોઈ નહીં), [[never]] (ક્યારેય નહીં), [[nothing]] (કંઈ નહીં), [[nobody]] (કોઈ નહીં). અંગ્રેજીમાં એક વાક્યમાં એક જ \"ના\" રાખો: [[I don't know anything.]] અથવા [[I know nothing.]] — [[I don't know nothing.]] ખોટું છે.",
+    "આ પાઠમાં સવાલો નથી. તે હવે પછીના પાઠમાં શીખીશું."
+  ],
+  "examples": [
+    { "en": "I am not tired.", "translit": "આઇ ઍમ નૉટ ટાયર્ડ", "gu": "હું થાક્યો/થાકી નથી." },
+    { "en": "She is not at home.", "translit": "શી ઇઝ નૉટ ઍટ હોમ", "gu": "તે ઘરે નથી." },
+    { "en": "They are not here.", "translit": "ધે આર નૉટ હિયર", "gu": "તેઓ અહીં નથી." },
+    { "en": "He was not ready.", "translit": "હી વૉઝ નૉટ રેડી", "gu": "તે તૈયાર નહોતો." },
+    { "en": "We were not late.", "translit": "વી વર નૉટ લેઇટ", "gu": "અમે મોડા નહોતા." },
+    { "en": "It isn't cold.", "translit": "ઇટ ઇઝન્ટ કોલ્ડ", "gu": "ઠંડી નથી." },
+    { "en": "You aren't wrong.", "translit": "યૂ આર્ન્ટ રૉંગ", "gu": "તમે ખોટા નથી." },
+    { "en": "I'm not hungry.", "translit": "આઇમ નૉટ હંગ્રી", "gu": "મને ભૂખ નથી લાગી." },
+    { "en": "I don't drink tea.", "translit": "આઇ ડોન્ટ ડ્રિંક ટી", "gu": "હું ચા પીતો/પીતી નથી." },
+    { "en": "You don't work here.", "translit": "યૂ ડોન્ટ વર્ક હિયર", "gu": "તમે અહીં કામ કરતા નથી." },
+    { "en": "We don't eat meat.", "translit": "વી ડોન્ટ ઈટ મીટ", "gu": "અમે માંસ ખાતા નથી." },
+    { "en": "They don't live here.", "translit": "ધે ડોન્ટ લિવ હિયર", "gu": "તેઓ અહીં રહેતા નથી." },
+    { "en": "She doesn't drink tea.", "translit": "શી ડઝન્ટ ડ્રિંક ટી", "gu": "તે ચા પીતી નથી." },
+    { "en": "He doesn't like milk.", "translit": "હી ડઝન્ટ લાઇક મિલ્ક", "gu": "તેને દૂધ ગમતું નથી." },
+    { "en": "It doesn't rain in winter.", "translit": "ઇટ ડઝન્ટ રેઇન ઇન વિન્ટર", "gu": "શિયાળામાં વરસાદ પડતો નથી." },
+    { "en": "I didn't go to school.", "translit": "આઇ ડિડન્ટ ગો ટૂ સ્કૂલ", "gu": "હું શાળાએ ગયો નહીં." },
+    { "en": "She didn't come yesterday.", "translit": "શી ડિડન્ટ કમ યેસ્ટરડે", "gu": "તે ગઈકાલે આવી નહીં." },
+    { "en": "They didn't play cricket.", "translit": "ધે ડિડન્ટ પ્લે ક્રિકેટ", "gu": "તેઓ ક્રિકેટ રમ્યા નહીં." },
+    { "en": "We didn't watch TV.", "translit": "વી ડિડન્ટ વૉચ ટી.વી.", "gu": "અમે ટીવી જોયું નહીં." },
+    { "en": "I won't go tomorrow.", "translit": "આઇ વોન્ટ ગો ટુમૉરો", "gu": "હું કાલે નહીં જાઉં." },
+    { "en": "He won't come.", "translit": "હી વોન્ટ કમ", "gu": "તે નહીં આવે." },
+    { "en": "He isn't sleeping.", "translit": "હી ઇઝન્ટ સ્લીપિંગ", "gu": "તે સૂઈ રહ્યો નથી." },
+    { "en": "We aren't watching TV.", "translit": "વી આર્ન્ટ વૉચિંગ ટી.વી.", "gu": "અમે ટીવી જોઈ રહ્યા નથી." },
+    { "en": "no", "translit": "નો", "gu": "નહીં" },
+    { "en": "never", "translit": "નેવર", "gu": "ક્યારેય નહીં" },
+    { "en": "nothing", "translit": "નથિંગ", "gu": "કંઈ નહીં" },
+    { "en": "nobody", "translit": "નોબડી", "gu": "કોઈ નહીં" },
+    { "en": "I don't know anything.", "translit": "આઇ ડોન્ટ નો ઍનિથિંગ", "gu": "મને કંઈ ખબર નથી." },
+    { "en": "I know nothing.", "translit": "આઇ નો નથિંગ", "gu": "મને કંઈ ખબર નથી." }
+  ],
+  "practice": [
+    {
+      "type": "choice",
+      "questionGu": "\"તે ઘરે નથી.\" ને અંગ્રેજીમાં સાચી રીતે કેમ કહેવાય?",
+      "options": ["She not is at home.", "She is not at home.", "She does not at home."],
+      "answer": 1,
+      "explainGu": "am / is / are પછી not આવે: She is not at home."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: I ___ drink tea.",
+      "options": ["don't", "doesn't", "isn't"],
+      "answer": 0,
+      "explainGu": "I સાથે don't આવે: I don't drink tea."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: She ___ like milk.",
+      "options": ["don't", "doesn't", "didn't"],
+      "answer": 1,
+      "explainGu": "She સાથે doesn't આવે (રોજની ટેવ): She doesn't like milk."
+    },
+    {
+      "type": "choice",
+      "questionGu": "કયું વાક્ય સાચું છે?",
+      "options": ["He doesn't likes tea.", "He doesn't like tea.", "He don't like tea."],
+      "answer": 1,
+      "explainGu": "doesn't પછી ક્રિયામાં s ન લાગે: He doesn't like tea."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"હું ગઈકાલે શાળાએ ગયો નહીં.\" નું સાચું વાક્ય કયું છે?",
+      "options": ["I didn't went to school yesterday.", "I didn't go to school yesterday.", "I don't went to school yesterday."],
+      "answer": 1,
+      "explainGu": "didn't પછી ક્રિયા જેમ છે તેમ આવે: I didn't go to school yesterday."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: They ___ play cricket yesterday.",
+      "options": ["doesn't", "don't", "didn't"],
+      "answer": 2,
+      "explainGu": "yesterday (ભૂતકાળ) છે એટલે didn't: They didn't play cricket yesterday."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[won't]] નું પૂરું રૂપ શું છે?",
+      "options": ["will not", "was not", "would not"],
+      "answer": 0,
+      "explainGu": "won't = will not. I won't go tomorrow. – આઇ વોન્ટ ગો ટુમૉરો"
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"તે સૂઈ રહ્યો નથી.\" નું સાચું વાક્ય કયું છે?",
+      "options": ["He doesn't sleeping.", "He isn't sleep.", "He isn't sleeping."],
+      "answer": 2,
+      "explainGu": "He isn't sleeping. – હી ઇઝન્ટ સ્લીપિંગ"
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"મને ભૂખ નથી લાગી.\" નું સાચું ટૂંકું વાક્ય કયું છે?",
+      "options": ["I'm not hungry.", "I amn't hungry.", "I don't hungry."],
+      "answer": 0,
+      "explainGu": "I am not નું ટૂંકું રૂપ I'm not છે: I'm not hungry."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"મને કંઈ ખબર નથી.\" નું સાચું વાક્ય કયું છે?",
+      "options": ["I don't know nothing.", "I don't know anything.", "I no know anything."],
+      "answer": 1,
+      "explainGu": "એક વાક્યમાં એક જ ના: I don't know anything. અથવા I know nothing."
+    }
+  ]
+}

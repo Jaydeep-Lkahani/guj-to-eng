@@ -1,0 +1,106 @@
+{
+  "topicId": "p3-t03",
+  "explanationGu": [
+    "\"જો વરસાદ પડશે તો હું ઘરે રહીશ\" — આવાં \"જો… તો…\" વાળાં વાક્યોને [[If sentences]] (ઇફ સેન્ટન્સિસ) કહેવાય. અંગ્રેજીમાં [[if]] (ઇફ) નો અર્થ \"જો\" છે. જેમ કે [[If it rains, I will stay at home.]]",
+    "વાક્યના બે ભાગ હોય છે: [[if]] વાળો ભાગ (શરત) અને બીજો ભાગ (પરિણામ). ગુજરાતીમાં \"તો\" આવે છે, અંગ્રેજીમાં \"તો\" માટે કોઈ શબ્દ નથી. [[if]] વાળો ભાગ પહેલાં હોય તો વચ્ચે અલ્પવિરામ (comma) મૂકાય: [[If it rains, I will stay at home.]] [[if]] વાળો ભાગ પછી હોય તો comma નથી: [[I will stay at home if it rains.]]",
+    "સાચી શક્યતા માટે (કદાચ થશે): [[if]] વાળા ભાગમાં Present Simple અને પરિણામમાં [[will]] + ક્રિયા. [[If you study, you will pass.]] (જો તમે ભણશો તો પાસ થશો). [[If he comes, I will tell him.]] (જો તે આવશે તો હું તેને કહીશ).",
+    "સૌથી મોટી ભૂલ: ગુજરાતીમાં \"જો વરસાદ પડશે\" ભવિષ્યકાળ છે, એટલે ઘણા લોકો [[if]] પછી પણ [[will]] વાપરે છે. [[If it will rain, I will stay.]] ખોટું છે. [[if]] પછી [[will]] ન આવે. સાચું છે [[If it rains, I will stay.]]",
+    "બીજા ભાગમાં [[will]] ની જગ્યાએ બીજા શબ્દો પણ આવી શકે: [[can]], [[should]], [[must]]. [[If you are tired, you should rest.]] (જો તમે થાકેલા હો તો આરામ કરવો જોઈએ). [[If you need help, you can call me.]] (જો તમને મદદ જોઈએ તો મને ફોન કરી શકો). ઉપરાંત આદેશ: [[If you see Ravi, tell him.]] (જો રવિ દેખાય તો તેને કહેજો).",
+    "હંમેશાં સાચી વાત માટે બંને ભાગમાં Present Simple આવે: [[If you heat ice, it melts.]] (બરફને ગરમ કરો તો તે ઓગળે છે). [[If you mix red and yellow, you get orange.]]",
+    "જે શક્ય નથી કે કલ્પના છે, તેના માટે [[if]] પછી ભૂતકાળનું રૂપ અને પરિણામમાં [[would]] (વુડ) + ક્રિયા: [[If I had a lot of money, I would buy a house.]] (જો મારી પાસે બહુ પૈસા હોત તો હું ઘર ખરીદત). સલાહ આપવા: [[If I were you, I would go.]] (હું તમારી જગ્યાએ હોઉં તો જાઉં). અહીં [[I were]] કહેવાય, [[I was]] નહીં.",
+    "[[unless]] (અનલેસ) નો અર્થ \"જો ન હોય તો\": [[I will go unless it rains.]] (વરસાદ ન પડે તો હું જઈશ). [[unless]] સાથે નકાર નથી આવતો: [[unless it doesn't rain]] ખોટું છે.",
+    "આ પાઠમાં આપણે [[if]] ની ત્રણ રીત શીખ્યા: સાચી શક્યતા ([[will]]), હંમેશાંની વાત (Present Simple) અને કલ્પના ([[would]])."
+  ],
+  "examples": [
+    { "en": "If it rains, I will stay at home.", "translit": "ઇફ ઇટ રેઇન્ઝ, આઇ વિલ સ્ટે ઍટ હોમ", "gu": "જો વરસાદ પડશે તો હું ઘરે રહીશ." },
+    { "en": "I will stay at home if it rains.", "translit": "આઇ વિલ સ્ટે ઍટ હોમ ઇફ ઇટ રેઇન્ઝ", "gu": "જો વરસાદ પડશે તો હું ઘરે રહીશ." },
+    { "en": "If you study, you will pass.", "translit": "ઇફ યૂ સ્ટડી, યૂ વિલ પાસ", "gu": "જો તમે ભણશો તો પાસ થશો." },
+    { "en": "If he comes, I will tell him.", "translit": "ઇફ હી કમ્ઝ, આઇ વિલ ટેલ હિમ", "gu": "જો તે આવશે તો હું તેને કહીશ." },
+    { "en": "If she calls, I will answer.", "translit": "ઇફ શી કૉલ્ઝ, આઇ વિલ આન્સર", "gu": "જો તે ફોન કરશે તો હું જવાબ આપીશ." },
+    { "en": "If we hurry, we will not be late.", "translit": "ઇફ વી હરી, વી વિલ નૉટ બી લેઇટ", "gu": "જો આપણે ઉતાવળ કરીશું તો મોડા નહીં પડીએ." },
+    { "en": "If you are tired, you should rest.", "translit": "ઇફ યૂ આર ટાયર્ડ, યૂ શુડ રેસ્ટ", "gu": "જો તમે થાકેલા હો તો આરામ કરવો જોઈએ." },
+    { "en": "If you need help, you can call me.", "translit": "ઇફ યૂ નીડ હૅલ્પ, યૂ કૅન કૉલ મી", "gu": "જો તમને મદદ જોઈએ તો મને ફોન કરી શકો." },
+    { "en": "If you see Ravi, tell him.", "translit": "ઇફ યૂ સી રવિ, ટેલ હિમ", "gu": "જો રવિ દેખાય તો તેને કહેજો." },
+    { "en": "If you heat ice, it melts.", "translit": "ઇફ યૂ હીટ આઇસ, ઇટ મેલ્ટ્સ", "gu": "જો બરફને ગરમ કરો તો તે ઓગળે છે." },
+    { "en": "If you mix red and yellow, you get orange.", "translit": "ઇફ યૂ મિક્સ રેડ ઍન્ડ યેલો, યૂ ગેટ ઑરિન્જ", "gu": "જો લાલ અને પીળો ભેળવો તો નારંગી મળે છે." },
+    { "en": "If I had a lot of money, I would buy a house.", "translit": "ઇફ આઇ હૅડ અ લૉટ ઑફ મની, આઇ વુડ બાય અ હાઉસ", "gu": "જો મારી પાસે ઘણા પૈસા હોત તો હું ઘર ખરીદત." },
+    { "en": "If I were you, I would go.", "translit": "ઇફ આઇ વર યૂ, આઇ વુડ ગો", "gu": "હું તમારી જગ્યાએ હોઉં તો જાઉં." },
+    { "en": "If she had time, she would help you.", "translit": "ઇફ શી હૅડ ટાઇમ, શી વુડ હૅલ્પ યૂ", "gu": "જો તેની પાસે સમય હોત તો તે તમને મદદ કરત." },
+    { "en": "I will go unless it rains.", "translit": "આઇ વિલ ગો અનલેસ ઇટ રેઇન્ઝ", "gu": "વરસાદ ન પડે તો હું જઈશ." },
+    { "en": "if", "translit": "ઇફ", "gu": "જો" },
+    { "en": "unless", "translit": "અનલેસ", "gu": "જો ન હોય તો" },
+    { "en": "would", "translit": "વુડ", "gu": "(કલ્પનામાં) કરત, ખરીદત" }
+  ],
+  "practice": [
+    {
+      "type": "choice",
+      "questionGu": "\"જો વરસાદ પડશે તો હું ઘરે રહીશ.\" ને અંગ્રેજીમાં સાચી રીતે કેમ કહેવાય?",
+      "options": ["If it will rain, I will stay at home.", "If it rains, I will stay at home.", "If it rains, I stay at home will."],
+      "answer": 1,
+      "explainGu": "if પછી will ન આવે: If it rains, I will stay at home."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: If you study, you ___ pass.",
+      "options": ["will", "would", "are"],
+      "answer": 0,
+      "explainGu": "સાચી શક્યતામાં પરિણામ માટે will: If you study, you will pass."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: If he ___ , I will tell him. (come)",
+      "options": ["will come", "comes", "come"],
+      "answer": 1,
+      "explainGu": "if પછી Present Simple, અને He સાથે s: If he comes, I will tell him."
+    },
+    {
+      "type": "choice",
+      "questionGu": "કયા વાક્યમાં comma (અલ્પવિરામ) સાચી રીતે મૂક્યો છે?",
+      "options": ["If it rains, I will stay.", "I will stay, if it rains.", "If, it rains I will stay."],
+      "answer": 0,
+      "explainGu": "if વાળો ભાગ પહેલાં હોય તો વચ્ચે comma: If it rains, I will stay."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"જો તમે થાકેલા હો તો આરામ કરવો જોઈએ.\" નું સાચું વાક્ય કયું છે?",
+      "options": ["If you are tired, you should rest.", "If you will tired, you should rest.", "If you tired, you rest should."],
+      "answer": 0,
+      "explainGu": "If you are tired, you should rest. – બીજા ભાગમાં should પણ આવી શકે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"જો બરફને ગરમ કરો તો તે ઓગળે છે.\" (હંમેશાંની સાચી વાત) નું સાચું વાક્ય કયું છે?",
+      "options": ["If you heat ice, it will melted.", "If you heat ice, it melts.", "If you will heat ice, it melts."],
+      "answer": 1,
+      "explainGu": "હંમેશાંની વાતમાં બંને ભાગમાં Present Simple: If you heat ice, it melts."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: If I had a lot of money, I ___ buy a house.",
+      "options": ["will", "would", "am"],
+      "answer": 1,
+      "explainGu": "કલ્પનામાં પરિણામ માટે would: I would buy a house."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"હું તમારી જગ્યાએ હોઉં તો જાઉં.\" નું સાચું વાક્ય કયું છે?",
+      "options": ["If I was you, I would go.", "If I were you, I would go.", "If I am you, I will go."],
+      "answer": 1,
+      "explainGu": "કલ્પનામાં I સાથે were: If I were you, I would go."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"I will go unless it rains.\" નો અર્થ શું છે?",
+      "options": ["વરસાદ પડશે તો હું જઈશ", "વરસાદ ન પડે તો હું જઈશ", "હું ગયો હતો"],
+      "answer": 1,
+      "explainGu": "unless = જો ન હોય તો: વરસાદ ન પડે તો હું જઈશ."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[if]] નો અર્થ શું છે?",
+      "options": ["જો", "કેમ", "ક્યારે"],
+      "answer": 0,
+      "explainGu": "if – ઇફ – જો."
+    }
+  ]
+}

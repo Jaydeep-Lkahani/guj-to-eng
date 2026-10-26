@@ -1,0 +1,111 @@
+{
+  "topicId": "p3-t07",
+  "explanationGu": [
+    "દરેક ભાષામાં કેટલાક શબ્દસમૂહો એવા હોય છે જેનો અર્થ શબ્દે શબ્દે ભાષાંતર કરવાથી નથી મળતો. ગુજરાતીમાં \"આંખે પાણી આવવું\" કે \"હાથ ઊંચા કરી દેવા\" કહીએ છીએ. અંગ્રેજીમાં આવા શબ્દસમૂહોને [[Idioms]] (ઇડિયમ્સ – રૂઢિપ્રયોગો) કહેવાય છે.",
+    "ઉદાહરણ: [[It's a piece of cake.]] નો શબ્દાર્થ \"આ કેકનો ટુકડો છે\" થાય, પણ સાચો અર્થ \"આ બહુ સહેલું છે\" છે. ગુજરાતીમાં આપણે \"ડાબા હાથનો ખેલ\" કહીએ છીએ. એટલે અર્થ શબ્દોમાં નથી, આખા વાક્યમાં છે.",
+    "મહત્ત્વનો નિયમ: રૂઢિપ્રયોગના શબ્દો બદલી શકાતા નથી. [[It's a piece of cake.]] જ કહેવાય, [[It's a slice of cake.]] નહીં. જેવું છે તેવું જ યાદ રાખો.",
+    "સહેલા અને વધારે વપરાતા રૂઢિપ્રયોગો: [[a piece of cake]] (બહુ સહેલું), [[break a leg]] (શુભેચ્છા, \"સફળ થાઓ\"), [[under the weather]] (તબિયત સારી નથી), [[once in a blue moon]] (ક્યારેક જ), [[cost an arm and a leg]] (બહુ મોંઘું), [[raining cats and dogs]] (મુશળધાર વરસાદ).",
+    "કહેવતો જેવા વાક્યો: [[Practice makes perfect.]] (અભ્યાસથી પાકા થવાય), [[Better late than never.]] (ન આવવા કરતાં મોડું આવવું સારું), [[Time flies.]] (સમય ઊડી જાય છે), [[Actions speak louder than words.]] (વાતો કરતાં કામ વધારે બોલે છે), [[A blessing in disguise.]] (ખરાબ લાગતી વાતમાંથી મળેલું સારું પરિણામ).",
+    "રોજિંદી બોલચાલની વાતો પણ યાદ રાખવા જેવી છે: [[Congratulations!]] (અભિનંદન), [[Good luck!]] (શુભેચ્છા), [[Get well soon.]] (જલ્દી સાજા થાઓ), [[Take care.]] (ધ્યાન રાખજો), [[Never mind.]] (કંઈ વાંધો નહીં), [[Just a moment.]] (એક મિનિટ), [[Long time no see.]] (ઘણા વખતે મળ્યા).",
+    "મહેમાન માટે અને શુભ પ્રસંગો માટે: [[Make yourself at home.]] (પોતાના ઘર જેવું સમજો), [[Happy birthday!]] (જન્મદિવસની શુભેચ્છા), [[Happy New Year!]] (નવા વર્ષની શુભેચ્છા), [[Welcome!]] (સ્વાગત).",
+    "બહુ બધા રૂઢિપ્રયોગો એકસાથે ન વાપરો. રોજની વાતચીતમાં એક-બે વાપરશો તો પૂરતું છે. ઔપચારિક પત્ર કે ઈમેઇલમાં રૂઢિપ્રયોગો ઓછા વપરાય છે.",
+    "યાદ રાખવાની રીત: દરેક રૂઢિપ્રયોગને પોતાના જીવનની કોઈ પરિસ્થિતિ સાથે જોડો. જેમ કે પરીક્ષા સહેલી લાગે ત્યારે [[It was a piece of cake!]] કહી જુઓ."
+  ],
+  "examples": [
+    { "en": "It's a piece of cake.", "translit": "ઇટ્સ અ પીસ ઑફ કેઇક", "gu": "આ તો ડાબા હાથનો ખેલ છે (બહુ સહેલું છે)." },
+    { "en": "Break a leg!", "translit": "બ્રેઇક અ લેગ", "gu": "શુભેચ્છા! (સફળ થાઓ)" },
+    { "en": "I am under the weather today.", "translit": "આઇ ઍમ અન્ડર ધ વેધર ટુડે", "gu": "આજે મારી તબિયત સારી નથી." },
+    { "en": "I eat out once in a blue moon.", "translit": "આઇ ઈટ આઉટ વન્સ ઇન અ બ્લૂ મૂન", "gu": "હું ક્યારેક જ બહાર જમું છું." },
+    { "en": "That car costs an arm and a leg.", "translit": "ધૅટ કાર કૉસ્ટ્સ ઍન આર્મ ઍન્ડ અ લેગ", "gu": "તે ગાડી બહુ મોંઘી છે." },
+    { "en": "It's raining cats and dogs.", "translit": "ઇટ્સ રેઇનિંગ કૅટ્સ ઍન્ડ ડૉગ્ઝ", "gu": "મુશળધાર વરસાદ પડી રહ્યો છે." },
+    { "en": "Practice makes perfect.", "translit": "પ્રૅક્ટિસ મેઇક્સ પર્ફેક્ટ", "gu": "અભ્યાસથી પાકા થવાય." },
+    { "en": "Better late than never.", "translit": "બેટર લેઇટ ધૅન નેવર", "gu": "ન આવવા કરતાં મોડું આવવું સારું." },
+    { "en": "Time flies.", "translit": "ટાઇમ ફ્લાઇઝ", "gu": "સમય ઊડી જાય છે." },
+    { "en": "Actions speak louder than words.", "translit": "ઍક્શન્સ સ્પીક લાઉડર ધૅન વર્ડ્ઝ", "gu": "વાતો કરતાં કામ વધારે બોલે છે." },
+    { "en": "It is a blessing in disguise.", "translit": "ઇટ ઇઝ અ બ્લેસિંગ ઇન ડિસ્ગાઇઝ", "gu": "આ ખરાબ લાગતી વાતમાં સારું છુપાયેલું છે." },
+    { "en": "Congratulations!", "translit": "કન્ગ્રૅચ્યુલેશન્સ", "gu": "અભિનંદન!" },
+    { "en": "Good luck!", "translit": "ગુડ લક", "gu": "શુભેચ્છા!" },
+    { "en": "Get well soon.", "translit": "ગેટ વેલ સૂન", "gu": "જલ્દી સાજા થાઓ." },
+    { "en": "Take care.", "translit": "ટેઇક કેર", "gu": "ધ્યાન રાખજો." },
+    { "en": "Never mind.", "translit": "નેવર માઇન્ડ", "gu": "કંઈ વાંધો નહીં." },
+    { "en": "Just a moment.", "translit": "જસ્ટ અ મોમન્ટ", "gu": "એક મિનિટ." },
+    { "en": "Long time no see.", "translit": "લૉંગ ટાઇમ નો સી", "gu": "ઘણા વખતે મળ્યા." },
+    { "en": "Make yourself at home.", "translit": "મેઇક યોરસેલ્ફ ઍટ હોમ", "gu": "પોતાના ઘર જેવું સમજો." },
+    { "en": "Happy birthday!", "translit": "હૅપી બર્થડે", "gu": "જન્મદિવસની શુભેચ્છા!" },
+    { "en": "Happy New Year!", "translit": "હૅપી ન્યૂ યર", "gu": "નવા વર્ષની શુભેચ્છા!" },
+    { "en": "Welcome!", "translit": "વેલકમ", "gu": "સ્વાગત છે!" },
+    { "en": "The exam was a piece of cake!", "translit": "ધ ઇગ્ઝૅમ વૉઝ અ પીસ ઑફ કેઇક", "gu": "પરીક્ષા બહુ સહેલી હતી!" }
+  ],
+  "practice": [
+    {
+      "type": "choice",
+      "questionGu": "\"It's a piece of cake.\" નો સાચો અર્થ શું છે?",
+      "options": ["આ કેકનો ટુકડો છે", "આ બહુ સહેલું છે", "આ બહુ મોંઘું છે"],
+      "answer": 1,
+      "explainGu": "a piece of cake = બહુ સહેલું (ડાબા હાથનો ખેલ)."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"I am under the weather.\" નો અર્થ શું છે?",
+      "options": ["હું બહાર વરસાદમાં છું", "મારી તબિયત સારી નથી", "હું બહુ ખુશ છું"],
+      "answer": 1,
+      "explainGu": "under the weather = તબિયત સારી નથી."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"It's raining cats and dogs.\" નો અર્થ શું છે?",
+      "options": ["મુશળધાર વરસાદ પડે છે", "બિલાડી અને કૂતરાં ભીંજાય છે", "થોડોક છાંટો પડે છે"],
+      "answer": 0,
+      "explainGu": "raining cats and dogs = મુશળધાર વરસાદ."
+    },
+    {
+      "type": "choice",
+      "questionGu": "પરીક્ષા આપવા જનાર મિત્રને શુભેચ્છા આપવા શું કહેવાય?",
+      "options": ["Get well soon.", "Good luck!", "Long time no see."],
+      "answer": 1,
+      "explainGu": "Good luck! – ગુડ લક – શુભેચ્છા. (Break a leg! પણ આ જ અર્થમાં)."
+    },
+    {
+      "type": "choice",
+      "questionGu": "મિત્ર બીમાર છે. તેને શું કહેશો?",
+      "options": ["Congratulations!", "Get well soon.", "Happy birthday!"],
+      "answer": 1,
+      "explainGu": "Get well soon. – ગેટ વેલ સૂન – જલ્દી સાજા થાઓ."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"Once in a blue moon\" નો અર્થ શું છે?",
+      "options": ["રોજ", "ક્યારેક જ", "દર રવિવારે"],
+      "answer": 1,
+      "explainGu": "once in a blue moon = ક્યારેક જ (બહુ ઓછી વાર)."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"Practice makes perfect.\" નો અર્થ શું છે?",
+      "options": ["અભ્યાસથી પાકા થવાય", "સમય ઊડી જાય છે", "મોડું આવવું સારું"],
+      "answer": 0,
+      "explainGu": "Practice makes perfect – પ્રૅક્ટિસ મેઇક્સ પર્ફેક્ટ – અભ્યાસથી પાકા થવાય."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ઘણા વખતે કોઈ મિત્રને મળો ત્યારે શું કહેવાય?",
+      "options": ["Never mind.", "Just a moment.", "Long time no see."],
+      "answer": 2,
+      "explainGu": "Long time no see. – લૉંગ ટાઇમ નો સી – ઘણા વખતે મળ્યા."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"That car costs an arm and a leg.\" નો અર્થ શું છે?",
+      "options": ["ગાડી તૂટી ગઈ છે", "ગાડી બહુ મોંઘી છે", "ગાડી બહુ ઝડપી છે"],
+      "answer": 1,
+      "explainGu": "costs an arm and a leg = બહુ મોંઘું."
+    },
+    {
+      "type": "choice",
+      "questionGu": "રૂઢિપ્રયોગ વિશે કયું વાક્ય સાચું છે?",
+      "options": ["શબ્દે શબ્દે ભાષાંતર કરવાથી અર્થ મળે", "અર્થ આખા શબ્દસમૂહમાં છે, શબ્દો બદલી ન શકાય", "તે ફક્ત લખવામાં વપરાય"],
+      "answer": 1,
+      "explainGu": "રૂઢિપ્રયોગ જેવો છે તેવો જ યાદ રાખવો, શબ્દો બદલવા નહીં."
+    }
+  ]
+}

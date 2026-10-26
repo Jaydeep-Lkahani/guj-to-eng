@@ -1,0 +1,115 @@
+{
+  "topicId": "p3-t04",
+  "explanationGu": [
+    "\"રવિ મારા કરતાં ઊંચો છે\", \"આ સૌથી સસ્તું છે\" — બે વસ્તુઓ કે લોકોને સરખાવવા માટે [[Comparison]] (કમ્પૅરિઝન) વપરાય છે. ગુજરાતીમાં \"કરતાં\" આવે છે. અંગ્રેજીમાં \"કરતાં\" માટે [[than]] (ધૅન) શબ્દ વપરાય છે.",
+    "બે વસ્તુની સરખામણી (Comparative): ટૂંકા શબ્દ (tall, fast, cheap) ને અંતે [[er]] લગાડો અને પછી [[than]] મૂકો. [[tall]] → [[taller]]: [[Ravi is taller than me.]] (રવિ મારા કરતાં ઊંચો છે). [[fast]] → [[faster]]: [[A car is faster than a bike.]]",
+    "[[er]] લગાડવાના નિયમો: અંતે [[e]] હોય તો ફક્ત [[r]] લાગે: [[large]] → [[larger]]. ટૂંકા શબ્દમાં છેલ્લો અક્ષર બેવડાય: [[big]] → [[bigger]], [[hot]] → [[hotter]]. અંતે [[y]] હોય તો [[y]] નો [[ier]] થાય: [[happy]] → [[happier]], [[heavy]] → [[heavier]].",
+    "લાંબા શબ્દો (beautiful, expensive, difficult) ને [[er]] નથી લાગતો. તેની પહેલાં [[more]] (મોર) મૂકો: [[This bag is more expensive than that bag.]] (આ થેલી પેલી કરતાં વધારે મોંઘી છે). [[English is more difficult than Gujarati.]]",
+    "સૌથી મોટી ભૂલ: બંને ભેગા ન કરો. [[more taller]] ખોટું છે, સાચું છે [[taller]]. [[taller from me]] ખોટું છે, સાચું છે [[taller than me]]. [[more better]] ખોટું છે, સાચું છે [[better]].",
+    "ઘણાંમાંથી સૌથી ચડિયાતું (Superlative): ટૂંકા શબ્દને [[est]] લગાડો અને આગળ [[the]] મૂકો: [[tall]] → [[the tallest]], [[cheap]] → [[the cheapest]], [[big]] → [[the biggest]], [[happy]] → [[the happiest]]. લાંબા શબ્દ સાથે [[the most]]: [[the most beautiful]], [[the most expensive]]. જેમ કે [[Ravi is the tallest boy in the class.]]",
+    "કેટલાક શબ્દો અનિયમિત છે, તેમને યાદ રાખવા: [[good]] → [[better]] → [[the best]] (સારું – વધારે સારું – સૌથી સારું). [[bad]] → [[worse]] → [[the worst]] (ખરાબ – વધારે ખરાબ – સૌથી ખરાબ). [[many]] / [[much]] → [[more]] → [[the most]] (ઘણું – વધારે – સૌથી વધારે).",
+    "બે વસ્તુ સરખી હોય ત્યારે [[as]] + શબ્દ + [[as]] વપરાય છે: [[He is as tall as me.]] (તે મારા જેટલો ઊંચો છે). સરખા ન હોય તો [[not as]] + શબ્દ + [[as]]: [[This is not as expensive as that.]] (આ પેલા જેટલું મોંઘું નથી).",
+    "યાદ રાખવાની સરળ રીત: બે વસ્તુ હોય તો [[er]] / [[more]] + [[than]]. બે થી વધારે હોય અને સૌથી ચડિયાતું શોધવું હોય તો [[the]] + [[est]] / [[the most]]."
+  ],
+  "examples": [
+    { "en": "tall → taller → the tallest", "translit": "ટૉલ → ટૉલર → ધ ટૉલેસ્ટ", "gu": "ઊંચો → વધારે ઊંચો → સૌથી ઊંચો" },
+    { "en": "fast → faster → the fastest", "translit": "ફાસ્ટ → ફાસ્ટર → ધ ફાસ્ટેસ્ટ", "gu": "ઝડપી → વધારે ઝડપી → સૌથી ઝડપી" },
+    { "en": "cheap → cheaper → the cheapest", "translit": "ચીપ → ચીપર → ધ ચીપેસ્ટ", "gu": "સસ્તું → વધારે સસ્તું → સૌથી સસ્તું" },
+    { "en": "large → larger → the largest", "translit": "લાર્જ → લાર્જર → ધ લાર્જેસ્ટ", "gu": "મોટું → વધારે મોટું → સૌથી મોટું" },
+    { "en": "big → bigger → the biggest", "translit": "બિગ → બિગર → ધ બિગેસ્ટ", "gu": "મોટું → વધારે મોટું → સૌથી મોટું" },
+    { "en": "hot → hotter → the hottest", "translit": "હૉટ → હૉટર → ધ હૉટેસ્ટ", "gu": "ગરમ → વધારે ગરમ → સૌથી ગરમ" },
+    { "en": "happy → happier → the happiest", "translit": "હૅપી → હૅપિયર → ધ હૅપિયેસ્ટ", "gu": "ખુશ → વધારે ખુશ → સૌથી ખુશ" },
+    { "en": "heavy → heavier → the heaviest", "translit": "હેવી → હેવિયર → ધ હેવિયેસ્ટ", "gu": "ભારે → વધારે ભારે → સૌથી ભારે" },
+    { "en": "beautiful → more beautiful → the most beautiful", "translit": "બ્યૂટિફુલ → મોર બ્યૂટિફુલ → ધ મોસ્ટ બ્યૂટિફુલ", "gu": "સુંદર → વધારે સુંદર → સૌથી સુંદર" },
+    { "en": "expensive → more expensive → the most expensive", "translit": "ઇક્સ્પેન્સિવ → મોર ઇક્સ્પેન્સિવ → ધ મોસ્ટ ઇક્સ્પેન્સિવ", "gu": "મોંઘું → વધારે મોંઘું → સૌથી મોંઘું" },
+    { "en": "good → better → the best", "translit": "ગુડ → બેટર → ધ બેસ્ટ", "gu": "સારું → વધારે સારું → સૌથી સારું" },
+    { "en": "bad → worse → the worst", "translit": "બૅડ → વર્સ → ધ વર્સ્ટ", "gu": "ખરાબ → વધારે ખરાબ → સૌથી ખરાબ" },
+    { "en": "Ravi is taller than me.", "translit": "રવિ ઇઝ ટૉલર ધૅન મી", "gu": "રવિ મારા કરતાં ઊંચો છે." },
+    { "en": "A car is faster than a bike.", "translit": "અ કાર ઇઝ ફાસ્ટર ધૅન અ બાઇક", "gu": "ગાડી સાઇકલ કરતાં વધારે ઝડપી છે." },
+    { "en": "Today is hotter than yesterday.", "translit": "ટુડે ઇઝ હૉટર ધૅન યેસ્ટરડે", "gu": "આજે ગઈકાલ કરતાં વધારે ગરમી છે." },
+    { "en": "This bag is more expensive than that bag.", "translit": "ધિસ બૅગ ઇઝ મોર ઇક્સ્પેન્સિવ ધૅન ધૅટ બૅગ", "gu": "આ થેલી પેલી થેલી કરતાં વધારે મોંઘી છે." },
+    { "en": "English is more difficult than Gujarati.", "translit": "ઇંગ્લિશ ઇઝ મોર ડિફિકલ્ટ ધૅન ગુજરાતી", "gu": "અંગ્રેજી ગુજરાતી કરતાં વધારે અઘરું છે." },
+    { "en": "She is better than me at cooking.", "translit": "શી ઇઝ બેટર ધૅન મી ઍટ કુકિંગ", "gu": "તે રાંધવામાં મારા કરતાં સારી છે." },
+    { "en": "Ravi is the tallest boy in the class.", "translit": "રવિ ઇઝ ધ ટૉલેસ્ટ બૉય ઇન ધ ક્લાસ", "gu": "રવિ વર્ગમાં સૌથી ઊંચો છોકરો છે." },
+    { "en": "This is the cheapest shop.", "translit": "ધિસ ઇઝ ધ ચીપેસ્ટ શૉપ", "gu": "આ સૌથી સસ્તી દુકાન છે." },
+    { "en": "She is the most beautiful girl.", "translit": "શી ઇઝ ધ મોસ્ટ બ્યૂટિફુલ ગર્લ", "gu": "તે સૌથી સુંદર છોકરી છે." },
+    { "en": "He is the best player.", "translit": "હી ઇઝ ધ બેસ્ટ પ્લેયર", "gu": "તે સૌથી સારો ખેલાડી છે." },
+    { "en": "He is as tall as me.", "translit": "હી ઇઝ ઍઝ ટૉલ ઍઝ મી", "gu": "તે મારા જેટલો ઊંચો છે." },
+    { "en": "This is not as expensive as that.", "translit": "ધિસ ઇઝ નૉટ ઍઝ ઇક્સ્પેન્સિવ ઍઝ ધૅટ", "gu": "આ પેલા જેટલું મોંઘું નથી." },
+    { "en": "than", "translit": "ધૅન", "gu": "કરતાં" },
+    { "en": "more", "translit": "મોર", "gu": "વધારે" },
+    { "en": "the most", "translit": "ધ મોસ્ટ", "gu": "સૌથી વધારે" }
+  ],
+  "practice": [
+    {
+      "type": "choice",
+      "questionGu": "\"રવિ મારા કરતાં ઊંચો છે.\" ને અંગ્રેજીમાં સાચી રીતે કેમ કહેવાય?",
+      "options": ["Ravi is more tall than me.", "Ravi is taller from me.", "Ravi is taller than me."],
+      "answer": 2,
+      "explainGu": "ટૂંકા શબ્દ સાથે er અને than: Ravi is taller than me."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[big]] નું સરખામણીનું રૂપ શું છે?",
+      "options": ["biger", "bigger", "more big"],
+      "answer": 1,
+      "explainGu": "છેલ્લો અક્ષર બેવડાય: big → bigger."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[happy]] નું સરખામણીનું રૂપ શું છે?",
+      "options": ["happyer", "more happy", "happier"],
+      "answer": 2,
+      "explainGu": "y નો ier થાય: happy → happier."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: This bag is ___ than that bag. (expensive)",
+      "options": ["expensiver", "more expensive", "most expensive"],
+      "answer": 1,
+      "explainGu": "લાંબા શબ્દ સાથે more: more expensive than."
+    },
+    {
+      "type": "choice",
+      "questionGu": "કયું વાક્ય સાચું છે?",
+      "options": ["She is more better than me.", "She is gooder than me.", "She is better than me."],
+      "answer": 2,
+      "explainGu": "good → better. more better ન કહેવાય."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"રવિ વર્ગમાં સૌથી ઊંચો છોકરો છે.\" નું સાચું વાક્ય કયું છે?",
+      "options": ["Ravi is the tallest boy in the class.", "Ravi is taller boy in the class.", "Ravi is most tall boy in the class."],
+      "answer": 0,
+      "explainGu": "સૌથી માટે the + est: the tallest."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"તે સૌથી સુંદર છોકરી છે.\" નું સાચું વાક્ય કયું છે?",
+      "options": ["She is the beautifulest girl.", "She is the most beautiful girl.", "She is more beautiful girl."],
+      "answer": 1,
+      "explainGu": "લાંબા શબ્દ સાથે the most: the most beautiful."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[bad]] નું \"સૌથી ખરાબ\" રૂપ કયું છે?",
+      "options": ["the baddest", "the worst", "the most bad"],
+      "answer": 1,
+      "explainGu": "bad → worse → the worst."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"તે મારા જેટલો ઊંચો છે.\" નું સાચું વાક્ય કયું છે?",
+      "options": ["He is as tall as me.", "He is taller as me.", "He is as taller than me."],
+      "answer": 0,
+      "explainGu": "સરખા હોય ત્યારે as … as: He is as tall as me."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[than]] નો અર્થ શું છે?",
+      "options": ["જેટલું", "કરતાં", "સૌથી"],
+      "answer": 1,
+      "explainGu": "than – ધૅન – કરતાં."
+    }
+  ]
+}
