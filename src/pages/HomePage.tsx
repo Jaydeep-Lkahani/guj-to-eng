@@ -1,10 +1,19 @@
 import { Link } from "react-router";
-import { ArrowRight, ChatsCircle, HandWaving, Lightbulb, PencilSimpleLine } from "@phosphor-icons/react";
+import {
+  ArrowRight,
+  CaretDown,
+  ChatsCircle,
+  HandWaving,
+  Lightbulb,
+  PencilSimpleLine,
+  Question,
+} from "@phosphor-icons/react";
 import { allTopics, parts } from "../content";
 import { useCompleted } from "../progress";
 import { ProgressBar, ProgressRing } from "../components/ProgressBar";
 import { PartIcon } from "../components/PartIcon";
-import { En } from "../components/MixedText";
+import { En, MixedText } from "../components/MixedText";
+import { homeFaq } from "../seo";
 
 const steps = [
   { icon: Lightbulb, title: "સમજો", text: "દરેક વાત સરળ ગુજરાતીમાં સમજાવી છે." },
@@ -26,7 +35,12 @@ export function HomePage() {
             <HandWaving weight="duotone" className="wave" aria-hidden="true" />
             {started ? "ફરી સ્વાગત છે" : "સ્વાગત છે"}
           </p>
-          <h1>નમસ્તે!</h1>
+          <h1>
+            નમસ્તે!
+            <span className="hero-h1-sub">
+              <span lang="en">Gujarati to English</span> · ગુજરાતીમાં અંગ્રેજી શીખો
+            </span>
+          </h1>
           <p className="lead">અહીં તમે ધીમે ધીમે, આરામથી અંગ્રેજી શીખશો. બધું ગુજરાતીમાં સમજાવ્યું છે.</p>
           <p className="hero-sub">
             ભાગ 1 થી શરૂ કરો અને પાઠ એક પછી એક કરો. દરેક પાઠ આગળના પાઠ પર બને છે.
@@ -89,6 +103,34 @@ export function HomePage() {
           );
         })}
       </ul>
+
+      <section className="faq" aria-labelledby="faq-title">
+        <h2 id="faq-title" className="section-title">
+          વારંવાર પૂછાતા સવાલ
+        </h2>
+        <div className="faq-list">
+          {homeFaq.map((item) => (
+            <details key={item.q} className="faq-item">
+              <summary>
+                <Question weight="duotone" className="faq-icon" aria-hidden="true" />
+                <span>{item.q}</span>
+                <CaretDown weight="bold" className="faq-caret" aria-hidden="true" />
+              </summary>
+              <div className="faq-answer">
+                <p>
+                  <MixedText text={item.a} />
+                </p>
+                {item.link && (
+                  <Link to={item.link.to} className="faq-link">
+                    {item.link.label}
+                    <ArrowRight weight="bold" className="nudge" aria-hidden="true" />
+                  </Link>
+                )}
+              </div>
+            </details>
+          ))}
+        </div>
+      </section>
     </article>
   );
 }

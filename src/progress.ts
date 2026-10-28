@@ -40,8 +40,12 @@ function subscribe(listener: () => void) {
   };
 }
 
+// The pre-built HTML is made with no progress, so the first draw in the browser
+// matches it; her saved progress shows right after.
+const nothingDone = new Set<string>();
+
 export function useCompleted(): Set<string> {
-  return useSyncExternalStore(subscribe, () => completed);
+  return useSyncExternalStore(subscribe, () => completed, () => nothingDone);
 }
 
 export function markComplete(topicId: string) {

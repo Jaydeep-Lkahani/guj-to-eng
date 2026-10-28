@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gujarati-to-english.vercel.app/sitemap.xml

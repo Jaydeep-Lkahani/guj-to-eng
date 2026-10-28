@@ -32,7 +32,8 @@ function apply(next: Theme) {
   listeners.forEach((l) => l());
 }
 
-apply(theme);
+// Not when the build pre-renders pages (there is no document then).
+if (typeof document !== "undefined") apply(theme);
 
 // If she never picked a theme, keep following the device setting.
 darkQuery?.addEventListener("change", (e) => {
@@ -45,7 +46,7 @@ function subscribe(listener: () => void) {
 }
 
 export function useTheme(): Theme {
-  return useSyncExternalStore(subscribe, () => theme);
+  return useSyncExternalStore(subscribe, () => theme, () => "light" as Theme);
 }
 
 type ViewTransitionDoc = Document & {

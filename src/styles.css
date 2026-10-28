@@ -2197,6 +2197,99 @@ button:hover .spin-hover {
    Tablet & phone
    ========================================================= */
 
+/* ---------- Home: subtitle under the big hello ---------- */
+
+.hero-h1-sub {
+  display: block;
+  margin-top: 6px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: rgb(255 255 255 / 0.88);
+}
+
+.hero-h1-sub [lang="en"] {
+  font-family: var(--font-en);
+  font-weight: 700;
+}
+
+/* ---------- Home: questions and answers ---------- */
+
+.faq {
+  margin-top: 2.5rem;
+}
+
+.faq-list {
+  display: grid;
+  gap: 10px;
+}
+
+.faq-item {
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+
+.faq-item summary {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 56px;
+  padding: 12px 18px;
+  font-weight: 700;
+  cursor: pointer;
+  list-style: none;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item summary span {
+  flex: 1;
+}
+
+.faq-item summary:focus-visible {
+  outline: 3px solid var(--ring);
+  outline-offset: -3px;
+}
+
+.faq-icon {
+  flex: none;
+  font-size: 1.5rem;
+  color: var(--primary);
+}
+
+.faq-caret {
+  flex: none;
+  color: var(--text-3);
+  transition: transform 0.25s var(--ease-out);
+}
+
+.faq-item[open] .faq-caret {
+  transform: rotate(180deg);
+}
+
+.faq-answer {
+  padding: 0 18px 16px 54px;
+  color: var(--text-2);
+}
+
+.faq-answer p {
+  margin-bottom: 0.6em;
+}
+
+.faq-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  font-weight: 700;
+  color: var(--primary-ink);
+}
+
 @media (max-width: 1100px) {
   .brand-tag {
     display: none;

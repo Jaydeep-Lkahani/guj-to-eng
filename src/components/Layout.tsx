@@ -6,6 +6,7 @@ import { SearchBox } from "./SearchBox";
 import { ThemeToggle } from "./ThemeToggle";
 import { Footer } from "./Footer";
 import { LogoMark, siteName } from "./Logo";
+import { Seo } from "./Seo";
 
 export function Layout() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -34,6 +35,7 @@ export function Layout() {
 
   return (
     <div className="app">
+      <Seo />
       <a href="#main" className="skip-link" onClick={(e) => {
         e.preventDefault();
         document.getElementById("main")?.focus();
@@ -62,7 +64,7 @@ export function Layout() {
           <span className="brand-text">
             <span className="brand-name">{siteName}</span>
             <span className="brand-tag" lang="en">
-              Learn English in Gujarati
+              Gujarati to English
             </span>
           </span>
         </Link>

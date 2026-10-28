@@ -3,8 +3,8 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  // Relative paths so the built site works from any folder or host.
-  base: "./",
+  // Absolute paths: pages live at /part/... and /topic/..., so assets must load from the site root.
+  base: "/",
   test: {
     environment: "jsdom",
   },

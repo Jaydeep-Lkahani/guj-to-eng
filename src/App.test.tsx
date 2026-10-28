@@ -16,7 +16,7 @@ vi.mock("./content", async (importOriginal) => {
 window.scrollTo = () => {};
 
 beforeEach(() => {
-  window.location.hash = "#/";
+  window.history.replaceState(null, "", "/");
   resetProgress();
 });
 afterEach(() => {
@@ -29,7 +29,7 @@ describe("navigation and lesson", () => {
     const user = userEvent.setup();
     render(<App />);
 
-    expect(screen.getByRole("heading", { level: 1, name: "નમસ્તે!" })).toBeTruthy();
+    expect(screen.getByRole("heading", { level: 1, name: /^નમસ્તે!/ })).toBeTruthy();
 
     const main = screen.getByRole("main");
     await user.click(within(main).getByRole("link", { name: /ભાગ 1/ }));
@@ -54,7 +54,7 @@ describe("navigation and lesson", () => {
 
   it("shows the right answer after a wrong pick", async () => {
     const user = userEvent.setup();
-    window.location.hash = "#/topic/p1-t01";
+    window.history.replaceState(null, "", "/topic/p1-t01");
     render(<App />);
     const q = getLesson("p1-t01")!.practice[0];
     const wrong = q.options.findIndex((_, i) => i !== q.answer);
@@ -64,7 +64,7 @@ describe("navigation and lesson", () => {
 
   it("shows a coming-soon note for topics without a lesson file", () => {
     hidden.topicId = "p3-t08";
-    window.location.hash = "#/topic/p3-t08";
+    window.history.replaceState(null, "", "/topic/p3-t08");
     render(<App />);
     expect(screen.getByText("આ પાઠ હજી તૈયાર થાય છે. જલ્દી આવશે.")).toBeTruthy();
   });

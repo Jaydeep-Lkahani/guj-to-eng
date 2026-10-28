@@ -3,6 +3,7 @@ node_modules/
 
 # Built site (made by npm run build)
 dist/
+dist-ssr/
 
 # Logs
 *.log
