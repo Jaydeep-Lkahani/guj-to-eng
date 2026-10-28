@@ -69,6 +69,7 @@ Tick a topic when its real lesson is written **and** I've reviewed it.
 | [x] | p1-t08 | am / is / are વાળાં સાદાં વાક્યો | Simple Sentences with am/is/are | Written and reviewed 2026-10-26 |
 | [ ] | p1-t12 | a / an / the ક્યારે વાપરવા | a, an and the | Written 2026-10-28 (shows as lesson 9). Waiting for my review |
 | [ ] | p1-t13 | this / these — એક અને ઘણી વસ્તુઓ | this, that, these, those & Plurals | Written 2026-10-28 (shows as lesson 10). Waiting for my review |
+| [ ] | p1-t14 | in / on / under — વસ્તુ ક્યાં છે? | Place Words: in, on, under, near | Written 2026-10-28 (shows as lesson 11). Waiting for my review |
 | [x] | p1-t09 | રંગ, વાર અને મહિના | Colours, Days & Months | Written and reviewed 2026-10-26 |
 | [x] | p1-t10 | રોજબરોજનાં વાક્યો | Daily-Life Phrases | Written and reviewed 2026-10-26 |
 | [x] | p1-t11 | ગુજરાતી વાક્યને અંગ્રેજીમાં ફેરવો | Sentence Patterns: Gujarati to English | Written 2026-10-26 (added on request). Part 1 lessons 5–10 got matching word-order tips. Done |
@@ -143,7 +144,7 @@ Alphabet, Letter Sounds, First Words, Numbers, Greetings, Family, Pronouns, **me
 
 - [x] "the" (only a/an is taught; Gujarati has no articles). *Lesson p1-t12 written 2026-10-28*
 - [x] this/that/these/those, and plurals (book → books, child → children). *Lesson p1-t13 written 2026-10-28*
-- [ ] Place words: in/on/under/near/behind/next to ("It's on the table")
+- [x] Place words: in/on/under/near/behind/next to ("It's on the table"). *Lesson p1-t14 written 2026-10-28*
 - [ ] have/has for owning ("I have two children"); only used as the Present Perfect helper now
 - [ ] There is / There are (not used anywhere)
 - [ ] me/him/her/us/them and Ravi's (possessive 's)
@@ -252,3 +253,4 @@ An earlier, much bigger version of this site was built in this folder before 202
 | 2026-10-28 | Asked what study material is missing to make learning easier. Claude reviewed all 27 lessons and the site and listed the gaps under "Study gaps found on 2026-10-28" in section 6: 10 grammar points never taught (biggest: "the", There is/are, have for owning, place words, telling the time), missing everyday word themes, and missing learning features (audio, other practice types, review of mistakes, speaking step). Nothing built yet. |
 | 2026-10-28 | Said to build the gaps one by one; chose to put the new grammar lessons inside Part 1 in a natural order. Claude wrote **p1-t12 "a / an / the"** (shows as lesson 9, after am/is/are): 10 short paragraphs (a/an = "એક" for something new, the = "એ જ" for something known, first time a then the, the door / the sun, mistake "I am teacher" / "Open door", no a/the with names or my, two sounds ધ/ધી, a big house order), 25 examples, 12 practice questions. Changed the 4 "પાઠ 11" references in p1-t05, p1-t08, p1-t10, p3-t06 to "ભાગ 1 નો છેલ્લો પાઠ", and p1-t08 now says the comes next. Tests (89) and build pass; checked at phone width, no sideways scrolling. Committed (not pushed). |
 | 2026-10-28 | Asked to commit p1-t12 and go on. Claude committed it, then wrote **p1-t13 "this / these and plurals"** (shows as lesson 10): 11 short paragraphs (this/that/these/those by near-far and one-many, Gujarati "આ" doesn't change but English does, this/that + is and these/those + are, plural + s, + es after s/sh/ch/x/o, y → ies but boy → boys, man/woman/child/person/foot/tooth, mistake "two book" and "a books", word order and answering What are these? with They are), 26 examples, 12 practice questions. Tests (92) and build pass; checked at phone width, no sideways scrolling. Committed (not pushed). |
+| 2026-10-28 | Asked to commit p1-t13 and go on. Claude committed it, then wrote **p1-t14 "in / on / under — વસ્તુ ક્યાં છે?"** (shows as lesson 11): 10 short paragraphs (8 place words in, on, under, near, next to, behind, in front of, between; they go before the place, unlike Gujarati "ટેબલ પર"; in vs on; formula thing + is/are + place word + the place; Where is…? It is… / They are…; mistakes "bag in", missing is, missing the, "near to"; at home / at school / at work with no the), 25 examples, 12 practice questions. Tests (95) and build pass; checked at phone width, no sideways scrolling. Committed (not pushed). |

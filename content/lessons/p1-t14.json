@@ -1,0 +1,128 @@
+{
+  "topicId": "p1-t14",
+  "explanationGu": [
+    "\"ચાવી ક્યાં છે?\" \"બૅગમાં છે.\" વસ્તુ ક્યાં છે તે કહેવા માટે ગુજરાતીમાં \"માં\", \"પર\", \"નીચે\", \"પાસે\" જેવા શબ્દ વાપરીએ છીએ. અંગ્રેજીમાં આ કામ [[in]], [[on]], [[under]], [[near]] જેવા નાના શબ્દ કરે છે. આ પાઠમાં આવા 8 શબ્દ શીખીશું.",
+    "સૌથી મોટો ફરક ક્રમનો છે. ગુજરાતીમાં આ શબ્દ જગ્યાના નામ પછી આવે છે: \"ટેબલ પર\", \"બૅગમાં\". અંગ્રેજીમાં તે જગ્યાના નામની પહેલાં આવે છે: [[on the table]], [[in the bag]]. એટલે ગુજરાતીમાં છેલ્લે આવતો શબ્દ અંગ્રેજીમાં આગળ લાવો.",
+    "પહેલા ચાર શબ્દ: [[in]] = માં, અંદર ([[in the bag]], [[in the kitchen]]). [[on]] = પર, ઉપર, વસ્તુને અડીને ([[on the table]], [[on the wall]]). [[under]] = નીચે ([[under the bed]]). [[near]] = પાસે, નજીક ([[near my house]]).",
+    "બીજા ચાર શબ્દ: [[next to]] = બાજુમાં. [[behind]] = પાછળ. [[in front of]] = આગળ, સામે. [[between]] = બે વસ્તુની વચ્ચે ([[between the bank and the school]]). ધ્યાન રાખો: [[next to]] માં [[to]] અને [[in front of]] માં [[of]] જરૂરી છે. [[next the school]] કે [[in front the shop]] ખોટું છે.",
+    "[[in]] અને [[on]] માં ગૂંચવણ થાય છે. વસ્તુ કોઈ વસ્તુની અંદર હોય તો [[in]]: બૅગ, ડબ્બો, રૂમ, રસોડું. વસ્તુ કોઈ સપાટીને અડીને ઉપર હોય તો [[on]]: ટેબલ, પલંગ, દીવાલ, ફ્લોર. જેમ કે [[The clock is on the wall.]] (ઘડિયાળ દીવાલ પર છે.)",
+    "વાક્ય બનાવવાનું સૂત્ર: વસ્તુ + [[is]] / [[are]] + જગ્યાનો શબ્દ + જગ્યા. \"ચાવી / બૅગમાં / છે\" → [[The key]] + [[is]] + [[in]] + [[the bag]] = [[The key is in the bag.]] એક વસ્તુ હોય તો [[is]], ઘણી હોય તો [[are]]: [[The shoes are under the chair.]]",
+    "સવાલ અને જવાબ: [[Where is the phone?]] (ફોન ક્યાં છે?) જવાબ: [[It is on the table.]] ઘણી વસ્તુ હોય તો: [[Where are the keys?]] જવાબ: [[They are in the box.]] ટૂંકો જવાબ પણ ચાલે: [[On the table.]]",
+    "સામાન્ય ભૂલો: (1) ગુજરાતી ક્રમમાં બોલવું: [[The key is bag in.]] ખોટું, [[The key is in the bag.]] સાચું. (2) [[is]] / [[are]] ભૂલી જવું: [[The key in the bag.]] ખોટું. (3) [[the]] ભૂલી જવું: [[on table]] ખોટું, [[on the table]] સાચું. (4) [[near to]] ખોટું, ફક્ત [[near]] બોલો: [[near my house]].",
+    "થોડાં જોડકાંમાં [[the]] નથી આવતું, તે એમ જ યાદ રાખો: [[at home]] (ઘરે), [[at school]] (શાળાએ), [[at work]] (કામ પર). જેમ કે [[The children are at school.]] ([[at the home]] ખોટું છે.)",
+    "રોજની પ્રેક્ટિસ: ઘરમાં કોઈ વસ્તુ ઉપાડીને જગ્યા બદલો અને બોલો: [[The pen is on the table.]] [[The pen is in the bag.]] [[The pen is under the chair.]] પછી કોઈને પૂછો: [[Where is the pen?]]"
+  ],
+  "examples": [
+    { "en": "in", "translit": "ઇન", "gu": "માં, અંદર" },
+    { "en": "on", "translit": "ઑન", "gu": "પર, ઉપર (અડીને)" },
+    { "en": "under", "translit": "અન્ડર", "gu": "નીચે" },
+    { "en": "near", "translit": "નિયર", "gu": "પાસે, નજીક" },
+    { "en": "next to", "translit": "નેક્સ્ટ ટુ", "gu": "બાજુમાં" },
+    { "en": "behind", "translit": "બિહાઇન્ડ", "gu": "પાછળ" },
+    { "en": "in front of", "translit": "ઇન ફ્રન્ટ ઑવ", "gu": "આગળ, સામે" },
+    { "en": "between", "translit": "બિટ્વીન", "gu": "વચ્ચે" },
+    { "en": "on + the table", "translit": "ઑન ધ ટેબલ", "gu": "ટેબલ + પર (ગુજરાતીમાં \"પર\" પછી, અંગ્રેજીમાં on પહેલાં)" },
+    { "en": "The key is in the bag.", "translit": "ધ કી ઇઝ ઇન ધ બૅગ", "gu": "ચાવી બૅગમાં છે." },
+    { "en": "The phone is on the table.", "translit": "ધ ફોન ઇઝ ઑન ધ ટેબલ", "gu": "ફોન ટેબલ પર છે." },
+    { "en": "The cat is under the bed.", "translit": "ધ કૅટ ઇઝ અન્ડર ધ બેડ", "gu": "બિલાડી પલંગ નીચે છે." },
+    { "en": "The school is near my house.", "translit": "ધ સ્કૂલ ઇઝ નિયર માય હાઉસ", "gu": "શાળા મારા ઘરની પાસે છે." },
+    { "en": "The bank is next to the school.", "translit": "ધ બૅન્ક ઇઝ નેક્સ્ટ ટુ ધ સ્કૂલ", "gu": "બૅન્ક શાળાની બાજુમાં છે." },
+    { "en": "The car is behind the house.", "translit": "ધ કાર ઇઝ બિહાઇન્ડ ધ હાઉસ", "gu": "ગાડી ઘરની પાછળ છે." },
+    { "en": "The bus is in front of the shop.", "translit": "ધ બસ ઇઝ ઇન ફ્રન્ટ ઑવ ધ શૉપ", "gu": "બસ દુકાનની સામે છે." },
+    { "en": "The shop is between the bank and the school.", "translit": "ધ શૉપ ઇઝ બિટ્વીન ધ બૅન્ક ઍન્ડ ધ સ્કૂલ", "gu": "દુકાન બૅન્ક અને શાળાની વચ્ચે છે." },
+    { "en": "Mother is in the kitchen.", "translit": "મધર ઇઝ ઇન ધ કિચન", "gu": "મમ્મી રસોડામાં છે." },
+    { "en": "The clock is on the wall.", "translit": "ધ ક્લૉક ઇઝ ઑન ધ વૉલ", "gu": "ઘડિયાળ દીવાલ પર છે." },
+    { "en": "The shoes are under the chair.", "translit": "ધ શૂઝ આર અન્ડર ધ ચેર", "gu": "બૂટ ખુરશી નીચે છે." },
+    { "en": "Where is the phone? – It is on the table.", "translit": "વેર ઇઝ ધ ફોન? – ઇટ ઇઝ ઑન ધ ટેબલ", "gu": "ફોન ક્યાં છે? – ટેબલ પર છે." },
+    { "en": "Where are the keys? – They are in the box.", "translit": "વેર આર ધ કીઝ? – ધે આર ઇન ધ બૉક્સ", "gu": "ચાવીઓ ક્યાં છે? – ડબ્બામાં છે." },
+    { "en": "at home", "translit": "ઍટ હોમ", "gu": "ઘરે (the વગર)" },
+    { "en": "The children are at school.", "translit": "ધ ચિલ્ડ્રન આર ઍટ સ્કૂલ", "gu": "છોકરાં શાળાએ છે." },
+    { "en": "He is at work.", "translit": "હી ઇઝ ઍટ વર્ક", "gu": "તે કામ પર છે." }
+  ],
+  "practice": [
+    {
+      "type": "choice",
+      "questionGu": "\"ચાવી બૅગમાં છે.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["The key is bag in.", "The key is in the bag.", "The key in the bag."],
+      "answer": 1,
+      "explainGu": "The key is in the bag. – ધ કી ઇઝ ઇન ધ બૅગ. in જગ્યાના નામની પહેલાં આવે, અને is જરૂરી છે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"ફોન ટેબલ પર છે.\" ખાલી જગ્યા પૂરો: The phone is ___ the table.",
+      "options": ["in", "under", "on"],
+      "answer": 2,
+      "explainGu": "The phone is on the table. – ધ ફોન ઇઝ ઑન ધ ટેબલ. ટેબલને અડીને ઉપર છે, એટલે on."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"બિલાડી પલંગ નીચે છે.\" ખાલી જગ્યા પૂરો: The cat is ___ the bed.",
+      "options": ["under", "on", "near"],
+      "answer": 0,
+      "explainGu": "The cat is under the bed. – ધ કૅટ ઇઝ અન્ડર ધ બેડ. under = નીચે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[near]] એટલે શું?",
+      "options": ["પાછળ", "પાસે", "વચ્ચે"],
+      "answer": 1,
+      "explainGu": "near – નિયર – પાસે, નજીક."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[behind]] એટલે શું?",
+      "options": ["આગળ", "નીચે", "પાછળ"],
+      "answer": 2,
+      "explainGu": "behind – બિહાઇન્ડ – પાછળ. આગળ માટે in front of વપરાય."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"મમ્મી રસોડામાં છે.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Mother is kitchen in.", "Mother in the kitchen.", "Mother is in the kitchen."],
+      "answer": 2,
+      "explainGu": "Mother is in the kitchen. – મધર ઇઝ ઇન ધ કિચન. ક્રમ: કોણ + is + in + the kitchen."
+    },
+    {
+      "type": "choice",
+      "questionGu": "આમાંથી સાચું વાક્ય કયું છે?",
+      "options": ["The bank is next to the school.", "The bank is next the school.", "The bank is to next the school."],
+      "answer": 0,
+      "explainGu": "The bank is next to the school. – ધ બૅન્ક ઇઝ નેક્સ્ટ ટુ ધ સ્કૂલ. next to માં to જરૂરી છે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"બસ દુકાનની સામે છે.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["The bus is front the shop.", "The bus is in front of the shop.", "The bus is in front the shop."],
+      "answer": 1,
+      "explainGu": "The bus is in front of the shop. – ધ બસ ઇઝ ઇન ફ્રન્ટ ઑવ ધ શૉપ. in front of આખું બોલવું પડે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"ઘડિયાળ દીવાલ પર છે.\" ખાલી જગ્યા પૂરો: The clock is ___ the wall.",
+      "options": ["in", "on"],
+      "answer": 1,
+      "explainGu": "The clock is on the wall. – ધ ક્લૉક ઇઝ ઑન ધ વૉલ. દીવાલને અડીને છે, અંદર નથી, એટલે on."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[Where are the keys?]] નો સાચો જવાબ કયો છે?",
+      "options": ["It are in the box.", "They is in box.", "They are in the box."],
+      "answer": 2,
+      "explainGu": "They are in the box. – ધે આર ઇન ધ બૉક્સ. ઘણી ચાવીઓ છે, એટલે They are."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"છોકરાં શાળાએ છે.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["The children are at school.", "The children are school at.", "The children at school."],
+      "answer": 0,
+      "explainGu": "The children are at school. – ધ ચિલ્ડ્રન આર ઍટ સ્કૂલ. at school માં the નથી આવતું."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"શાળા મારા ઘરની પાસે છે.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["The school is my house near.", "The school is near to my house.", "The school is near my house."],
+      "answer": 2,
+      "explainGu": "The school is near my house. – ધ સ્કૂલ ઇઝ નિયર માય હાઉસ. near જગ્યાની પહેલાં, અને near to નહીં."
+    }
+  ]
+}
