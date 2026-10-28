@@ -1,0 +1,127 @@
+{
+  "topicId": "p1-t19",
+  "explanationGu": [
+    "પાછલા પાઠમાં [[Open the door, please.]] જેવાં વાક્ય શીખ્યા. ઘરમાં તે બરાબર છે. પણ બહારના લોકો, મોટેરાં, દુકાન કે ઑફિસમાં વધુ નમ્રતાથી માગવું હોય, તો અંગ્રેજીમાં હુકમને બદલે સવાલ પૂછાય છે: [[Could you open the door, please?]] ગુજરાતીમાં પણ આપણે \"દરવાજો ખોલો\" ને બદલે \"જરા દરવાજો ખોલશો?\" કહીએ છીએ. એ જ રીત.",
+    "કોઈને કંઈ કરવાનું કહેવું હોય તો: [[Can you]] + ક્રિયા? કે [[Could you]] + ક્રિયા? [[Can you help me?]] (મારી મદદ કરશો?) [[Could you help me, please?]] (જરા મારી મદદ કરશો?) [[Could]] વધુ નમ્ર છે. અજાણ્યા લોકો અને મોટેરાં સાથે [[Could you]] વાપરો.",
+    "પોતાના માટે કંઈ માગવું કે રજા લેવી હોય તો: [[Can I]] + ક્રિયા? [[Can I come in?]] (હું અંદર આવું?) [[Can I have a glass of water?]] (મને એક ગ્લાસ પાણી મળશે?) વધુ નમ્રતાથી: [[Could I]] કે [[May I]]. [[May I sit here?]] (હું અહીં બેસી શકું?) [[May I]] સૌથી વધુ વિવેકી છે.",
+    "ક્રમની ટિપ: ગુજરાતી \"તમે દરવાજો ખોલશો?\" માં ક્રિયા છેલ્લે છે. અંગ્રેજીમાં ક્રમ આ છે: [[Could]] + [[you]] + ક્રિયા + વસ્તુ: [[Could you open the door?]] [[please]] છેલ્લે આવે, કે [[you]] પછી: [[Could you please open the door?]] [[You could open the door?]] ખોટો ક્રમ છે.",
+    "નિયમ: [[Can]], [[Could]], [[May]] પછી ક્રિયાનું સાદું રૂપ જ આવે. તેમાં [[to]], s કે -ing ન લાગે. [[Could you help me?]] સાચું. [[Could you to help me?]] અને [[Could you helping me?]] ખોટું. [[Can I go?]] સાચું, [[Can I to go?]] ખોટું.",
+    "કોઈને કંઈ આપવાની વાત (ઑફર) કરવી હોય તો [[Would you like]] + વસ્તુ? [[Would you like tea?]] (તમે ચા લેશો?) [[Would you like some water?]] જવાબ: [[Yes, please.]] (હા, આપો.) કે [[No, thank you.]] (ના, આભાર.) [[Do you want tea?]] પણ સમજાય, પણ મહેમાન માટે [[Would you like]] વધુ સારું લાગે.",
+    "કોઈ તમને આવું પૂછે ત્યારે જવાબ: હા માટે [[Yes, of course.]] (હા, ચોક્કસ.) [[Sure.]] (જરૂર.) [[No problem.]] (કોઈ વાંધો નહીં.) ના કહેવી હોય તો નમ્રતાથી: [[Sorry, I can't.]] (માફ કરજો, નહીં થાય.) [[Can I…?]] નો જવાબ: [[Yes, you can.]] કે [[Sure, go ahead.]]",
+    "રોજ કામ આવે એવા સવાલ: [[Could you say that again, please?]] (ફરી કહેશો?) [[Could you speak slowly, please?]] (ધીમે બોલશો?) [[Can you help me?]] [[Can I pay by card?]] (કાર્ડથી પૈસા આપી શકું?) [[Could you call a doctor, please?]] (ડૉક્ટરને બોલાવશો?) સાથે [[Excuse me]] થી શરૂ કરો તો વધુ સારું: [[Excuse me, could you help me?]]",
+    "[[can]] નો બીજો અર્થ \"આવડવું / શકવું\" પણ છે ([[I can swim.]]). તે ભાગ 3 માં શીખીશું. અત્યારે ફક્ત માગવા અને પૂછવા માટેના આ સવાલ યાદ રાખો.",
+    "રોજની પ્રેક્ટિસ: ઘરનાં હુકમવાળાં વાક્યોને નમ્ર સવાલમાં ફેરવો. [[Open the window.]] → [[Could you open the window, please?]] [[Give me the bag.]] → [[Could you give me the bag, please?]] મહેમાન આવે ત્યારે: [[Would you like tea?]]"
+  ],
+  "examples": [
+    { "en": "Can you…?", "translit": "કૅન યૂ", "gu": "તમે … કરશો? (સાદું)" },
+    { "en": "Could you…?", "translit": "કુડ યૂ", "gu": "જરા … કરશો? (વધુ નમ્ર)" },
+    { "en": "Can I…? / May I…?", "translit": "કૅન આઇ / મે આઇ", "gu": "હું … કરું? / કરી શકું? (રજા માગવી)" },
+    { "en": "Would you like…?", "translit": "વુડ યૂ લાઇક", "gu": "તમે … લેશો? (ઑફર)" },
+    { "en": "Could + you + open + the door?", "translit": "કુડ + યૂ + ઓપન + ધ ડૉર", "gu": "જરા + તમે + ખોલશો + દરવાજો? (ક્રિયા you પછી)" },
+    { "en": "Can you help me?", "translit": "કૅન યૂ હેલ્પ મી", "gu": "મારી મદદ કરશો?" },
+    { "en": "Could you help me, please?", "translit": "કુડ યૂ હેલ્પ મી, પ્લીઝ", "gu": "જરા મારી મદદ કરશો?" },
+    { "en": "Could you open the door, please?", "translit": "કુડ યૂ ઓપન ધ ડૉર, પ્લીઝ", "gu": "જરા દરવાજો ખોલશો?" },
+    { "en": "Could you please close the window?", "translit": "કુડ યૂ પ્લીઝ ક્લોઝ ધ વિન્ડો", "gu": "જરા બારી બંધ કરશો?" },
+    { "en": "Can I come in?", "translit": "કૅન આઇ કમ ઇન", "gu": "હું અંદર આવું?" },
+    { "en": "Can I have a glass of water?", "translit": "કૅન આઇ હૅવ અ ગ્લાસ ઑવ વૉટર", "gu": "મને એક ગ્લાસ પાણી મળશે?" },
+    { "en": "May I sit here?", "translit": "મે આઇ સિટ હિયર", "gu": "હું અહીં બેસી શકું?" },
+    { "en": "Could I use your phone?", "translit": "કુડ આઇ યૂઝ યોર ફોન", "gu": "હું તમારો ફોન વાપરી શકું?" },
+    { "en": "Would you like tea?", "translit": "વુડ યૂ લાઇક ટી", "gu": "તમે ચા લેશો?" },
+    { "en": "Yes, please. / No, thank you.", "translit": "યસ, પ્લીઝ / નો, થૅન્ક યૂ", "gu": "હા, આપો. / ના, આભાર." },
+    { "en": "Yes, of course.", "translit": "યસ, ઑવ કોર્સ", "gu": "હા, ચોક્કસ." },
+    { "en": "Sure. / No problem.", "translit": "શ્યોર / નો પ્રૉબ્લમ", "gu": "જરૂર. / કોઈ વાંધો નહીં." },
+    { "en": "Sorry, I can't.", "translit": "સૉરી, આઇ કાન્ટ", "gu": "માફ કરજો, નહીં થાય." },
+    { "en": "Yes, you can. / Sure, go ahead.", "translit": "યસ, યૂ કૅન / શ્યોર, ગો અહેડ", "gu": "હા, કરી શકો. / હા, કરો." },
+    { "en": "Could you say that again, please?", "translit": "કુડ યૂ સે ધૅટ અગેન, પ્લીઝ", "gu": "ફરી કહેશો?" },
+    { "en": "Could you speak slowly, please?", "translit": "કુડ યૂ સ્પીક સ્લોલી, પ્લીઝ", "gu": "જરા ધીમે બોલશો?" },
+    { "en": "Can I pay by card?", "translit": "કૅન આઇ પે બાય કાર્ડ", "gu": "કાર્ડથી પૈસા આપી શકું?" },
+    { "en": "Could you call a doctor, please?", "translit": "કુડ યૂ કૉલ અ ડૉક્ટર, પ્લીઝ", "gu": "ડૉક્ટરને બોલાવશો?" },
+    { "en": "Excuse me, could you help me?", "translit": "એક્સક્યૂઝ મી, કુડ યૂ હેલ્પ મી", "gu": "માફ કરજો, મારી મદદ કરશો?" }
+  ],
+  "practice": [
+    {
+      "type": "choice",
+      "questionGu": "અજાણ્યા વ્યક્તિને નમ્રતાથી: \"જરા મારી મદદ કરશો?\"",
+      "options": ["Help me.", "Could you help me, please?", "You help me?"],
+      "answer": 1,
+      "explainGu": "Could you help me, please? – કુડ યૂ હેલ્પ મી, પ્લીઝ. Could સૌથી નમ્ર રીત છે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"હું અંદર આવું?\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Can I come in?", "Can you come in?", "I can come in?"],
+      "answer": 0,
+      "explainGu": "Can I come in? – કૅન આઇ કમ ઇન. પોતાના માટે રજા માગવા Can I."
+    },
+    {
+      "type": "choice",
+      "questionGu": "આમાંથી સાચું વાક્ય કયું છે?",
+      "options": ["Could you to open the door?", "Could you opening the door?", "Could you open the door?"],
+      "answer": 2,
+      "explainGu": "Could you open the door? – કુડ યૂ ઓપન ધ ડૉર. Could પછી સાદી ક્રિયા, to કે -ing નહીં."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"તમે ચા લેશો?\" (મહેમાનને) ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["You want tea?", "Would you like tea?", "Would you like to tea?"],
+      "answer": 1,
+      "explainGu": "Would you like tea? – વુડ યૂ લાઇક ટી. ઑફર માટે Would you like."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[Would you like tea?]] નો \"હા\" વાળો નમ્ર જવાબ કયો છે?",
+      "options": ["Yes, please.", "Yes, I would like tea give.", "Yes, you can."],
+      "answer": 0,
+      "explainGu": "Yes, please. – યસ, પ્લીઝ. ના કહેવી હોય તો No, thank you."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: ___ I sit here? (સૌથી વિવેકી રીત)",
+      "options": ["May", "Do", "Am"],
+      "answer": 0,
+      "explainGu": "May I sit here? – મે આઇ સિટ હિયર. રજા માગવાની સૌથી વિવેકી રીત May I."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"તમે દરવાજો ખોલશો?\" માટે સાચો ક્રમ કયો છે?",
+      "options": ["You could open the door?", "Could open you the door?", "Could you open the door?"],
+      "answer": 2,
+      "explainGu": "Could you open the door? – ક્રમ: Could + you + open + the door."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: Can I ___ by card?",
+      "options": ["to pay", "pay", "paying"],
+      "answer": 1,
+      "explainGu": "Can I pay by card? – કૅન આઇ પે બાય કાર્ડ. Can પછી સાદી ક્રિયા."
+    },
+    {
+      "type": "choice",
+      "questionGu": "કોઈએ પૂછ્યું: [[Could you help me?]] તમારે નમ્રતાથી \"ના\" કહેવી છે.",
+      "options": ["No.", "Sorry, I can't.", "I not help."],
+      "answer": 1,
+      "explainGu": "Sorry, I can't. – સૉરી, આઇ કાન્ટ. ના કહેતાં પહેલાં Sorry કહેવું નમ્ર ગણાય."
+    },
+    {
+      "type": "choice",
+      "questionGu": "અંગ્રેજી સમજાયું નહીં. નમ્રતાથી શું કહેશો?",
+      "options": ["What?", "Could you say that again, please?", "Again say."],
+      "answer": 1,
+      "explainGu": "Could you say that again, please? – કુડ યૂ સે ધૅટ અગેન, પ્લીઝ. ફરી સાંભળવા માટેની નમ્ર રીત."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"મને એક ગ્લાસ પાણી મળશે?\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Can I have a glass of water?", "Can you have a glass of water?", "I can have water glass?"],
+      "answer": 0,
+      "explainGu": "Can I have a glass of water? – કૅન આઇ હૅવ અ ગ્લાસ ઑવ વૉટર. પોતાના માટે માગવા Can I have."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[Open the window.]] ને નમ્ર સવાલમાં કેવી રીતે ફેરવાય?",
+      "options": ["Open you the window?", "Could you open the window, please?", "Could you opened the window?"],
+      "answer": 1,
+      "explainGu": "Could you open the window, please? – Could you + હુકમવાળું વાક્ય + please."
+    }
+  ]
+}
