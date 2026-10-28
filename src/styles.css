@@ -804,16 +804,6 @@ svg {
   animation: fade-up 0.35s var(--ease-out);
 }
 
-.reveal {
-  animation: fade-up 0.5s var(--ease-out) both;
-  animation-delay: calc(var(--i, 0) * 60ms);
-}
-
-.lead {
-  font-size: 1.1rem;
-  color: var(--text);
-}
-
 .subtitle {
   margin-top: -0.2em;
   color: var(--text-2);
@@ -826,10 +816,6 @@ svg {
   color: var(--part-ink, var(--primary-ink));
   font-size: 0.85rem;
   font-weight: 700;
-}
-
-.section-title {
-  margin: 44px 0 16px;
 }
 
 .chip {
@@ -846,14 +832,6 @@ svg {
 }
 .chip svg {
   font-size: 1.25em;
-}
-
-.panel {
-  padding: 14px 18px;
-  border: 1px solid var(--line);
-  border-radius: var(--r-md);
-  background: var(--surface);
-  box-shadow: var(--shadow-sm);
 }
 
 .breadcrumb ol {
@@ -992,8 +970,7 @@ button:hover .spin-hover {
 
 /* ---------- Notices ---------- */
 
-.note,
-.done-banner {
+.note {
   display: flex;
   align-items: flex-start;
   gap: 12px;
@@ -1002,8 +979,7 @@ button:hover .spin-hover {
   line-height: 1.5;
 }
 
-.note svg,
-.done-banner svg {
+.note svg {
   font-size: 24px;
   margin-top: 1px;
 }
@@ -1012,17 +988,6 @@ button:hover .spin-hover {
   border: 1.5px dashed var(--line-strong);
   background: var(--surface-2);
   color: var(--text-2);
-}
-
-.done-banner {
-  background: var(--good-soft);
-  color: var(--good-ink);
-  font-weight: 700;
-  animation: fade-up 0.4s var(--ease-out);
-}
-.done-banner svg {
-  color: var(--good);
-  animation: pop 0.5s var(--ease-spring) 0.1s both;
 }
 
 .badge {
@@ -1081,16 +1046,6 @@ button:hover .spin-hover {
   font-size: 1.25rem;
   font-weight: 700;
   color: var(--text);
-}
-
-.pager {
-  display: flex;
-  justify-content: space-between;
-  gap: 12px;
-  flex-wrap: wrap;
-  margin-top: 48px;
-  padding-top: 24px;
-  border-top: 1px solid var(--line);
 }
 
 /* ---------- Progress ---------- */
@@ -1179,132 +1134,6 @@ button:hover .spin-hover {
   font-size: 0.9rem;
   font-weight: 600;
   opacity: 0.8;
-}
-
-/* =========================================================
-   Part page
-   ========================================================= */
-
-.page-head {
-  display: flex;
-  align-items: center;
-  gap: 18px;
-}
-
-.page-head h1 {
-  margin: 0;
-}
-
-.page-head .subtitle {
-  margin: 0;
-}
-
-.page-head-icon {
-  display: grid;
-  place-items: center;
-  flex: 0 0 72px;
-  height: 72px;
-  border-radius: 22px;
-  font-size: 42px;
-  animation: pop 0.5s var(--ease-spring) both;
-}
-
-.page-head + .lead {
-  margin-top: 18px;
-}
-
-.topic-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 10px;
-}
-
-.topic-row {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  min-height: 72px;
-  padding: 12px 16px;
-  border: 1px solid var(--line);
-  border-radius: 16px;
-  background: var(--surface);
-  color: var(--text);
-  text-decoration: none;
-  box-shadow: var(--shadow-sm);
-  transition:
-    transform 0.25s var(--ease-out),
-    box-shadow 0.25s,
-    border-color 0.25s;
-}
-
-.topic-row:hover {
-  transform: translateY(-2px);
-  border-color: color-mix(in srgb, var(--part, var(--primary)) 45%, var(--line));
-  box-shadow: var(--shadow-md);
-}
-
-.topic-row:active {
-  transform: scale(0.99);
-}
-
-.topic-num {
-  display: grid;
-  place-items: center;
-  flex: 0 0 44px;
-  height: 44px;
-  border-radius: 14px;
-  background: var(--part-soft, var(--primary-soft));
-  color: var(--part-ink, var(--primary-ink));
-  font-family: var(--font-en);
-  font-weight: 800;
-  transition: transform 0.35s var(--ease-spring);
-}
-
-.topic-row:hover .topic-num {
-  transform: scale(1.08) rotate(-4deg);
-}
-
-.topic-row.done .topic-num {
-  background: var(--good-soft);
-  color: var(--good);
-  font-size: 28px;
-}
-
-.topic-row.soon .topic-num {
-  background: var(--surface-2);
-  color: var(--text-3);
-}
-
-.topic-text {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  line-height: 1.4;
-  min-width: 0;
-}
-
-.topic-title {
-  font-weight: 700;
-}
-
-.topic-en {
-  color: var(--text-2);
-  font-size: 0.82rem;
-}
-
-.topic-go {
-  color: var(--text-3);
-  font-size: 18px;
-  transition:
-    transform 0.25s var(--ease-spring),
-    color 0.2s;
-}
-
-.topic-row:hover .topic-go {
-  color: var(--part-ink, var(--primary-ink));
-  transform: translateX(4px);
 }
 
 /* =========================================================
@@ -1637,19 +1466,11 @@ button:hover .spin-hover {
   opacity: 0.75;
 }
 
-.example-play:hover .example-speaker,
-.example-play.playing .example-speaker {
+.example-play:hover .example-speaker {
   opacity: 1;
 }
 
-.example-play.playing .example-speaker svg {
-  animation: beat 0.8s ease-in-out infinite;
-}
 
-.example-speak:has(.playing) {
-  border-color: var(--primary);
-  background: var(--primary-soft);
-}
 
 .listen {
   display: inline-flex;
@@ -1824,25 +1645,6 @@ button:hover .spin-hover {
   align-items: center;
   padding: 12px 8px 4px;
   text-align: center;
-}
-
-.result-badge {
-  display: grid;
-  place-items: center;
-  width: 92px;
-  height: 92px;
-  margin-bottom: 12px;
-  border-radius: 50%;
-  background: var(--primary-soft);
-  color: var(--primary-ink);
-  font-size: 52px;
-  animation: bounce-in 0.7s var(--ease-spring);
-}
-
-.result-badge.perfect {
-  background: var(--warn-soft);
-  color: var(--warn);
-  box-shadow: 0 0 0 10px color-mix(in srgb, var(--warn-soft) 50%, transparent);
 }
 
 .result-score {
@@ -2237,12 +2039,6 @@ button:hover .spin-hover {
     padding: 18px 16px;
   }
 
-  .page-head-icon {
-    flex-basis: 60px;
-    height: 60px;
-    font-size: 34px;
-  }
-
   .site-footer {
     padding: 32px 16px 20px;
   }
@@ -2267,13 +2063,6 @@ button:hover .spin-hover {
   }
   .examples {
     grid-template-columns: 1fr 1fr;
-  }
-  .topic-row {
-    gap: 12px;
-    padding: 10px 12px;
-  }
-  .topic-go {
-    display: none;
   }
 }
 

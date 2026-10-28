@@ -1,9 +1,11 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import {
   ArrowCounterClockwise,
   ArrowRight,
   CheckCircle,
+  Fire,
   Sparkle,
+  Target,
   Trophy,
   XCircle,
 } from "@phosphor-icons/react";
@@ -14,61 +16,100 @@ import { ListenButton } from "./ListenButton";
 type Props = {
   questions: Question[];
   onFinish: () => void;
+  // How many questions are answered so far (0..all), for the lesson's step bar.
+  onProgress?: (answered: number, total: number) => void;
+  // Shown under the result, e.g. the "next lesson" button.
+  after?: React.ReactNode;
 };
 
+const all = (n: number) => Array.from({ length: n }, (_, i) => i);
+
 // One question at a time. She answers, sees right or wrong, then goes on.
-export function Practice({ questions, onFinish }: Props) {
+export function Practice({ questions, onFinish, onProgress, after }: Props) {
+  // Which questions are in this round: all of them, or only the ones she got wrong last time.
+  const [round, setRound] = useState<number[]>(() => all(questions.length));
   const [index, setIndex] = useState(0);
   const [result, setResult] = useState<boolean | null>(null);
   const [score, setScore] = useState(0);
   const [results, setResults] = useState<boolean[]>([]);
   const [finished, setFinished] = useState(false);
+  const [best, setBest] = useState(0); // longest run of right answers this round
+
+  const isRetry = round.length < questions.length;
+  useEffect(() => {
+    // A retry of wrong ones keeps the bar full: the lesson was already finished once.
+    onProgress?.(isRetry ? questions.length : results.length, questions.length);
+  }, [results.length, isRetry, questions.length, onProgress]);
 
   if (questions.length === 0) return null;
 
+  const restart = (next: number[]) => {
+    setRound(next);
+    setIndex(0);
+    setResult(null);
+    setScore(0);
+    setResults([]);
+    setBest(0);
+    setFinished(false);
+  };
+
   if (finished) {
-    const perfect = score === questions.length;
+    const total = round.length;
+    const perfect = score === total;
+    const good = score / total >= 0.7;
+    const wrong = round.filter((_, i) => !results[i]);
     return (
       <div className="practice practice-result" role="status">
-        <span className={perfect ? "result-badge perfect" : "result-badge"} aria-hidden="true">
-          {perfect ? <Trophy weight="duotone" /> : <Sparkle weight="duotone" />}
-        </span>
+        {good && <Confetti big={perfect} />}
+        <ScoreRing score={score} total={total} perfect={perfect} />
         <p className="result-score">
-          {questions.length} માંથી {score} જવાબ સાચા.
+          {total} માંથી {score} જવાબ સાચા.
         </p>
         <p className="result-text">
-          {perfect ? "ખૂબ સરસ! બધા જવાબ સાચા." : "સરસ પ્રયત્ન! ફરી કરશો તો વધુ પાકું થશે."}
+          {perfect
+            ? "ખૂબ સરસ! બધા જવાબ સાચા."
+            : good
+              ? "સરસ! થોડા જ બાકી છે. ખોટા સવાલ ફરી કરી જુઓ."
+              : "સરસ પ્રયત્ન! ફરી કરશો તો વધુ પાકું થશે."}
         </p>
-        <button
-          type="button"
-          className="button button-secondary"
-          onClick={() => {
-            setIndex(0);
-            setResult(null);
-            setScore(0);
-            setResults([]);
-            setFinished(false);
-          }}
-        >
-          <ArrowCounterClockwise weight="bold" className="spin-hover" aria-hidden="true" />
-          ફરીથી કરો
-        </button>
+        {best >= 3 && (
+          <p className="result-streak">
+            <Fire weight="fill" aria-hidden="true" />
+            સળંગ {best} સાચા જવાબ
+          </p>
+        )}
+        {after && <div className="result-after">{after}</div>}
+        <div className="result-actions">
+          {wrong.length > 0 && (
+            <button type="button" className="button button-secondary" onClick={() => restart(wrong)}>
+              <Target weight="bold" aria-hidden="true" />
+              ખોટા {wrong.length} સવાલ ફરી કરો
+            </button>
+          )}
+          <button type="button" className="button button-secondary" onClick={() => restart(all(questions.length))}>
+            <ArrowCounterClockwise weight="bold" className="spin-hover" aria-hidden="true" />
+            ફરીથી કરો
+          </button>
+        </div>
       </div>
     );
   }
 
-  const q = questions[index];
+  const q = questions[round[index]];
   const answered = result !== null;
-  const isLast = index === questions.length - 1;
+  const isLast = index === round.length - 1;
   const correct = answerText(q);
   const correctIsEnglish = isEnglishText(correct);
 
   const answer = (right: boolean) => {
     if (answered) return;
     setResult(right);
-    setResults((r) => [...r, right]);
+    const next = [...results, right];
+    setResults(next);
     if (right) setScore((s) => s + 1);
+    setBest((b) => Math.max(b, streakAt(next)));
   };
+  const streak = streakAt(results);
 
   const goOn = () => {
     if (isLast) {
@@ -84,10 +125,17 @@ export function Practice({ questions, onFinish }: Props) {
     <div className="practice">
       <div className="practice-top">
         <p className="question-count">
-          સવાલ {index + 1} / {questions.length}
+          {isRetry && <span className="retry-tag">ખોટા સવાલ ફરી</span>}
+          સવાલ {index + 1} / {round.length}
         </p>
+        {answered && result && streak >= 2 && (
+          <p key={streak} className="streak">
+            <Fire weight="fill" aria-hidden="true" />
+            {streak} સળંગ સાચા!
+          </p>
+        )}
         <ol className="dots" aria-hidden="true">
-          {questions.map((_, i) => (
+          {round.map((_, i) => (
             <li
               key={i}
               className={
@@ -98,7 +146,7 @@ export function Practice({ questions, onFinish }: Props) {
         </ol>
       </div>
 
-      <div key={index} className="question-wrap">
+      <div key={`${round.length}-${index}`} className="question-wrap">
         <p className="question" id={`q-${index}`}>
           <MixedText text={q.questionGu} />
         </p>
@@ -281,5 +329,78 @@ function OrderBody({ q, labelId, onAnswer }: BodyProps<OrderQuestion>) {
         </>
       )}
     </div>
+  );
+}
+
+// How many right answers in a row at the end of the list.
+function streakAt(results: boolean[]): number {
+  let n = 0;
+  for (let i = results.length - 1; i >= 0 && results[i]; i--) n++;
+  return n;
+}
+
+// The score as a ring that fills up, with the number counting up in the middle.
+function ScoreRing({ score, total, perfect }: { score: number; total: number; perfect: boolean }) {
+  const [shown, setShown] = useState(0);
+  useEffect(() => {
+    const still = window.matchMedia?.("(prefers-reduced-motion: reduce)").matches ?? true;
+    if (still || score === 0) {
+      setShown(score);
+      return;
+    }
+    let n = 0;
+    const t = window.setInterval(() => {
+      n++;
+      setShown(n);
+      if (n >= score) window.clearInterval(t);
+    }, Math.max(40, 700 / score));
+    return () => window.clearInterval(t);
+  }, [score]);
+
+  const r = 44;
+  const c = 2 * Math.PI * r;
+  return (
+    <div className={perfect ? "score-ring perfect" : "score-ring"} aria-hidden="true">
+      <svg viewBox="0 0 100 100">
+        <circle className="score-track" cx="50" cy="50" r={r} />
+        <circle
+          className="score-fill"
+          cx="50"
+          cy="50"
+          r={r}
+          strokeDasharray={c}
+          strokeDashoffset={c * (1 - score / total)}
+          style={{ "--c": c } as React.CSSProperties}
+        />
+      </svg>
+      <span className="score-mid">
+        {perfect ? <Trophy weight="duotone" /> : <Sparkle weight="duotone" />}
+        <span className="score-num">
+          {shown}/{total}
+        </span>
+      </span>
+    </div>
+  );
+}
+
+// A short burst of coloured pieces for a good score. Purely decorative.
+const pieces = Array.from({ length: 28 }, (_, i) => {
+  const angle = (i / 28) * Math.PI * 2 + (i % 3) * 0.2;
+  const dist = 90 + ((i * 37) % 70);
+  return {
+    "--x": `${Math.cos(angle) * dist}px`,
+    "--y": `${Math.sin(angle) * dist - 40}px`,
+    "--r": `${(i * 47) % 360}deg`,
+    "--d": `${(i % 5) * 40}ms`,
+  } as React.CSSProperties;
+});
+
+function Confetti({ big }: { big: boolean }) {
+  return (
+    <span className={big ? "confetti big" : "confetti"} aria-hidden="true">
+      {pieces.map((style, i) => (
+        <i key={i} style={style} />
+      ))}
+    </span>
   );
 }

@@ -104,6 +104,19 @@ export function getTopicInfo(topicId: string | undefined): TopicInfo | undefined
   };
 }
 
+export type LessonStats = { ideas: number; examples: number; questions: number; minutes: number };
+
+// Rough reading time: a paragraph ~40s, an example ~10s, a question ~30s.
+export function lessonStats(topicId: string): LessonStats | undefined {
+  const lesson = getLesson(topicId);
+  if (!lesson) return undefined;
+  const ideas = lesson.explanationGu.length;
+  const examples = lesson.examples.length;
+  const questions = lesson.practice.length;
+  const minutes = Math.max(3, Math.round((ideas * 40 + examples * 10 + questions * 30) / 60));
+  return { ideas, examples, questions, minutes };
+}
+
 export function partOfTopic(topicId: string): Part | undefined {
   return parts.find((p) => p.topics.some((t) => t.id === topicId));
 }
