@@ -1,0 +1,128 @@
+{
+  "topicId": "p1-t18",
+  "explanationGu": [
+    "\"કેટલા વાગ્યા છે?\" ને અંગ્રેજીમાં [[What time is it?]] (વૉટ ટાઇમ ઇઝ ઇટ) કહેવાય. જવાબ હંમેશાં [[It is]] (કે ટૂંકમાં [[It's]]) થી શરૂ થાય: [[It is five o'clock.]] (પાંચ વાગ્યા છે.) ગુજરાતીમાં \"પાંચ વાગ્યા છે\" માં \"તે\" નથી, પણ અંગ્રેજીમાં [[It is]] જરૂરી છે.",
+    "પૂરા કલાક માટે આંકડા પછી [[o'clock]] (ઓક્લૉક) બોલો: [[one o'clock]], [[five o'clock]], [[ten o'clock]]. [[o'clock]] નો અર્થ \"વાગ્યા\" છે, અને તે ફક્ત પૂરા કલાક માટે જ વપરાય. [[five thirty o'clock]] ખોટું છે.",
+    "સૌથી સહેલી રીત: ફોનની ઘડિયાળમાં જેમ લખ્યું હોય તેમ જ બોલો. પહેલાં કલાક, પછી મિનિટ. 5:10 = [[five ten]]. 5:30 = [[five thirty]]. 5:45 = [[five forty-five]]. 1 થી 9 મિનિટ હોય તો વચ્ચે \"ઓ\" બોલો: 5:05 = [[five oh five]]. આ રીત પૂરેપૂરી સાચી છે, અને બધા સમજે છે.",
+    "ઘડિયાળની બીજી રીત ગુજરાતી જેવી જ છે. \"સવા\" = [[quarter past]], \"સાડા\" = [[half past]], \"પોણા\" = [[quarter to]]. સવા પાંચ (5:15) = [[quarter past five]]. સાડા પાંચ (5:30) = [[half past five]]. પોણા છ (5:45) = [[quarter to six]]. ગુજરાતીની જેમ જ \"પોણા\" માં આવતો કલાક બોલાય છે.",
+    "ગુજરાતીમાં 1:30 માટે \"દોઢ\" અને 2:30 માટે \"અઢી\" એવા ખાસ શબ્દ છે. અંગ્રેજીમાં એવા ખાસ શબ્દ નથી, એટલે નિયમ પ્રમાણે જ બોલો: દોઢ = [[half past one]], અઢી = [[half past two]].",
+    "બાકીની મિનિટ માટે: અડધા કલાક સુધી [[past]] (કલાક પછી), અને પછી [[to]] (આવતા કલાક પહેલાં). 5:10 = [[ten past five]] (પાંચ ને દસ). 5:50 = [[ten to six]] (છ વાગવામાં દસ). આ અઘરું લાગે તો ઉપરની સહેલી રીત ([[five ten]], [[five fifty]]) વાપરો.",
+    "સવાર છે કે સાંજ, તે કહેવા માટે સમય પછી આ શબ્દ ઉમેરો: [[in the morning]] (સવારે), [[in the afternoon]] (બપોરે), [[in the evening]] (સાંજે), [[at night]] (રાત્રે). ગુજરાતીમાં \"સવારે સાત\" માં સવાર પહેલાં આવે છે, અંગ્રેજીમાં પછી: [[seven in the morning]]. લખવામાં [[a.m.]] (રાતના 12 થી બપોરના 12 સુધી) અને [[p.m.]] (બપોરના 12 પછી) પણ વપરાય: [[7 a.m.]], [[7 p.m.]]",
+    "\"પાંચ વાગે\" કહેવા માટે સમય પહેલાં [[at]] વાપરો: [[at five o'clock]], [[at half past six]]. જેમ કે [[The bus is at seven.]] (બસ સાત વાગે છે.) [[Come at six in the evening.]] (સાંજે છ વાગે આવજો.) યાદ રાખો: સમય સાથે [[at]], વાર સાથે [[on]], મહિના સાથે [[in]]: [[at 5]], [[on Monday]], [[in May]].",
+    "સામાન્ય ભૂલો: (1) [[Now time is five.]] ખોટું, [[It is five now.]] સાચું. (2) પોણા પાંચ (4:45) ને [[quarter to five]] કહેવાય, [[quarter to four]] નહીં. (3) [[at Monday]] કે [[on five o'clock]] ખોટું. સમય સાથે [[at]], વાર સાથે [[on]]. ખાસ શબ્દ: બપોરના બાર = [[noon]], રાતના બાર = [[midnight]].",
+    "રોજની પ્રેક્ટિસ: દિવસમાં 5 વાર ઘડિયાળ જુઓ અને મોટેથી બંને રીતે બોલો: [[It's four thirty.]] [[It's half past four.]] ઘરના કોઈને પૂછો: [[What time is it?]] અને રોજનો સમય બોલો: [[The school bus is at seven in the morning.]]"
+  ],
+  "examples": [
+    { "en": "What time is it?", "translit": "વૉટ ટાઇમ ઇઝ ઇટ", "gu": "કેટલા વાગ્યા છે?" },
+    { "en": "It is five o'clock.", "translit": "ઇટ ઇઝ ફાઇવ ઓક્લૉક", "gu": "પાંચ વાગ્યા છે." },
+    { "en": "o'clock", "translit": "ઓક્લૉક", "gu": "વાગ્યા (ફક્ત પૂરા કલાક માટે)" },
+    { "en": "5:10 – five ten", "translit": "ફાઇવ ટેન", "gu": "પાંચ ને દસ" },
+    { "en": "5:30 – five thirty", "translit": "ફાઇવ થર્ટી", "gu": "સાડા પાંચ" },
+    { "en": "5:45 – five forty-five", "translit": "ફાઇવ ફૉર્ટી-ફાઇવ", "gu": "પોણા છ" },
+    { "en": "5:05 – five oh five", "translit": "ફાઇવ ઓ ફાઇવ", "gu": "પાંચ ને પાંચ" },
+    { "en": "quarter past five", "translit": "ક્વૉર્ટર પાસ્ટ ફાઇવ", "gu": "સવા પાંચ (5:15)" },
+    { "en": "half past five", "translit": "હાફ પાસ્ટ ફાઇવ", "gu": "સાડા પાંચ (5:30)" },
+    { "en": "quarter to six", "translit": "ક્વૉર્ટર ટુ સિક્સ", "gu": "પોણા છ (5:45)" },
+    { "en": "half past one", "translit": "હાફ પાસ્ટ વન", "gu": "દોઢ (1:30)" },
+    { "en": "half past two", "translit": "હાફ પાસ્ટ ટુ", "gu": "અઢી (2:30)" },
+    { "en": "ten past five", "translit": "ટેન પાસ્ટ ફાઇવ", "gu": "પાંચ ને દસ (5:10)" },
+    { "en": "ten to six", "translit": "ટેન ટુ સિક્સ", "gu": "છ વાગવામાં દસ (5:50)" },
+    { "en": "seven in the morning", "translit": "સેવન ઇન ધ મૉર્નિંગ", "gu": "સવારે સાત" },
+    { "en": "two in the afternoon", "translit": "ટુ ઇન ધી આફ્ટરનૂન", "gu": "બપોરે બે" },
+    { "en": "six in the evening", "translit": "સિક્સ ઇન ધી ઈવનિંગ", "gu": "સાંજે છ" },
+    { "en": "ten at night", "translit": "ટેન ઍટ નાઇટ", "gu": "રાત્રે દસ" },
+    { "en": "7 a.m. / 7 p.m.", "translit": "સેવન એ.એમ. / સેવન પી.એમ.", "gu": "સવારે સાત / સાંજે સાત" },
+    { "en": "at five o'clock", "translit": "ઍટ ફાઇવ ઓક્લૉક", "gu": "પાંચ વાગે" },
+    { "en": "The bus is at seven.", "translit": "ધ બસ ઇઝ ઍટ સેવન", "gu": "બસ સાત વાગે છે." },
+    { "en": "Come at six in the evening.", "translit": "કમ ઍટ સિક્સ ઇન ધી ઈવનિંગ", "gu": "સાંજે છ વાગે આવજો." },
+    { "en": "at 5 / on Monday / in May", "translit": "ઍટ ફાઇવ / ઑન મન્ડે / ઇન મે", "gu": "પાંચ વાગે / સોમવારે / મે મહિનામાં" },
+    { "en": "noon / midnight", "translit": "નૂન / મિડનાઇટ", "gu": "બપોરના બાર / રાતના બાર" },
+    { "en": "Excuse me, what time is it? – It's half past four.", "translit": "એક્સક્યૂઝ મી, વૉટ ટાઇમ ઇઝ ઇટ? – ઇટ્સ હાફ પાસ્ટ ફોર", "gu": "માફ કરજો, કેટલા વાગ્યા છે? – સાડા ચાર." }
+  ],
+  "practice": [
+    {
+      "type": "choice",
+      "questionGu": "\"કેટલા વાગ્યા છે?\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["What time is it?", "How many time is it?", "What is time it?"],
+      "answer": 0,
+      "explainGu": "What time is it? – વૉટ ટાઇમ ઇઝ ઇટ."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"પાંચ વાગ્યા છે.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Five o'clock is.", "It is five o'clock.", "It five o'clock."],
+      "answer": 1,
+      "explainGu": "It is five o'clock. – ઇટ ઇઝ ફાઇવ ઓક્લૉક. જવાબ It is થી શરૂ થાય."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"સાડા પાંચ\" (5:30) ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["quarter past five", "half to five", "half past five"],
+      "answer": 2,
+      "explainGu": "half past five – હાફ પાસ્ટ ફાઇવ. સાડા = half past."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"સવા પાંચ\" (5:15) ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["quarter to five", "quarter past five", "half past five"],
+      "answer": 1,
+      "explainGu": "quarter past five – ક્વૉર્ટર પાસ્ટ ફાઇવ. સવા = quarter past."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"પોણા છ\" (5:45) ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["quarter to six", "quarter to five", "quarter past six"],
+      "answer": 0,
+      "explainGu": "quarter to six – ક્વૉર્ટર ટુ સિક્સ. ગુજરાતીની જેમ જ આવતો કલાક (છ) બોલાય."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"દોઢ વાગ્યો છે.\" (1:30) ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["It is half past two.", "It is one and half o'clock.", "It is half past one."],
+      "answer": 2,
+      "explainGu": "It is half past one. – ઇટ ઇઝ હાફ પાસ્ટ વન. દોઢ માટે અંગ્રેજીમાં ખાસ શબ્દ નથી."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ઘડિયાળમાં 7:30 લખ્યું છે. સહેલી રીતે કેવી રીતે બોલાય?",
+      "options": ["thirty seven", "seven thirty", "seven three zero"],
+      "answer": 1,
+      "explainGu": "seven thirty – સેવન થર્ટી. પહેલાં કલાક, પછી મિનિટ."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"સાંજે છ\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["six in the evening", "evening six", "six in the morning"],
+      "answer": 0,
+      "explainGu": "six in the evening – સિક્સ ઇન ધી ઈવનિંગ. અંગ્રેજીમાં સમય પહેલાં, પછી સાંજ."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: The bus is ___ seven.",
+      "options": ["on", "in", "at"],
+      "answer": 2,
+      "explainGu": "The bus is at seven. – ધ બસ ઇઝ ઍટ સેવન. સમય સાથે at."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"અઢી\" (2:30) ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["half past three", "half past two", "two and half"],
+      "answer": 1,
+      "explainGu": "half past two – હાફ પાસ્ટ ટુ. અઢી = 2:30."
+    },
+    {
+      "type": "choice",
+      "questionGu": "આમાંથી સાચું વાક્ય કયું છે?",
+      "options": ["It is five thirty o'clock.", "It is five thirty.", "It five thirty."],
+      "answer": 1,
+      "explainGu": "It is five thirty. – ઇટ ઇઝ ફાઇવ થર્ટી. o'clock ફક્ત પૂરા કલાક માટે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: Come ___ Monday.",
+      "options": ["at", "on", "in"],
+      "answer": 1,
+      "explainGu": "Come on Monday. – કમ ઑન મન્ડે. વાર સાથે on, સમય સાથે at."
+    }
+  ]
+}
