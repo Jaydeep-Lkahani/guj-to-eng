@@ -1,0 +1,123 @@
+{
+  "topicId": "p1-t15",
+  "explanationGu": [
+    "ગુજરાતીમાં આપણે કહીએ: \"ફ્રિજમાં દૂધ છે.\" \"ટેબલ પર એક પુસ્તક છે.\" કોઈ જગ્યાએ કંઈક છે, એ વાત કહેવા માટે અંગ્રેજીમાં વાક્ય [[There is]] કે [[There are]] થી શરૂ થાય છે: [[There is milk in the fridge.]] અહીં [[There]] નો અર્થ \"ત્યાં\" નથી. તે ફક્ત વાક્ય શરૂ કરવાની રીત છે.",
+    "એક વસ્તુ હોય તો [[There is]]: [[There is a book on the table.]] ઘણી વસ્તુ હોય તો [[There are]]: [[There are two chairs in the room.]] ગુજરાતીમાં બંને માટે \"છે\" જ આવે છે, પણ અંગ્રેજીમાં [[is]] અને [[are]] બદલાય છે.",
+    "સૂત્ર: [[There is]] / [[There are]] + કઈ વસ્તુ + ક્યાં. ગુજરાતીમાં જગ્યા પહેલાં આવે છે: \"ટેબલ પર / એક પુસ્તક / છે\". અંગ્રેજીમાં જગ્યા છેલ્લે જાય છે: [[There is]] + [[a book]] + [[on the table]]. એટલે ગુજરાતીનો છેલ્લો શબ્દ \"છે\" અંગ્રેજીમાં સૌથી આગળ આવે છે.",
+    "જે વસ્તુ ગણી ન શકાય, જેમ કે [[milk]], [[water]], [[sugar]], [[rice]], [[tea]], તેની સાથે હંમેશાં [[There is]] આવે, અને [[a]] ન આવે: [[There is water in the glass.]] [[There are milk]] કે [[There is a milk]] ખોટું છે.",
+    "[[There is]] અને [[The … is]] માં ફરક: નવી વાત કહેવી હોય તો [[There is a phone on the table.]] (ટેબલ પર એક ફોન છે.) પણ જે વસ્તુ બંને જાણે છે, તેના માટે [[The phone is on the table.]] (ફોન ટેબલ પર છે.) અને જવાબમાં [[It is on the table.]] આ એ જ નિયમ છે જે [[a]] અને [[the]] ના પાઠમાં શીખ્યા.",
+    "\"નથી\" કહેવા માટે [[There is no]] / [[There are no]]: [[There is no sugar.]] (ખાંડ નથી.) [[There are no buses today.]] (આજે બસ નથી.) ટૂંકું રૂપ પણ વપરાય છે: [[There isn't]], [[There aren't]].",
+    "સવાલ પૂછવા માટે [[is]] / [[are]] ને આગળ લાવો: [[Is there a bank near here?]] (અહીં પાસે કોઈ બૅન્ક છે?) [[Are there buses to Surat?]] (સુરત જવા બસ છે?) ટૂંકા જવાબ: [[Yes, there is.]] / [[No, there isn't.]] અને [[Yes, there are.]] / [[No, there aren't.]]",
+    "સામાન્ય ભૂલો: (1) ગુજરાતી ક્રમ: [[In the fridge is milk.]] ખોટું. (2) એક-ઘણાની ભૂલ: [[There is two chairs.]] ખોટું, [[There are two chairs.]] સાચું. (3) ઘણા લોકો [[Milk is there in the fridge.]] બોલે છે. લોકો સમજી જાય છે, પણ સાચી અંગ્રેજી છે [[There is milk in the fridge.]]",
+    "રોજની પ્રેક્ટિસ: કોઈ પણ રૂમમાં ઊભા રહીને ત્રણ વાક્ય બોલો. એક વસ્તુ માટે, ઘણી વસ્તુ માટે, અને જે નથી તેના માટે: [[There is a fan.]] [[There are two windows.]] [[There is no TV.]] રસોડામાં: [[There is rice.]] [[There is no milk.]]"
+  ],
+  "examples": [
+    { "en": "There is", "translit": "ધેર ઇઝ", "gu": "(એક વસ્તુ) છે" },
+    { "en": "There are", "translit": "ધેર આર", "gu": "(ઘણી વસ્તુઓ) છે" },
+    { "en": "There is + a book + on the table", "translit": "ધેર ઇઝ + અ બુક + ઑન ધ ટેબલ", "gu": "છે + એક પુસ્તક + ટેબલ પર (જગ્યા છેલ્લે જાય)" },
+    { "en": "There is a book on the table.", "translit": "ધેર ઇઝ અ બુક ઑન ધ ટેબલ", "gu": "ટેબલ પર એક પુસ્તક છે." },
+    { "en": "There is a cat under the bed.", "translit": "ધેર ઇઝ અ કૅટ અન્ડર ધ બેડ", "gu": "પલંગ નીચે એક બિલાડી છે." },
+    { "en": "There are two chairs in the room.", "translit": "ધેર આર ટુ ચેર્ઝ ઇન ધ રૂમ", "gu": "રૂમમાં બે ખુરશી છે." },
+    { "en": "There are five people in my family.", "translit": "ધેર આર ફાઇવ પીપલ ઇન માય ફૅમિલી", "gu": "મારા કુટુંબમાં પાંચ લોકો છે." },
+    { "en": "There is milk in the fridge.", "translit": "ધેર ઇઝ મિલ્ક ઇન ધ ફ્રિજ", "gu": "ફ્રિજમાં દૂધ છે." },
+    { "en": "There is water in the glass.", "translit": "ધેર ઇઝ વૉટર ઇન ધ ગ્લાસ", "gu": "ગ્લાસમાં પાણી છે." },
+    { "en": "There is a bank near my house.", "translit": "ધેર ઇઝ અ બૅન્ક નિયર માય હાઉસ", "gu": "મારા ઘરની પાસે એક બૅન્ક છે." },
+    { "en": "There are many trees in the garden.", "translit": "ધેર આર મેની ટ્રીઝ ઇન ધ ગાર્ડન", "gu": "બગીચામાં ઘણાં ઝાડ છે." },
+    { "en": "There is no sugar.", "translit": "ધેર ઇઝ નો શુગર", "gu": "ખાંડ નથી." },
+    { "en": "There are no buses today.", "translit": "ધેર આર નો બસિઝ ટુડે", "gu": "આજે બસ નથી." },
+    { "en": "There isn't / There aren't", "translit": "ધેર ઇઝન્ટ / ધેર આર્ન્ટ", "gu": "(એક) નથી / (ઘણી) નથી" },
+    { "en": "Is there a bank near here?", "translit": "ઇઝ ધેર અ બૅન્ક નિયર હિયર", "gu": "અહીં પાસે કોઈ બૅન્ક છે?" },
+    { "en": "Yes, there is. / No, there isn't.", "translit": "યસ, ધેર ઇઝ / નો, ધેર ઇઝન્ટ", "gu": "હા, છે. / ના, નથી." },
+    { "en": "Are there buses to Surat?", "translit": "આર ધેર બસિઝ ટુ સુરત", "gu": "સુરત જવા બસ છે?" },
+    { "en": "Yes, there are. / No, there aren't.", "translit": "યસ, ધેર આર / નો, ધેર આર્ન્ટ", "gu": "હા, છે. / ના, નથી." },
+    { "en": "There is a phone on the table.", "translit": "ધેર ઇઝ અ ફોન ઑન ધ ટેબલ", "gu": "ટેબલ પર એક ફોન છે. (નવી વાત)" },
+    { "en": "The phone is on the table.", "translit": "ધ ફોન ઇઝ ઑન ધ ટેબલ", "gu": "ફોન ટેબલ પર છે. (જાણીતો ફોન)" },
+    { "en": "There is a fan. There are two windows.", "translit": "ધેર ઇઝ અ ફૅન. ધેર આર ટુ વિન્ડોઝ", "gu": "એક પંખો છે. બે બારી છે." }
+  ],
+  "practice": [
+    {
+      "type": "choice",
+      "questionGu": "\"ટેબલ પર એક પુસ્તક છે.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["On the table is a book.", "There is a book on the table.", "There are a book on the table."],
+      "answer": 1,
+      "explainGu": "There is a book on the table. – ધેર ઇઝ અ બુક ઑન ધ ટેબલ. There is આગળ, જગ્યા છેલ્લે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: There ___ two chairs in the room.",
+      "options": ["is", "are"],
+      "answer": 1,
+      "explainGu": "There are two chairs in the room. – ધેર આર ટુ ચેર્ઝ ઇન ધ રૂમ. બે ખુરશી છે, એટલે are."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: There ___ milk in the fridge.",
+      "options": ["is", "are"],
+      "answer": 0,
+      "explainGu": "There is milk in the fridge. – ધેર ઇઝ મિલ્ક ઇન ધ ફ્રિજ. દૂધ ગણી ન શકાય, એટલે is."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"મારા કુટુંબમાં પાંચ લોકો છે.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["There is five people in my family.", "In my family five people are.", "There are five people in my family."],
+      "answer": 2,
+      "explainGu": "There are five people in my family. – ધેર આર ફાઇવ પીપલ ઇન માય ફૅમિલી. પાંચ લોકો, એટલે are."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"ખાંડ નથી.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["There is no sugar.", "There are no sugar.", "Sugar no there is."],
+      "answer": 0,
+      "explainGu": "There is no sugar. – ધેર ઇઝ નો શુગર. ખાંડ ગણી ન શકાય, એટલે is."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"અહીં પાસે કોઈ બૅન્ક છે?\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["There is a bank near here?", "Is there a bank near here?", "Is a bank there near here?"],
+      "answer": 1,
+      "explainGu": "Is there a bank near here? – ઇઝ ધેર અ બૅન્ક નિયર હિયર. સવાલમાં is આગળ આવે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[Is there a bank near here?]] નો \"હા\" વાળો ટૂંકો જવાબ કયો છે?",
+      "options": ["Yes, there are.", "Yes, it is.", "Yes, there is."],
+      "answer": 2,
+      "explainGu": "Yes, there is. – યસ, ધેર ઇઝ. સવાલ Is there થી છે, એટલે જવાબ there is."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[Are there buses to Surat?]] નો \"ના\" વાળો ટૂંકો જવાબ કયો છે?",
+      "options": ["No, there aren't.", "No, there isn't.", "No, they isn't."],
+      "answer": 0,
+      "explainGu": "No, there aren't. – નો, ધેર આર્ન્ટ. buses ઘણી છે, એટલે aren't."
+    },
+    {
+      "type": "choice",
+      "questionGu": "અંગ્રેજીમાં સાચી રીત કઈ છે?",
+      "options": ["Milk is there in the fridge.", "There is milk in the fridge.", "In the fridge milk is."],
+      "answer": 1,
+      "explainGu": "There is milk in the fridge. – ધેર ઇઝ મિલ્ક ઇન ધ ફ્રિજ. \"Milk is there…\" લોકો સમજે, પણ સાચી રીત There is થી શરૂ થાય."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"મારો ફોન ક્યાં છે?\" જવાબ: ___ on the table.",
+      "options": ["There is", "It is"],
+      "answer": 1,
+      "explainGu": "It is on the table. – ઇટ ઇઝ ઑન ધ ટેબલ. જાણીતા ફોનની વાત છે, એટલે It is. There is નવી વાત કહેવા માટે છે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: There are many ___ in the garden.",
+      "options": ["tree", "trees"],
+      "answer": 1,
+      "explainGu": "There are many trees in the garden. – ધેર આર મેની ટ્રીઝ ઇન ધ ગાર્ડન. are અને many સાથે s વાળો શબ્દ."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"બગીચામાં ઘણાં ઝાડ છે.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["In the garden there many trees are.", "There many trees are in the garden.", "There are many trees in the garden."],
+      "answer": 2,
+      "explainGu": "There are many trees in the garden. – ક્રમ: There are + many trees + in the garden."
+    }
+  ]
+}
