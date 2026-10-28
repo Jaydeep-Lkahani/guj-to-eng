@@ -110,7 +110,7 @@ Tick a topic when its real lesson is written **and** I've reviewed it.
 | 2026-10-26 | Start fresh instead of continuing the previous project | The new request is simpler and plain (see section 8) |
 | 2026-10-26 | Call phases **ભાગ** ("part") on the site, not તબક્કો | Simpler everyday word |
 | 2026-10-26 | Stack: Vite + React + TypeScript, plain CSS | Builds to a static site that can be hosted anywhere |
-| 2026-10-26 | Hash URLs (`#/topic/p1-t01`) | Works on any static host with no server setup |
+| 2026-10-26 | Hash URLs (`#/topic/p1-t01`) | Works on any static host with no server setup. *Replaced 2026-10-28, see below* |
 | 2026-10-26 | Content as JSON: `content/parts.json` plus one file per lesson in `content/lessons/` | New topics can be added without touching code |
 | 2026-10-26 | English words inside Gujarati text are marked `[[Water]]` | So they are styled and tagged as English |
 | 2026-10-26 | Practice is multiple choice, one question at a time, with instant right/wrong feedback | Simple on a phone |
@@ -123,9 +123,16 @@ Tick a topic when its real lesson is written **and** I've reviewed it.
 | 2026-10-26 | Light and dark mode. Follows the phone setting until she taps the sun/moon button; her choice is saved under `guj-eng.theme.v1` | Requested |
 | 2026-10-26 | Search in the header finds topics and the example words inside lessons (English or Gujarati). `/` or Ctrl+K jumps to it | Requested |
 | 2026-10-26 | Custom logo: two speech bubbles, Gujarati "અ" and English "A". In header, footer and favicon | Requested |
+| 2026-10-28 | Listen uses the browser's built-in voice (Indian English voice first, then British, then any English), a little slower than normal. No audio files | Free, works offline, nothing to record |
+| 2026-10-28 | The whole example card is the Listen button, with a small speaker icon after the pronunciation | Cards are narrow on a phone (2 columns); a separate button squeezed the English onto extra lines |
+| 2026-10-28 | New practice type "order": tap shuffled word tiles, tap a placed word to send it back, then "જવાબ તપાસો". Full stop/question mark kept off the tiles | Lets her build English sentences, not only recognise them |
 | 2026-10-28 | New grammar lessons go inside Part 1 where they fit, with new IDs (p1-t12, p1-t13, …), so no file is renamed | Chosen by me from three options |
 | 2026-10-28 | Lessons refer to the sentence-pattern lesson as "ભાગ 1 નો છેલ્લો પાઠ", not by number | Its number changes as lessons are added |
 | 2026-10-26 | Small animations (hover lift, arrow nudge, right/wrong answer pop and shake, progress fill). All turned off when the device asks for reduced motion | Requested "micro interactions" |
+| 2026-10-28 | Site lives at https://gujarati-to-english.vercel.app (Vercel, root) | Told by me |
+| 2026-10-28 | Clean URLs (`/topic/p1-t01`) instead of hash URLs; old `#/` links redirect | Google treats hash URLs as one page, so lessons could never rank |
+| 2026-10-28 | The build pre-renders every page to its own HTML file with the full lesson text, title, description and structured data | Search engines read each lesson without running JavaScript |
+| 2026-10-28 | Main search phrase "Gujarati to English": in every title, the header tagline, the home heading and a Gujarati FAQ on the home page | Requested: rank for "gujarati to english" |
 
 ## 6. Pending / next steps
 
@@ -134,7 +141,13 @@ Tick a topic when its real lesson is written **and** I've reviewed it.
 3. [x] Write Part 2 lessons, then review. *(All 8 written and reviewed 2026-10-26.)*
 4. [x] Write Part 3 lessons, then review. *(All 8 written and reviewed 2026-10-26.)*
 5. [x] Commit the new project to git and push to GitHub: https://github.com/Jaydeep-Lkahani/guj-to-eng *(Done 2026-10-26)*
-6. [ ] Decide where to host the site (e.g. GitHub Pages or Netlify) so she can open it on her phone. *(Not done. Not mentioned as done on 2026-10-26.)*
+6. [x] Decide where to host the site. *(Live on Vercel: https://gujarati-to-english.vercel.app, told 2026-10-28.)*
+8. [ ] **SEO steps only I can do** (code side done 2026-10-28):
+   - [ ] Push to GitHub so Vercel deploys the new build
+   - [ ] Google Search Console: add the site, paste the verification code into `GOOGLE_SITE_VERIFICATION` in `src/seo.ts` (or use the HTML-file method), then submit `/sitemap.xml`
+   - [ ] Bing Webmaster Tools: same (`BING_SITE_VERIFICATION`), it also feeds DuckDuckGo
+   - [ ] Consider an own domain (e.g. gujaratitoenglish.in). Change `SITE_URL` in `src/seo.ts` and `public/robots.txt` if so
+   - [ ] Get links from other sites (Gujarati groups, YouTube descriptions, forums); Google ranks a new site mainly by links
 7. [x] **Integrate the sentence-pattern work** (how to form English sentences from Gujarati). *(Done 2026-10-26: lesson p1-t11, plus a word-order tip and practice questions in p1-t05 to p1-t10. Extended into Part 2 and Part 3 on 2026-10-26, see the log.)*
 
 ### Ideas for later (not agreed yet, ask before building)
@@ -164,8 +177,8 @@ Everyday word themes missing (First Words has only 30 nouns):
 - [ ] ~30 common action verbs, feelings, and opposites (big/small, hot/cold)
 
 Ways of learning missing on the site:
-- [ ] Sound: no audio anywhere, she only has the Gujarati spelling of the pronunciation
-- [ ] Only one practice type (all 310 questions are tap-the-answer). She never builds or types English. Best fit: "put the words in order" for the word-order tips
+- [x] Sound: no audio anywhere, she only has the Gujarati spelling of the pronunciation. *Done 2026-10-28: tap any example card to hear it; a "સાંભળો" button after each quiz answer*
+- [x] Only one practice type (all 310 questions are tap-the-answer). She never builds or types English. Best fit: "put the words in order" for the word-order tips. *Done 2026-10-28: "order" question type, 43 questions in 21 lessons. Typing the answer is still open*
 - [ ] No review: wrong answers aren't saved, no "revise old words", no end-of-part test
 - [ ] No speaking step ("say it aloud") at the end of a lesson
 - [ ] ❌ wrong / ✅ right boxes and small tables instead of 9–11 plain paragraphs
@@ -184,7 +197,7 @@ npm run dev
 Open http://localhost:5173.
 
 - `npm test`: runs the tests, including a check of every content file
-- `npm run build`: makes the static site in `dist/`
+- `npm run build`: makes the static site in `dist/`, with one pre-rendered HTML file per page, `sitemap.xml` and `404.html` (`scripts/prerender.mjs`). Always use this, not plain `vite build`
 - `npm run check`: type check, then tests, then build
 
 How to add a topic is explained in `README.md`.
@@ -200,6 +213,9 @@ How to add a topic is explained in `README.md`.
 - `src/theme.ts`: light/dark switch (index.html also sets it before the page draws)
 - `src/search.ts`: search over topics and lesson examples
 - `src/components/Logo.tsx`: the logo (a copy is in `public/favicon.svg`)
+- `src/seo.ts`: site address, page titles, descriptions, structured data and the home-page FAQ
+- `src/entry-server.tsx` + `scripts/prerender.mjs`: build-time page rendering
+- `vercel.json`: clean URLs and caching on Vercel
 
 ## 8. Previous project (for reference)
 
@@ -264,3 +280,5 @@ An earlier, much bigger version of this site was built in this folder before 202
 | 2026-10-28 | Asked to commit p1-t16 and go on. Claude committed it, then wrote **p1-t17 "મને, તેને અને રવિનું (me / him / Ravi's)"**, placed after Pronouns (shows as lesson 8): 10 short paragraphs (7 pairs I→me, He→him, She→her, We→us, They→them; who does the action vs who it's done to; "મને પાણી આપો" → Give me water order; with/for/to + me/him; his vs him, her for both; Ravi's bag with 's, same order as Gujarati; the ' mark; mistakes Give I, Him is, He's bag), 23 examples, 12 practice questions. Changed the last line of p1-t07, which said full sentences come in the next lesson. Tests (104) and build pass; checked at phone width, no sideways scrolling. Committed (not pushed). |
 | 2026-10-28 | Asked to commit p1-t17 and go on. Claude committed it, then wrote **p1-t18 "કેટલા વાગ્યા? — સમય કહેતાં શીખો"**, placed after Colours, Days & Months (shows as lesson 16): 10 short paragraphs (What time is it? / It is…, o'clock only for full hours, easy digital way five ten / five thirty / five oh five, સવા/સાડા/પોણા = quarter past / half past / quarter to, દોઢ and અઢી have no special English word, past/to for other minutes, in the morning/afternoon/evening, at night, a.m./p.m., at + time vs on + day vs in + month, mistakes "Now time is five" and "quarter to four" for પોણા પાંચ, noon/midnight), 25 examples, 12 practice questions. Tests (107) and build pass; checked at phone width, no sideways scrolling. Committed (not pushed). |
 | 2026-10-28 | Asked to commit p1-t18 and go on. Claude committed it, then wrote **p1-t19 "નમ્રતાથી માગો — Can I / Could you"**, placed after Daily-Life Phrases (shows as lesson 18): 10 short paragraphs (turn commands into polite questions like Gujarati "જરા … ખોલશો?"; Can you / Could you for asking others, Could is politer; Can I / Could I / May I for yourself; order Could + you + action + thing, where please goes; plain action after Can/Could/May, no to/-s/-ing; Would you like…? with Yes, please / No, thank you; answers Sure / No problem / Sorry, I can't; useful questions for shops, doctors and not understanding; the "can swim" meaning comes in Part 3), 24 examples, 12 practice questions. **This finishes the 8 planned Part 1 lessons; Part 1 now has 19 lessons in the agreed order.** Tests (110) and build pass; checked at phone width, no sideways scrolling. Committed (not pushed). |
+| 2026-10-28 | Asked to commit p1-t19, then add a Listen button and a "put the words in order" practice. Claude committed p1-t19, then built: (1) **Listen**: `src/speech.ts` (browser speech, Indian English voice first, slightly slow, cleans text like "book → books"), every example card can be tapped to hear the English (`src/components/ExampleCard.tsx`), and a "સાંભળો" button in the quiz feedback when the right answer is English (`src/components/ListenButton.tsx`); (2) **Word order**: new question type `order` in `src/content.ts` and `src/components/Practice.tsx` (shuffled tiles, tap to place or send back, check button, green/red line, right sentence shown); 43 questions added (3 in p1-t11, 2 each in p1-t08, p1-t12 to p1-t19, p2-t01 to p2-t06, p3-t01 to p3-t05), each built from a sentence the lesson already teaches. Tests for both (116 pass), README updated. Checked in the browser at phone width: speech plays and stops, tiles place and go back, right answer turns green. **Note:** the "Gujarati-English SEO optimization" session was working in this folder at the same time (clean URLs instead of #/, prerender, Vercel, icons) and also edited `src/App.test.tsx`; its work is not committed. Not committed. |
+| 2026-10-28 | Asked for full SEO so the site ranks first for "gujarati to english". Address given: https://gujarati-to-english.vercel.app. Claude switched to clean URLs (old `#/` links redirect), made the build pre-render all 39 pages with full text, added per-page titles/descriptions/canonical/social tags and JSON-LD (Course, FAQPage, LearningResource, breadcrumbs), sitemap.xml, robots.txt, manifest, PNG icons and a share image, "Gujarati to English" in the header and home heading, and a 6-question Gujarati FAQ on the home page. Tests (110) and build pass; checked in the browser. Committed (not pushed). Another session's unfinished Listen button causes a hydration warning on lesson pages; Claude told that session how to fix it. Left for me: push, Search Console, Bing (item 8). |
