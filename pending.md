@@ -66,6 +66,7 @@ Tick a topic when its real lesson is written **and** I've reviewed it.
 | [x] | p1-t05 | નમસ્તે અને ઓળખાણ | Greetings & Introducing Yourself | Written and reviewed 2026-10-26 |
 | [x] | p1-t06 | કુટુંબ અને લોકો | Family & People | Written and reviewed 2026-10-26 |
 | [x] | p1-t07 | હું, તમે, તે | Pronouns | Written and reviewed 2026-10-26 |
+| [ ] | p1-t17 | મને, તેને અને રવિનું (me / him / Ravi's) | me, him, her & Ravi's | Written 2026-10-28 (shows as lesson 8). Waiting for my review |
 | [x] | p1-t08 | am / is / are વાળાં સાદાં વાક્યો | Simple Sentences with am/is/are | Written and reviewed 2026-10-26 |
 | [ ] | p1-t12 | a / an / the ક્યારે વાપરવા | a, an and the | Written 2026-10-28 (shows as lesson 9). Waiting for my review |
 | [ ] | p1-t13 | this / these — એક અને ઘણી વસ્તુઓ | this, that, these, those & Plurals | Written 2026-10-28 (shows as lesson 10). Waiting for my review |
@@ -149,7 +150,7 @@ Alphabet, Letter Sounds, First Words, Numbers, Greetings, Family, Pronouns, **me
 - [x] Place words: in/on/under/near/behind/next to ("It's on the table"). *Lesson p1-t14 written 2026-10-28*
 - [x] have/has for owning ("I have two children"); only used as the Present Perfect helper now. *Lesson p1-t16 written 2026-10-28*
 - [x] There is / There are (not used anywhere). *Lesson p1-t15 written 2026-10-28*
-- [ ] me/him/her/us/them and Ravi's (possessive 's)
+- [x] me/him/her/us/them and Ravi's (possessive 's). *Lesson p1-t17 written 2026-10-28*
 - [ ] some/any, much/many, a lot of
 - [ ] Telling the time and dates ("It's half past four"); "What time is it?" is asked but never answered
 - [ ] Polite requests: Can I…? / Could you…? / Would you like…?
@@ -258,3 +259,4 @@ An earlier, much bigger version of this site was built in this folder before 202
 | 2026-10-28 | Asked to commit p1-t13 and go on. Claude committed it, then wrote **p1-t14 "in / on / under — વસ્તુ ક્યાં છે?"** (shows as lesson 11): 10 short paragraphs (8 place words in, on, under, near, next to, behind, in front of, between; they go before the place, unlike Gujarati "ટેબલ પર"; in vs on; formula thing + is/are + place word + the place; Where is…? It is… / They are…; mistakes "bag in", missing is, missing the, "near to"; at home / at school / at work with no the), 25 examples, 12 practice questions. Tests (95) and build pass; checked at phone width, no sideways scrolling. Committed (not pushed). |
 | 2026-10-28 | Asked to commit p1-t14 and go on. Claude committed it, then wrote **p1-t15 "There is / There are"** (shows as lesson 12): 9 short paragraphs (There is for one, There are for many; "There" here doesn't mean "ત્યાં"; place goes last unlike Gujarati; milk/water/sugar always There is with no a; There is a phone vs The phone is, linked to the a/the lesson; There is no / isn't / aren't; Is there…? Are there…? with short answers; mistakes incl. Indian-English "Milk is there in the fridge"), 21 examples, 12 practice questions. Tests (98) and build pass; checked at phone width, no sideways scrolling. Committed (not pushed). |
 | 2026-10-28 | Asked to commit p1-t15 and go on. Claude committed it, then wrote **p1-t16 "have / has — મારી પાસે છે"** (shows as lesson 13): 10 short paragraphs (have with I/You/We/They and has with He/She/It; "મારી પાસે / મારે / તેને" becomes the person first; no am/is/are with have; health: I have a fever / a headache, and "My head is paining"; don't have / doesn't have; Do you have…? Does he have…? with short answers; There is vs have; I've got; the Part 3 "I have eaten" use is different), 22 examples, 12 practice questions. Tests (101) and build pass; checked at phone width, no sideways scrolling. Committed (not pushed). |
+| 2026-10-28 | Asked to commit p1-t16 and go on. Claude committed it, then wrote **p1-t17 "મને, તેને અને રવિનું (me / him / Ravi's)"**, placed after Pronouns (shows as lesson 8): 10 short paragraphs (7 pairs I→me, He→him, She→her, We→us, They→them; who does the action vs who it's done to; "મને પાણી આપો" → Give me water order; with/for/to + me/him; his vs him, her for both; Ravi's bag with 's, same order as Gujarati; the ' mark; mistakes Give I, Him is, He's bag), 23 examples, 12 practice questions. Changed the last line of p1-t07, which said full sentences come in the next lesson. Tests (104) and build pass; checked at phone width, no sideways scrolling. Committed (not pushed). |

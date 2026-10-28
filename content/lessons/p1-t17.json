@@ -1,0 +1,126 @@
+{
+  "topicId": "p1-t17",
+  "explanationGu": [
+    "પાછલા પાઠમાં [[I]], [[He]], [[She]] જેવા શબ્દ શીખ્યા. ગુજરાતીમાં આપણે \"હું\" પણ કહીએ અને \"મને\" પણ કહીએ, \"તે\" પણ કહીએ અને \"તેને\" પણ. અંગ્રેજીમાં પણ એમ જ છે: \"હું\" = [[I]], પણ \"મને\" = [[me]]. આ પાઠમાં આવા \"મને, તેને, અમને\" વાળા શબ્દ અને \"રવિનું\" જેવા શબ્દ શીખીશું.",
+    "સાત જોડી યાદ રાખો: [[I]] → [[me]] (મને). [[You]] → [[you]] (તમને, બદલાતું નથી). [[He]] → [[him]] (તેને, પુરુષને). [[She]] → [[her]] (તેને, સ્ત્રીને). [[It]] → [[it]] (તેને, વસ્તુને). [[We]] → [[us]] (અમને, આપણને). [[They]] → [[them]] (તેમને).",
+    "ક્યારે કયો શબ્દ? કામ કરનાર વ્યક્તિ માટે [[I]], [[He]], [[She]], [[We]], [[They]]. જેના પર કામ થાય, કે જેની સાથે / જેના માટે કામ થાય, તેના માટે [[me]], [[him]], [[her]], [[us]], [[them]]. જેમ કે [[Help me.]] (મારી મદદ કરો.) [[Call him.]] (તેને ફોન કરો.) [[Come with us.]] (અમારી સાથે આવો.) [[This is for you.]] (આ તમારા માટે છે.)",
+    "ક્રમની ટિપ: ગુજરાતીમાં \"મને પાણી આપો\" માં \"મને\" પહેલાં અને ક્રિયા \"આપો\" છેલ્લે આવે છે. અંગ્રેજીમાં ક્રિયા પહેલાં, પછી વ્યક્તિ, પછી વસ્તુ: [[Give]] + [[me]] + [[water]] = [[Give me water.]] તે જ રીતે \"તેને કહો\" = [[Tell her.]] \"તેમને પૂછો\" = [[Ask them.]]",
+    "[[with]] (સાથે), [[for]] (માટે), [[to]] (ને), [[at]] પછી હંમેશાં [[me]], [[him]], [[her]], [[us]], [[them]] આવે: [[with me]], [[for him]], [[to her]], [[at them]]. [[with I]] કે [[for he]] ખોટું છે.",
+    "ગૂંચવણ થાય એવી જોડી: [[his]] અને [[him]]. [[His bag]] = તેની બૅગ (કોની?). [[Call him]] = તેને ફોન કરો (કોને?). [[her]] બંને કામ કરે છે: [[Her phone]] = તેનો ફોન, અને [[Call her]] = તેને ફોન કરો.",
+    "હવે કોઈના નામ સાથે \"નું, ની, નો\" કેવી રીતે કહેવું. ગુજરાતી \"રવિની બૅગ\" = [[Ravi's bag]]. નામ પછી [['s]] લગાવો અને પછી વસ્તુ: [[Meena's phone]] (મીનાનો ફોન), [[my mother's name]] (મારી માનું નામ), [[the teacher's book]] (શિક્ષકનું પુસ્તક). આ ક્રમ ગુજરાતી જેવો જ છે: પહેલાં કોનું, પછી શું.",
+    "લખતી વખતે s ની પહેલાં ઉપર નાનું ચિહ્ન [[']] મૂકવું જરૂરી છે: [[Ravi's]] સાચું, [[Ravis]] ખોટું. અને ગુજરાતીમાં \"નું, ની, નો\" બદલાય છે, પણ અંગ્રેજીમાં [['s]] હંમેશાં સરખું રહે છે.",
+    "સામાન્ય ભૂલો: (1) [[Give I water.]] ખોટું, [[Give me water.]] સાચું. (2) [[Him is my brother.]] ખોટું. વાક્ય શરૂ કરનાર કામ કરનાર છે, એટલે [[He is my brother.]] (3) [[He's bag]] ખોટું, [[His bag]] સાચું. [[He's]] નો અર્થ [[He is]] થાય.",
+    "રોજની પ્રેક્ટિસ: ઘરના લોકોની વસ્તુ બતાવીને બોલો: [[This is Ravi's phone.]] [[Give it to him.]] [[This is Meena's bag.]] [[Give it to her.]] અને રોજ જરૂર પડે ત્યારે કહો: [[Help me, please.]]"
+  ],
+  "examples": [
+    { "en": "me", "translit": "મી", "gu": "મને, મારી (I → me)" },
+    { "en": "you", "translit": "યૂ", "gu": "તમને (You → you, બદલાતું નથી)" },
+    { "en": "him", "translit": "હિમ", "gu": "તેને, પુરુષને (He → him)" },
+    { "en": "her", "translit": "હર", "gu": "તેને, સ્ત્રીને (She → her)" },
+    { "en": "it", "translit": "ઇટ", "gu": "તેને, વસ્તુને (It → it)" },
+    { "en": "us", "translit": "અસ", "gu": "અમને, આપણને (We → us)" },
+    { "en": "them", "translit": "ધેમ", "gu": "તેમને (They → them)" },
+    { "en": "Help me, please.", "translit": "હેલ્પ મી, પ્લીઝ", "gu": "મારી મદદ કરો, પ્લીઝ." },
+    { "en": "Call him.", "translit": "કૉલ હિમ", "gu": "તેને ફોન કરો." },
+    { "en": "Tell her.", "translit": "ટેલ હર", "gu": "તેને કહો." },
+    { "en": "Ask them.", "translit": "આસ્ક ધેમ", "gu": "તેમને પૂછો." },
+    { "en": "Come with us.", "translit": "કમ વિથ અસ", "gu": "અમારી સાથે આવો." },
+    { "en": "This is for you.", "translit": "ધિસ ઇઝ ફૉર યૂ", "gu": "આ તમારા માટે છે." },
+    { "en": "Give me water.", "translit": "ગિવ મી વૉટર", "gu": "મને પાણી આપો." },
+    { "en": "Give + me + water", "translit": "ગિવ + મી + વૉટર", "gu": "આપો + મને + પાણી (ક્રિયા પહેલાં)" },
+    { "en": "Give it to her.", "translit": "ગિવ ઇટ ટુ હર", "gu": "આ તેને આપો." },
+    { "en": "His bag / Call him.", "translit": "હિઝ બૅગ / કૉલ હિમ", "gu": "તેની બૅગ / તેને ફોન કરો." },
+    { "en": "Her phone / Call her.", "translit": "હર ફોન / કૉલ હર", "gu": "તેનો ફોન / તેને ફોન કરો." },
+    { "en": "Ravi's bag", "translit": "રવિઝ બૅગ", "gu": "રવિની બૅગ" },
+    { "en": "Meena's phone", "translit": "મીનાઝ ફોન", "gu": "મીનાનો ફોન" },
+    { "en": "my mother's name", "translit": "માય મધર્ઝ નેમ", "gu": "મારી માનું નામ" },
+    { "en": "the teacher's book", "translit": "ધ ટીચર્ઝ બુક", "gu": "શિક્ષકનું પુસ્તક" },
+    { "en": "This is Ravi's phone. Give it to him.", "translit": "ધિસ ઇઝ રવિઝ ફોન. ગિવ ઇટ ટુ હિમ", "gu": "આ રવિનો ફોન છે. તેને આપી દો." }
+  ],
+  "practice": [
+    {
+      "type": "choice",
+      "questionGu": "\"મને પાણી આપો.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Give I water.", "Give me water.", "Me water give."],
+      "answer": 1,
+      "explainGu": "Give me water. – ગિવ મી વૉટર. \"મને\" = me, અને ક્રિયા Give પહેલાં."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"રાજને ફોન કરો.\" ખાલી જગ્યા પૂરો: Call ___.",
+      "options": ["he", "his", "him"],
+      "answer": 2,
+      "explainGu": "Call him. – કૉલ હિમ. \"તેને\" (પુરુષ) = him."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"મીનાને કહો.\" ખાલી જગ્યા પૂરો: Tell ___.",
+      "options": ["her", "she"],
+      "answer": 0,
+      "explainGu": "Tell her. – ટેલ હર. \"તેને\" (સ્ત્રી) = her."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"અમારી સાથે આવો.\" ખાલી જગ્યા પૂરો: Come with ___.",
+      "options": ["we", "us", "our"],
+      "answer": 1,
+      "explainGu": "Come with us. – કમ વિથ અસ. with પછી us આવે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"રવિની બૅગ\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Ravi bag", "Ravis bag", "Ravi's bag"],
+      "answer": 2,
+      "explainGu": "Ravi's bag – રવિઝ બૅગ. નામ પછી 's, અને s પહેલાં ' ચિહ્ન."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"મીનાનો ફોન\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Meena's phone", "phone Meena's", "Meena phone's"],
+      "answer": 0,
+      "explainGu": "Meena's phone – મીનાઝ ફોન. ક્રમ ગુજરાતી જેવો: પહેલાં કોનો, પછી શું."
+    },
+    {
+      "type": "choice",
+      "questionGu": "આમાંથી સાચું વાક્ય કયું છે?",
+      "options": ["Help I, please.", "Help me, please.", "Help my, please."],
+      "answer": 1,
+      "explainGu": "Help me, please. – હેલ્પ મી, પ્લીઝ. મદદ મને થાય છે, એટલે me."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[them]] એટલે શું?",
+      "options": ["તેઓ", "તેમનું", "તેમને"],
+      "answer": 2,
+      "explainGu": "them – ધેમ – તેમને. તેઓ = They, તેમનું = Their."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"તેની બૅગ\" (રાજની) ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["He's bag", "Him bag", "His bag"],
+      "answer": 2,
+      "explainGu": "His bag – હિઝ બૅગ. \"કોની?\" માટે his. He's નો અર્થ He is થાય."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: ___ is my brother.",
+      "options": ["He", "Him"],
+      "answer": 0,
+      "explainGu": "He is my brother. – હી ઇઝ માય બ્રધર. વાક્ય શરૂ કરનાર માટે He, him નહીં."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"આ તમારા માટે છે.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["This is for you.", "This is for your.", "This for you is."],
+      "answer": 0,
+      "explainGu": "This is for you. – ધિસ ઇઝ ફૉર યૂ. for પછી you."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"મારી માનું નામ\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["my mother name's", "my mother's name", "my's mother name"],
+      "answer": 1,
+      "explainGu": "my mother's name – માય મધર્ઝ નેમ. mother પછી 's, પછી name."
+    }
+  ]
+}
