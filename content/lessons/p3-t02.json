@@ -127,6 +127,8 @@
       "options": ["I swim can.", "I can swim.", "I am can swim."],
       "answer": 1,
       "explainGu": "I can swim. – આઇ કૅન સ્વિમ. \"શકું છું\" નું can બને છે અને તે ક્રિયાની પહેલાં આવે છે."
-    }
+    },
+    {"type": "order", "questionGu": "\"તે બહુ સરસ રાંધી શકે છે.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["She", "can", "cook", "very", "well"], "end": ".", "explainGu": "She can cook very well. – શી કૅન કુક વેરી વેલ. can પછી સાદી ક્રિયા."},
+    {"type": "order", "questionGu": "\"તમારે પાણી પીવું જોઈએ.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["You", "should", "drink", "water"], "end": ".", "explainGu": "You should drink water. – યૂ શુડ ડ્રિંક વૉટર. should પછી સાદી ક્રિયા."}
   ]
 }

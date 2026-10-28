@@ -120,6 +120,8 @@
       "options": ["Tall he is.", "He tall is.", "He is tall."],
       "answer": 2,
       "explainGu": "He is tall. – હી ઇઝ ટૉલ. ક્રમ: કર્તા + is + વર્ણન."
-    }
+    },
+    {"type": "order", "questionGu": "\"તે ડૉક્ટર છે.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["He", "is", "a", "doctor"], "end": ".", "explainGu": "He is a doctor. – હી ઇઝ અ ડૉક્ટર. is બીજા નંબરે: કર્તા + is + બાકીનું."},
+    {"type": "order", "questionGu": "\"આપણે ઘરે છીએ.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["We", "are", "at", "home"], "end": ".", "explainGu": "We are at home. – વી આર ઍટ હોમ. We સાથે are, અને are બીજા નંબરે."}
   ]
 }

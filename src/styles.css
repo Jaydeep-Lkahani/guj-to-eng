@@ -1182,305 +1182,6 @@ button:hover .spin-hover {
 }
 
 /* =========================================================
-   Home
-   ========================================================= */
-
-.hero {
-  position: relative;
-  display: flex;
-  align-items: center;
-  gap: 32px;
-  padding: 36px 40px;
-  border-radius: 28px;
-  background: linear-gradient(135deg, var(--hero-a), var(--hero-b));
-  color: #fff;
-  overflow: hidden;
-  isolation: isolate;
-  box-shadow: var(--shadow-lg);
-}
-
-/* Soft decorative circles */
-.hero::before,
-.hero::after {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  border-radius: 50%;
-  background: rgb(255 255 255 / 0.08);
-}
-.hero::before {
-  width: 320px;
-  height: 320px;
-  right: -90px;
-  top: -140px;
-}
-.hero::after {
-  width: 200px;
-  height: 200px;
-  right: 140px;
-  bottom: -130px;
-  background: rgb(251 191 36 / 0.18);
-}
-
-.hero-text {
-  flex: 1;
-  min-width: 0;
-}
-
-.hero h1 {
-  font-size: 2.8rem;
-  margin: 0 0 6px;
-}
-
-.hero-hello {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  margin: 0;
-  padding: 4px 14px 4px 8px;
-  border-radius: 999px;
-  background: rgb(255 255 255 / 0.15);
-  font-size: 0.85rem;
-  font-weight: 700;
-}
-
-.wave {
-  font-size: 1.4em;
-  color: #fde68a;
-  transform-origin: 70% 80%;
-  animation: wave 1.8s ease-in-out 0.4s 2;
-}
-
-.hero .lead {
-  color: #fff;
-  margin-bottom: 0.4em;
-}
-
-.hero-sub {
-  color: rgb(255 255 255 / 0.85);
-  font-size: 0.95rem;
-}
-
-.hero .button {
-  margin-top: 8px;
-  background: #fff;
-  color: #3730a3;
-  box-shadow: 0 10px 24px -10px rgb(0 0 0 / 0.45);
-}
-.hero .button:hover {
-  background: #f5f3ff;
-}
-
-.hero-progress {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex: 0 0 auto;
-  padding: 18px 22px 10px;
-  border-radius: 22px;
-  background: rgb(255 255 255 / 0.1);
-  border: 1px solid rgb(255 255 255 / 0.18);
-}
-
-.hero-progress-text {
-  margin: 6px 0 0;
-  font-size: 0.85rem;
-  font-weight: 700;
-  color: rgb(255 255 255 / 0.9);
-}
-
-.how {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 14px;
-  list-style: none;
-  margin: 20px 0 0;
-  padding: 0;
-}
-
-.how-item {
-  display: flex;
-  align-items: flex-start;
-  gap: 12px;
-  padding: 16px;
-  border: 1px solid var(--line);
-  border-radius: var(--r-lg);
-  background: var(--surface);
-  box-shadow: var(--shadow-sm);
-  line-height: 1.45;
-  transition:
-    transform 0.25s var(--ease-out),
-    box-shadow 0.25s;
-}
-
-.how-item:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-md);
-}
-
-.how-icon {
-  display: grid;
-  place-items: center;
-  flex: 0 0 42px;
-  height: 42px;
-  border-radius: 12px;
-  background: var(--primary-soft);
-  color: var(--primary-ink);
-  font-size: 24px;
-  transition: transform 0.35s var(--ease-spring);
-}
-.how-item:hover .how-icon {
-  transform: rotate(-8deg) scale(1.1);
-}
-
-.how-title {
-  display: block;
-  font-weight: 700;
-}
-
-.how-text {
-  display: block;
-  font-size: 0.82rem;
-  color: var(--text-2);
-}
-
-.cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
-  gap: 16px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.cards > li {
-  display: flex;
-}
-
-.card {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  padding: 22px;
-  border: 1px solid var(--line);
-  border-radius: var(--r-lg);
-  background: var(--surface);
-  color: var(--text);
-  text-decoration: none;
-  box-shadow: var(--shadow-sm);
-  overflow: hidden;
-  transition:
-    transform 0.3s var(--ease-out),
-    box-shadow 0.3s var(--ease-out),
-    border-color 0.3s;
-}
-
-/* Coloured strip on top, in the part's colour */
-.card::before {
-  content: "";
-  position: absolute;
-  inset: 0 0 auto;
-  height: 4px;
-  background: var(--part);
-  transform: scaleX(0.25);
-  transform-origin: left;
-  transition: transform 0.4s var(--ease-out);
-}
-
-.card:hover {
-  transform: translateY(-4px);
-  border-color: color-mix(in srgb, var(--part) 45%, var(--line));
-  box-shadow: var(--shadow-md);
-}
-
-.card:hover::before {
-  transform: scaleX(1);
-}
-
-.card:active {
-  transform: translateY(-1px) scale(0.99);
-}
-
-.card-top {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin-bottom: 12px;
-}
-
-.card-icon {
-  display: grid;
-  place-items: center;
-  width: 52px;
-  height: 52px;
-  border-radius: 16px;
-  font-size: 30px;
-  transition: transform 0.4s var(--ease-spring);
-}
-
-.card:hover .card-icon {
-  transform: rotate(-8deg) scale(1.08);
-}
-
-.card-label {
-  font-size: 0.85rem;
-  font-weight: 700;
-  color: var(--part-ink);
-}
-
-.card-title {
-  font-family: var(--font-head);
-  font-size: 1.45rem;
-  font-weight: 700;
-  line-height: 1.25;
-}
-
-.card-sub {
-  font-size: 0.85rem;
-  color: var(--text-2);
-}
-
-.card-text {
-  flex: 1;
-  margin: 10px 0 16px;
-  font-size: 0.9rem;
-  line-height: 1.6;
-  color: var(--text-2);
-}
-
-.card-bottom {
-  display: flex;
-  align-items: flex-end;
-  gap: 14px;
-}
-
-.card .progress-fill {
-  background: var(--part);
-}
-
-.card-go {
-  display: grid;
-  place-items: center;
-  flex: 0 0 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: var(--part-soft);
-  color: var(--part-ink);
-  font-size: 18px;
-  transition:
-    transform 0.3s var(--ease-spring),
-    background-color 0.25s,
-    color 0.25s;
-}
-
-.card:hover .card-go {
-  background: var(--part);
-  color: var(--surface);
-  transform: translateX(3px);
-}
-
-/* =========================================================
    Part page
    ========================================================= */
 
@@ -1888,6 +1589,235 @@ button:hover .spin-hover {
   animation: fade-up 0.3s var(--ease-out) 0.05s both;
 }
 
+/* ---------- Listen button ---------- */
+
+/* Where the browser can speak, the whole example card is the play button. */
+.example-speak {
+  padding: 0;
+}
+
+.example-play {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 14px 16px;
+  border: 0;
+  border-radius: inherit;
+  background: none;
+  color: inherit;
+  font: inherit;
+  line-height: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.example-play:focus-visible {
+  outline: 3px solid var(--ring);
+  outline-offset: 2px;
+}
+
+.example-play .example-en,
+.example-play .example-translit,
+.example-play .example-gu {
+  display: block;
+}
+
+.example-play .example-translit,
+.example-play .example-gu {
+  margin-top: 2px;
+}
+
+/* Small speaker at the end of the "how to say it" line. */
+.example-speaker {
+  display: inline-block;
+  margin-left: 6px;
+  vertical-align: -0.2em;
+  color: var(--primary-ink);
+  font-size: 1.15em;
+  opacity: 0.75;
+}
+
+.example-play:hover .example-speaker,
+.example-play.playing .example-speaker {
+  opacity: 1;
+}
+
+.example-play.playing .example-speaker svg {
+  animation: beat 0.8s ease-in-out infinite;
+}
+
+.example-speak:has(.playing) {
+  border-color: var(--primary);
+  background: var(--primary-soft);
+}
+
+.listen {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  border: 1.5px solid color-mix(in srgb, var(--primary) 35%, var(--line));
+  background: var(--primary-soft);
+  color: var(--primary-ink);
+  font: inherit;
+  cursor: pointer;
+  transition:
+    transform 0.15s var(--ease-out),
+    background-color 0.2s,
+    border-color 0.2s;
+}
+
+.listen:hover {
+  border-color: var(--primary);
+}
+
+.listen:active {
+  transform: scale(0.94);
+}
+
+.listen:focus-visible {
+  outline: 3px solid var(--ring);
+  outline-offset: 2px;
+}
+
+.listen svg {
+  font-size: 22px;
+}
+
+.listen.playing svg {
+  animation: beat 0.8s ease-in-out infinite;
+}
+
+.listen {
+  margin-top: 8px;
+  min-height: 44px;
+  padding: 6px 16px;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+/* ---------- Put the words in order ---------- */
+
+.order-hint {
+  margin: -6px 0 12px;
+  color: var(--text-2);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.order-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  min-height: 68px;
+  margin-bottom: 14px;
+  padding: 10px;
+  border: 2px dashed var(--line-strong);
+  border-radius: var(--r-md);
+  background: var(--surface-2);
+  transition:
+    border-color 0.2s,
+    background-color 0.2s;
+}
+
+.order-line.correct {
+  border-style: solid;
+  border-color: var(--good);
+  background: var(--good-soft);
+  animation: pop 0.4s var(--ease-spring);
+}
+
+.order-line.wrong {
+  border-style: solid;
+  border-color: var(--bad);
+  background: var(--bad-soft);
+  animation: shake 0.45s var(--ease-out);
+}
+
+.order-empty {
+  padding-left: 6px;
+  color: var(--text-3);
+  font-size: 0.9rem;
+}
+
+.order-end {
+  margin-left: -11px;
+  font-family: var(--font-en);
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.order-bank {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.tile {
+  min-height: var(--tap);
+  padding: 6px 16px;
+  border: 1.5px solid var(--line-strong);
+  border-bottom-width: 3px;
+  border-radius: var(--r-sm);
+  background: var(--surface);
+  color: var(--text);
+  font-family: var(--font-en);
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition:
+    transform 0.15s var(--ease-out),
+    border-color 0.2s,
+    background-color 0.2s;
+}
+
+.tile:hover:not(:disabled) {
+  border-color: var(--primary);
+  background: var(--primary-soft);
+}
+
+.tile:active:not(:disabled) {
+  transform: scale(0.95);
+}
+
+.tile:focus-visible {
+  outline: 3px solid var(--ring);
+  outline-offset: 2px;
+}
+
+.tile.placed {
+  animation: drop-in 0.25s var(--ease-out);
+}
+
+.tile.placed:disabled {
+  cursor: default;
+  border-color: transparent;
+  background: transparent;
+  padding-inline: 4px;
+}
+
+/* A used tile keeps its space in the bank so the other tiles don't jump. */
+.tile.used {
+  border-style: dashed;
+  border-bottom-width: 1.5px;
+  background: transparent;
+  color: transparent;
+  cursor: default;
+}
+
+.check-button {
+  margin-bottom: 14px;
+}
+
+.check-button:disabled {
+  opacity: 0.45;
+  cursor: default;
+  transform: none;
+}
+
 .practice-result {
   display: flex;
   flex-direction: column;
@@ -2197,99 +2127,6 @@ button:hover .spin-hover {
    Tablet & phone
    ========================================================= */
 
-/* ---------- Home: subtitle under the big hello ---------- */
-
-.hero-h1-sub {
-  display: block;
-  margin-top: 6px;
-  font-size: 1.05rem;
-  font-weight: 600;
-  line-height: 1.4;
-  color: rgb(255 255 255 / 0.88);
-}
-
-.hero-h1-sub [lang="en"] {
-  font-family: var(--font-en);
-  font-weight: 700;
-}
-
-/* ---------- Home: questions and answers ---------- */
-
-.faq {
-  margin-top: 2.5rem;
-}
-
-.faq-list {
-  display: grid;
-  gap: 10px;
-}
-
-.faq-item {
-  border: 1px solid var(--line);
-  border-radius: var(--r-lg);
-  background: var(--surface);
-  box-shadow: var(--shadow-sm);
-  overflow: hidden;
-}
-
-.faq-item summary {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  min-height: 56px;
-  padding: 12px 18px;
-  font-weight: 700;
-  cursor: pointer;
-  list-style: none;
-}
-
-.faq-item summary::-webkit-details-marker {
-  display: none;
-}
-
-.faq-item summary span {
-  flex: 1;
-}
-
-.faq-item summary:focus-visible {
-  outline: 3px solid var(--ring);
-  outline-offset: -3px;
-}
-
-.faq-icon {
-  flex: none;
-  font-size: 1.5rem;
-  color: var(--primary);
-}
-
-.faq-caret {
-  flex: none;
-  color: var(--text-3);
-  transition: transform 0.25s var(--ease-out);
-}
-
-.faq-item[open] .faq-caret {
-  transform: rotate(180deg);
-}
-
-.faq-answer {
-  padding: 0 18px 16px 54px;
-  color: var(--text-2);
-}
-
-.faq-answer p {
-  margin-bottom: 0.6em;
-}
-
-.faq-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  min-height: 44px;
-  font-weight: 700;
-  color: var(--primary-ink);
-}
-
 @media (max-width: 1100px) {
   .brand-tag {
     display: none;
@@ -2394,51 +2231,6 @@ button:hover .spin-hover {
 
   h1 {
     font-size: 1.8rem;
-  }
-
-  .hero {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 20px;
-    padding: 26px 22px;
-    border-radius: 24px;
-  }
-
-  .hero h1 {
-    font-size: 2.2rem;
-  }
-
-  .hero .button {
-    width: 100%;
-  }
-
-  .hero-progress {
-    flex-direction: row;
-    gap: 16px;
-    padding: 12px 18px;
-  }
-
-  .hero-progress .ring {
-    width: 84px;
-    height: 84px;
-  }
-
-  .hero-progress .ring-label {
-    padding-top: 27px;
-  }
-
-  .hero-progress .ring-num {
-    font-size: 1.4rem;
-  }
-
-  .hero-progress-text {
-    margin: 0;
-    font-size: 1rem;
-  }
-
-  .how {
-    grid-template-columns: 1fr;
-    gap: 10px;
   }
 
   .lesson-section {

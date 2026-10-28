@@ -125,6 +125,8 @@
       "options": ["This bananas is good.", "These bananas are good.", "These banana are good."],
       "answer": 1,
       "explainGu": "These bananas are good. – ધીઝ બનાનાઝ આર ગુડ. these + bananas (s સાથે) + are."
-    }
+    },
+    {"type": "order", "questionGu": "\"આ મારાં છોકરાં છે.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["These", "are", "my", "children"], "end": ".", "explainGu": "These are my children. – ધીઝ આર માય ચિલ્ડ્રન. These સાથે are."},
+    {"type": "order", "questionGu": "\"આ કેળાં સારાં છે.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["These", "bananas", "are", "good"], "end": ".", "explainGu": "These bananas are good. – ધીઝ બનાનાઝ આર ગુડ. These + bananas + are + વર્ણન."}
   ]
 }

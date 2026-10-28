@@ -117,6 +117,8 @@
       "options": ["If it rains, we stay will at home.", "If it rains, we will stay at home.", "If rains it, we will stay at home."],
       "answer": 1,
       "explainGu": "If it rains, we will stay at home. – ઇફ ઇટ રેન્ઝ, વી વિલ સ્ટે ઍટ હોમ. બંને ભાગમાં કર્તા પછી ક્રિયા."
-    }
+    },
+    {"type": "order", "questionGu": "\"જો વરસાદ પડશે તો હું ઘરે રહીશ.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["I", "will", "stay", "at", "home", "if", "it", "rains"], "end": ".", "explainGu": "I will stay at home if it rains. – આઇ વિલ સ્ટે ઍટ હોમ ઇફ ઇટ રેઇન્ઝ. if વાળો ભાગ પાછળ પણ આવી શકે."},
+    {"type": "order", "questionGu": "\"વરસાદ ન પડે તો હું જઈશ.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["I", "will", "go", "unless", "it", "rains"], "end": ".", "explainGu": "I will go unless it rains. – આઇ વિલ ગો અનલેસ ઇટ રેઇન્ઝ. unless = જો … ન હોય તો."}
   ]
 }

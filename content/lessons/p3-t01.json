@@ -137,6 +137,8 @@
       "options": ["I have already eaten.", "I eaten have already.", "Already eaten I have."],
       "answer": 0,
       "explainGu": "I have already eaten. – આઇ હૅવ ઑલ્રેડી ઈટન. already, have અને ક્રિયાની વચ્ચે આવે છે."
-    }
+    },
+    {"type": "order", "questionGu": "\"તે શાળાએ ગયો છે.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["He", "has", "gone", "to", "school"], "end": ".", "explainGu": "He has gone to school. – હી હૅઝ ગૉન ટૂ સ્કૂલ. has + ત્રીજું રૂપ (gone)."},
+    {"type": "order", "questionGu": "\"મેં હજી જમ્યું નથી.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["I", "haven't", "eaten", "yet"], "end": ".", "explainGu": "I haven't eaten yet. – આઇ હૅવન્ટ ઈટન યેટ. yet છેલ્લે આવે."}
   ]
 }

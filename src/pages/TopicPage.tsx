@@ -13,6 +13,7 @@ import { getLesson, getTopicInfo } from "../content";
 import { markComplete, useCompleted } from "../progress";
 import { Breadcrumb } from "../components/Breadcrumb";
 import { En, MixedText } from "../components/MixedText";
+import { ExampleCard } from "../components/ExampleCard";
 import { Practice } from "../components/Practice";
 import { PartIcon } from "../components/PartIcon";
 import { NotFoundPage } from "./NotFoundPage";
@@ -94,15 +95,7 @@ export function TopicPage() {
             </h2>
             <ul className="examples">
               {lesson.examples.map((ex, i) => (
-                <li key={i} className="example">
-                  <span lang="en" className="example-en">
-                    {ex.en}
-                  </span>
-                  <span className="visually-hidden"> – </span>
-                  <span className="example-translit">{ex.translit}</span>
-                  <span className="visually-hidden"> – </span>
-                  <span className="example-gu">{ex.gu}</span>
-                </li>
+                <ExampleCard key={i} ex={ex} />
               ))}
             </ul>
           </section>

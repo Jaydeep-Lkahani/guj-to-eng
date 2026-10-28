@@ -118,6 +118,8 @@
       "options": ["In the garden there many trees are.", "There many trees are in the garden.", "There are many trees in the garden."],
       "answer": 2,
       "explainGu": "There are many trees in the garden. – ક્રમ: There are + many trees + in the garden."
-    }
+    },
+    {"type": "order", "questionGu": "\"ફ્રિજમાં દૂધ છે.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["There", "is", "milk", "in", "the", "fridge"], "end": ".", "explainGu": "There is milk in the fridge. – ધેર ઇઝ મિલ્ક ઇન ધ ફ્રિજ. There is આગળ, જગ્યા છેલ્લે."},
+    {"type": "order", "questionGu": "\"અહીં પાસે કોઈ બૅન્ક છે?\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["Is", "there", "a", "bank", "near", "here"], "end": "?", "explainGu": "Is there a bank near here? – ઇઝ ધેર અ બૅન્ક નિયર હિયર. સવાલમાં Is આગળ આવે."}
   ]
 }

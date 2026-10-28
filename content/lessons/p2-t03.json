@@ -132,6 +132,8 @@
       "options": ["We TV watched yesterday.", "We watched TV yesterday.", "Yesterday we are watched TV."],
       "answer": 1,
       "explainGu": "We watched TV yesterday. – વી વૉચ્ટ ટીવી યેસ્ટરડે. ક્રમ: કર્તા + ક્રિયા + કર્મ + સમય."
-    }
+    },
+    {"type": "order", "questionGu": "\"હું ગઈકાલે શાળાએ ગયો.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["I", "went", "to", "school", "yesterday"], "end": ".", "explainGu": "I went to school yesterday. – આઇ વેન્ટ ટૂ સ્કૂલ યેસ્ટરડે. went ભૂતકાળ, yesterday છેલ્લે."},
+    {"type": "order", "questionGu": "\"અમે ગઈ રાત્રે ટીવી જોયું.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["We", "watched", "TV", "last", "night"], "end": ".", "explainGu": "We watched TV last night. – વી વૉચ્ડ ટી.વી. લાસ્ટ નાઇટ. સમય (last night) છેલ્લે."}
   ]
 }

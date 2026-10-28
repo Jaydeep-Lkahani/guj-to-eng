@@ -126,6 +126,8 @@
       "options": ["This bag than that bag is more expensive.", "This bag is more expensive than that bag.", "This bag is expensive more that bag than."],
       "answer": 1,
       "explainGu": "This bag is more expensive than that bag. – ધિસ બૅગ ઇઝ મોર ઇક્સ્પેન્સિવ ધૅન ધૅટ બૅગ."
-    }
+    },
+    {"type": "order", "questionGu": "\"રવિ મારા કરતાં ઊંચો છે.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["Ravi", "is", "taller", "than", "me"], "end": ".", "explainGu": "Ravi is taller than me. – રવિ ઇઝ ટૉલર ધૅન મી. \"કરતાં\" વાળો ભાગ than પછી."},
+    {"type": "order", "questionGu": "\"રવિ વર્ગમાં સૌથી ઊંચો છોકરો છે.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["Ravi", "is", "the", "tallest", "boy", "in", "the", "class"], "end": ".", "explainGu": "Ravi is the tallest boy in the class. – રવિ ઇઝ ધ ટૉલેસ્ટ બૉય ઇન ધ ક્લાસ. the + -est + વસ્તુ + જગ્યા."}
   ]
 }

@@ -32,7 +32,27 @@ export type ChoiceQuestion = {
   explainGu?: string;
 };
 
-export type Question = ChoiceQuestion;
+// "Put the words in order": she taps shuffled word tiles to build the sentence.
+// `words` is the right order; `end` is the last mark (default ".").
+export type OrderQuestion = {
+  type: "order";
+  questionGu: string;
+  words: string[];
+  end?: string;
+  explainGu?: string;
+};
+
+export type Question = ChoiceQuestion | OrderQuestion;
+
+// The right answer as one line of English, e.g. "I drink tea."
+export function answerText(q: Question): string {
+  return q.type === "choice" ? q.options[q.answer] : q.words.join(" ") + (q.end ?? ".");
+}
+
+// True when the text is plain English (no Gujarati letters, no [[marked]] words), so it can be read aloud.
+export function isEnglishText(text: string): boolean {
+  return !/[\u0A80-\u0AFF]/.test(text) && !text.includes("[[");
+}
 
 export type Lesson = {
   topicId: string;

@@ -116,6 +116,9 @@
       "options": ["Me tea like.", "To me tea is like.", "I like tea."],
       "answer": 2,
       "explainGu": "I like tea. – આઇ લાઇક ટી. ગુજરાતીનું \"મને\" અંગ્રેજીમાં કર્તા I બને છે."
-    }
+    },
+    {"type": "order", "questionGu": "\"હું સવારે ઘરે ચા પીઉં છું.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["I", "drink", "tea", "at", "home", "in", "the", "morning"], "end": ".", "explainGu": "I drink tea at home in the morning. – આઇ ડ્રિન્ક ટી ઍટ હોમ ઇન ધ મૉર્નિંગ. કર્તા, ક્રિયા, કર્મ, જગ્યા, સમય. સમય છેલ્લે."},
+    {"type": "order", "questionGu": "\"હું રાજ સાથે શાળાએ જાઉં છું.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["I", "go", "to", "school", "with", "Raj"], "end": ".", "explainGu": "I go to school with Raj. – આઇ ગો ટૂ સ્કૂલ વિથ રાજ. કર્તા + ક્રિયા + ક્યાં + કોની સાથે."},
+    {"type": "order", "questionGu": "\"અમે તેમને પાણી આપીએ છીએ.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["We", "give", "them", "water"], "end": ".", "explainGu": "We give them water. – વી ગિવ ધેમ વૉટર. give પછી પહેલાં વ્યક્તિ (them), પછી વસ્તુ (water)."}
   ]
 }

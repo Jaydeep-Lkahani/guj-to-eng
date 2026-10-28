@@ -123,6 +123,8 @@
       "options": ["at", "on", "in"],
       "answer": 1,
       "explainGu": "Come on Monday. – કમ ઑન મન્ડે. વાર સાથે on, સમય સાથે at."
-    }
+    },
+    {"type": "order", "questionGu": "\"બસ સાત વાગે છે.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["The", "bus", "is", "at", "seven"], "end": ".", "explainGu": "The bus is at seven. – ધ બસ ઇઝ ઍટ સેવન. સમય સાથે at."},
+    {"type": "order", "questionGu": "\"સાંજે છ વાગે આવજો.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["Come", "at", "six", "in", "the", "evening"], "end": ".", "explainGu": "Come at six in the evening. – કમ ઍટ સિક્સ ઇન ધી ઈવનિંગ. પહેલાં સમય, પછી સાંજ."}
   ]
 }

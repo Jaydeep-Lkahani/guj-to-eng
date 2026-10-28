@@ -120,6 +120,8 @@
       "options": ["My head is paining.", "I am headache.", "I have a headache."],
       "answer": 2,
       "explainGu": "I have a headache. – આઇ હૅવ અ હેડેક. \"My head is paining\" લોકો સમજે, પણ સાચી રીત આ છે."
-    }
+    },
+    {"type": "order", "questionGu": "\"મારે બે છોકરાં છે.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["I", "have", "two", "children"], "end": ".", "explainGu": "I have two children. – આઇ હૅવ ટુ ચિલ્ડ્રન. \"મારે\" = I, પછી have."},
+    {"type": "order", "questionGu": "\"તેની પાસે ગાડી નથી.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["She", "doesn't", "have", "a", "car"], "end": ".", "explainGu": "She doesn't have a car. – શી ડઝન્ટ હૅવ અ કાર. doesn't પછી have, has નહીં."}
   ]
 }

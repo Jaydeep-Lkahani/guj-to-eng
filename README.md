@@ -48,6 +48,22 @@ Everything she reads lives in `content/`, not in the code.
 
 `answer` is the position of the right option, counting from 0. `explainGu` is optional.
 
+There is a second question type, "put the words in order". She taps shuffled word tiles to build the sentence:
+
+```json
+{
+  "type": "order",
+  "questionGu": "\"હું ચા પીઉં છું.\" ને અંગ્રેજીમાં ગોઠવો.",
+  "words": ["I", "drink", "tea"],
+  "end": ".",
+  "explainGu": "I drink tea. – આઇ ડ્રિન્ક ટી."
+}
+```
+
+`words` is the right order (the site shuffles them). Leave the full stop or question mark off the last word and put it in `end` (default `.`).
+
+Every example card can be tapped to hear the English, using the phone's built-in voice. It needs no audio files.
+
 3. Run `npm test` to catch mistakes in the file.
 
 Progress (finished topics) is saved in the browser's localStorage under `guj-eng.completed.v1`.

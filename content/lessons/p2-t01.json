@@ -136,6 +136,8 @@
       "options": ["She drinks always tea in the morning.", "Always she tea drinks in the morning.", "She always drinks tea in the morning."],
       "answer": 2,
       "explainGu": "She always drinks tea in the morning. – શી ઑલ્વેઝ ડ્રિન્ક્સ ટી ઇન ધ મૉર્નિંગ. always ક્રિયાની પહેલાં આવે છે."
-    }
+    },
+    {"type": "order", "questionGu": "\"હું હંમેશાં સવારે ચા પીઉં છું.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["I", "always", "drink", "tea", "in", "the", "morning"], "end": ".", "explainGu": "I always drink tea in the morning. – આઇ ઑલ્વેઝ ડ્રિંક ટી ઇન ધ મૉર્નિંગ. always ક્રિયાની પહેલાં, સમય છેલ્લે."},
+    {"type": "order", "questionGu": "\"તેઓ રવિવારે ક્રિકેટ રમે છે.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["They", "play", "cricket", "on", "Sunday"], "end": ".", "explainGu": "They play cricket on Sunday. – ધે પ્લે ક્રિકેટ ઑન સન્ડે. વાર છેલ્લે, on સાથે."}
   ]
 }

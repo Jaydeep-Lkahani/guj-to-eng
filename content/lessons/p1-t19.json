@@ -122,6 +122,8 @@
       "options": ["Open you the window?", "Could you open the window, please?", "Could you opened the window?"],
       "answer": 1,
       "explainGu": "Could you open the window, please? – Could you + હુકમવાળું વાક્ય + please."
-    }
+    },
+    {"type": "order", "questionGu": "\"મને એક ગ્લાસ પાણી મળશે?\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["Can", "I", "have", "a", "glass", "of", "water"], "end": "?", "explainGu": "Can I have a glass of water? – કૅન આઇ હૅવ અ ગ્લાસ ઑવ વૉટર. Can + I + have + વસ્તુ."},
+    {"type": "order", "questionGu": "\"હું તમારો ફોન વાપરી શકું?\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["Could", "I", "use", "your", "phone"], "end": "?", "explainGu": "Could I use your phone? – કુડ આઇ યૂઝ યોર ફોન. Could + I + ક્રિયા + વસ્તુ."}
   ]
 }

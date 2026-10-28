@@ -121,6 +121,8 @@
       "options": ["my mother name's", "my mother's name", "my's mother name"],
       "answer": 1,
       "explainGu": "my mother's name – માય મધર્ઝ નેમ. mother પછી 's, પછી name."
-    }
+    },
+    {"type": "order", "questionGu": "\"મને પાણી આપો.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["Give", "me", "water"], "end": ".", "explainGu": "Give me water. – ગિવ મી વૉટર. ક્રિયા + વ્યક્તિ + વસ્તુ."},
+    {"type": "order", "questionGu": "\"આ તમારા માટે છે.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["This", "is", "for", "you"], "end": ".", "explainGu": "This is for you. – ધિસ ઇઝ ફૉર યૂ. for પછી you."}
   ]
 }

@@ -121,6 +121,8 @@
       "options": ["She comes will tomorrow.", "She will come tomorrow.", "She will comes tomorrow."],
       "answer": 1,
       "explainGu": "She will come tomorrow. – શી વિલ કમ ટુમૉરો. will પછી ક્રિયા જેમ છે તેમ આવે."
-    }
+    },
+    {"type": "order", "questionGu": "\"હું કાલે બજારમાં જઈશ.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["I", "will", "go", "to", "the", "market", "tomorrow"], "end": ".", "explainGu": "I will go to the market tomorrow. – આઇ વિલ ગો ટૂ ધ માર્કિટ ટુમૉરો. will ક્રિયાની પહેલાં, tomorrow છેલ્લે."},
+    {"type": "order", "questionGu": "\"તેઓ ઘર ખરીદવાના છે.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["They", "are", "going", "to", "buy", "a", "house"], "end": ".", "explainGu": "They are going to buy a house. – ધે આર ગોઇંગ ટૂ બાય અ હાઉસ. are going to + ક્રિયા."}
   ]
 }

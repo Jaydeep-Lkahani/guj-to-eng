@@ -127,6 +127,8 @@
       "options": ["Now we rice are eating.", "We eating are rice now.", "We are eating rice now."],
       "answer": 2,
       "explainGu": "We are eating rice now. – વી આર ઈટિંગ રાઇસ નાઉ. સમય (now) વાક્યના અંતે આવે છે."
-    }
+    },
+    {"type": "order", "questionGu": "\"તે જમવાનું બનાવી રહી છે.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["She", "is", "cooking", "dinner"], "end": ".", "explainGu": "She is cooking dinner. – શી ઇઝ કુકિંગ ડિનર. is + ક્રિયા-ing."},
+    {"type": "order", "questionGu": "\"મારી મમ્મી રસોડામાં કામ કરી રહી છે.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["My", "mother", "is", "working", "in", "the", "kitchen"], "end": ".", "explainGu": "My mother is working in the kitchen. – માય મધર ઇઝ વર્કિંગ ઇન ધ કિચન. કર્તા + is + working + જગ્યા."}
   ]
 }

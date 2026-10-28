@@ -124,6 +124,8 @@
       "options": ["She went home because was tired she.", "Because she went home she was tired.", "She went home because she was tired."],
       "answer": 2,
       "explainGu": "She went home because she was tired. – શી વેન્ટ હોમ બિકૉઝ શી વૉઝ ટાયર્ડ. because પછી પૂરું વાક્ય (કર્તા + ક્રિયા) આવે છે."
-    }
+    },
+    {"type": "order", "questionGu": "\"હું સૂઈ ગયો કારણ કે હું થાકેલો હતો.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["I", "slept", "because", "I", "was", "tired"], "end": ".", "explainGu": "I slept because I was tired. – આઇ સ્લેપ્ટ બિકૉઝ આઇ વૉઝ ટાયર્ડ. because પછી કારણ."},
+    {"type": "order", "questionGu": "\"જમતાં પહેલાં હાથ ધોવો.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["Wash", "your", "hands", "before", "you", "eat"], "end": ".", "explainGu": "Wash your hands before you eat. – વૉશ યોર હૅન્ડ્ઝ બિફૉર યૂ ઈટ. before પછી બીજો ભાગ."}
   ]
 }

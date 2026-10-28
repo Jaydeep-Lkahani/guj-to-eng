@@ -140,6 +140,8 @@
       "options": ["When did they come?", "When they came?", "They when came?"],
       "answer": 0,
       "explainGu": "When did they come? – વેન ડિડ ધે કમ? did પછી ક્રિયા જેમ છે તેમ આવે."
-    }
+    },
+    {"type": "order", "questionGu": "\"શું તે ચા પીએ છે?\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["Does", "she", "drink", "tea"], "end": "?", "explainGu": "Does she drink tea? – ડઝ શી ડ્રિંક ટી. Does આગળ, પછી કર્તા, પછી સાદી ક્રિયા."},
+    {"type": "order", "questionGu": "\"શું તમે શાળાએ ગયા હતા?\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["Did", "you", "go", "to", "school"], "end": "?", "explainGu": "Did you go to school? – ડિડ યૂ ગો ટૂ સ્કૂલ. Did પછી સાદી ક્રિયા go."}
   ]
 }

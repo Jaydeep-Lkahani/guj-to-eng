@@ -123,6 +123,8 @@
       "options": ["The school is my house near.", "The school is near to my house.", "The school is near my house."],
       "answer": 2,
       "explainGu": "The school is near my house. – ધ સ્કૂલ ઇઝ નિયર માય હાઉસ. near જગ્યાની પહેલાં, અને near to નહીં."
-    }
+    },
+    {"type": "order", "questionGu": "\"ચાવી બૅગમાં છે.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["The", "key", "is", "in", "the", "bag"], "end": ".", "explainGu": "The key is in the bag. – ધ કી ઇઝ ઇન ધ બૅગ. in જગ્યાના નામની પહેલાં આવે."},
+    {"type": "order", "questionGu": "\"બસ દુકાનની સામે છે.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["The", "bus", "is", "in", "front", "of", "the", "shop"], "end": ".", "explainGu": "The bus is in front of the shop. – ધ બસ ઇઝ ઇન ફ્રન્ટ ઑવ ધ શૉપ. in front of આખું સાથે, પછી જગ્યા."}
   ]
 }

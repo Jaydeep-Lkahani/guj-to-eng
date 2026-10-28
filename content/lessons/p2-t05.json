@@ -128,6 +128,8 @@
       "options": ["We didn't went to school yesterday.", "We didn't go to school yesterday.", "We went not to school yesterday."],
       "answer": 1,
       "explainGu": "We didn't go to school yesterday. – વી ડિડન્ટ ગો ટૂ સ્કૂલ યેસ્ટરડે. didn't પછી ક્રિયા જેમ છે તેમ આવે."
-    }
+    },
+    {"type": "order", "questionGu": "\"તે ઘરે નથી.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["She", "is", "not", "at", "home"], "end": ".", "explainGu": "She is not at home. – શી ઇઝ નૉટ ઍટ હોમ. not, is પછી આવે."},
+    {"type": "order", "questionGu": "\"તેઓ અહીં રહેતા નથી.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["They", "don't", "live", "here"], "end": ".", "explainGu": "They don't live here. – ધે ડોન્ટ લિવ હિયર. don't ક્રિયાની પહેલાં."}
   ]
 }

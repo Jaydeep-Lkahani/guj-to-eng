@@ -123,6 +123,8 @@
       "options": ["a house big", "big a house", "a big house"],
       "answer": 2,
       "explainGu": "a big house – અ બિગ હાઉસ. ક્રમ ગુજરાતી જેવો જ: a (એક) + big (મોટું) + house (ઘર)."
-    }
+    },
+    {"type": "order", "questionGu": "\"આ એક પક્ષી છે.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["This", "is", "a", "bird"], "end": ".", "explainGu": "This is a bird. – ધિસ ઇઝ અ બર્ડ. નવી વસ્તુ પહેલી વાર, એટલે a."},
+    {"type": "order", "questionGu": "\"બારી બંધ કરો.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["Close", "the", "window"], "end": ".", "explainGu": "Close the window. – ક્લોઝ ધ વિન્ડો. ક્રિયા પહેલાં, અને જાણીતી બારી માટે the."}
   ]
 }
