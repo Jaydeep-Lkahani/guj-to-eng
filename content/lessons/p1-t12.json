@@ -1,0 +1,128 @@
+{
+  "topicId": "p1-t12",
+  "explanationGu": [
+    "ગુજરાતીમાં આપણે \"દરવાજો ખોલો\" કહીએ છીએ. \"દરવાજો\" પહેલાં કોઈ નાનો શબ્દ આવતો નથી. અંગ્રેજીમાં વસ્તુના નામ પહેલાં મોટા ભાગે એક નાનો શબ્દ આવે છે: [[a]], [[an]] કે [[the]]. આ પાઠમાં શીખીશું કે કયો શબ્દ ક્યારે વાપરવો.",
+    "[[a]] અને [[an]] નો અર્થ \"એક\" છે. તે એક જ વસ્તુ માટે વપરાય, અને એવી વસ્તુ માટે જેની વાત પહેલી વાર થાય છે. પાછલા પાઠમાં શીખ્યા તેમ, સ્વરના અવાજ (અ, આ, ઇ, ઉ, એ, ઓ) થી શરૂ થતા શબ્દ પહેલાં [[an]]: [[an apple]], [[an egg]], [[an umbrella]]. બાકીના શબ્દ પહેલાં [[a]]: [[a book]], [[a chair]].",
+    "[[the]] નો અર્થ છે \"એ જ\" કે \"પેલું\". જે વસ્તુની વાત સાંભળનાર પણ જાણે છે, તેની પહેલાં [[the]] આવે. [[the]] એક વસ્તુ માટે પણ વપરાય અને ઘણી વસ્તુ માટે પણ: [[the door]], [[the children]].",
+    "સહેલો નિયમ: કોઈ વસ્તુની વાત પહેલી વાર કરો ત્યારે [[a]] / [[an]]. પછી એ જ વસ્તુની વાત કરો ત્યારે [[the]]. જેમ કે [[This is a bird.]] [[The bird is small.]] પહેલા વાક્યમાં પક્ષી નવું છે, એટલે [[a]]. બીજા વાક્યમાં એ જ પક્ષીની વાત છે, એટલે [[the]].",
+    "ઘરની જે વસ્તુ બંને જાણતા હોય, તેની પહેલાં [[the]] આવે: [[Open the door.]] (દરવાજો ખોલો.) [[Close the window.]] (બારી બંધ કરો.) [[Where is the phone?]] (ફોન ક્યાં છે?) જે વસ્તુ દુનિયામાં એક જ છે, તેની પહેલાં પણ [[the]] આવે: [[the sun]], [[the moon]], [[the sky]].",
+    "સૌથી સામાન્ય ભૂલ: ગુજરાતી \"હું શિક્ષક છું\" માં \"એક\" નથી, એટલે ઘણા લોકો [[I am teacher.]] બોલે છે. આ ખોટું છે. કોઈનું કામ કહેતી વખતે [[a]] / [[an]] જરૂરી છે: [[I am a teacher.]] [[She is a doctor.]] [[He is an engineer.]] તે જ રીતે [[Open door.]] ખોટું છે, સાચું છે [[Open the door.]]",
+    "ક્યાં [[a]], [[an]] કે [[the]] ન આવે: (1) કોઈના નામ પહેલાં: [[Meena]], [[Surat]]. [[the Meena]] ખોટું છે. (2) [[my]], [[your]], [[his]], [[her]] સાથે: [[my book]] સાચું, [[the my book]] ખોટું. (3) [[a]] / [[an]] એકથી વધારે વસ્તુ સાથે ન આવે: [[a children]] ખોટું છે.",
+    "[[the]] ના બે ઉચ્ચાર છે. વ્યંજનના અવાજ પહેલાં \"ધ\": [[the book]] (ધ બુક). સ્વરના અવાજ પહેલાં \"ધી\": [[the apple]] (ધી ઍપલ). ઉચ્ચારમાં ભૂલ થાય તો ચિંતા ન કરો, લોકો સમજી જશે.",
+    "ક્રમની ટિપ: [[a]] / [[an]] / [[the]] હંમેશાં વસ્તુના નામની પહેલાં આવે. વચ્ચે વર્ણનનો શબ્દ આવી શકે, અને આ ક્રમ ગુજરાતી જેવો જ છે: \"એક મોટું ઘર\" = [[a big house]]. ધ્યાન રાખો: [[a]] કે [[an]] તેની તરત પછીના શબ્દના અવાજ પરથી નક્કી થાય: [[an apple]], પણ [[a big apple]].",
+    "રોજ ઘરમાં ફરતાં બે-બે વાક્ય બોલો. પહેલું [[a]] / [[an]] સાથે, બીજું [[the]] સાથે: [[This is a chair.]] [[The chair is small.]] [[This is an egg.]] [[The egg is hot.]]"
+  ],
+  "examples": [
+    { "en": "a", "translit": "અ", "gu": "એક (વ્યંજનના અવાજ પહેલાં)" },
+    { "en": "an", "translit": "ઍન", "gu": "એક (સ્વરના અવાજ પહેલાં)" },
+    { "en": "the", "translit": "ધ / ધી", "gu": "એ જ, પેલું (જાણીતી વસ્તુ)" },
+    { "en": "a book", "translit": "અ બુક", "gu": "એક પુસ્તક" },
+    { "en": "a chair", "translit": "અ ચેર", "gu": "એક ખુરશી" },
+    { "en": "an apple", "translit": "ઍન ઍપલ", "gu": "એક સફરજન" },
+    { "en": "an egg", "translit": "ઍન એગ", "gu": "એક ઈંડું" },
+    { "en": "an umbrella", "translit": "ઍન અમ્બ્રેલા", "gu": "એક છત્રી" },
+    { "en": "the door", "translit": "ધ ડૉર", "gu": "(એ) દરવાજો" },
+    { "en": "the apple", "translit": "ધી ઍપલ", "gu": "(એ) સફરજન" },
+    { "en": "the sun / the moon", "translit": "ધ સન / ધ મૂન", "gu": "સૂરજ / ચંદ્ર (એક જ છે, એટલે the)" },
+    { "en": "This is a bird.", "translit": "ધિસ ઇઝ અ બર્ડ", "gu": "આ એક પક્ષી છે." },
+    { "en": "The bird is small.", "translit": "ધ બર્ડ ઇઝ સ્મૉલ", "gu": "એ પક્ષી નાનું છે." },
+    { "en": "This is an egg.", "translit": "ધિસ ઇઝ ઍન એગ", "gu": "આ ઈંડું છે." },
+    { "en": "The egg is hot.", "translit": "ધી એગ ઇઝ હૉટ", "gu": "ઈંડું ગરમ છે." },
+    { "en": "Open the door.", "translit": "ઓપન ધ ડૉર", "gu": "દરવાજો ખોલો." },
+    { "en": "Close the window.", "translit": "ક્લોઝ ધ વિન્ડો", "gu": "બારી બંધ કરો." },
+    { "en": "Where is the phone?", "translit": "વેર ઇઝ ધ ફોન", "gu": "ફોન ક્યાં છે?" },
+    { "en": "The children are at home.", "translit": "ધ ચિલ્ડ્રન આર ઍટ હોમ", "gu": "છોકરાં ઘરે છે." },
+    { "en": "I am a teacher.", "translit": "આઇ ઍમ અ ટીચર", "gu": "હું શિક્ષક છું." },
+    { "en": "She is a doctor.", "translit": "શી ઇઝ અ ડૉક્ટર", "gu": "તે ડૉક્ટર છે." },
+    { "en": "He is an engineer.", "translit": "હી ઇઝ ઍન એન્જિનિયર", "gu": "તે એન્જિનિયર છે." },
+    { "en": "a big house", "translit": "અ બિગ હાઉસ", "gu": "એક મોટું ઘર (ક્રમ ગુજરાતી જેવો જ)" },
+    { "en": "The house is big.", "translit": "ધ હાઉસ ઇઝ બિગ", "gu": "ઘર મોટું છે." },
+    { "en": "My name is Meena.", "translit": "માય નેમ ઇઝ મીના", "gu": "મારું નામ મીના છે. (my અને નામ સાથે a / the નહીં)" }
+  ],
+  "practice": [
+    {
+      "type": "choice",
+      "questionGu": "\"હું શિક્ષક છું.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["I am teacher.", "I am a teacher.", "I a teacher am."],
+      "answer": 1,
+      "explainGu": "I am a teacher. – આઇ ઍમ અ ટીચર. કામ કહેતી વખતે a જરૂરી છે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: He is ___ engineer.",
+      "options": ["a", "an"],
+      "answer": 1,
+      "explainGu": "engineer સ્વરના અવાજ (એ) થી શરૂ થાય છે, એટલે an engineer – ઍન એન્જિનિયર."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"દરવાજો ખોલો.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Open the door.", "Open door.", "The door open."],
+      "answer": 0,
+      "explainGu": "Open the door. – ઓપન ધ ડૉર. ઘરનો જાણીતો દરવાજો છે, એટલે the."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: This is a bird. ___ bird is small.",
+      "options": ["A", "An", "The"],
+      "answer": 2,
+      "explainGu": "The bird is small. – ધ બર્ડ ઇઝ સ્મૉલ. એ જ પક્ષીની બીજી વાર વાત થાય છે, એટલે the."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: Look at ___ moon. (ચંદ્ર સામે જુઓ.)",
+      "options": ["the", "a"],
+      "answer": 0,
+      "explainGu": "the moon – ધ મૂન. ચંદ્ર એક જ છે, એટલે the."
+    },
+    {
+      "type": "choice",
+      "questionGu": "આમાંથી સાચું વાક્ય કયું છે?",
+      "options": ["This is the my book.", "This is a my book.", "This is my book."],
+      "answer": 2,
+      "explainGu": "This is my book. – ધિસ ઇઝ માય બુક. my હોય ત્યાં a કે the ન આવે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "આમાંથી સાચું વાક્ય કયું છે?",
+      "options": ["My friend is Meena.", "My friend is the Meena.", "My friend is a Meena."],
+      "answer": 0,
+      "explainGu": "My friend is Meena. – માય ફ્રૅન્ડ ઇઝ મીના. કોઈના નામ પહેલાં a કે the ન આવે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: This is ___ umbrella.",
+      "options": ["a", "an"],
+      "answer": 1,
+      "explainGu": "umbrella સ્વરના અવાજ (અ) થી શરૂ થાય છે, એટલે an umbrella – ઍન અમ્બ્રેલા."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: This is ___ big apple.",
+      "options": ["an", "a"],
+      "answer": 1,
+      "explainGu": "a પછી તરત big આવે છે, જે b ના અવાજથી શરૂ થાય છે. એટલે a big apple – અ બિગ ઍપલ."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[the apple]] નો ઉચ્ચાર કયો છે?",
+      "options": ["ધ ઍપલ", "ધી ઍપલ"],
+      "answer": 1,
+      "explainGu": "apple સ્વરના અવાજથી શરૂ થાય છે, એટલે the નો ઉચ્ચાર \"ધી\": ધી ઍપલ."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"ફોન ક્યાં છે?\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Where is phone?", "Where is the phone?", "Where the phone is?"],
+      "answer": 1,
+      "explainGu": "Where is the phone? – વેર ઇઝ ધ ફોન. ઘરનો જાણીતો ફોન છે, એટલે the."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"એક મોટું ઘર\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["a house big", "big a house", "a big house"],
+      "answer": 2,
+      "explainGu": "a big house – અ બિગ હાઉસ. ક્રમ ગુજરાતી જેવો જ: a (એક) + big (મોટું) + house (ઘર)."
+    }
+  ]
+}

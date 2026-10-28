@@ -4,7 +4,7 @@ The single record of this project: what was asked, what was decided, what is don
 
 **Rule:** update this file at the end of every conversation in this folder. Add a line to the conversation log (section 9) and update the checklists.
 
-Last updated: 2026-10-26
+Last updated: 2026-10-28
 
 ---
 
@@ -67,6 +67,7 @@ Tick a topic when its real lesson is written **and** I've reviewed it.
 | [x] | p1-t06 | કુટુંબ અને લોકો | Family & People | Written and reviewed 2026-10-26 |
 | [x] | p1-t07 | હું, તમે, તે | Pronouns | Written and reviewed 2026-10-26 |
 | [x] | p1-t08 | am / is / are વાળાં સાદાં વાક્યો | Simple Sentences with am/is/are | Written and reviewed 2026-10-26 |
+| [ ] | p1-t12 | a / an / the ક્યારે વાપરવા | a, an and the | Written 2026-10-28 (shows as lesson 9). Waiting for my review |
 | [x] | p1-t09 | રંગ, વાર અને મહિના | Colours, Days & Months | Written and reviewed 2026-10-26 |
 | [x] | p1-t10 | રોજબરોજનાં વાક્યો | Daily-Life Phrases | Written and reviewed 2026-10-26 |
 | [x] | p1-t11 | ગુજરાતી વાક્યને અંગ્રેજીમાં ફેરવો | Sentence Patterns: Gujarati to English | Written 2026-10-26 (added on request). Part 1 lessons 5–10 got matching word-order tips. Done |
@@ -115,6 +116,8 @@ Tick a topic when its real lesson is written **and** I've reviewed it.
 | 2026-10-26 | Light and dark mode. Follows the phone setting until she taps the sun/moon button; her choice is saved under `guj-eng.theme.v1` | Requested |
 | 2026-10-26 | Search in the header finds topics and the example words inside lessons (English or Gujarati). `/` or Ctrl+K jumps to it | Requested |
 | 2026-10-26 | Custom logo: two speech bubbles, Gujarati "અ" and English "A". In header, footer and favicon | Requested |
+| 2026-10-28 | New grammar lessons go inside Part 1 where they fit, with new IDs (p1-t12, p1-t13, …), so no file is renamed | Chosen by me from three options |
+| 2026-10-28 | Lessons refer to the sentence-pattern lesson as "ભાગ 1 નો છેલ્લો પાઠ", not by number | Its number changes as lessons are added |
 | 2026-10-26 | Small animations (hover lift, arrow nudge, right/wrong answer pop and shake, progress fill). All turned off when the device asks for reduced motion | Requested "micro interactions" |
 
 ## 6. Pending / next steps
@@ -131,6 +134,38 @@ Tick a topic when its real lesson is written **and** I've reviewed it.
 - "Listen" button on English words using the browser's built-in speech
 - More practice types (type the answer, match pairs)
 - A way to reset progress from the site
+
+### Study gaps found on 2026-10-28 (not agreed yet, ask before building)
+Grammar never taught (all common daily-use, and hard for Gujarati speakers).
+Agreed 2026-10-28: each one becomes a new Part 1 lesson, placed where it fits, written one at a time. Planned Part 1 order:
+Alphabet, Letter Sounds, First Words, Numbers, Greetings, Family, Pronouns, **me/him/her + 's**, am/is/are, **a/an/the**, **this/that/these + plurals**, **in/on/under**, **There is/are**, **have/has**, Colours/Days/Months, **Telling the time**, Daily-Life Phrases, **Can I / Could you**, Sentence Patterns (last).
+
+- [x] "the" (only a/an is taught; Gujarati has no articles). *Lesson p1-t12 written 2026-10-28*
+- [ ] this/that/these/those, and plurals (book → books, child → children)
+- [ ] Place words: in/on/under/near/behind/next to ("It's on the table")
+- [ ] have/has for owning ("I have two children"); only used as the Present Perfect helper now
+- [ ] There is / There are (not used anywhere)
+- [ ] me/him/her/us/them and Ravi's (possessive 's)
+- [ ] some/any, much/many, a lot of
+- [ ] Telling the time and dates ("It's half past four"); "What time is it?" is asked but never answered
+- [ ] Polite requests: Can I…? / Could you…? / Would you like…?
+- [ ] Later: Past Continuous (was/were + -ing), used to
+
+Everyday word themes missing (First Words has only 30 nouns):
+- [ ] Kitchen and cooking, vegetables and fruits, clothes, rooms of the house
+- [ ] Health and doctor ("I have a fever"), places in town and directions (turn left/right), transport, jobs
+- [ ] ~30 common action verbs, feelings, and opposites (big/small, hot/cold)
+
+Ways of learning missing on the site:
+- [ ] Sound: no audio anywhere, she only has the Gujarati spelling of the pronunciation
+- [ ] Only one practice type (all 310 questions are tap-the-answer). She never builds or types English. Best fit: "put the words in order" for the word-order tips
+- [ ] No review: wrong answers aren't saved, no "revise old words", no end-of-part test
+- [ ] No speaking step ("say it aloud") at the end of a lesson
+- [ ] ❌ wrong / ✅ right boxes and small tables instead of 9–11 plain paragraphs
+- [ ] Lessons are long for one sitting (up to 39 examples and 12 questions)
+- [ ] A word list page ("all words I've learnt" / "my hard words")
+- [ ] Transliteration is always shown; could be tap-to-show in Parts 2–3
+- [ ] Works offline once opened (installable on the phone), together with hosting (item 6)
 
 ## 7. How to run
 
@@ -213,3 +248,5 @@ An earlier, much bigger version of this site was built in this folder before 202
 | 2026-10-26 | Said everything is done and reviewed (a couple of lessons checked, all as wanted; will send changes if any). Claude ticked all topics except p1-t11, the section 2/3/6 checklists and the "done" test. Remaining: sentence-pattern integration (item 7) and hosting (item 6, not mentioned as done). |
 | 2026-10-26 | Said the open things were the sentence-pattern tips in p1-t05 to p1-t10 and lesson p1-t11, and to finish them. They were already built and passing tests, so Claude ticked p1-t11 and item 7. The only open item is hosting (item 6). |
 | 2026-10-26 | Asked to do the sentence patterns for Part 2 first, then Part 3. Claude added to every Part 2 lesson (p2-t01 to p2-t08) and every Part 3 lesson (p3-t01 to p3-t08) a short "ક્રમ" (word order) tip paragraph that fits the topic (for example: always before the verb, am/is/are + -ing, "મેં" becomes I, will before the verb, don't before the verb, question word first, "કરતાં" part goes after than, join two small sentences, build a sentence piece by piece), 1–3 practice questions each, and a formula example in most. Tests and build pass; all 16 lessons open with the tip and no sideways scrolling. Committed and pushed. |
+| 2026-10-28 | Asked what study material is missing to make learning easier. Claude reviewed all 27 lessons and the site and listed the gaps under "Study gaps found on 2026-10-28" in section 6: 10 grammar points never taught (biggest: "the", There is/are, have for owning, place words, telling the time), missing everyday word themes, and missing learning features (audio, other practice types, review of mistakes, speaking step). Nothing built yet. |
+| 2026-10-28 | Said to build the gaps one by one; chose to put the new grammar lessons inside Part 1 in a natural order. Claude wrote **p1-t12 "a / an / the"** (shows as lesson 9, after am/is/are): 10 short paragraphs (a/an = "એક" for something new, the = "એ જ" for something known, first time a then the, the door / the sun, mistake "I am teacher" / "Open door", no a/the with names or my, two sounds ધ/ધી, a big house order), 25 examples, 12 practice questions. Changed the 4 "પાઠ 11" references in p1-t05, p1-t08, p1-t10, p3-t06 to "ભાગ 1 નો છેલ્લો પાઠ", and p1-t08 now says the comes next. Tests (89) and build pass; checked at phone width, no sideways scrolling. Not committed. Next: this/that/these + plurals. |
