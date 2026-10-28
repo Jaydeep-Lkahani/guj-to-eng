@@ -1,0 +1,130 @@
+{
+  "topicId": "p1-t13",
+  "explanationGu": [
+    "ગુજરાતીમાં આપણે \"આ\" અને \"પેલું\" કહીએ છીએ. અંગ્રેજીમાં આ માટે ચાર શબ્દો છે. વસ્તુ પાસે છે કે દૂર, અને એક છે કે ઘણી, તે પરથી શબ્દ બદલાય છે.",
+    "પાસેની એક વસ્તુ: [[this]] (આ). દૂરની એક વસ્તુ: [[that]] (પેલું / તે). પાસેની ઘણી વસ્તુઓ: [[these]] (આ બધાં). દૂરની ઘણી વસ્તુઓ: [[those]] (પેલાં બધાં). યાદ રાખવાની સહેલી રીત: હાથમાં હોય તો [[this]] / [[these]], આંગળી ચીંધીને બતાવો તો [[that]] / [[those]].",
+    "ગુજરાતીમાં \"આ\" એક અને ઘણી, બંને માટે સરખું છે: \"આ પુસ્તક\", \"આ પુસ્તકો\". અંગ્રેજીમાં શબ્દ બદલાય છે: [[this book]], પણ [[these books]]. તે જ રીતે [[that tree]], પણ [[those trees]].",
+    "[[this]] અને [[that]] એક વસ્તુ માટે છે, એટલે તેમની સાથે [[is]]: [[This is my bag.]] [[That is a tree.]] [[these]] અને [[those]] ઘણી વસ્તુ માટે છે, એટલે તેમની સાથે [[are]]: [[These are my children.]] [[Those are cows.]] [[These is]] કે [[This are]] ખોટું છે.",
+    "હવે એકથી વધારે વસ્તુ કેવી રીતે કહેવી. ગુજરાતીમાં ઘણી વાર \"ઓ\" લાગે છે: પુસ્તક → પુસ્તકો. અંગ્રેજીમાં મોટા ભાગે છેલ્લે s લાગે છે: [[book]] → [[books]], [[pen]] → [[pens]], [[girl]] → [[girls]].",
+    "જે શબ્દના છેલ્લે s, sh, ch, x કે o હોય, તેમાં es લાગે છે, અને તેનો અવાજ \"ઇઝ\" આવે છે: [[bus]] → [[buses]], [[dish]] → [[dishes]], [[watch]] → [[watches]], [[box]] → [[boxes]], [[tomato]] → [[tomatoes]].",
+    "છેલ્લે y હોય અને તેની પહેલાં વ્યંજન હોય, તો y કાઢીને ies લગાવો: [[baby]] → [[babies]], [[city]] → [[cities]]. પણ y ની પહેલાં સ્વર (a, e, o) હોય તો ફક્ત s: [[boy]] → [[boys]], [[key]] → [[keys]].",
+    "થોડા શબ્દો આખા બદલાઈ જાય છે. તે ગોખી લો: [[man]] → [[men]], [[woman]] → [[women]], [[child]] → [[children]], [[person]] → [[people]], [[foot]] → [[feet]], [[tooth]] → [[teeth]]. [[childrens]] કે [[peoples]] ખોટું છે, કારણ કે આ શબ્દો પહેલેથી જ ઘણા માટે છે.",
+    "સૌથી સામાન્ય ભૂલ: ગુજરાતીમાં \"બે પુસ્તક\", \"પાંચ કેળાં\" માં ઘણી વાર ફેરફાર થતો નથી, એટલે લોકો [[two book]] બોલે છે. અંગ્રેજીમાં એકથી વધારે આંકડા પછી હંમેશાં s વાળો શબ્દ આવે: [[two books]], [[five apples]]. અને [[a]] / [[an]] ફક્ત એક વસ્તુ માટે છે: [[a book]] સાચું, [[a books]] ખોટું.",
+    "ક્રમની ટિપ: [[this]] / [[these]] વસ્તુના નામની પહેલાં આવે, ગુજરાતીની જેમ જ: \"આ કેળાં\" = [[these bananas]]. વાક્યમાં: \"આ કેળાં / સારાં / છે\" → [[These bananas are good.]] સવાલનો જવાબ આપતાં: [[What is this?]] નો જવાબ [[It is a pen.]], અને [[What are these?]] નો જવાબ [[They are keys.]]",
+    "રોજ ઘરમાં બે વસ્તુ હાથમાં લઈને અને બે દૂરની વસ્તુ આંગળી ચીંધીને બોલો: [[This is a spoon.]] [[These are keys.]] [[That is a fan.]] [[Those are chairs.]]"
+  ],
+  "examples": [
+    { "en": "this", "translit": "ધિસ", "gu": "આ (પાસેની એક વસ્તુ)" },
+    { "en": "that", "translit": "ધૅટ", "gu": "પેલું / તે (દૂરની એક વસ્તુ)" },
+    { "en": "these", "translit": "ધીઝ", "gu": "આ બધાં (પાસેની ઘણી વસ્તુઓ)" },
+    { "en": "those", "translit": "ધોઝ", "gu": "પેલાં બધાં (દૂરની ઘણી વસ્તુઓ)" },
+    { "en": "This is my bag.", "translit": "ધિસ ઇઝ માય બૅગ", "gu": "આ મારી બૅગ છે." },
+    { "en": "That is a tree.", "translit": "ધૅટ ઇઝ અ ટ્રી", "gu": "પેલું ઝાડ છે." },
+    { "en": "These are my children.", "translit": "ધીઝ આર માય ચિલ્ડ્રન", "gu": "આ મારાં છોકરાં છે." },
+    { "en": "Those are cows.", "translit": "ધોઝ આર કાઉઝ", "gu": "પેલી ગાયો છે." },
+    { "en": "book → books", "translit": "બુક → બુક્સ", "gu": "પુસ્તક → પુસ્તકો" },
+    { "en": "pen → pens", "translit": "પેન → પેન્ઝ", "gu": "પેન → પેનો" },
+    { "en": "bus → buses", "translit": "બસ → બસિઝ", "gu": "બસ → બસો" },
+    { "en": "box → boxes", "translit": "બૉક્સ → બૉક્સિઝ", "gu": "ડબ્બો → ડબ્બા" },
+    { "en": "watch → watches", "translit": "વૉચ → વૉચિઝ", "gu": "કાંડા ઘડિયાળ → ઘડિયાળો" },
+    { "en": "tomato → tomatoes", "translit": "ટમેટો → ટમેટોઝ", "gu": "ટામેટું → ટામેટાં" },
+    { "en": "baby → babies", "translit": "બેબી → બેબીઝ", "gu": "બાળક → બાળકો (y કાઢીને ies)" },
+    { "en": "key → keys", "translit": "કી → કીઝ", "gu": "ચાવી → ચાવીઓ (y પહેલાં સ્વર, એટલે ફક્ત s)" },
+    { "en": "man → men", "translit": "મૅન → મૅન", "gu": "પુરુષ → પુરુષો" },
+    { "en": "woman → women", "translit": "વુમન → વિમિન", "gu": "સ્ત્રી → સ્ત્રીઓ" },
+    { "en": "child → children", "translit": "ચાઇલ્ડ → ચિલ્ડ્રન", "gu": "બાળક → બાળકો" },
+    { "en": "person → people", "translit": "પર્સન → પીપલ", "gu": "વ્યક્તિ → લોકો" },
+    { "en": "tooth → teeth", "translit": "ટૂથ → ટીથ", "gu": "દાંત → દાંત (ઘણા)" },
+    { "en": "two books", "translit": "ટુ બુક્સ", "gu": "બે પુસ્તક" },
+    { "en": "five apples", "translit": "ફાઇવ ઍપલ્ઝ", "gu": "પાંચ સફરજન" },
+    { "en": "What is this? – It is a pen.", "translit": "વૉટ ઇઝ ધિસ? – ઇટ ઇઝ અ પેન", "gu": "આ શું છે? – આ પેન છે." },
+    { "en": "What are these? – They are keys.", "translit": "વૉટ આર ધીઝ? – ધે આર કીઝ", "gu": "આ બધું શું છે? – આ ચાવીઓ છે." },
+    { "en": "These bananas are good.", "translit": "ધીઝ બનાનાઝ આર ગુડ", "gu": "આ કેળાં સારાં છે." }
+  ],
+  "practice": [
+    {
+      "type": "choice",
+      "questionGu": "હાથમાં એક બૅગ છે. ખાલી જગ્યા પૂરો: ___ is my bag.",
+      "options": ["This", "These"],
+      "answer": 0,
+      "explainGu": "This is my bag. – ધિસ ઇઝ માય બૅગ. પાસેની એક વસ્તુ, એટલે this."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: ___ are my children.",
+      "options": ["This", "These"],
+      "answer": 1,
+      "explainGu": "These are my children. – ધીઝ આર માય ચિલ્ડ્રન. ઘણાં છોકરાં છે, એટલે these અને are."
+    },
+    {
+      "type": "choice",
+      "questionGu": "દૂરનું એક ઝાડ બતાવીને: \"પેલું ઝાડ છે.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["This is a tree.", "Those is a tree.", "That is a tree."],
+      "answer": 2,
+      "explainGu": "That is a tree. – ધૅટ ઇઝ અ ટ્રી. દૂરની એક વસ્તુ, એટલે that."
+    },
+    {
+      "type": "choice",
+      "questionGu": "દૂરની ઘણી ગાયો બતાવીને: \"પેલી ગાયો છે.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Those are cows.", "That is cows.", "Those is cows."],
+      "answer": 0,
+      "explainGu": "Those are cows. – ધોઝ આર કાઉઝ. દૂરની ઘણી વસ્તુઓ, એટલે those અને are."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[box]] ના ઘણા માટે કયો શબ્દ સાચો છે?",
+      "options": ["boxs", "boxes", "boxies"],
+      "answer": 1,
+      "explainGu": "boxes – બૉક્સિઝ. છેલ્લે x છે, એટલે es લાગે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[baby]] ના ઘણા માટે કયો શબ્દ સાચો છે?",
+      "options": ["babys", "babyes", "babies"],
+      "answer": 2,
+      "explainGu": "babies – બેબીઝ. y ની પહેલાં વ્યંજન (b) છે, એટલે y કાઢીને ies."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[child]] ના ઘણા માટે કયો શબ્દ સાચો છે?",
+      "options": ["children", "childs", "childrens"],
+      "answer": 0,
+      "explainGu": "children – ચિલ્ડ્રન. આ શબ્દ આખો બદલાય છે. childrens ખોટું છે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "એક વ્યક્તિ = [[one person]]. ઘણા લોકો = [[many]] ___",
+      "options": ["persons", "peoples", "people"],
+      "answer": 2,
+      "explainGu": "many people – મેની પીપલ. person નું ઘણા માટે people થાય."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"બે પુસ્તક\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["two book", "two books", "a books"],
+      "answer": 1,
+      "explainGu": "two books – ટુ બુક્સ. એકથી વધારે હોય તો s લાગે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "આમાંથી સાચું વાક્ય કયું છે?",
+      "options": ["These is my keys.", "This are my keys.", "These are my keys."],
+      "answer": 2,
+      "explainGu": "These are my keys. – ધીઝ આર માય કીઝ. these સાથે are આવે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[What are these?]] નો સાચો જવાબ કયો છે?",
+      "options": ["They are pens.", "It is pens.", "It are a pen."],
+      "answer": 0,
+      "explainGu": "They are pens. – ધે આર પેન્ઝ. these ના સવાલનો જવાબ They are થી આપો."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"આ કેળાં સારાં છે.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["This bananas is good.", "These bananas are good.", "These banana are good."],
+      "answer": 1,
+      "explainGu": "These bananas are good. – ધીઝ બનાનાઝ આર ગુડ. these + bananas (s સાથે) + are."
+    }
+  ]
+}
