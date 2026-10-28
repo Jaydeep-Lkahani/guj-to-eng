@@ -1,0 +1,125 @@
+{
+  "topicId": "p1-t16",
+  "explanationGu": [
+    "ગુજરાતીમાં આપણે કહીએ: \"મારી પાસે ગાડી છે.\" \"મારે બે છોકરાં છે.\" \"તેને એક ભાઈ છે.\" કોઈની પાસે કંઈક છે, એ કહેવા માટે અંગ્રેજીમાં [[have]] કે [[has]] વપરાય છે: [[I have a car.]] [[I have two children.]] [[She has a brother.]]",
+    "કયો શબ્દ ક્યારે: [[I]], [[You]], [[We]], [[They]] સાથે [[have]]. [[He]], [[She]], [[It]] સાથે [[has]]. કોઈ એક વ્યક્તિનું નામ હોય તો પણ [[has]]: [[Meena has a new bag.]] [[She have]] કે [[He haves]] ખોટું છે.",
+    "સૌથી મોટો ફરક ક્રમનો છે. ગુજરાતીમાં \"મારી પાસે\", \"મારે\", \"તેને\" થી વાક્ય શરૂ થાય છે. અંગ્રેજીમાં સીધું વ્યક્તિથી શરૂ કરો: \"મારી પાસે\" = [[I]], \"તેની પાસે\" = [[He]] / [[She]]. સૂત્ર: કોણ + [[have]] / [[has]] + શું. \"મારી પાસે / એક ગાડી / છે\" → [[I]] + [[have]] + [[a car]]. [[Near me is a car.]] કે [[With me car is there.]] ખોટું છે.",
+    "ધ્યાન રાખો: [[have]] / [[has]] પોતે જ \"છે\" નો અર્થ આપે છે. એટલે તેની સાથે [[am]], [[is]], [[are]] ન આવે. [[I am have a car.]] ખોટું છે, [[I have a car.]] સાચું છે.",
+    "શરીર અને તબિયતની વાત પણ [[have]] થી થાય છે. ગુજરાતીમાં \"મને તાવ છે\", \"મારું માથું દુખે છે\" કહીએ છીએ. અંગ્રેજીમાં: [[I have a fever.]] [[I have a headache.]] [[He has a cold.]] (તેને શરદી છે.) ઘણા લોકો [[My head is paining.]] બોલે છે. લોકો સમજી જાય, પણ સાચી રીત [[I have a headache.]] છે.",
+    "\"નથી\" કહેવા માટે: [[I]] / [[You]] / [[We]] / [[They]] સાથે [[don't have]]. [[He]] / [[She]] / [[It]] સાથે [[doesn't have]]. જેમ કે [[I don't have money.]] [[She doesn't have a car.]] ધ્યાન: [[doesn't]] પછી [[has]] નહીં, [[have]] જ આવે. [[She doesn't has]] ખોટું છે.",
+    "સવાલ પૂછવા માટે [[Do]] કે [[Does]] આગળ મૂકો: [[Do you have a pen?]] (તમારી પાસે પેન છે?) [[Does he have a car?]] અહીં પણ [[Does]] પછી [[have]] જ આવે. ટૂંકા જવાબ: [[Yes, I do.]] / [[No, I don't.]] અને [[Yes, he does.]] / [[No, he doesn't.]] [[don't]], [[doesn't]] અને [[Do]] વિશે વધુ ભાગ 2 માં શીખીશું.",
+    "[[There is]] અને [[have]] માં ફરક: [[There is a car near my house.]] (મારા ઘર પાસે એક ગાડી છે, કોની છે તે નથી કહેતા.) [[I have a car.]] (ગાડી મારી છે.) અને [[I have a car.]] નો અર્થ લગભગ [[This is my car.]] જેવો જ છે.",
+    "બોલચાલમાં તમે [[I've got a car.]] પણ સાંભળશો. તેનો અર્થ [[I have a car.]] જેવો જ છે. ભાગ 3 માં [[have]] નો એક બીજો ઉપયોગ આવશે ([[I have eaten.]]), પણ અત્યારે ફક્ત \"પાસે છે\" વાળો અર્થ યાદ રાખો.",
+    "રોજની પ્રેક્ટિસ: પોતાના વિશે અને ઘરના લોકો વિશે 4 વાક્ય બોલો: [[I have two children.]] [[My husband has a bike.]] [[We have a cow.]] [[I don't have a car.]]"
+  ],
+  "examples": [
+    { "en": "have", "translit": "હૅવ", "gu": "પાસે છે (I, You, We, They સાથે)" },
+    { "en": "has", "translit": "હૅઝ", "gu": "પાસે છે (He, She, It સાથે)" },
+    { "en": "I + have + a car", "translit": "આઇ + હૅવ + અ કાર", "gu": "મારી પાસે + ગાડી + છે (કોણ, તે સૌથી પહેલાં)" },
+    { "en": "I have a car.", "translit": "આઇ હૅવ અ કાર", "gu": "મારી પાસે ગાડી છે." },
+    { "en": "I have two children.", "translit": "આઇ હૅવ ટુ ચિલ્ડ્રન", "gu": "મારે બે છોકરાં છે." },
+    { "en": "We have a cow.", "translit": "વી હૅવ અ કાઉ", "gu": "અમારી પાસે એક ગાય છે." },
+    { "en": "They have three sons.", "translit": "ધે હૅવ થ્રી સન્ઝ", "gu": "તેમને ત્રણ દીકરા છે." },
+    { "en": "He has a phone.", "translit": "હી હૅઝ અ ફોન", "gu": "તેની પાસે ફોન છે." },
+    { "en": "She has a brother.", "translit": "શી હૅઝ અ બ્રધર", "gu": "તેને એક ભાઈ છે." },
+    { "en": "She has long hair.", "translit": "શી હૅઝ લૉંગ હેર", "gu": "તેના વાળ લાંબા છે." },
+    { "en": "Meena has a new bag.", "translit": "મીના હૅઝ અ ન્યૂ બૅગ", "gu": "મીના પાસે નવી બૅગ છે." },
+    { "en": "I have a fever.", "translit": "આઇ હૅવ અ ફીવર", "gu": "મને તાવ છે." },
+    { "en": "I have a headache.", "translit": "આઇ હૅવ અ હેડેક", "gu": "મારું માથું દુખે છે." },
+    { "en": "He has a cold.", "translit": "હી હૅઝ અ કોલ્ડ", "gu": "તેને શરદી છે." },
+    { "en": "I have time.", "translit": "આઇ હૅવ ટાઇમ", "gu": "મારી પાસે સમય છે." },
+    { "en": "I don't have money.", "translit": "આઇ ડોન્ટ હૅવ મની", "gu": "મારી પાસે પૈસા નથી." },
+    { "en": "She doesn't have a car.", "translit": "શી ડઝન્ટ હૅવ અ કાર", "gu": "તેની પાસે ગાડી નથી." },
+    { "en": "Do you have a pen?", "translit": "ડુ યૂ હૅવ અ પેન", "gu": "તમારી પાસે પેન છે?" },
+    { "en": "Yes, I do. / No, I don't.", "translit": "યસ, આઇ ડુ / નો, આઇ ડોન્ટ", "gu": "હા, છે. / ના, નથી." },
+    { "en": "Does he have a car?", "translit": "ડઝ હી હૅવ અ કાર", "gu": "તેની પાસે ગાડી છે?" },
+    { "en": "Yes, he does. / No, he doesn't.", "translit": "યસ, હી ડઝ / નો, હી ડઝન્ટ", "gu": "હા, છે. / ના, નથી." },
+    { "en": "I've got a car.", "translit": "આઇવ ગૉટ અ કાર", "gu": "મારી પાસે ગાડી છે. (બોલચાલની રીત, અર્થ એ જ)" }
+  ],
+  "practice": [
+    {
+      "type": "choice",
+      "questionGu": "\"મારી પાસે ગાડી છે.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["Near me is a car.", "I have a car.", "I has a car."],
+      "answer": 1,
+      "explainGu": "I have a car. – આઇ હૅવ અ કાર. \"મારી પાસે\" = I, અને I સાથે have."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: She ___ a brother.",
+      "options": ["has", "have"],
+      "answer": 0,
+      "explainGu": "She has a brother. – શી હૅઝ અ બ્રધર. He, She, It સાથે has."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: We ___ a cow.",
+      "options": ["has", "have"],
+      "answer": 1,
+      "explainGu": "We have a cow. – વી હૅવ અ કાઉ. I, You, We, They સાથે have."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"મારે બે છોકરાં છે.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["I have two children.", "Mine two children are.", "I has two childrens."],
+      "answer": 0,
+      "explainGu": "I have two children. – આઇ હૅવ ટુ ચિલ્ડ્રન. \"મારે\" = I + have."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"મને તાવ છે.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["I have a fever.", "I am fever.", "Me fever is."],
+      "answer": 0,
+      "explainGu": "I have a fever. – આઇ હૅવ અ ફીવર. તબિયતની વાત have થી થાય."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"તેની પાસે ફોન છે.\" (પુરુષ) ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["He have a phone.", "He haves a phone.", "He has a phone."],
+      "answer": 2,
+      "explainGu": "He has a phone. – હી હૅઝ અ ફોન. He સાથે has."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"મારી પાસે પૈસા નથી.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["I don't have money.", "I have not money.", "I no have money."],
+      "answer": 0,
+      "explainGu": "I don't have money. – આઇ ડોન્ટ હૅવ મની. \"નથી\" માટે don't have."
+    },
+    {
+      "type": "choice",
+      "questionGu": "આમાંથી સાચું વાક્ય કયું છે?",
+      "options": ["She doesn't has a car.", "She doesn't have a car.", "She don't have a car."],
+      "answer": 1,
+      "explainGu": "She doesn't have a car. – શી ડઝન્ટ હૅવ અ કાર. She સાથે doesn't, અને doesn't પછી have."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"તમારી પાસે પેન છે?\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": ["You have a pen?", "Does you have a pen?", "Do you have a pen?"],
+      "answer": 2,
+      "explainGu": "Do you have a pen? – ડુ યૂ હૅવ અ પેન. You સાથે સવાલ Do થી શરૂ થાય."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[Do you have a pen?]] નો \"ના\" વાળો ટૂંકો જવાબ કયો છે?",
+      "options": ["No, I don't.", "No, I am not.", "No, I doesn't."],
+      "answer": 0,
+      "explainGu": "No, I don't. – નો, આઇ ડોન્ટ. સવાલ Do થી છે, એટલે જવાબ don't થી."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: Does he ___ a car?",
+      "options": ["has", "have"],
+      "answer": 1,
+      "explainGu": "Does he have a car? – ડઝ હી હૅવ અ કાર. Does પછી હંમેશાં have."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"મારું માથું દુખે છે.\" ની સાચી અંગ્રેજી કઈ છે?",
+      "options": ["My head is paining.", "I am headache.", "I have a headache."],
+      "answer": 2,
+      "explainGu": "I have a headache. – આઇ હૅવ અ હેડેક. \"My head is paining\" લોકો સમજે, પણ સાચી રીત આ છે."
+    }
+  ]
+}
