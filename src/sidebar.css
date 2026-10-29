@@ -1,0 +1,545 @@
+/* =========================================================
+   Sidebar: progress card, home link, parts with their lessons.
+   Lessons are drawn as a timeline; the line turns green as
+   lessons are finished.
+   ========================================================= */
+
+.side {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---------- Progress card ---------- */
+
+.sp-card {
+  position: relative;
+  margin-bottom: 10px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background:
+    radial-gradient(120% 90% at 100% 0%, var(--glow-1), transparent 60%),
+    linear-gradient(160deg, var(--primary-soft), var(--surface) 75%);
+  overflow: hidden;
+}
+
+.sp-top {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.sp-ring {
+  position: relative;
+  flex: 0 0 48px;
+  height: 48px;
+}
+.sp-ring svg {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+}
+.sp-ring circle {
+  fill: none;
+  stroke-width: 5;
+}
+.sp-ring-track {
+  stroke: var(--surface-3);
+}
+.sp-ring-fill {
+  stroke: var(--primary);
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.8s var(--ease-out);
+}
+.sp-ring-pct {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font-family: var(--font-en);
+  font-size: 0.66rem;
+  font-weight: 800;
+  color: var(--primary-ink);
+  font-variant-numeric: tabular-nums;
+}
+
+.sp-text {
+  min-width: 0;
+}
+.sp-title {
+  margin: 0;
+  font-family: var(--font-head);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+.sp-sub {
+  margin: 2px 0 0;
+  font-size: 0.78rem;
+  line-height: 1.4;
+  color: var(--text-2);
+}
+.sp-sub b {
+  color: var(--text);
+  font-family: var(--font-en);
+}
+
+.sp-resume {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 52px;
+  margin-top: 12px;
+  padding: 8px 8px 8px 14px;
+  border-radius: 12px;
+  background: var(--primary);
+  color: var(--on-primary);
+  text-decoration: none;
+  box-shadow: 0 6px 16px -8px var(--primary);
+  transition:
+    background-color 0.18s,
+    transform 0.2s var(--ease-out),
+    box-shadow 0.2s;
+}
+.sp-resume:hover {
+  background: var(--primary-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 10px 20px -8px var(--primary);
+}
+.sp-resume:active {
+  transform: translateY(0) scale(0.98);
+}
+
+.sp-resume-text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+  line-height: 1.3;
+}
+.sp-resume-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  opacity: 0.85;
+}
+.sp-resume-title {
+  overflow: hidden;
+  font-size: 0.86rem;
+  font-weight: 700;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.sp-resume-go {
+  display: grid;
+  place-items: center;
+  flex: 0 0 32px;
+  height: 32px;
+  border-radius: 9px;
+  background: color-mix(in srgb, var(--on-primary) 16%, transparent);
+  font-size: 16px;
+  transition: transform 0.25s var(--ease-spring);
+}
+.sp-resume:hover .sp-resume-go {
+  transform: translateX(3px);
+}
+
+.sp-done {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 12px 0 0;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: var(--good-soft);
+  color: var(--good-ink);
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+.sp-done svg {
+  flex: none;
+  font-size: 22px;
+  color: var(--warn);
+}
+
+/* ---------- Home link ---------- */
+
+.side-home {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: var(--tap);
+  padding: 6px 8px;
+  border-radius: 12px;
+  color: var(--text);
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color 0.18s;
+}
+.side-home:hover {
+  background: var(--surface-2);
+}
+.side-home.active {
+  background: var(--primary-soft);
+  color: var(--primary-ink);
+}
+.side-home-icon {
+  display: grid;
+  place-items: center;
+  flex: 0 0 42px;
+  height: 36px;
+  border-radius: 10px;
+  background: var(--primary-soft);
+  color: var(--primary-ink);
+  font-size: 22px;
+  transition: transform 0.3s var(--ease-spring);
+}
+.side-home:hover .side-home-icon {
+  transform: scale(1.08) rotate(-4deg);
+}
+.side-home.active .side-home-icon {
+  background: var(--primary);
+  color: var(--on-primary);
+}
+
+.side-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 14px 8px 6px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: var(--text-3);
+}
+.side-heading::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--line);
+}
+
+/* ---------- Parts ---------- */
+
+.side-parts,
+.st-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sx + .sx {
+  margin-top: 4px;
+}
+
+/* The part heading stays at the top while its lessons scroll under it. */
+.sx-head {
+  position: sticky;
+  top: -16px; /* the sidebar's top padding */
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding: 2px 0;
+  background: var(--surface);
+}
+.sx.open .sx-head {
+  box-shadow: 0 1px 0 var(--surface);
+}
+
+.sx-link {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  min-width: 0;
+  gap: 12px;
+  padding: 8px;
+  border-radius: 14px;
+  color: var(--text);
+  text-decoration: none;
+  transition: background-color 0.18s;
+}
+.sx-link:hover {
+  background: var(--surface-2);
+}
+.sx-link.active {
+  background: var(--part-soft);
+}
+
+.sx-tile {
+  display: grid;
+  place-items: center;
+  flex: 0 0 42px;
+  height: 42px;
+  border-radius: 12px;
+  background: var(--part-soft);
+  color: var(--part);
+  font-size: 24px;
+  transition:
+    transform 0.3s var(--ease-spring),
+    background-color 0.2s,
+    color 0.2s;
+}
+.sx-link:hover .sx-tile {
+  transform: scale(1.06) rotate(-5deg);
+}
+.sx.here .sx-tile {
+  box-shadow: inset 0 0 0 1.5px var(--part);
+}
+.sx-link.active .sx-tile {
+  background: var(--part);
+  color: var(--surface);
+  box-shadow: none;
+}
+
+.sx-text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+}
+.sx-eyebrow {
+  font-size: 0.68rem;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--part-ink);
+}
+.sx-eyebrow [lang="en"] {
+  font-family: var(--font-en);
+}
+.sx-title {
+  font-family: var(--font-head);
+  font-size: 1.02rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.sx-meter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 6px;
+}
+.sx-bar {
+  flex: 1;
+  height: 5px;
+  border-radius: 999px;
+  background: var(--surface-3);
+  overflow: hidden;
+}
+.sx-fill {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--part);
+  transition: width 0.6s var(--ease-out);
+}
+.sx-count {
+  font-family: var(--font-en);
+  font-size: 0.68rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--text-3);
+  font-variant-numeric: tabular-nums;
+}
+
+.sx-toggle {
+  display: grid;
+  place-items: center;
+  flex: 0 0 40px;
+  height: 44px;
+  border: 0;
+  border-radius: 10px;
+  background: transparent;
+  color: var(--text-3);
+  font-size: 16px;
+  cursor: pointer;
+  transition:
+    background-color 0.18s,
+    color 0.18s;
+}
+.sx-toggle:hover {
+  background: var(--surface-2);
+  color: var(--text);
+}
+.sx-toggle svg {
+  transform: rotate(-90deg);
+  transition: transform 0.28s var(--ease-out);
+}
+.sx.open .sx-toggle svg {
+  transform: none;
+}
+
+/* Open and close by animating the row height from 0 to its natural size. */
+.sx-collapse {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.32s var(--ease-out);
+}
+.sx.open .sx-collapse {
+  grid-template-rows: 1fr;
+}
+.st-list {
+  min-height: 0;
+  overflow: hidden;
+  padding: 0 0 0 5px;
+}
+.sx.open .st-list {
+  padding-top: 4px;
+  padding-bottom: 10px;
+}
+
+/* ---------- Lessons (timeline) ---------- */
+
+.st {
+  position: relative;
+}
+.sx.open .st {
+  animation: slide-in 0.3s var(--ease-out) both;
+  animation-delay: calc(var(--i, 0) * 18ms);
+}
+
+/* Each lesson draws the line above and below its dot.
+   A finished lesson turns the line down to the next one green. */
+.st::before,
+.st::after {
+  content: "";
+  position: absolute;
+  left: 23px;
+  width: 2px;
+  background: var(--line-strong);
+  transition: background-color 0.4s;
+}
+.st::before {
+  top: 0;
+  height: 50%;
+}
+.st::after {
+  top: 50%;
+  bottom: 0;
+}
+.st:first-child::before,
+.st:last-child::after {
+  display: none;
+}
+.st.done::after,
+.st.done + .st::before {
+  background: var(--good);
+}
+
+.st-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 52px;
+  padding: 6px 8px 6px 10px;
+  border-radius: 12px;
+  color: var(--text);
+  text-decoration: none;
+  transition: background-color 0.18s;
+}
+.st-link:hover {
+  background: var(--surface-2);
+}
+.st-link:focus-visible {
+  outline-offset: -3px;
+}
+.st-link.active {
+  background: var(--part-soft);
+}
+
+.st-node {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  flex: 0 0 28px;
+  height: 28px;
+  border: 2px solid var(--line-strong);
+  border-radius: 50%;
+  background: var(--surface);
+  color: var(--text-3);
+  font-family: var(--font-en);
+  font-size: 0.7rem;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  transition:
+    transform 0.25s var(--ease-spring),
+    border-color 0.2s,
+    background-color 0.2s;
+}
+.st-link:hover .st-node {
+  transform: scale(1.1);
+  border-color: var(--part);
+  color: var(--part-ink);
+}
+.st-link:active .st-node {
+  transform: scale(0.94);
+}
+.st.done .st-node {
+  border-color: var(--good);
+  background: var(--good);
+  color: var(--surface);
+  font-size: 14px;
+}
+.st-link.active .st-node {
+  border-color: var(--part);
+  color: var(--part-ink);
+  animation: node-halo 2.4s ease-out infinite;
+}
+.st.done .st-link.active .st-node {
+  border-color: var(--good);
+  color: var(--surface);
+}
+
+@keyframes node-halo {
+  0% {
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--part) 45%, transparent);
+  }
+  70%,
+  100% {
+    box-shadow: 0 0 0 7px color-mix(in srgb, var(--part) 0%, transparent);
+  }
+}
+
+.st-text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+}
+.st-title {
+  font-size: 0.88rem;
+  line-height: 1.35;
+}
+.st.done .st-title {
+  color: var(--text-2);
+}
+.st-link.active .st-title {
+  color: var(--text);
+  font-weight: 700;
+}
+.st-en {
+  overflow: hidden;
+  font-family: var(--font-en);
+  font-size: 0.7rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--text-3);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.st-link.active .st-en {
+  color: var(--part-ink);
+}
+
+.st-badge {
+  flex: none;
+  padding: 1px 8px;
+  border-radius: 999px;
+  background: var(--part-soft);
+  color: var(--part-ink);
+  font-size: 0.68rem;
+  font-weight: 700;
+  line-height: 1.6;
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--part) 35%, transparent);
+}
