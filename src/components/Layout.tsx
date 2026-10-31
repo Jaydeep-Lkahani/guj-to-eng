@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, type TouchEvent } from "react";
 import { Link, Outlet, useLocation } from "react-router";
 import { List, MagnifyingGlass, X } from "@phosphor-icons/react";
 import { useCompleted } from "../progress";
@@ -26,6 +26,23 @@ export function Layout() {
     setSearchOpen(false);
     window.scrollTo(0, 0);
   }, [pathname]);
+
+  // Swipe right-to-left on the open phone menu closes it. Other touches do nothing.
+  const swipeStart = useRef<{ x: number; y: number } | null>(null);
+  const onMenuTouchStart = (e: TouchEvent<HTMLElement>) => {
+    const t = e.touches[0];
+    swipeStart.current = e.touches.length === 1 && t ? { x: t.clientX, y: t.clientY } : null;
+  };
+  const onMenuTouchEnd = (e: TouchEvent<HTMLElement>) => {
+    const start = swipeStart.current;
+    const t = e.changedTouches[0];
+    swipeStart.current = null;
+    if (!menuOpen || !start || !t) return;
+    const dx = t.clientX - start.x;
+    const dy = t.clientY - start.y;
+    // Mostly sideways and long enough, so scrolling the list never closes it.
+    if (dx <= -60 && Math.abs(dx) > Math.abs(dy) * 1.5) setMenuOpen(false);
+  };
 
   useEffect(() => {
     if (!menuOpen) return;
@@ -95,7 +112,14 @@ export function Layout() {
       </header>
 
       <div className="body">
-        <nav id="sidebar" className={menuOpen ? "sidebar open" : "sidebar"} aria-label="બધા પાઠ">
+        <nav
+          id="sidebar"
+          className={menuOpen ? "sidebar open" : "sidebar"}
+          aria-label="બધા પાઠ"
+          onTouchStart={onMenuTouchStart}
+          onTouchEnd={onMenuTouchEnd}
+          onTouchCancel={() => (swipeStart.current = null)}
+        >
           <Sidebar />
         </nav>
         {menuOpen && <div className="backdrop" aria-hidden="true" onClick={() => setMenuOpen(false)} />}
