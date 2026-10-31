@@ -1,8 +1,7 @@
-// Makes the "Listen" audio: one MP3 per English sentence, read by OpenAI's natural-sounding voice,
-// so every phone plays the same clear pronunciation.
+// Makes the "Listen" audio: one MP3 per English sentence, read by Microsoft's free neural voice
+// (the "edge-tts" tool), so every phone plays the same clear pronunciation. No key or account needed.
 //
-// Needs an OpenAI API key in .env.local (this file is never committed):
-//   OPENAI_API_KEY=sk-...
+// One-time setup:  pip install edge-tts   (or set EDGE_TTS to the full path of the edge-tts program)
 //
 //   npm run audio                          make audio for every sentence that doesn't have it yet
 //   npm run audio -- --try "How are you?"  one sample per voice in audio-samples/, to pick a voice
@@ -10,22 +9,20 @@
 //
 // Files go to public/audio/, and src/audio-manifest.json says which sentence is in which file.
 // Changing VOICE below makes everything again with the new voice (old files are removed).
+import { execFile } from "node:child_process";
 import { createHash } from "node:crypto";
-import { existsSync, mkdirSync, readdirSync, rmSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readdirSync, renameSync, rmSync, writeFileSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import { promisify } from "node:util";
 import { createServer } from "vite";
 
-const VOICE = {
-  model: "gpt-4o-mini-tts",
-  voice: "coral",
-  instructions:
-    "You are a patient English teacher reading aloud to a beginner who is learning English. " +
-    "Speak clearly and a little slower than normal conversation, with natural, standard English pronunciation. " +
-    "Say every word fully and don't swallow any sounds. Use a warm, calm tone. " +
-    "Read exactly the given text, nothing more.",
-};
-const SAMPLE_VOICES = ["coral", "sage", "nova", "shimmer", "alloy", "ash", "ballad", "echo"];
+const run = promisify(execFile);
+const EDGE_TTS = process.env.EDGE_TTS || "edge-tts";
+
+// A little slower than normal so a beginner hears every word.
+const VOICE = { voice: "en-IN-NeerjaNeural", rate: "-10%" };
+const SAMPLE_VOICES = ["en-IN-NeerjaNeural", "en-IN-PrabhatNeural"];
 const AT_ONCE = 4;
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
@@ -54,39 +51,36 @@ function fileName(text) {
   return hash.slice(0, 12) + ".mp3";
 }
 
-async function synthesize(text, voice = VOICE) {
+// Writes the recording to a temporary name first, so a failed run never leaves a half-made file.
+async function synthesize(text, out, voice = VOICE) {
+  const tmp = out + ".part";
   for (let attempt = 1; ; attempt++) {
-    const res = await fetch("https://api.openai.com/v1/audio/speech", {
-      method: "POST",
-      headers: {
-        Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ ...voice, input: text, response_format: "mp3" }),
-    });
-    if (res.ok) return Buffer.from(await res.arrayBuffer());
-    const retry = res.status === 429 || res.status >= 500;
-    if (!retry || attempt >= 4) {
-      throw new Error(`OpenAI said ${res.status}: ${(await res.text()).slice(0, 300)}`);
+    try {
+      // "--text=..." form, so a sentence starting with "-" is not read as an option.
+      await run(EDGE_TTS, [`--voice=${voice.voice}`, `--rate=${voice.rate}`, `--text=${text}`, `--write-media=${tmp}`]);
+      renameSync(tmp, out);
+      return;
+    } catch (err) {
+      rmSync(tmp, { force: true });
+      if (err.code === "ENOENT") needTool();
+      if (attempt >= 4) throw err;
+      await new Promise((r) => setTimeout(r, 2000 * attempt));
     }
-    await new Promise((r) => setTimeout(r, 2000 * attempt));
   }
 }
 
-function needKey() {
-  if (process.env.OPENAI_API_KEY) return;
-  console.error("No OPENAI_API_KEY found. Put this line in .env.local in the project folder:\n  OPENAI_API_KEY=sk-...");
+function needTool() {
+  console.error("Can't run edge-tts. Install it with:\n  pip install edge-tts\nor set EDGE_TTS to the full path of the edge-tts program.");
   process.exit(1);
 }
 
 // --try "text": the same sentence in several voices, to listen and choose.
 async function makeSamples(text) {
-  needKey();
   const dir = join(root, "audio-samples");
   mkdirSync(dir, { recursive: true });
   for (const voice of SAMPLE_VOICES) {
     const out = join(dir, `${voice}.mp3`);
-    writeFileSync(out, await synthesize(text, { ...VOICE, voice }));
+    await synthesize(text, out, { ...VOICE, voice });
     console.log(`  ${out}`);
   }
   console.log(`\nListen to them, then set "voice" in scripts/make-audio.mjs to the one you like.`);
@@ -105,8 +99,6 @@ async function main() {
     missing.forEach((t) => console.log(`  ${t}`));
     return;
   }
-  if (missing.length) needKey();
-
   mkdirSync(audioDir, { recursive: true });
   const failed = [];
   let done = 0;
@@ -115,7 +107,7 @@ async function main() {
     Array.from({ length: AT_ONCE }, async () => {
       for (let text = queue.shift(); text !== undefined; text = queue.shift()) {
         try {
-          writeFileSync(join(audioDir, fileName(text)), await synthesize(text));
+          await synthesize(text, join(audioDir, fileName(text)));
         } catch (err) {
           failed.push(text);
           console.error(`\n  Failed: "${text}": ${err.message}`);
@@ -141,7 +133,7 @@ async function main() {
       removed++;
     }
   }
-  const voiceLabel = `${VOICE.model} / ${VOICE.voice}`;
+  const voiceLabel = `edge-tts / ${VOICE.voice}`;
   writeFileSync(manifestPath, JSON.stringify({ voice: voiceLabel, files }, null, 2) + "\n");
 
   console.log(`Audio ready for ${Object.keys(files).length} of ${texts.length} sentences.`);

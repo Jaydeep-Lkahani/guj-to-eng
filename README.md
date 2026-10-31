@@ -62,7 +62,7 @@ There is a second question type, "put the words in order". She taps shuffled wor
 
 `words` is the right order (the site shuffles them). Leave the full stop or question mark off the last word and put it in `end` (default `.`).
 
-Every example card can be tapped to hear the English, using the phone's built-in voice. It needs no audio files.
+Every example card can be tapped to hear the English, using a recording from `public/audio/` (made with `npm run audio`, voice: Microsoft Neerja via the free `edge-tts` tool). A sentence with no recording falls back to the phone's built-in voice.
 
 3. Run `npm test` to catch mistakes in the file.
 

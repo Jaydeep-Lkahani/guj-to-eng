@@ -11,7 +11,7 @@ dist-ssr/
 # Mac system files
 .DS_Store
 
-# Secret keys (OPENAI_API_KEY for npm run audio)
+# Secret keys
 .env.local
 
 # Voice samples made by npm run audio -- --try
