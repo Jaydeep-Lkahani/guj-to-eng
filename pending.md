@@ -4,7 +4,7 @@ The single record of this project: what was asked, what was decided, what is don
 
 **Rule:** update this file at the end of every conversation in this folder. Add a line to the conversation log (section 9) and update the checklists.
 
-Last updated: 2026-10-30
+Last updated: 2026-10-31
 
 ---
 
@@ -137,6 +137,7 @@ Tick a topic when its real lesson is written **and** I've reviewed it.
 | 2026-10-28 | Lesson and part page redesign (styles in `src/lesson.css`). Lesson page: coloured top with lesson facts (points, examples, questions, minutes) and a strip showing where the lesson sits in its part; a bar that sticks under the header with the 3 steps (સમજીએ, ઉદાહરણ, પ્રેક્ટિસ), each filling as it is done, a reading line and a "next" button that lights up when the lesson is finished; explanation as numbered points that tick off once read; English words in the explanation can be tapped to hear them; example toolbar with "બધા સાંભળો" (plays every card in turn), "અર્થ છુપાવો" (self-test: meanings hidden until tapped) and a heard counter; quiz streak chip, score ring with a small burst for 70%+, "ખોટા N સવાલ ફરી કરો"; big next-lesson card at the end with part progress. Part page: progress card with ring and a continue button, lessons as a path with a "અહીંથી આગળ" marker (indigo, so it never looks like green "done"), facts on every lesson, and the other parts with their progress. Read/heard counts last only for the visit | Requested: inner pages more professional and interactive, with small interactions that make her want to read everything and open the next lesson |
 | 2026-10-29 | Lesson page on phones (below 900px, where the sidebar hides) has its own layout; desktop is untouched. Sticky bar is one slim row: segmented tabs with icon and label side by side, the active tab raised, a short progress line under each, and a matching square "next" button. Lesson facts are one 4-column strip. The three sections are not boxed (full width, a thin line between them). Examples are one per row: English on top, pronunciation and meaning beside each other underneath | Requested: the sticky bar and the three parts looked clunky on mobile; desktop must stay as it is |
 | 2026-10-30 | Sidebar redesign (styles in a new `src/sidebar.css`; old sidebar styles removed from `src/styles.css`). Top: a progress card with a small ring (% of all lessons done) and a "આગળ ભણો" button to the next unfinished lesson ("બધા પાઠ પૂરા! શાબાશ!" when all are done). Each part heading shows its colour tile, "ભાગ 1 · Basic", the title and a thin progress bar with 3/19; it sticks to the top while its lessons scroll. Lessons are a timeline: numbered dots that turn into green ticks with a green line as she finishes them, the English title under the Gujarati one, the open lesson highlighted with a softly pulsing dot, and a "હવે" tag on her next lesson. Parts open and close smoothly, and the sidebar scrolls itself to the open lesson | Requested: sidebar more interactive, professional and good looking |
+| 2026-10-31 | "Listen" recordings use the free `edge-tts` tool with the voice en-IN-NeerjaNeural, 10% slower, instead of paid OpenAI. Files are MP3 in `public/audio/` | Chosen by me after hearing samples; free, no key. Not an official Microsoft product, so it could stop working, but the recordings are kept in the site so nothing breaks |
 
 ## 6. Pending / next steps
 
@@ -152,12 +153,12 @@ Tick a topic when its real lesson is written **and** I've reviewed it.
    - [ ] Bing Webmaster Tools: same (`BING_SITE_VERIFICATION`), it also feeds DuckDuckGo
    - [ ] Consider an own domain (e.g. gujaratitoenglish.in). Change `SITE_URL` in `src/seo.ts` and `public/robots.txt` if so
    - [ ] Get links from other sites (Gujarati groups, YouTube descriptions, forums); Google ranks a new site mainly by links
-9. [ ] **Natural-voice audio for "Listen"** (code done 2026-10-28, audio files not made yet):
-   - [ ] Make an OpenAI API key (platform.openai.com → API keys; add a little credit, the whole site costs well under $1)
-   - [ ] Put it in `.env.local` in the project folder as `OPENAI_API_KEY=sk-...` (this file is never committed)
-   - [ ] Optional: `npm run audio -- --try "How are you?"` and listen to the voices in `audio-samples/`; pick one in `scripts/make-audio.mjs`
-   - [ ] `npm run audio` to make all ~1060 recordings, listen to a few on her phone, then commit `public/audio/` and `src/audio-manifest.json`
-   - After adding or changing a lesson, run `npm run audio` again (it only makes the new sentences)
+9. [ ] **Natural-voice audio for "Listen"** (free voice, all 1060 recordings made 2026-10-31):
+   - [x] ~~OpenAI key~~ not needed any more: switched to the free `edge-tts` tool with the voice Neerja (chosen by me 2026-10-31)
+   - [x] `npm run audio` made all 1060 recordings (17 MB) in `public/audio/` and `src/audio-manifest.json`
+   - [ ] Commit and push `public/audio/` and `src/audio-manifest.json` (waiting for my yes)
+   - [ ] Listen to a few lessons on her Android phone after Vercel deploys, and tell Claude if any sentence sounds wrong
+   - After adding or changing a lesson, run `npm run audio` again (it only makes the new sentences). Needs `pip install edge-tts` once on this Mac
 7. [x] **Integrate the sentence-pattern work** (how to form English sentences from Gujarati). *(Done 2026-10-26: lesson p1-t11, plus a word-order tip and practice questions in p1-t05 to p1-t10. Extended into Part 2 and Part 3 on 2026-10-26, see the log.)*
 
 ### Ideas for later (not agreed yet, ask before building)
@@ -197,6 +198,20 @@ Ways of learning missing on the site:
 - [ ] Transliteration is always shown; could be tap-to-show in Parts 2–3
 - [ ] Works offline once opened (installable on the phone), together with hosting (item 6)
 
+### Fluency roadmap (proposed 2026-10-31, not agreed yet, ask before building)
+Goal: she can speak, read and write English fluently. The course now reaches about A2; these steps aim for B1–B2.
+**Full spec for each step (what to build, files, data, rules, questions to ask me first, checks): `docs/roadmap.md`.** Tick steps here as they are done.
+Inside the lessons: 2 (`say` questions), 3 (role-play), 4a (new vocabulary lessons), 5a (`type` questions), 7 (new grammar lessons). New pages outside the lessons: 1 (`/review`), 4b (`/words`), 5b (`/write`), 6 (`/stories`), 8 (`/part/:id/test`, `/level`), 9 (`/talk`).
+1. [ ] Daily review: 10 minutes a day of old words and questions she got wrong, coming back at growing gaps (1, 3, 7, 14 days). Daily goal and streak.
+2. [ ] Speaking practice with the microphone (browser speech recognition, best on Chrome/Android): she says the sentence, the site shows which words it understood. Listen-and-repeat with the natural-voice recordings (item 9).
+3. [ ] Role-play conversations: she plays one side (shop, doctor, school, phone call, neighbour) and says her lines aloud.
+4. [ ] Everyday vocabulary lessons (kitchen, food, clothes, house, health, town and directions, transport, jobs, verbs, feelings, opposites) and a "my words" page. Target 2,000+ words.
+5. [ ] Writing: type-the-answer questions, "turn this Gujarati sentence into English", and a daily "write 3 sentences about your day" prompt.
+6. [ ] Story library: short graded stories with audio and tap-a-word-for-meaning, from very easy to longer.
+7. [ ] Missing grammar (some/any, much/many, past continuous, used to, dates) and a Part 4 (B1: passive, reported speech, phrasal verbs, present perfect continuous).
+8. [ ] Tests: end-of-part test and a level check (A1/A2/B1) so she sees progress.
+9. [ ] AI speaking partner: talks with her in English by voice or text, gently corrects mistakes and explains them in Gujarati; also corrects her writing. Needs a small server part (Vercel function) and an API key with a small monthly cost, so it changes the "no backend" rule. My decision.
+
 ## 7. How to run
 
 ```bash
@@ -209,11 +224,14 @@ Open http://localhost:5173.
 - `npm test`: runs the tests, including a check of every content file
 - `npm run build`: makes the static site in `dist/`, with one pre-rendered HTML file per page, `sitemap.xml` and `404.html` (`scripts/prerender.mjs`). Always use this, not plain `vite build`
 - `npm run check`: type check, then tests, then build
-- `npm run audio`: makes the "Listen" recordings for any sentence that has none yet (needs `OPENAI_API_KEY` in `.env.local`). `-- --check` only lists what's missing; `-- --try "text"` makes voice samples in `audio-samples/`
+- `npm run audio`: makes the "Listen" recordings for any sentence that has none yet (needs `pip install edge-tts` once; no key). `-- --check` only lists what's missing; `-- --try "text"` makes voice samples in `audio-samples/`
 
 How to add a topic is explained in `README.md`.
+Project rules for every Claude session (any model) are in `CLAUDE.md`; it is read automatically.
 
 ### Files
+- `CLAUDE.md`: house rules for Claude sessions (content writing, code patterns, checks)
+- `docs/roadmap.md`: detailed specs for the fluency roadmap steps
 - `content/parts.json`: parts and topics, in order
 - `content/lessons/<id>.json`: one lesson per topic
 - `src/components/`: layout, sidebar, practice quiz and shared bits
@@ -301,3 +319,7 @@ An earlier, much bigger version of this site was built in this folder before 202
 | 2026-10-28 | Asked to redesign the inner pages (lesson and part pages) to look more professional and interactive, with micro-interactions that keep her reading and opening more lessons. Claude rebuilt `src/pages/TopicPage.tsx` and `src/pages/PartPage.tsx` with new components `LessonSteps`, `ExplainList`, `ExampleDeck`, `UpNext` and styles in a new `src/lesson.css` (unused old part-list, pager and done-banner styles removed from `src/styles.css`). See the decision row of the same date for what's on each page. Practice got a streak chip, score ring, burst, retry-only-wrong and a next-lesson button on the result. Every new animation stops when the device asks for reduced motion. Tests (122) and full build pass (39 pages pre-rendered with all lesson text); checked in the browser at 375px and 472px, light and dark, and desktop layout by measurement (no sideways scrolling); the built site shows no console warnings. Committed (b882307) and pushed to GitHub on request, so Vercel deploys it. |
 | 2026-10-29 | Said the lesson page looks clunky on mobile (the sticky bar with next and the 3 parts સમજીએ / ઉદાહરણ / પ્રેક્ટિસ), fix mobile only. Claude added a phone-only block at the end of `src/lesson.css` (inside `max-width: 899px`, so desktop can't change): sticky bar 84px → 65px tall with segmented tabs and a matching next button; lesson facts as a 4-column strip; sections without the card frame so content gets the full width; examples one per row in two lines. Checked at 375px and 320px in dark and light (no sideways scrolling, tab labels fit, tapping a tab shows its heading below the bar, hide-meaning still works) and confirmed desktop styles are unchanged by measurement. Full check passes. Not committed. |
 | 2026-10-30 | Asked to improve the sidebar (the chapter list) so it is more interactive, professional and good looking. Claude rewrote `src/components/Sidebar.tsx` and moved its styles into a new `src/sidebar.css` (see the decision row of the same date). Checked in the browser on desktop, phone (menu drawer) and dark mode; 122 tests pass and the full build with 39 pre-rendered pages works. Committed and pushed to `main` together with the 2026-10-29 phone lesson-page changes. |
+| 2026-10-31 | Asked whether finishing the course will make my wife fluent (speak, read, write like an expert). Claude's answer: no — the 35 lessons take a beginner to about A2 (simple daily English: read short texts, make basic sentences, simple conversations, slowly). Fluency needs months of daily speaking and listening with real people and far more words than the ~970 examples here. Biggest gaps on the site: no speaking practice, no review of old words, small everyday vocabulary (see "Study gaps"). No code changed. |
+| 2026-10-31 | Asked what to add so she can reach fluency (speak, read, write). Claude proposed the 9-step "Fluency roadmap" in section 6 (daily review, microphone speaking practice, role-plays, everyday vocabulary, writing practice, story library, more grammar and Part 4, tests, optional AI speaking partner). Nothing built yet; waiting for my choice. |
+| 2026-10-31 | Asked whether the roadmap items are part of the lessons, and whether they are written well enough for Sonnet to build. Answer: some go inside lessons, some are new pages; and no, they were one-liners. Asked to create a CLAUDE.md. Claude wrote `CLAUDE.md` (start/end-of-conversation rules, never-changing rules, commands, file map, Gujarati content-writing rules taken from the existing lessons, code patterns for saved data, pre-rendering, new pages and new question types, and the checks before "done") and `docs/roadmap.md` (a full spec per roadmap step: what she sees, how it works, data formats, files, questions to ask me first with defaults, and "done when"). Linked both from section 6 and 7. No site code changed; nothing committed. |
+| 2026-10-31 | Asked how to get the Listen audio for free, then chose `edge-tts` and the voice Neerja after hearing samples (Mac `say` voices Rishi/Tara/Aman and edge-tts Neerja/Prabhat were compared). Claude rewrote `scripts/make-audio.mjs` to call `edge-tts` (writes to a temp name first, retries 4 times, `EDGE_TTS` env var can point to the program) and recorded all 1060 sentences (17 MB). `npm run check` passes (122 tests, 39 pre-rendered pages). Checked in the browser at phone width: tapping an example card plays its recording (`/audio/….mp3`, no console errors). Updated `README.md`, `CLAUDE.md`, `.gitignore` comment and item 9. **Not done:** not committed or pushed; not tried on a real Android phone; I have not listened to every sentence, so some may sound odd (numbers and short words like "0, Zero" are worth checking). |
