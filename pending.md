@@ -156,7 +156,7 @@ Tick a topic when its real lesson is written **and** I've reviewed it.
 9. [ ] **Natural-voice audio for "Listen"** (free voice, all 1060 recordings made 2026-10-31):
    - [x] ~~OpenAI key~~ not needed any more: switched to the free `edge-tts` tool with the voice Neerja (chosen by me 2026-10-31)
    - [x] `npm run audio` made all 1060 recordings (17 MB) in `public/audio/` and `src/audio-manifest.json`
-   - [ ] Commit and push `public/audio/` and `src/audio-manifest.json` (waiting for my yes)
+   - [x] Committed and pushed `public/audio/` and `src/audio-manifest.json` *(2026-10-31, Vercel deploys it)*
    - [ ] Listen to a few lessons on her Android phone after Vercel deploys, and tell Claude if any sentence sounds wrong
    - After adding or changing a lesson, run `npm run audio` again (it only makes the new sentences). Needs `pip install edge-tts` once on this Mac
 7. [x] **Integrate the sentence-pattern work** (how to form English sentences from Gujarati). *(Done 2026-10-26: lesson p1-t11, plus a word-order tip and practice questions in p1-t05 to p1-t10. Extended into Part 2 and Part 3 on 2026-10-26, see the log.)*
