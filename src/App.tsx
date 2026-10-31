@@ -3,6 +3,7 @@ import { Layout } from "./components/Layout";
 import { HomePage } from "./pages/HomePage";
 import { PartPage } from "./pages/PartPage";
 import { TopicPage } from "./pages/TopicPage";
+import { ReviewPage } from "./pages/ReviewPage";
 import { NotFoundPage } from "./pages/NotFoundPage";
 
 // Clean URLs (/topic/p1-t01) so search engines see every lesson as its own page.
@@ -14,6 +15,7 @@ export function AppRoutes() {
         <Route index element={<HomePage />} />
         <Route path="part/:partId" element={<PartPage />} />
         <Route path="topic/:topicId" element={<TopicPage />} />
+        <Route path="review" element={<ReviewPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Route>
     </Routes>

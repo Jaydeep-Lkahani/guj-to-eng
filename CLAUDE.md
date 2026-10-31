@@ -42,7 +42,8 @@ If the test count looks too low after adding a lesson, run `rm -rf node_modules/
 - `src/content.ts`: content types (`Lesson`, `Question` …) and loaders.
 - `src/components/Practice.tsx`: the quiz (question types `choice` and `order`).
 - `src/progress.ts`: finished lessons, saved in localStorage. **Copy this pattern for any new saved data** (see below).
-- `src/pages/`: the Home, Part, Topic and NotFound pages. Routes are in `src/App.tsx`.
+- `src/review.ts`: daily review (boxes, due dates, streak) saved under `guj-eng.review.v1`; the pure rules are tested in `src/review.test.ts`.
+- `src/pages/`: the Home, Part, Topic, Review and NotFound pages. Routes are in `src/App.tsx`.
 - `src/seo.ts`: page titles, descriptions and the list of pages to pre-render (`allPaths`, `indexablePaths`, `pageMeta`).
 - `scripts/prerender.mjs` + `src/entry-server.tsx`: write one HTML file per page at build time.
 - `src/speech.ts`, `src/spoken-texts.ts`, `scripts/make-audio.mjs`: Listen audio. The recordings are in `public/audio/`, listed in `src/audio-manifest.json`.

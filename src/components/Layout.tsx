@@ -1,6 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, Outlet, useLocation } from "react-router";
 import { List, MagnifyingGlass, X } from "@phosphor-icons/react";
+import { useCompleted } from "../progress";
+import { seedReview } from "../review";
 import { Sidebar } from "./Sidebar";
 import { SearchBox } from "./SearchBox";
 import { ThemeToggle } from "./ThemeToggle";
@@ -13,6 +15,10 @@ export function Layout() {
   const [searchOpen, setSearchOpen] = useState(false);
   const menuButton = useRef<HTMLButtonElement>(null);
   const { pathname } = useLocation();
+  const completed = useCompleted();
+
+  // Puts the questions of lessons she finished earlier into the daily review (once).
+  useEffect(() => seedReview(completed), [completed]);
 
   // New page: close the phone menu and search, and start at the top.
   useEffect(() => {

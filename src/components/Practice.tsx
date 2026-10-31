@@ -20,12 +20,16 @@ type Props = {
   onProgress?: (answered: number, total: number) => void;
   // Shown under the result, e.g. the "next lesson" button.
   after?: React.ReactNode;
+  // Called once for every answer, so the daily review can remember it.
+  onAnswer?: (question: Question, correct: boolean) => void;
+  // A small tag above each question (same order as `questions`), e.g. the lesson it came from.
+  tags?: string[];
 };
 
 const all = (n: number) => Array.from({ length: n }, (_, i) => i);
 
 // One question at a time. She answers, sees right or wrong, then goes on.
-export function Practice({ questions, onFinish, onProgress, after }: Props) {
+export function Practice({ questions, onFinish, onProgress, after, onAnswer, tags }: Props) {
   // Which questions are in this round: all of them, or only the ones she got wrong last time.
   const [round, setRound] = useState<number[]>(() => all(questions.length));
   const [index, setIndex] = useState(0);
@@ -103,6 +107,7 @@ export function Practice({ questions, onFinish, onProgress, after }: Props) {
 
   const answer = (right: boolean) => {
     if (answered) return;
+    onAnswer?.(q, right);
     setResult(right);
     const next = [...results, right];
     setResults(next);
@@ -147,6 +152,7 @@ export function Practice({ questions, onFinish, onProgress, after }: Props) {
       </div>
 
       <div key={`${round.length}-${index}`} className="question-wrap">
+        {tags?.[round[index]] && <p className="question-tag">{tags[round[index]]}</p>}
         <p className="question" id={`q-${index}`}>
           <MixedText text={q.questionGu} />
         </p>

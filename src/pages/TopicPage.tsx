@@ -12,6 +12,7 @@ import {
 } from "@phosphor-icons/react";
 import { getLesson, getTopicInfo, lessonStats } from "../content";
 import { markComplete, useCompleted } from "../progress";
+import { recordAnswer } from "../review";
 import { useCanSpeak } from "../speech";
 import { Breadcrumb } from "../components/Breadcrumb";
 import { En } from "../components/MixedText";
@@ -189,6 +190,7 @@ export function TopicPage() {
                 questions={lesson.practice}
                 onFinish={() => markComplete(topic.id)}
                 onProgress={onProgress}
+                onAnswer={recordAnswer}
                 after={
                   next && (
                     <Link to={`/topic/${next.id}`} className="button button-lg result-next">

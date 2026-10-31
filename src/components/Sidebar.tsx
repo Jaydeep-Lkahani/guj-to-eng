@@ -1,8 +1,9 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, NavLink, useLocation } from "react-router";
-import { ArrowRight, CaretDown, Check, House, Trophy } from "@phosphor-icons/react";
+import { ArrowRight, ArrowsClockwise, CaretDown, Check, House, Trophy } from "@phosphor-icons/react";
 import { allTopics, parts, partOfTopic } from "../content";
 import { useCompleted } from "../progress";
+import { today, useReview, waitingToday } from "../review";
 import { PartIcon } from "./PartIcon";
 import "../sidebar.css";
 
@@ -46,6 +47,8 @@ function MiniRing({ done, total }: { done: number; total: number }) {
 export function Sidebar() {
   const { pathname } = useLocation();
   const completed = useCompleted();
+  const review = useReview();
+  const waiting = waitingToday(review, today());
   const activePart = currentPartId(pathname);
   const [kind, currentId] = route(pathname);
   const currentTopic = kind === "topic" ? currentId : undefined;
@@ -116,6 +119,27 @@ export function Sidebar() {
           )
         )}
       </section>
+
+      <NavLink to="/review" className="side-review">
+        <span className="side-review-icon" aria-hidden="true">
+          <ArrowsClockwise weight="duotone" />
+        </span>
+        <span className="side-review-text">
+          <span className="side-review-title">આજનું પુનરાવર્તન</span>
+          <span className="side-review-sub">
+            {waiting > 0
+              ? `${waiting} સવાલ બાકી`
+              : Object.keys(review.items).length > 0
+                ? "આજનું પૂરું!"
+                : "જૂના સવાલ ફરી કરો"}
+          </span>
+        </span>
+        {waiting > 0 && (
+          <span className="side-review-count" lang="en">
+            {waiting}
+          </span>
+        )}
+      </NavLink>
 
       <NavLink to="/" end className="side-home">
         <span className="side-home-icon" aria-hidden="true">

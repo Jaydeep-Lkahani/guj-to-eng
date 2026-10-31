@@ -1,0 +1,131 @@
+/* Daily review page (/review) */
+
+.rv {
+  max-width: 720px;
+}
+
+.rv-head h1 {
+  margin-bottom: 0.2em;
+}
+
+.rv-lead {
+  color: var(--text-2);
+}
+
+.rv-streak {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  padding: 4px 14px 4px 10px;
+  border-radius: 999px;
+  background: var(--warn-soft);
+  color: var(--warn-ink);
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+.rv-streak svg {
+  font-size: 1.3em;
+  color: var(--warn);
+}
+
+.rv-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  margin-top: 20px;
+  padding: 32px 20px;
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+  text-align: center;
+}
+
+.rv-icon {
+  display: grid;
+  place-items: center;
+  width: 72px;
+  height: 72px;
+  margin-bottom: 8px;
+  border-radius: 22px;
+  background: var(--primary-soft);
+  color: var(--primary-ink);
+  font-size: 40px;
+}
+.rv-rest .rv-icon {
+  background: var(--good-soft);
+  color: var(--good-ink);
+}
+
+.rv-count {
+  margin: 0;
+  font-family: var(--font-head);
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1;
+  color: var(--primary-ink);
+}
+
+.rv-title {
+  margin: 0 0 12px;
+  font-family: var(--font-head);
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.rv-sub {
+  margin: 0 0 12px;
+  color: var(--text-2);
+}
+
+/* The lesson a question came from, above the question. */
+.question-tag {
+  display: inline-block;
+  margin: 12px 0 0;
+  padding: 2px 12px;
+  border-radius: 999px;
+  background: var(--surface-2);
+  color: var(--text-2);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.question-tag + .question {
+  margin-top: 8px;
+}
+
+/* Under the result of a review set. */
+.rv-after {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.rv-tomorrow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  color: var(--text-2);
+}
+.rv-tomorrow svg {
+  font-size: 1.4em;
+  color: var(--primary-ink);
+}
+
+@media (max-width: 899px) {
+  .rv-card {
+    padding: 28px 16px;
+  }
+  .rv-count {
+    font-size: 3.4rem;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .rv-card {
+    animation: slide-in 0.4s var(--ease-out);
+  }
+}

@@ -4,6 +4,7 @@ import userEvent from "@testing-library/user-event";
 import { App } from "./App";
 import { getLesson } from "./content";
 import { resetProgress } from "./progress";
+import { resetReview } from "./review";
 
 // Every topic now has a lesson, so one test hides a lesson to see the "coming soon" note.
 const hidden = vi.hoisted(() => ({ topicId: "" }));
@@ -18,6 +19,7 @@ window.scrollTo = () => {};
 beforeEach(() => {
   window.history.replaceState(null, "", "/");
   resetProgress();
+  resetReview();
 });
 afterEach(() => {
   cleanup();

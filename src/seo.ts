@@ -264,9 +264,21 @@ function notFoundMeta(path: string): PageMeta {
   };
 }
 
+// Her personal pages (they show her own progress), so they stay out of search.
+function reviewMeta(): PageMeta {
+  return {
+    title: `આજનું પુનરાવર્તન | ${BRAND}`,
+    description: "જૂના સવાલ ફરી કરીને અંગ્રેજી પાકું કરો.",
+    path: "/review",
+    noindex: true,
+    jsonLd: [],
+  };
+}
+
 export function pageMeta(pathname: string): PageMeta {
   const clean = pathname.replace(/\/+$/, "") || "/";
   if (clean === "/") return homeMeta();
+  if (clean === "/review") return reviewMeta();
   const [, kind, id] = clean.split("/");
   const meta = kind === "part" ? partMeta(id) : kind === "topic" ? topicMeta(id) : undefined;
   return meta ?? notFoundMeta(clean);
@@ -283,7 +295,7 @@ export function indexablePaths(): string[] {
 
 // Every page the build writes as its own HTML file (includes not-yet-written topics).
 export function allPaths(): string[] {
-  return ["/", ...parts.map((p) => `/part/${p.id}`), ...allTopics.map((t) => `/topic/${t.id}`)];
+  return ["/", ...parts.map((p) => `/part/${p.id}`), ...allTopics.map((t) => `/topic/${t.id}`), "/review"];
 }
 
 function esc(text: string): string {

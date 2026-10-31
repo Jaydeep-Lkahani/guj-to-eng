@@ -1141,6 +1141,57 @@
   }
 }
 
+/* ---------- Daily review card ---------- */
+
+.hv {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px 18px;
+  margin-top: 32px;
+  padding: 18px 22px;
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+.hv-icon {
+  display: grid;
+  place-items: center;
+  flex: 0 0 56px;
+  height: 56px;
+  border-radius: 16px;
+  background: var(--warn-soft);
+  color: var(--warn-ink);
+  font-size: 32px;
+}
+.hv-text {
+  flex: 1 1 200px;
+  min-width: 0;
+}
+.hv-title {
+  margin: 0;
+  font-size: 1.25rem;
+}
+.hv-text p {
+  margin: 0;
+  color: var(--text-2);
+}
+.hv-button {
+  flex: 0 0 auto;
+}
+
+@media (max-width: 899px) {
+  .hv {
+    margin-top: 20px;
+    padding: 16px;
+  }
+  .hv-button {
+    flex: 1 1 100%;
+    justify-content: center;
+  }
+}
+
 /* ---------- Last nudge ---------- */
 
 .hc {

@@ -2,6 +2,7 @@ import { Link } from "react-router";
 import {
   ArrowDown,
   ArrowRight,
+  ArrowsClockwise,
   CaretDown,
   ChatsCircle,
   CheckCircle,
@@ -13,6 +14,7 @@ import {
 } from "@phosphor-icons/react";
 import { allTopics, parts } from "../content";
 import { useCompleted } from "../progress";
+import { today, useReview, waitingToday } from "../review";
 import { ProgressBar, ProgressRing } from "../components/ProgressBar";
 import { PartIcon } from "../components/PartIcon";
 import { En, MixedText } from "../components/MixedText";
@@ -50,6 +52,9 @@ export function HomePage() {
   const started = completed.size > 0;
   const done = allTopics.filter((t) => completed.has(t.id)).length;
   const continueLabel = nextTopic && `${started ? "આગળ ભણો" : "શરૂ કરો"}: ${nextTopic.titleGu}`;
+  const review = useReview();
+  const waiting = waitingToday(review, today());
+  const hasReview = Object.keys(review.items).length > 0;
 
   return (
     <article className="home">
@@ -128,6 +133,27 @@ export function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* ---------- Daily review (only once she has questions to review) ---------- */}
+      {hasReview && (
+        <section className="hv" aria-labelledby="review-title">
+          <span className="hv-icon" aria-hidden="true">
+            <ArrowsClockwise weight="duotone" />
+          </span>
+          <div className="hv-text">
+            <h2 id="review-title" className="hv-title">
+              આજનું પુનરાવર્તન
+            </h2>
+            <p>{waiting > 0 ? `${waiting} સવાલ તમારી રાહ જુએ છે.` : "આજનું પુનરાવર્તન પૂરું! કાલે ફરી મળીએ."}</p>
+          </div>
+          {waiting > 0 && (
+            <Link to="/review" className="button hv-button">
+              શરૂ કરો
+              <ArrowRight weight="bold" className="nudge" aria-hidden="true" />
+            </Link>
+          )}
+        </section>
+      )}
 
       {/* ---------- How a lesson works ---------- */}
       <section className="hs" aria-labelledby="steps-title">
