@@ -52,7 +52,7 @@
   height: 300px;
   top: -120px;
   left: -120px;
-  background: #c4b5fd;
+  background: #93c5fd;
   opacity: 0.35;
   animation-duration: 30s;
   animation-delay: -10s;
@@ -232,7 +232,7 @@
   backdrop-filter: saturate(1.6) blur(14px);
   -webkit-backdrop-filter: saturate(1.6) blur(14px);
   border-bottom-color: var(--line);
-  box-shadow: 0 10px 24px -18px rgb(21 24 51 / 0.35);
+  box-shadow: 0 10px 24px -18px rgb(15 29 51 / 0.35);
 }
 
 .lx-steps ol {

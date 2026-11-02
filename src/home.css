@@ -8,15 +8,15 @@
   container-type: inline-size;
   --hx-bleed: 40px;
   --hx-top: 28px;
-  --grad-1: #4f46e5;
-  --grad-2: #7c3aed;
-  --grad-3: #db2777;
+  --grad-1: #0284c7;
+  --grad-2: #2563eb;
+  --grad-3: #0891b2;
 }
 
 :root[data-theme="dark"] .home {
-  --grad-1: #a5b4fc;
-  --grad-2: #c4b5fd;
-  --grad-3: #f9a8d4;
+  --grad-1: #7dd3fc;
+  --grad-2: #93c5fd;
+  --grad-3: #67e8f9;
 }
 
 /* ---------- Hero ---------- */
@@ -54,7 +54,7 @@
   height: 420px;
   top: -160px;
   left: -120px;
-  background: #a5b4fc;
+  background: #7dd3fc;
 }
 
 .hx-blob-2 {
@@ -62,7 +62,7 @@
   height: 360px;
   top: -60px;
   right: -120px;
-  background: #c4b5fd;
+  background: #93c5fd;
   animation-duration: 26s;
   animation-delay: -8s;
 }
@@ -1262,12 +1262,12 @@
 .hc-button,
 .hc-button:hover {
   background: #fff;
-  color: #3730a3;
+  color: #075985;
   box-shadow: 0 12px 26px -12px rgb(0 0 0 / 0.5);
 }
 
 .hc-button:hover {
-  background: #f5f3ff;
+  background: #f0f9ff;
 }
 
 /* ---------- Entrance and scroll animations ---------- */

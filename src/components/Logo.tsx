@@ -17,8 +17,8 @@ export function LogoMark({ size = 40, className }: { size?: number; className?: 
     >
       <defs>
         <linearGradient id={bg} x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0" stopColor="#6366F1" />
-          <stop offset="1" stopColor="#7C3AED" />
+          <stop offset="0" stopColor="#0EA5E9" />
+          <stop offset="1" stopColor="#2563EB" />
         </linearGradient>
         <radialGradient id={shine} cx="0.2" cy="0.1" r="0.8">
           <stop offset="0" stopColor="#fff" stopOpacity="0.35" />
@@ -54,7 +54,7 @@ export function LogoMark({ size = 40, className }: { size?: number; className?: 
           fontFamily="'Baloo Bhai 2', 'Noto Sans Gujarati', sans-serif"
           fontSize="15"
           fontWeight="700"
-          fill="#4338CA"
+          fill="#0369A1"
         >
           અ
         </text>

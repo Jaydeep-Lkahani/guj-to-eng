@@ -6,22 +6,22 @@
 :root {
   color-scheme: light;
 
-  --bg: #f6f7fb;
+  --bg: #f4f8fc;
   --surface: #ffffff;
-  --surface-2: #f1f3f9;
-  --surface-3: #e4e7f2;
-  --text: #151833;
-  --text-2: #4b5173;
-  --text-3: #646a8c;
-  --line: #e3e6f0;
-  --line-strong: #cdd2e4;
+  --surface-2: #eef4fa;
+  --surface-3: #e0eaf4;
+  --text: #0f1d33;
+  --text-2: #45566e;
+  --text-3: #5d6d84;
+  --line: #e0e8f1;
+  --line-strong: #c8d5e4;
 
-  --primary: #4f46e5;
-  --primary-hover: #4338ca;
-  --primary-soft: #eef0ff;
-  --primary-ink: #4338ca;
+  --primary: #0277c0;
+  --primary-hover: #0369a1;
+  --primary-soft: #e0f2fe;
+  --primary-ink: #0369a1;
   --on-primary: #ffffff;
-  --ring: #6366f1;
+  --ring: #0ea5e9;
 
   --good: #16a34a;
   --good-ink: #15803d;
@@ -33,21 +33,21 @@
   --warn-ink: #b45309;
   --warn-soft: #fef3e2;
 
-  /* One colour per part: green sprout, indigo path, saffron mountain. */
+  /* One colour per part: green sprout, sky-blue path, saffron mountain. */
   --p1: #059669;
   --p1-ink: #047857;
   --p1-soft: #e3f6ee;
-  --p2: #4f46e5;
-  --p2-ink: #4338ca;
-  --p2-soft: #eef0ff;
+  --p2: #0277c0;
+  --p2-ink: #0369a1;
+  --p2-soft: #e0f2fe;
   --p3: #d97706;
   --p3-ink: #b45309;
   --p3-soft: #fef3e2;
 
   /* Sentence parts (who, verb, what …): one colour each, used in pattern pictures and labelled boxes. */
-  --role-who: var(--primary);
-  --role-who-soft: var(--primary-soft);
-  --role-who-ink: var(--primary-ink);
+  --role-who: #2563eb;
+  --role-who-soft: #e3ecfd;
+  --role-who-ink: #1d4ed8;
   --role-verb: var(--warn);
   --role-verb-soft: var(--warn-soft);
   --role-verb-ink: var(--warn-ink);
@@ -66,19 +66,19 @@
   --role-helper: #64748b;
   --role-helper-soft: #eef1f5;
   --role-helper-ink: #475569;
-  --role-link: #7c3aed;
-  --role-link-soft: #f1eafe;
-  --role-link-ink: #6d28d9;
+  --role-link: #ea580c;
+  --role-link-soft: #ffedd5;
+  --role-link-ink: #c2410c;
 
-  --hero-a: #4f46e5;
-  --hero-b: #7c3aed;
-  --glow-1: rgb(99 102 241 / 0.12);
+  --hero-a: #0284c7;
+  --hero-b: #2563eb;
+  --glow-1: rgb(14 165 233 / 0.13);
   --glow-2: rgb(251 191 36 / 0.12);
-  --header-bg: rgb(255 255 255 / 0.82);
+  --header-bg: rgb(255 255 255 / 0.92);
 
-  --shadow-sm: 0 1px 2px rgb(21 24 51 / 0.05), 0 1px 3px rgb(21 24 51 / 0.06);
-  --shadow-md: 0 8px 22px -8px rgb(21 24 51 / 0.14), 0 2px 6px rgb(21 24 51 / 0.05);
-  --shadow-lg: 0 20px 44px -14px rgb(79 70 229 / 0.3), 0 4px 12px rgb(21 24 51 / 0.06);
+  --shadow-sm: 0 1px 2px rgb(15 29 51 / 0.05), 0 1px 3px rgb(15 29 51 / 0.06);
+  --shadow-md: 0 8px 22px -8px rgb(15 29 51 / 0.14), 0 2px 6px rgb(15 29 51 / 0.05);
+  --shadow-lg: 0 20px 44px -14px rgb(2 119 192 / 0.28), 0 4px 12px rgb(15 29 51 / 0.06);
 
   --font-body: "Plus Jakarta Sans Variable", "Noto Sans Gujarati", system-ui, sans-serif;
   --font-head: "Baloo Bhai 2", "Noto Sans Gujarati", system-ui, sans-serif;
@@ -104,22 +104,22 @@
 :root[data-theme="dark"] {
   color-scheme: dark;
 
-  --bg: #0d1020;
-  --surface: #151931;
-  --surface-2: #1c2140;
-  --surface-3: #2a3058;
-  --text: #eceefb;
-  --text-2: #b0b5d6;
-  --text-3: #8f95ba;
-  --line: #252b4d;
-  --line-strong: #353d69;
+  --bg: #0a1220;
+  --surface: #111c2e;
+  --surface-2: #17253b;
+  --surface-3: #22354f;
+  --text: #e9f1fb;
+  --text-2: #adbdd1;
+  --text-3: #8a9cb4;
+  --line: #1e2d44;
+  --line-strong: #2d415d;
 
-  --primary: #818cf8;
-  --primary-hover: #a5b4fc;
-  --primary-soft: #24295a;
-  --primary-ink: #a5b4fc;
-  --on-primary: #0d1020;
-  --ring: #a5b4fc;
+  --primary: #38bdf8;
+  --primary-hover: #7dd3fc;
+  --primary-soft: #0c2d48;
+  --primary-ink: #7dd3fc;
+  --on-primary: #04121f;
+  --ring: #7dd3fc;
 
   --good: #4ade80;
   --good-ink: #86efac;
@@ -134,13 +134,16 @@
   --p1: #34d399;
   --p1-ink: #6ee7b7;
   --p1-soft: #0e2f27;
-  --p2: #818cf8;
-  --p2-ink: #a5b4fc;
-  --p2-soft: #24295a;
+  --p2: #38bdf8;
+  --p2-ink: #7dd3fc;
+  --p2-soft: #0c2d48;
   --p3: #fbbf24;
   --p3-ink: #fcd34d;
   --p3-soft: #362a0c;
 
+  --role-who: #60a5fa;
+  --role-who-soft: #13284d;
+  --role-who-ink: #93c5fd;
   --role-how: #a3e635;
   --role-how-soft: #1f2e0a;
   --role-how-ink: #bef264;
@@ -153,15 +156,15 @@
   --role-helper: #94a3b8;
   --role-helper-soft: #222a3d;
   --role-helper-ink: #cbd5e1;
-  --role-link: #a78bfa;
-  --role-link-soft: #2a1f4d;
-  --role-link-ink: #c4b5fd;
+  --role-link: #fb923c;
+  --role-link-soft: #3a1e0c;
+  --role-link-ink: #fdba74;
 
-  --hero-a: #3730a3;
-  --hero-b: #6d28d9;
-  --glow-1: rgb(129 140 248 / 0.14);
+  --hero-a: #075985;
+  --hero-b: #1e40af;
+  --glow-1: rgb(56 189 248 / 0.12);
   --glow-2: rgb(251 191 36 / 0.06);
-  --header-bg: rgb(21 25 49 / 0.8);
+  --header-bg: rgb(17 28 46 / 0.92);
 
   --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.35);
   --shadow-md: 0 10px 26px -10px rgb(0 0 0 / 0.6), 0 2px 6px rgb(0 0 0 / 0.3);
@@ -314,7 +317,7 @@ svg {
 
 .brand-mark {
   border-radius: 12px;
-  box-shadow: 0 6px 14px -6px rgb(79 70 229 / 0.6);
+  box-shadow: 0 6px 14px -6px rgb(2 119 192 / 0.55);
   transition: transform 0.35s var(--ease-spring);
 }
 
@@ -1555,7 +1558,7 @@ button:hover .spin-hover {
 .footer-logo svg {
   display: block;
   border-radius: 16px;
-  box-shadow: 0 10px 20px -10px rgb(79 70 229 / 0.7);
+  box-shadow: 0 10px 20px -10px rgb(2 119 192 / 0.65);
 }
 .footer-logo:hover {
   transform: rotate(-6deg) scale(1.06);
@@ -1885,7 +1888,7 @@ button:hover .spin-hover {
     position: fixed;
     inset: var(--header-h) 0 0 0;
     z-index: 20;
-    background: rgb(8 10 25 / 0.45);
+    background: rgb(5 12 24 / 0.45);
     backdrop-filter: blur(2px);
     animation: fade-in 0.25s;
   }
