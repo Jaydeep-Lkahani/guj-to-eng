@@ -139,6 +139,11 @@
       "explainGu": "I have already eaten. – આઇ હૅવ ઑલ્રેડી ઈટન. already, have અને ક્રિયાની વચ્ચે આવે છે."
     },
     {"type": "order", "questionGu": "\"તે શાળાએ ગયો છે.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["He", "has", "gone", "to", "school"], "end": ".", "explainGu": "He has gone to school. – હી હૅઝ ગૉન ટૂ સ્કૂલ. has + ત્રીજું રૂપ (gone)."},
-    {"type": "order", "questionGu": "\"મેં હજી જમ્યું નથી.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["I", "haven't", "eaten", "yet"], "end": ".", "explainGu": "I haven't eaten yet. – આઇ હૅવન્ટ ઈટન યેટ. yet છેલ્લે આવે."}
+    {"type": "order", "questionGu": "\"મેં હજી જમ્યું નથી.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["I", "haven't", "eaten", "yet"], "end": ".", "explainGu": "I haven't eaten yet. – આઇ હૅવન્ટ ઈટન યેટ. yet છેલ્લે આવે."},
+    {"type": "build", "questionGu": "\"મેં મારી ચાવી ખોઈ નાખી છે.\" ખાનામાં ગોઠવો.", "parts": [{"text": "I", "role": "who"}, {"text": "have", "role": "helper"}, {"text": "lost", "role": "verb"}, {"text": "my key", "role": "what"}], "end": ".", "explainGu": "I have lost my key. – આઇ હૅવ લૉસ્ટ માય કી. lose નું V3 lost."},
+    {"type": "build", "questionGu": "\"રવિ હમણાં જ આવ્યો છે.\" ખાનામાં ગોઠવો.", "parts": [{"text": "Ravi", "role": "who"}, {"text": "has", "role": "helper"}, {"text": "just", "role": "when"}, {"text": "come", "role": "verb"}], "end": ".", "explainGu": "Ravi has just come. – રવિ હૅઝ જસ્ટ કમ. just (હમણાં જ) has અને ક્રિયાની વચ્ચે."}
+  ],
+  "patterns": [
+    {"titleGu": "\"કર્યું છે\" નો ક્રમ", "gu": [{"text": "તેણે", "role": "who"}, {"text": "બારી", "role": "what"}, {"text": "બંધ કરી", "role": "verb"}, {"text": "છે", "role": "helper"}], "en": [{"text": "She", "role": "who"}, {"text": "has", "role": "helper"}, {"text": "closed", "role": "verb"}, {"text": "the window", "role": "what"}], "end": ".", "noteGu": "ગુજરાતીમાં \"છે\" સૌથી છેલ્લે આવે છે. અંગ્રેજીમાં [[has]] કર્તા પછી તરત, અને ક્રિયાનું ત્રીજું રૂપ ([[closed]]) તેની પાછળ. \"તેણે\" હોય તો પણ અંગ્રેજીમાં [[She]]."}
   ]
 }

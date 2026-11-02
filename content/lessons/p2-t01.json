@@ -138,6 +138,11 @@
       "explainGu": "She always drinks tea in the morning. – શી ઑલ્વેઝ ડ્રિન્ક્સ ટી ઇન ધ મૉર્નિંગ. always ક્રિયાની પહેલાં આવે છે."
     },
     {"type": "order", "questionGu": "\"હું હંમેશાં સવારે ચા પીઉં છું.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["I", "always", "drink", "tea", "in", "the", "morning"], "end": ".", "explainGu": "I always drink tea in the morning. – આઇ ઑલ્વેઝ ડ્રિંક ટી ઇન ધ મૉર્નિંગ. always ક્રિયાની પહેલાં, સમય છેલ્લે."},
-    {"type": "order", "questionGu": "\"તેઓ રવિવારે ક્રિકેટ રમે છે.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["They", "play", "cricket", "on", "Sunday"], "end": ".", "explainGu": "They play cricket on Sunday. – ધે પ્લે ક્રિકેટ ઑન સન્ડે. વાર છેલ્લે, on સાથે."}
+    {"type": "order", "questionGu": "\"તેઓ રવિવારે ક્રિકેટ રમે છે.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["They", "play", "cricket", "on", "Sunday"], "end": ".", "explainGu": "They play cricket on Sunday. – ધે પ્લે ક્રિકેટ ઑન સન્ડે. વાર છેલ્લે, on સાથે."},
+    {"type": "build", "questionGu": "\"રાજ રોજ સાંજે ક્રિકેટ રમે છે.\" ખાનામાં ગોઠવો.", "parts": [{"text": "Raj", "role": "who"}, {"text": "plays", "role": "verb"}, {"text": "cricket", "role": "what"}, {"text": "every evening", "role": "when"}], "end": ".", "explainGu": "Raj plays cricket every evening. – રાજ પ્લેઝ ક્રિકેટ એવરી ઇવનિંગ. Raj (He) સાથે play ને s લાગે."},
+    {"type": "build", "questionGu": "\"હું હંમેશાં છ વાગ્યે ઊઠું છું.\" ખાનામાં ગોઠવો.", "parts": [{"text": "I", "role": "who"}, {"text": "always", "role": "when"}, {"text": "wake up", "role": "verb"}, {"text": "at six", "role": "when"}], "end": ".", "explainGu": "I always wake up at six. – આઇ ઑલવેઝ વેક અપ ઍટ સિક્સ. always ક્રિયાની પહેલાં, સમય (at six) છેલ્લે."}
+  ],
+  "patterns": [
+    {"titleGu": "રોજની ટેવનો ક્રમ", "gu": [{"text": "તે", "role": "who"}, {"text": "હંમેશાં", "role": "when"}, {"text": "સવારે", "role": "when"}, {"text": "ચા", "role": "what"}, {"text": "પીએ છે", "role": "verb"}], "en": [{"text": "She", "role": "who"}, {"text": "always", "role": "when"}, {"text": "drinks", "role": "verb"}, {"text": "tea", "role": "what"}, {"text": "in the morning", "role": "when"}], "end": ".", "noteGu": "ગુજરાતીમાં ક્રિયા (પીએ છે) છેલ્લે આવે છે. અંગ્રેજીમાં [[always]] ક્રિયાની પહેલાં અને સમય ([[in the morning]]) છેલ્લે. [[She]] સાથે [[drinks]], s લાગે."}
   ]
 }

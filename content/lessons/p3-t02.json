@@ -129,6 +129,11 @@
       "explainGu": "I can swim. – આઇ કૅન સ્વિમ. \"શકું છું\" નું can બને છે અને તે ક્રિયાની પહેલાં આવે છે."
     },
     {"type": "order", "questionGu": "\"તે બહુ સરસ રાંધી શકે છે.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["She", "can", "cook", "very", "well"], "end": ".", "explainGu": "She can cook very well. – શી કૅન કુક વેરી વેલ. can પછી સાદી ક્રિયા."},
-    {"type": "order", "questionGu": "\"તમારે પાણી પીવું જોઈએ.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["You", "should", "drink", "water"], "end": ".", "explainGu": "You should drink water. – યૂ શુડ ડ્રિંક વૉટર. should પછી સાદી ક્રિયા."}
+    {"type": "order", "questionGu": "\"તમારે પાણી પીવું જોઈએ.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["You", "should", "drink", "water"], "end": ".", "explainGu": "You should drink water. – યૂ શુડ ડ્રિંક વૉટર. should પછી સાદી ક્રિયા."},
+    {"type": "build", "questionGu": "\"મીના સિતાર વગાડી શકે છે.\" ખાનામાં ગોઠવો.", "parts": [{"text": "Meena", "role": "who"}, {"text": "can", "role": "helper"}, {"text": "play", "role": "verb"}, {"text": "the sitar", "role": "what"}], "end": ".", "explainGu": "Meena can play the sitar. – મીના કૅન પ્લે ધ સિતાર. can પછી સીધી ક્રિયા, s વગર."},
+    {"type": "build", "questionGu": "\"આપણે વડીલોનું માન રાખવું જોઈએ.\" ખાનામાં ગોઠવો.", "parts": [{"text": "We", "role": "who"}, {"text": "should", "role": "helper"}, {"text": "respect", "role": "verb"}, {"text": "our elders", "role": "what"}], "end": ".", "explainGu": "We should respect our elders. – વી શુડ રિસ્પેક્ટ અવર એલ્ડર્સ. should પછી to નહીં."}
+  ],
+  "patterns": [
+    {"titleGu": "\"જોઈએ\" નો ક્રમ", "gu": [{"text": "તમારે", "role": "who"}, {"text": "આરામ કરવો", "role": "verb"}, {"text": "જોઈએ", "role": "helper"}], "en": [{"text": "You", "role": "who"}, {"text": "should", "role": "helper"}, {"text": "rest", "role": "verb"}], "end": ".", "noteGu": "ગુજરાતીમાં \"જોઈએ\" છેલ્લે આવે છે અને કર્તા \"તમારે\" બને છે. અંગ્રેજીમાં કર્તા [[You]] જ રહે, [[should]] તેની પછી તરત, અને પછી સીધી ક્રિયા ([[rest]]), [[to]] વગર."}
   ]
 }

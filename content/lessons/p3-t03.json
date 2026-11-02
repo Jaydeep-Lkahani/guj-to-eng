@@ -119,6 +119,10 @@
       "explainGu": "If it rains, we will stay at home. – ઇફ ઇટ રેન્ઝ, વી વિલ સ્ટે ઍટ હોમ. બંને ભાગમાં કર્તા પછી ક્રિયા."
     },
     {"type": "order", "questionGu": "\"જો વરસાદ પડશે તો હું ઘરે રહીશ.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["I", "will", "stay", "at", "home", "if", "it", "rains"], "end": ".", "explainGu": "I will stay at home if it rains. – આઇ વિલ સ્ટે ઍટ હોમ ઇફ ઇટ રેઇન્ઝ. if વાળો ભાગ પાછળ પણ આવી શકે."},
-    {"type": "order", "questionGu": "\"વરસાદ ન પડે તો હું જઈશ.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["I", "will", "go", "unless", "it", "rains"], "end": ".", "explainGu": "I will go unless it rains. – આઇ વિલ ગો અનલેસ ઇટ રેઇન્ઝ. unless = જો … ન હોય તો."}
+    {"type": "order", "questionGu": "\"વરસાદ ન પડે તો હું જઈશ.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["I", "will", "go", "unless", "it", "rains"], "end": ".", "explainGu": "I will go unless it rains. – આઇ વિલ ગો અનલેસ ઇટ રેઇન્ઝ. unless = જો … ન હોય તો."},
+    {"type": "build", "questionGu": "\"જો તમે ભણશો તો પાસ થશો.\" ખાનામાં ગોઠવો.", "parts": [{"text": "If", "role": "link"}, {"text": "you", "role": "who"}, {"text": "study,", "role": "verb"}, {"text": "you", "role": "who"}, {"text": "will", "role": "helper"}, {"text": "pass", "role": "verb"}], "end": ".", "explainGu": "If you study, you will pass. – ઇફ યૂ સ્ટડી, યૂ વિલ પાસ. If + કોણ + ક્રિયા, કોણ + will + ક્રિયા."}
+  ],
+  "patterns": [
+    {"titleGu": "જો… તો… નો ક્રમ", "gu": [{"text": "જો", "role": "link"}, {"text": "તે", "role": "who"}, {"text": "આવશે,", "role": "verb"}, {"text": "તો", "role": "link"}, {"text": "હું", "role": "who"}, {"text": "જઈશ", "role": "verb"}], "en": [{"text": "If", "role": "link"}, {"text": "he", "role": "who"}, {"text": "comes,", "role": "verb"}, {"text": "I", "role": "who"}, {"text": "will", "role": "helper"}, {"text": "go", "role": "verb"}], "end": ".", "noteGu": "બંને ભાગમાં કર્તા પછી તરત ક્રિયા આવે છે. \"તો\" માટે કોઈ શબ્દ નથી, ફક્ત comma (,). અને [[If]] વાળા ભાગમાં [[will]] નથી આવતું: [[If he comes]] સાચું, [[If he will come]] ખોટું."}
   ]
 }

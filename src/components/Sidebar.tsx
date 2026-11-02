@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, NavLink, useLocation } from "react-router";
-import { ArrowRight, ArrowsClockwise, CaretDown, Check, House, Trophy } from "@phosphor-icons/react";
+import { ArrowRight, ArrowsClockwise, CaretDown, Check, Compass, House, Trophy } from "@phosphor-icons/react";
 import { allTopics, parts, partOfTopic } from "../content";
 import { useCompleted } from "../progress";
 import { today, useReview, waitingToday } from "../review";
@@ -139,6 +139,17 @@ export function Sidebar() {
             {waiting}
           </span>
         )}
+      </NavLink>
+
+      {/* Same look as the review link, with its own icon colour. */}
+      <NavLink to="/guide" className="side-review side-guide">
+        <span className="side-review-icon" aria-hidden="true">
+          <Compass weight="duotone" />
+        </span>
+        <span className="side-review-text">
+          <span className="side-review-title">વાક્ય બનાવવાની ચાવી</span>
+          <span className="side-review-sub">કયું વાક્ય કેમ બને</span>
+        </span>
       </NavLink>
 
       <NavLink to="/" end className="side-home">

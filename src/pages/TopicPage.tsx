@@ -19,6 +19,7 @@ import { En } from "../components/MixedText";
 import { ExplainList } from "../components/ExplainList";
 import { ExampleDeck } from "../components/ExampleDeck";
 import { LessonSteps } from "../components/LessonSteps";
+import { PatternCard } from "../components/PatternCard";
 import { Practice } from "../components/Practice";
 import { PartIcon } from "../components/PartIcon";
 import { UpNext } from "../components/UpNext";
@@ -161,6 +162,7 @@ export function TopicPage() {
             </div>
             {canSpeak && <p className="lx-hint">વાદળી અંગ્રેજી શબ્દ પર ટૅપ કરશો તો તે બોલીને સંભળાવશે.</p>}
             <ExplainList paras={lesson.explanationGu} onSeen={onSeen} />
+            {lesson.patterns?.map((p, i) => <PatternCard key={i} pattern={p} />)}
           </section>
 
           <section id="lx-examples" className="lesson-section" aria-labelledby="examples">

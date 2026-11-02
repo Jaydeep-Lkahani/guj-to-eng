@@ -1,0 +1,403 @@
+{
+  "topicId": "p2-t11",
+  "explanationGu": [
+    "અત્યાર સુધી દરેક કાળ અલગ પાઠમાં શીખ્યા. પણ રોજની વાતમાં આપણે એક જ વાતમાં ગઈકાલ, આજ અને કાલની વાત કરીએ છીએ: \"ગઈકાલે હું મંદિરે ગઈ, આજે ઘરે છું, કાલે બજારે જઈશ.\" આ પાઠમાં શીખીશું કે કયા સમયે ક્રિયાનું કયું રૂપ વાપરવું, અને એક વાક્યમાંથી બીજા વાક્યમાં કેમ ફરવું.",
+    "સૌથી સહેલી રીત: સમય બતાવતો શબ્દ જુઓ. ગુજરાતી વાક્યમાં \"રોજ\", \"અત્યારે\", \"ગઈકાલે\" કે \"કાલે\" જેવો શબ્દ હોય તો તે જ કહી દે છે કે અંગ્રેજીમાં ક્રિયાનું કયું રૂપ આવશે.",
+    "\"રોજ\", \"હંમેશાં\", \"દર રવિવારે\" = રોજની ટેવ. ક્રિયા જેમ છે તેમ, અને [[He]] / [[She]] સાથે [[s]]: [[I drink tea every day.]], [[She calls her mother every Sunday.]]",
+    "\"અત્યારે\", \"હમણાં\", \"જુઓ!\" = અત્યારે ચાલે છે. [[am]] / [[is]] / [[are]] + ક્રિયા-[[ing]]: [[I am cooking now.]], [[Look! It is raining.]]",
+    "\"ગઈકાલે\", \"ગયા અઠવાડિયે\", \"બે દિવસ પહેલાં\" = ભૂતકાળ. ક્રિયાનું બીજું રૂપ (V2): [[I went to the market yesterday.]], [[It rained yesterday.]]",
+    "\"કાલે\", \"આવતા અઠવાડિયે\", \"પછી\" = ભવિષ્ય. [[will]] + ક્રિયા (V1): [[I will call you tomorrow.]], [[It will rain tomorrow.]]",
+    "એક જ ક્રિયા [[cook]] ચાર રીતે: [[I cook every day.]] (રોજ), [[I am cooking now.]] (અત્યારે), [[I cooked yesterday.]] (ગઈકાલે), [[I will cook tomorrow.]] (કાલે). શબ્દ એક જ, ફક્ત રૂપ બદલાય છે.",
+    "સૌથી મોટી ભૂલો: (૧) સમયનો શબ્દ બદલ્યો પણ ક્રિયા નહીં. [[I go to the market yesterday.]] ખોટું છે, [[I went to the market yesterday.]] સાચું છે. (૨) [[will]] પછી V2. [[I will went.]] ખોટું છે, [[I will go.]] સાચું છે. (૩) અત્યારની વાતમાં સાદું રૂપ. [[Look! It rains.]] ખોટું છે, [[Look! It is raining.]] સાચું છે.",
+    "વાતમાં કાળ બદલાય ત્યારે દરેક વાક્ય અલગ જુઓ. મીના કહે છે: [[Yesterday I went to the temple.]] [[Today I am at home.]] [[Tomorrow I will go to the market.]] દરેક વાક્યનો પોતાનો સમય અને પોતાનું રૂપ. એક વાક્યમાં બે સમય હોય તો બે રૂપ: [[Neha usually drinks tea, but today she is drinking coffee.]]",
+    "ક્રમ યાદ રાખો: કાળ ગમે તે હોય, ક્રમ એક જ છે: કર્તા + (મદદગાર) + ક્રિયા + બાકીનું + સમય. ગુજરાતીમાં ક્રિયા છેલ્લે આવે છે: \"હું કાલે બજારે જઈશ.\" અંગ્રેજીમાં ક્રિયા કર્તા પછી તરત અને સમય છેલ્લે: [[I will go to the market tomorrow.]] સમયનો શબ્દ શરૂઆતમાં પણ આવી શકે: [[Tomorrow I will go to the market.]]",
+    "ગૂંચવણ થાય ત્યારે \"વાક્ય બનાવવાની ચાવી\" પાનું ખોલો. ત્યાં \"ત્રણ કાળ એક નજરમાં\" ચાર્ટ અને દરેક કાળની પ્રેક્ટિસ છે."
+  ],
+  "examples": [
+    {
+      "en": "every day",
+      "translit": "એવરી ડે",
+      "gu": "રોજ"
+    },
+    {
+      "en": "every Sunday",
+      "translit": "એવરી સન્ડે",
+      "gu": "દર રવિવારે"
+    },
+    {
+      "en": "now",
+      "translit": "નાઉ",
+      "gu": "અત્યારે"
+    },
+    {
+      "en": "right now",
+      "translit": "રાઇટ નાઉ",
+      "gu": "અત્યારે જ"
+    },
+    {
+      "en": "yesterday",
+      "translit": "યેસ્ટરડે",
+      "gu": "ગઈકાલે"
+    },
+    {
+      "en": "last week",
+      "translit": "લાસ્ટ વીક",
+      "gu": "ગયા અઠવાડિયે"
+    },
+    {
+      "en": "tomorrow",
+      "translit": "ટુમૉરો",
+      "gu": "આવતી કાલે"
+    },
+    {
+      "en": "next week",
+      "translit": "નેક્સ્ટ વીક",
+      "gu": "આવતા અઠવાડિયે"
+    },
+    {
+      "en": "I cook every day.",
+      "translit": "આઇ કુક એવરી ડે",
+      "gu": "હું રોજ રસોઈ બનાવું છું."
+    },
+    {
+      "en": "I am cooking now.",
+      "translit": "આઇ ઍમ કુકિંગ નાઉ",
+      "gu": "હું અત્યારે રસોઈ બનાવી રહી છું."
+    },
+    {
+      "en": "I cooked yesterday.",
+      "translit": "આઇ કુક્ડ યેસ્ટરડે",
+      "gu": "મેં ગઈકાલે રસોઈ બનાવી."
+    },
+    {
+      "en": "I will cook tomorrow.",
+      "translit": "આઇ વિલ કુક ટુમૉરો",
+      "gu": "હું કાલે રસોઈ બનાવીશ."
+    },
+    {
+      "en": "Ravi goes to school every day.",
+      "translit": "રવિ ગોઝ ટૂ સ્કૂલ એવરી ડે",
+      "gu": "રવિ રોજ શાળાએ જાય છે."
+    },
+    {
+      "en": "Ravi is going to school now.",
+      "translit": "રવિ ઇઝ ગોઇંગ ટૂ સ્કૂલ નાઉ",
+      "gu": "રવિ અત્યારે શાળાએ જઈ રહ્યો છે."
+    },
+    {
+      "en": "Ravi went to school yesterday.",
+      "translit": "રવિ વેન્ટ ટૂ સ્કૂલ યેસ્ટરડે",
+      "gu": "રવિ ગઈકાલે શાળાએ ગયો."
+    },
+    {
+      "en": "Ravi will go to school tomorrow.",
+      "translit": "રવિ વિલ ગો ટૂ સ્કૂલ ટુમૉરો",
+      "gu": "રવિ કાલે શાળાએ જશે."
+    },
+    {
+      "en": "She calls her mother every Sunday.",
+      "translit": "શી કૉલ્ઝ હર મધર એવરી સન્ડે",
+      "gu": "તે દર રવિવારે તેની મમ્મીને ફોન કરે છે."
+    },
+    {
+      "en": "Look! It is raining.",
+      "translit": "લુક! ઇટ ઇઝ રેઇનિંગ",
+      "gu": "જુઓ! વરસાદ પડી રહ્યો છે."
+    },
+    {
+      "en": "It rained yesterday.",
+      "translit": "ઇટ રેઇન્ડ યેસ્ટરડે",
+      "gu": "ગઈકાલે વરસાદ પડ્યો."
+    },
+    {
+      "en": "It will rain tomorrow.",
+      "translit": "ઇટ વિલ રેઇન ટુમૉરો",
+      "gu": "કાલે વરસાદ પડશે."
+    },
+    {
+      "en": "Yesterday I went to the temple.",
+      "translit": "યેસ્ટરડે આઇ વેન્ટ ટૂ ધ ટેમ્પલ",
+      "gu": "ગઈકાલે હું મંદિરે ગઈ."
+    },
+    {
+      "en": "Today I am at home.",
+      "translit": "ટુડે આઇ ઍમ ઍટ હોમ",
+      "gu": "આજે હું ઘરે છું."
+    },
+    {
+      "en": "Tomorrow I will go to the market.",
+      "translit": "ટુમૉરો આઇ વિલ ગો ટૂ ધ માર્કિટ",
+      "gu": "કાલે હું બજારે જઈશ."
+    },
+    {
+      "en": "Neha usually drinks tea, but today she is drinking coffee.",
+      "translit": "નેહા યુઝ્યુઅલી ડ્રિન્ક્સ ટી, બટ ટુડે શી ઇઝ ડ્રિન્કિંગ કૉફી",
+      "gu": "નેહા સામાન્ય રીતે ચા પીએ છે, પણ આજે તે કૉફી પી રહી છે."
+    },
+    {
+      "en": "We visited Ahmedabad last year, and we will visit Surat next year.",
+      "translit": "વી વિઝિટેડ અમદાવાદ લાસ્ટ યર, ઍન્ડ વી વિલ વિઝિટ સુરત નેક્સ્ટ યર",
+      "gu": "અમે ગયા વર્ષે અમદાવાદ ગયા હતા, અને આવતા વર્ષે સુરત જઈશું."
+    },
+    {
+      "en": "I + will go + to the market + tomorrow",
+      "translit": "આઇ + વિલ ગો + ટૂ ધ માર્કિટ + ટુમૉરો",
+      "gu": "કર્તા + ક્રિયા + બાકીનું + સમય"
+    }
+  ],
+  "practice": [
+    {
+      "type": "choice",
+      "questionGu": "\"હું ગઈકાલે બજારે ગઈ.\" ને અંગ્રેજીમાં સાચી રીતે કેમ કહેવાય?",
+      "options": [
+        "I go to the market yesterday.",
+        "I went to the market yesterday.",
+        "I will go to the market yesterday."
+      ],
+      "answer": 1,
+      "explainGu": "I went to the market yesterday. – આઇ વેન્ટ ટૂ ધ માર્કિટ યેસ્ટરડે. yesterday એટલે ભૂતકાળ: V2 (went)."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: Look! The children ___ in the garden.",
+      "options": [
+        "play",
+        "are playing",
+        "played"
+      ],
+      "answer": 1,
+      "explainGu": "Look! The children are playing in the garden. – લુક! ધ ચિલ્ડ્રન આર પ્લેઇંગ ઇન ધ ગાર્ડન. Look! એટલે અત્યારે: are + ing."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: My father ___ the newspaper every morning.",
+      "options": [
+        "reads",
+        "is reading",
+        "will read"
+      ],
+      "answer": 0,
+      "explainGu": "My father reads the newspaper every morning. – માય ફાધર રીડ્ઝ ધ ન્યૂઝપેપર એવરી મૉર્નિંગ. every morning એટલે ટેવ, He સાથે s."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: We ___ Surat next year.",
+      "options": [
+        "visited",
+        "visit",
+        "will visit"
+      ],
+      "answer": 2,
+      "explainGu": "We will visit Surat next year. – વી વિલ વિઝિટ સુરત નેક્સ્ટ યર. next year એટલે ભવિષ્ય: will + V1."
+    },
+    {
+      "type": "choice",
+      "questionGu": "કયું વાક્ય સાચું છે?",
+      "options": [
+        "I will went tomorrow.",
+        "I will go tomorrow.",
+        "I go tomorrow will."
+      ],
+      "answer": 1,
+      "explainGu": "I will go tomorrow. – આઇ વિલ ગો ટુમૉરો. will પછી હંમેશાં V1 (go)."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[last week]] નો અર્થ શું છે?",
+      "options": [
+        "આવતા અઠવાડિયે",
+        "આ અઠવાડિયે",
+        "ગયા અઠવાડિયે"
+      ],
+      "answer": 2,
+      "explainGu": "last week – લાસ્ટ વીક – ગયા અઠવાડિયે. એટલે ભૂતકાળ, ક્રિયાનું V2 આવે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"નેહા સામાન્ય રીતે ચા પીએ છે, પણ આજે તે કૉફી પી રહી છે.\" નું સાચું વાક્ય કયું છે?",
+      "options": [
+        "Neha usually drinks tea, but today she is drinking coffee.",
+        "Neha usually is drinking tea, but today she drinks coffee.",
+        "Neha usually drank tea, but today she will drink coffee."
+      ],
+      "answer": 0,
+      "explainGu": "Neha usually drinks tea, but today she is drinking coffee. – નેહા યુઝ્યુઅલી ડ્રિન્ક્સ ટી, બટ ટુડે શી ઇઝ ડ્રિન્કિંગ કૉફી. usually = ટેવ, આજે અત્યારે = is + ing."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"હું કાલે બજારે જઈશ.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": [
+        "I tomorrow market will go.",
+        "I will go to the market tomorrow.",
+        "I will tomorrow go to the market."
+      ],
+      "answer": 1,
+      "explainGu": "I will go to the market tomorrow. – આઇ વિલ ગો ટૂ ધ માર્કિટ ટુમૉરો. will કર્તા પછી તરત, સમય છેલ્લે."
+    },
+    {
+      "type": "order",
+      "questionGu": "\"મમ્મીએ ગઈકાલે ખીર બનાવી.\" ને અંગ્રેજીમાં ગોઠવો.",
+      "words": [
+        "My",
+        "mother",
+        "made",
+        "kheer",
+        "yesterday"
+      ],
+      "end": ".",
+      "explainGu": "My mother made kheer yesterday. – માય મધર મેઇડ ખીર યેસ્ટરડે. make નું V2 made, સમય છેલ્લે."
+    },
+    {
+      "type": "order",
+      "questionGu": "\"હું અત્યારે રસોઈ બનાવી રહી છું.\" ને અંગ્રેજીમાં ગોઠવો.",
+      "words": [
+        "I",
+        "am",
+        "cooking",
+        "now"
+      ],
+      "end": ".",
+      "explainGu": "I am cooking now. – આઇ ઍમ કુકિંગ નાઉ. am + ing, now છેલ્લે."
+    },
+    {
+      "type": "build",
+      "questionGu": "\"દાદી દર રવિવારે મંદિરે જાય છે.\" ખાનામાં ગોઠવો.",
+      "parts": [
+        {
+          "text": "My grandmother",
+          "role": "who"
+        },
+        {
+          "text": "goes",
+          "role": "verb"
+        },
+        {
+          "text": "to the temple",
+          "role": "where"
+        },
+        {
+          "text": "every Sunday",
+          "role": "when"
+        }
+      ],
+      "end": ".",
+      "explainGu": "My grandmother goes to the temple every Sunday. – માય ગ્રૅન્ડમધર ગોઝ ટૂ ધ ટેમ્પલ એવરી સન્ડે. every Sunday = ટેવ, She સાથે goes."
+    },
+    {
+      "type": "build",
+      "questionGu": "\"અમે આવતા અઠવાડિયે મામાને મળીશું.\" ખાનામાં ગોઠવો.",
+      "parts": [
+        {
+          "text": "We",
+          "role": "who"
+        },
+        {
+          "text": "will",
+          "role": "helper"
+        },
+        {
+          "text": "meet",
+          "role": "verb"
+        },
+        {
+          "text": "our uncle",
+          "role": "what"
+        },
+        {
+          "text": "next week",
+          "role": "when"
+        }
+      ],
+      "end": ".",
+      "explainGu": "We will meet our uncle next week. – વી વિલ મીટ અવર અંકલ નેક્સ્ટ વીક. next week = will + V1."
+    }
+  ],
+  "patterns": [
+    {
+      "titleGu": "સમયનો શબ્દ જ ચાવી છે: ગઈકાલે",
+      "gu": [
+        {
+          "text": "ગઈકાલે",
+          "role": "when"
+        },
+        {
+          "text": "મેં",
+          "role": "who"
+        },
+        {
+          "text": "ખીર",
+          "role": "what"
+        },
+        {
+          "text": "બનાવી",
+          "role": "verb"
+        }
+      ],
+      "en": [
+        {
+          "text": "Yesterday",
+          "role": "when"
+        },
+        {
+          "text": "I",
+          "role": "who"
+        },
+        {
+          "text": "made",
+          "role": "verb"
+        },
+        {
+          "text": "kheer",
+          "role": "what"
+        }
+      ],
+      "end": ".",
+      "noteGu": "[[Yesterday]] જોયું એટલે ક્રિયાનું V2 ([[made]]). સમયનો શબ્દ શરૂઆતમાં કે છેલ્લે આવી શકે, પણ ક્રિયા હંમેશાં કર્તા પછી તરત."
+    },
+    {
+      "titleGu": "સમયનો શબ્દ જ ચાવી છે: કાલે",
+      "gu": [
+        {
+          "text": "કાલે",
+          "role": "when"
+        },
+        {
+          "text": "હું",
+          "role": "who"
+        },
+        {
+          "text": "બજારે",
+          "role": "where"
+        },
+        {
+          "text": "જઈશ",
+          "role": "verb"
+        }
+      ],
+      "en": [
+        {
+          "text": "Tomorrow",
+          "role": "when"
+        },
+        {
+          "text": "I",
+          "role": "who"
+        },
+        {
+          "text": "will",
+          "role": "helper"
+        },
+        {
+          "text": "go",
+          "role": "verb"
+        },
+        {
+          "text": "to the market",
+          "role": "where"
+        }
+      ],
+      "end": ".",
+      "noteGu": "[[Tomorrow]] જોયું એટલે [[will]] + V1 ([[go]]). ગુજરાતીનું \"-ઈશ\" અંગ્રેજીમાં [[will]] બને છે."
+    }
+  ]
+}

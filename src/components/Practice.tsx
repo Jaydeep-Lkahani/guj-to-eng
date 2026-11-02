@@ -4,14 +4,26 @@ import {
   ArrowRight,
   CheckCircle,
   Fire,
+  Microphone,
   Sparkle,
   Target,
   Trophy,
   XCircle,
 } from "@phosphor-icons/react";
-import { answerText, isEnglishText, type ChoiceQuestion, type OrderQuestion, type Question } from "../content";
+import {
+  answerText,
+  isEnglishText,
+  type BuildQuestion,
+  type ChoiceQuestion,
+  type OrderQuestion,
+  type Question,
+  type SayQuestion,
+} from "../content";
+import { checkSpeech, type SpeechCheck } from "../speak-check";
+import { markMicNoteSeen, micNoteSeen, useListen } from "../use-listen";
 import { AutoText, MixedText } from "./MixedText";
 import { ListenButton } from "./ListenButton";
+import { roleLabel } from "./PatternCard";
 
 type Props = {
   questions: Question[];
@@ -156,11 +168,10 @@ export function Practice({ questions, onFinish, onProgress, after, onAnswer, tag
         <p className="question" id={`q-${index}`}>
           <MixedText text={q.questionGu} />
         </p>
-        {q.type === "choice" ? (
-          <ChoiceBody q={q} labelId={`q-${index}`} onAnswer={answer} />
-        ) : (
-          <OrderBody q={q} labelId={`q-${index}`} onAnswer={answer} />
-        )}
+        {q.type === "choice" && <ChoiceBody q={q} labelId={`q-${index}`} onAnswer={answer} />}
+        {q.type === "order" && <OrderBody q={q} labelId={`q-${index}`} onAnswer={answer} />}
+        {q.type === "say" && <SayBody q={q} labelId={`q-${index}`} onAnswer={answer} />}
+        {q.type === "build" && <BuildBody q={q} labelId={`q-${index}`} onAnswer={answer} />}
       </div>
 
       <div aria-live="polite">
@@ -172,10 +183,15 @@ export function Practice({ questions, onFinish, onProgress, after, onAnswer, tag
             <div className="feedback-body">
               <p className="feedback-title">
                 {result ? (
-                  "સરસ! સાચો જવાબ."
+                  q.type === "say" ? (
+                    "સરસ! બરાબર બોલ્યા."
+                  ) : (
+                    "સરસ! સાચો જવાબ."
+                  )
                 ) : (
                   <>
-                    ના, સાચો જવાબ છે: <AutoText text={correct} />
+                    {q.type === "say" ? "વાંધો નહીં. વાક્ય ફરી સાંભળો:" : "ના, સાચો જવાબ છે:"}{" "}
+                    <AutoText text={correct} />
                   </>
                 )}
               </p>
@@ -333,6 +349,251 @@ function OrderBody({ q, labelId, onAnswer }: BodyProps<OrderQuestion>) {
             જવાબ તપાસો
           </button>
         </>
+      )}
+    </div>
+  );
+}
+
+// Fill the labelled boxes. Each box names the part that goes in it (કોણ? શું કરે? …).
+// Tap a piece to put it in the next empty box; tap a filled box to take it out.
+function BuildBody({ q, labelId, onAnswer }: BodyProps<BuildQuestion>) {
+  const texts = useMemo(() => q.parts.map((p) => p.text), [q.parts]);
+  const bank = useMemo(() => shuffled(texts), [texts]);
+  const [placed, setPlaced] = useState<(number | null)[]>(() => q.parts.map(() => null));
+  const [checked, setChecked] = useState<boolean[] | null>(null);
+  const done = checked !== null;
+  const full = placed.every((p) => p !== null);
+
+  const put = (id: number) => {
+    const slot = placed.indexOf(null);
+    if (slot === -1) return;
+    setPlaced((p) => p.map((x, i) => (i === slot ? id : x)));
+  };
+
+  const check = () => {
+    // A box is right when it holds the right words (two pieces with the same words are interchangeable).
+    const result = placed.map((id, i) => id !== null && texts[id] === texts[i]);
+    setChecked(result);
+    onAnswer(result.every(Boolean));
+  };
+
+  // The first piece in a wrong box, and the box it belongs in.
+  const firstWrong = checked ? checked.indexOf(false) : -1;
+  const wrongPiece = firstWrong >= 0 ? q.parts[placed[firstWrong]!] : undefined;
+
+  return (
+    <div className="build" role="group" aria-labelledby={labelId}>
+      <p className="build-hint">દરેક ખાનાની ઉપર લખ્યું છે તેમાં શું આવે. ટુકડા પર ટૅપ કરીને ખાનાં ભરો.</p>
+
+      <ol className="build-slots" aria-label="ખાનાં">
+        {q.parts.map((part, i) => {
+          const id = placed[i];
+          const state = checked ? (checked[i] ? " right" : " wrong") : "";
+          return (
+            <li key={i} className={`build-slot role-${part.role}${id !== null ? " filled" : ""}${state}`}>
+              <span className="build-slot-label">{roleLabel[part.role]}</span>
+              {id === null ? (
+                <span className="build-slot-body" aria-label={`${roleLabel[part.role]} ખાલી ખાનું`} />
+              ) : (
+                <button
+                  type="button"
+                  lang="en"
+                  className="build-slot-body"
+                  disabled={done}
+                  onClick={() => setPlaced((p) => p.map((x, k) => (k === i ? null : x)))}
+                >
+                  {texts[id]}
+                </button>
+              )}
+            </li>
+          );
+        })}
+      </ol>
+
+      {wrongPiece && (
+        <p className="build-msg">
+          <MixedText
+            text={
+              // Two boxes can share a label (two verbs in an "if" sentence). Then the label is right, only the place is wrong.
+              wrongPiece.role === q.parts[firstWrong].role
+                ? `[[${wrongPiece.text}]] "${roleLabel[wrongPiece.role]}" જ છે, પણ આ જગ્યાએ નહીં. વાક્યનો ક્રમ ફરી જુઓ.`
+                : `[[${wrongPiece.text}]] "${roleLabel[wrongPiece.role]}" નો જવાબ છે, એટલે તે "${roleLabel[wrongPiece.role]}" વાળા ખાનામાં જાય.`
+            }
+          />
+        </p>
+      )}
+
+      {!done && (
+        <>
+          <div className="order-bank" aria-label="ટુકડા" role="group">
+            {bank.map((id) => {
+              const used = placed.includes(id);
+              return (
+                <button
+                  key={id}
+                  type="button"
+                  lang="en"
+                  className={used ? "tile used" : "tile"}
+                  disabled={used}
+                  aria-hidden={used}
+                  tabIndex={used ? -1 : undefined}
+                  onClick={() => put(id)}
+                >
+                  {texts[id]}
+                </button>
+              );
+            })}
+          </div>
+          <button type="button" className="button check-button" disabled={!full} onClick={check}>
+            <CheckCircle weight="bold" aria-hidden="true" />
+            જવાબ તપાસો
+          </button>
+        </>
+      )}
+    </div>
+  );
+}
+
+// After this many tries that didn't pass, she may go on (the answer then counts as wrong).
+const SAY_TRIES = 3;
+
+// Say the sentence aloud. The phone listens and shows which words it heard.
+// Without speech recognition (or without mic permission) she says it aloud and taps "done".
+function SayBody({ q, labelId, onAnswer }: BodyProps<SayQuestion>) {
+  const { supported, listen, stop } = useListen();
+  const [blocked, setBlocked] = useState(false);
+  const [note, setNote] = useState(false);
+  const [listening, setListening] = useState(false);
+  const [check, setCheck] = useState<SpeechCheck | null>(null);
+  const [silent, setSilent] = useState(false);
+  const [tries, setTries] = useState(0);
+  const [done, setDone] = useState(false);
+
+  const finish = (right: boolean) => {
+    setDone(true);
+    onAnswer(right);
+  };
+
+  const start = async () => {
+    if (listening) {
+      stop();
+      return;
+    }
+    if (!micNoteSeen()) {
+      setNote(true);
+      return;
+    }
+    setListening(true);
+    setSilent(false);
+    const heard = await listen();
+    setListening(false);
+    if (heard.kind === "blocked") {
+      setBlocked(true);
+      return;
+    }
+    setTries((t) => t + 1);
+    if (heard.kind === "nothing") {
+      setSilent(true);
+      return;
+    }
+    const result = checkSpeech(q.text, heard.alternatives);
+    setCheck(result);
+    if (result.pass) finish(true);
+  };
+
+  const micLabel = listening ? "સાંભળું છું…" : tries > 0 ? "ફરી બોલો" : "બોલો";
+
+  const target = (
+    <div className="say-target">
+      <p className="say-en" lang="en">
+        {q.text}
+      </p>
+      {q.translit && <p className="say-translit">{q.translit}</p>}
+      <ListenButton text={q.text} />
+    </div>
+  );
+
+  if (!supported || blocked) {
+    return (
+      <div className="say-q" role="group" aria-labelledby={labelId}>
+        {target}
+        {blocked && <p className="say-hint">માઇક ચાલુ ન થયું. કંઈ વાંધો નહીં.</p>}
+        <p className="say-hint">મોટેથી બોલો, પછી ✓ દબાવો.</p>
+        {!done && (
+          <button type="button" className="button check-button" onClick={() => finish(true)}>
+            <CheckCircle weight="bold" aria-hidden="true" />
+            મેં બોલી લીધું
+          </button>
+        )}
+      </div>
+    );
+  }
+
+  return (
+    <div className="say-q" role="group" aria-labelledby={labelId}>
+      {target}
+
+      {note ? (
+        <div className="say-note" role="note">
+          <p>
+            નોંધ: તમે બોલો ત્યારે ફોન તમારો અવાજ લખાણમાં ફેરવવા Google ને મોકલે છે. આ સાઇટ તમારો અવાજ ક્યાંય
+            સાચવતી નથી.
+          </p>
+          <button
+            type="button"
+            className="button"
+            onClick={() => {
+              markMicNoteSeen();
+              setNote(false);
+              void start();
+            }}
+          >
+            <Microphone weight="bold" aria-hidden="true" />
+            સમજાયું, હવે બોલું
+          </button>
+        </div>
+      ) : (
+        !done && (
+          <div className="say-mic-row">
+            <button
+              type="button"
+              className={listening ? "mic listening" : "mic"}
+              aria-label={micLabel}
+              onClick={() => void start()}
+            >
+              <Microphone weight="bold" aria-hidden="true" />
+            </button>
+            <span className="mic-label" aria-hidden="true">
+              {micLabel}
+            </span>
+          </div>
+        )
+      )}
+
+      <div aria-live="polite">
+        {silent && !listening && <p className="say-hint">કંઈ સંભળાયું નહીં. ફોનની નજીક મોટેથી બોલો.</p>}
+        {check && !silent && (
+          <div className="say-result">
+            <p className="say-words" lang="en" aria-label="સંભળાયેલા શબ્દો">
+              {check.words.map((w, i) => (
+                <span key={i} className={w.heard ? "say-word heard" : "say-word"}>
+                  {w.text}
+                </span>
+              ))}
+            </p>
+            <p className="say-heard">
+              ફોને સાંભળ્યું: <span lang="en">{check.heard}</span>
+            </p>
+            {!check.pass && !done && <p className="say-hint">ફરી બોલો. રાખોડી શબ્દો બરાબર સંભળાયા નહીં.</p>}
+          </div>
+        )}
+      </div>
+
+      {!done && !listening && tries >= SAY_TRIES && (
+        <button type="button" className="button button-secondary say-skip" onClick={() => finish(false)}>
+          આગળ વધો
+          <ArrowRight weight="bold" aria-hidden="true" />
+        </button>
       )}
     </div>
   );

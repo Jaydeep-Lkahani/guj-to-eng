@@ -1,0 +1,263 @@
+/* =========================================================
+   Sentence pattern pictures and the "labelled boxes" question.
+   Each sentence part has its own colour (tokens --role-* in styles.css).
+   ========================================================= */
+
+.role-who {
+  --role: var(--role-who);
+  --role-soft: var(--role-who-soft);
+  --role-ink: var(--role-who-ink);
+}
+.role-verb {
+  --role: var(--role-verb);
+  --role-soft: var(--role-verb-soft);
+  --role-ink: var(--role-verb-ink);
+}
+.role-helper {
+  --role: var(--role-helper);
+  --role-soft: var(--role-helper-soft);
+  --role-ink: var(--role-helper-ink);
+}
+.role-what {
+  --role: var(--role-what);
+  --role-soft: var(--role-what-soft);
+  --role-ink: var(--role-what-ink);
+}
+.role-how {
+  --role: var(--role-how);
+  --role-soft: var(--role-how-soft);
+  --role-ink: var(--role-how-ink);
+}
+.role-where {
+  --role: var(--role-where);
+  --role-soft: var(--role-where-soft);
+  --role-ink: var(--role-where-ink);
+}
+.role-when {
+  --role: var(--role-when);
+  --role-soft: var(--role-when-soft);
+  --role-ink: var(--role-when-ink);
+}
+.role-link {
+  --role: var(--role-link);
+  --role-soft: var(--role-link-soft);
+  --role-ink: var(--role-link-ink);
+}
+
+/* ---------- Pattern picture ---------- */
+
+.pat-card {
+  margin: 20px 0 0;
+  padding: 16px 18px 18px;
+  border: 1.5px solid var(--line);
+  border-radius: var(--r-lg);
+  background: var(--surface);
+}
+
+.pat-title {
+  margin: 0 0 10px;
+  font-family: var(--font-head);
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.pat-row + .pat-row {
+  margin-top: 12px;
+}
+
+.pat-row-label {
+  margin: 0 0 6px;
+  color: var(--text-3);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.pat-pieces {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pat-piece {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 64px;
+  padding: 8px 12px 6px;
+  border: 1.5px solid color-mix(in srgb, var(--role) 45%, transparent);
+  border-radius: var(--r-md);
+  background: var(--role-soft);
+  color: var(--role-ink);
+  text-align: center;
+}
+
+/* The verb is the piece that moves, so it gets a stronger border. */
+.pat-piece.role-verb {
+  border-width: 2.5px;
+  border-color: var(--role);
+}
+
+.pat-num {
+  position: absolute;
+  top: -8px;
+  left: -6px;
+  display: grid;
+  place-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--surface);
+  border: 1.5px solid color-mix(in srgb, var(--role) 55%, transparent);
+  color: var(--role-ink);
+  font-family: var(--font-en);
+  font-size: 0.7rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.pat-text {
+  color: var(--text);
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.pat-text[lang="en"] {
+  font-family: var(--font-en);
+}
+
+.pat-role {
+  margin-top: 2px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.pat-note {
+  margin: 14px 0 0;
+  color: var(--text-2);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* ---------- Labelled boxes question ---------- */
+
+.build-hint {
+  margin: -6px 0 12px;
+  color: var(--text-2);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.build-slots {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 8px;
+  margin: 0 0 14px;
+  padding: 0;
+  list-style: none;
+}
+
+.build-slot {
+  display: flex;
+  flex-direction: column;
+  min-width: 84px;
+  border: 2px dashed color-mix(in srgb, var(--role) 55%, var(--line-strong));
+  border-radius: var(--r-md);
+  background: var(--surface-2);
+  overflow: hidden;
+}
+
+.build-slot-label {
+  padding: 3px 10px;
+  background: var(--role-soft);
+  color: var(--role-ink);
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.build-slot-body {
+  display: grid;
+  place-items: center;
+  flex: 1;
+  min-height: 48px;
+  padding: 4px 8px;
+  border: 0;
+  background: transparent;
+  color: var(--text);
+  font-family: var(--font-en);
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+button.build-slot-body {
+  cursor: pointer;
+}
+
+button.build-slot-body:focus-visible {
+  outline: 3px solid var(--ring);
+  outline-offset: -3px;
+}
+
+.build-slot.filled {
+  border-style: solid;
+}
+
+.build-slot.right {
+  border-color: var(--good);
+}
+
+.build-slot.right .build-slot-body {
+  background: var(--good-soft);
+}
+
+.build-slot.wrong {
+  border-color: var(--bad);
+}
+
+.build-slot.wrong .build-slot-body {
+  background: var(--bad-soft);
+}
+
+.build-msg {
+  margin: 0 0 14px;
+  padding: 10px 14px;
+  border-radius: var(--r-md);
+  background: var(--bad-soft);
+  color: var(--text);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 899px) {
+  .pat-card {
+    padding: 14px 12px 16px;
+  }
+
+  .pat-piece {
+    min-width: 56px;
+    padding: 8px 10px 6px;
+  }
+
+  .build-slot {
+    min-width: 76px;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .build-slot.right {
+    animation: pop 0.4s var(--ease-spring);
+  }
+
+  .build-slot.wrong {
+    animation: shake 0.45s var(--ease-out);
+  }
+}

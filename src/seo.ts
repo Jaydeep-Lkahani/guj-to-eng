@@ -2,7 +2,7 @@
 // canonical link, Open Graph / Twitter tags and structured data (JSON-LD).
 // Used twice: at build time (scripts/prerender.mjs writes it into each page's HTML)
 // and in the browser (components/Seo.tsx updates it when she moves between pages).
-import { allTopics, getLesson, getPart, getTopicInfo, lessons, parts } from "./content";
+import { allTopics, getLesson, getPart, getTopicInfo, guide, lessons, parts } from "./content";
 
 // The live address. Change it here if the site moves to its own domain.
 export const SITE_URL = "https://gujarati-to-english.vercel.app";
@@ -264,6 +264,35 @@ function notFoundMeta(path: string): PageMeta {
   };
 }
 
+// The sentence guide is useful to anyone learning, so it is in search results.
+function guideMeta(): PageMeta {
+  const path = "/guide";
+  const kinds = guide.items.map((i) => plain(i.labelGu)).join(", ");
+  return {
+    title: `English Sentence Patterns in Gujarati – વાક્ય બનાવવાની ચાવી | ${BRAND}`,
+    description: clip(`${plain(guide.introGu)} ${kinds}.`),
+    path,
+    jsonLd: [
+      {
+        "@type": "LearningResource",
+        name: "English Sentence Patterns in Gujarati – વાક્ય બનાવવાની ચાવી",
+        description: plain(guide.introGu),
+        url: url(path),
+        inLanguage: "gu",
+        learningResourceType: "Reference",
+        teaches: "English sentence patterns and word order",
+        isAccessibleForFree: true,
+        provider: { "@id": org["@id"] },
+        isPartOf: courseRef,
+      },
+      breadcrumbs([
+        { name: BRAND, path: "/" },
+        { name: "વાક્ય બનાવવાની ચાવી", path },
+      ]),
+    ],
+  };
+}
+
 // Her personal pages (they show her own progress), so they stay out of search.
 function reviewMeta(): PageMeta {
   return {
@@ -279,6 +308,7 @@ export function pageMeta(pathname: string): PageMeta {
   const clean = pathname.replace(/\/+$/, "") || "/";
   if (clean === "/") return homeMeta();
   if (clean === "/review") return reviewMeta();
+  if (clean === "/guide") return guideMeta();
   const [, kind, id] = clean.split("/");
   const meta = kind === "part" ? partMeta(id) : kind === "topic" ? topicMeta(id) : undefined;
   return meta ?? notFoundMeta(clean);
@@ -290,12 +320,13 @@ export function indexablePaths(): string[] {
     "/",
     ...parts.map((p) => `/part/${p.id}`),
     ...allTopics.filter((t) => getLesson(t.id)).map((t) => `/topic/${t.id}`),
+    "/guide",
   ];
 }
 
 // Every page the build writes as its own HTML file (includes not-yet-written topics).
 export function allPaths(): string[] {
-  return ["/", ...parts.map((p) => `/part/${p.id}`), ...allTopics.map((t) => `/topic/${t.id}`), "/review"];
+  return ["/", ...parts.map((p) => `/part/${p.id}`), ...allTopics.map((t) => `/topic/${t.id}`), "/review", "/guide"];
 }
 
 function esc(text: string): string {

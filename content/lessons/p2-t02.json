@@ -129,6 +129,11 @@
       "explainGu": "We are eating rice now. – વી આર ઈટિંગ રાઇસ નાઉ. સમય (now) વાક્યના અંતે આવે છે."
     },
     {"type": "order", "questionGu": "\"તે જમવાનું બનાવી રહી છે.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["She", "is", "cooking", "dinner"], "end": ".", "explainGu": "She is cooking dinner. – શી ઇઝ કુકિંગ ડિનર. is + ક્રિયા-ing."},
-    {"type": "order", "questionGu": "\"મારી મમ્મી રસોડામાં કામ કરી રહી છે.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["My", "mother", "is", "working", "in", "the", "kitchen"], "end": ".", "explainGu": "My mother is working in the kitchen. – માય મધર ઇઝ વર્કિંગ ઇન ધ કિચન. કર્તા + is + working + જગ્યા."}
+    {"type": "order", "questionGu": "\"મારી મમ્મી રસોડામાં કામ કરી રહી છે.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["My", "mother", "is", "working", "in", "the", "kitchen"], "end": ".", "explainGu": "My mother is working in the kitchen. – માય મધર ઇઝ વર્કિંગ ઇન ધ કિચન. કર્તા + is + working + જગ્યા."},
+    {"type": "build", "questionGu": "\"દાદા છાપું વાંચી રહ્યા છે.\" ખાનામાં ગોઠવો.", "parts": [{"text": "My grandfather", "role": "who"}, {"text": "is", "role": "helper"}, {"text": "reading", "role": "verb"}, {"text": "the newspaper", "role": "what"}], "end": ".", "explainGu": "My grandfather is reading the newspaper. – માય ગ્રૅન્ડફાધર ઇઝ રીડિંગ ધ ન્યૂઝપેપર. એક વ્યક્તિ માટે is + ing."},
+    {"type": "build", "questionGu": "\"છોકરાઓ બહાર ક્રિકેટ રમી રહ્યા છે.\" ખાનામાં ગોઠવો.", "parts": [{"text": "The boys", "role": "who"}, {"text": "are", "role": "helper"}, {"text": "playing", "role": "verb"}, {"text": "cricket", "role": "what"}, {"text": "outside", "role": "where"}], "end": ".", "explainGu": "The boys are playing cricket outside. – ધ બૉય્ઝ આર પ્લેઇંગ ક્રિકેટ આઉટસાઇડ. ઘણા માટે are + ing, જગ્યા છેલ્લે."}
+  ],
+  "patterns": [
+    {"titleGu": "\"રહી છું\" નો ક્રમ", "gu": [{"text": "હું", "role": "who"}, {"text": "અત્યારે", "role": "when"}, {"text": "ચા", "role": "what"}, {"text": "પી રહી છું", "role": "verb"}], "en": [{"text": "I", "role": "who"}, {"text": "am", "role": "helper"}, {"text": "drinking", "role": "verb"}, {"text": "tea", "role": "what"}, {"text": "now", "role": "when"}], "end": ".", "noteGu": "ગુજરાતીનું \"રહી છું\" અંગ્રેજીમાં [[am]] બને છે અને તે કર્તા પછી તરત આવે છે. ક્રિયાને [[ing]] લાગે, અને [[now]] છેલ્લે."}
   ]
 }

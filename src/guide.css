@@ -1,0 +1,465 @@
+/* Sentence guide page (/guide). The coloured pieces come from pattern.css. */
+
+.gd {
+  max-width: 760px;
+}
+
+.gd-head h1 {
+  margin-bottom: 0.2em;
+}
+
+.gd-lead {
+  color: var(--text-2);
+}
+
+.gd-pick {
+  margin-top: 28px;
+}
+
+.gd-pick h2,
+.gd-checks h2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 12px;
+  font-size: 1.3rem;
+}
+
+.gd-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.gd-chip {
+  min-height: var(--tap);
+  padding: 6px 16px;
+  border: 1.5px solid var(--line-strong);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition:
+    border-color 0.2s,
+    background-color 0.2s,
+    transform 0.15s var(--ease-out);
+}
+
+.gd-chip:hover {
+  border-color: var(--primary);
+  background: var(--primary-soft);
+}
+
+.gd-chip:active {
+  transform: scale(0.96);
+}
+
+.gd-chip:focus-visible {
+  outline: 3px solid var(--ring);
+  outline-offset: 2px;
+}
+
+.gd-chip.on {
+  border-color: var(--primary);
+  background: var(--primary-soft);
+  color: var(--primary-ink);
+}
+
+.gd-list {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.gd-item {
+  /* Leave room for the sticky header when she jumps to a card. */
+  scroll-margin-top: calc(var(--header-h) + 16px);
+  padding: 18px 20px 20px;
+  border: 1.5px solid var(--line);
+  border-radius: var(--r-lg);
+  background: var(--surface);
+  transition: border-color 0.3s;
+}
+
+.gd-item.picked {
+  border-color: var(--primary);
+}
+
+.gd-item h3 {
+  margin: 0 0 2px;
+  font-family: var(--font-head);
+  font-size: 1.3rem;
+  line-height: 1.3;
+}
+
+.gd-item h3:focus {
+  outline: none;
+}
+
+.gd-when {
+  margin: 0 0 14px;
+  color: var(--text-2);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.gd-example {
+  margin-top: 16px;
+  padding: 12px 14px;
+  border-radius: var(--r-md);
+  background: var(--surface-2);
+}
+
+.gd-en {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 800;
+  line-height: 1.4;
+}
+
+.gd-en .en {
+  color: var(--text);
+}
+
+.gd-gu {
+  margin: 2px 0 0;
+  color: var(--text-2);
+}
+
+.gd-mistake {
+  display: grid;
+  gap: 6px;
+  margin: 14px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.gd-mistake li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  line-height: 1.5;
+}
+
+.gd-mistake svg {
+  flex: 0 0 auto;
+  margin-top: 0.2em;
+  font-size: 1.2rem;
+}
+
+.gd-wrong svg {
+  color: var(--bad);
+}
+
+.gd-wrong .en {
+  color: var(--bad-ink);
+  text-decoration: line-through;
+  text-decoration-thickness: 1.5px;
+}
+
+.gd-right svg {
+  color: var(--good);
+}
+
+.gd-right .en {
+  color: var(--good-ink);
+  font-weight: 700;
+}
+
+.gd-tag {
+  color: var(--text-3);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.gd-tip {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin: 14px 0 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.gd-tip > svg {
+  flex: 0 0 auto;
+  margin-top: 0.2em;
+  color: var(--warn);
+  font-size: 1.25rem;
+}
+
+.gd-lesson {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: var(--tap);
+  margin-top: 8px;
+  color: var(--primary-ink);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.gd-lesson:hover {
+  text-decoration: underline;
+}
+
+.gd-checks {
+  margin-top: 32px;
+  padding: 18px 20px;
+  border: 1.5px solid color-mix(in srgb, var(--good) 40%, var(--line));
+  border-radius: var(--r-lg);
+  background: var(--good-soft);
+}
+
+.gd-checks h2 svg {
+  color: var(--good);
+}
+
+.gd-checks ol {
+  margin: 0;
+  padding-left: 1.4em;
+  line-height: 1.65;
+}
+
+.gd-checks li + li {
+  margin-top: 8px;
+}
+
+/* ---------- Tense chart ---------- */
+
+.gd-tenses {
+  margin-top: 28px;
+}
+
+.gd-tenses h2,
+.gd-mixed h2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 6px;
+  font-size: 1.3rem;
+}
+
+.gd-tenses h2 svg,
+.gd-mixed h2 svg {
+  color: var(--primary);
+}
+
+.gd-tenses-note {
+  margin: 0 0 12px;
+  color: var(--text-2);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.gd-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 6px;
+  margin: 0 -6px;
+}
+
+.gd-table th {
+  color: var(--text-2);
+  font-size: 0.9rem;
+  font-weight: 800;
+  line-height: 1.3;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.gd-table thead td {
+  width: 92px;
+}
+
+.gd-table th small {
+  display: block;
+  color: var(--text-3);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+/* height: 1px lets the box inside fill the cell, so boxes in a row are the same height. */
+.gd-table td {
+  height: 1px;
+  padding: 0;
+  vertical-align: top;
+}
+
+.gd-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  width: 100%;
+  height: 100%;
+  min-height: 72px;
+  padding: 8px 10px;
+  border: 1.5px solid color-mix(in srgb, var(--good) 45%, var(--line));
+  border-radius: var(--r-md);
+  background: var(--good-soft);
+  color: var(--text);
+  font: inherit;
+  text-align: left;
+}
+
+button.gd-cell {
+  cursor: pointer;
+  transition:
+    border-color 0.2s,
+    transform 0.15s var(--ease-out);
+}
+
+button.gd-cell:hover {
+  border-color: var(--good);
+}
+
+button.gd-cell:active {
+  transform: scale(0.97);
+}
+
+button.gd-cell:focus-visible {
+  outline: 3px solid var(--ring);
+  outline-offset: 2px;
+}
+
+.gd-cell.later {
+  border-style: dashed;
+  border-color: var(--line-strong);
+  background: var(--surface-2);
+}
+
+.gd-cell-en {
+  font-family: var(--font-en);
+  font-size: 0.95rem;
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+.gd-cell-gu {
+  color: var(--text-2);
+  font-size: 0.8rem;
+  line-height: 1.35;
+}
+
+.gd-cell.later .gd-cell-en,
+.gd-cell.later .gd-cell-gu {
+  color: var(--text-3);
+}
+
+.gd-cell-later {
+  margin-top: 2px;
+  color: var(--text-3);
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+/* ---------- Practice ---------- */
+
+.gd-practice {
+  margin-top: 12px;
+}
+
+.gd-practice .practice {
+  margin-top: 14px;
+}
+
+.gd-mixed {
+  margin-top: 28px;
+  padding: 18px 20px 20px;
+  border: 1.5px solid color-mix(in srgb, var(--primary) 35%, var(--line));
+  border-radius: var(--r-lg);
+  background: var(--surface);
+}
+
+@media (max-width: 899px) {
+  .gd-table {
+    border-spacing: 4px;
+    margin: 0 -4px;
+  }
+
+  .gd-table thead td {
+    width: 46px;
+  }
+
+  .gd-table th {
+    font-size: 0.74rem;
+  }
+
+  .gd-table th small {
+    font-size: 0.68rem;
+  }
+
+  .gd-cell {
+    min-height: 64px;
+    padding: 6px 6px;
+  }
+
+  /* Long words like "drinking" break with a hyphen instead of spilling out. */
+  .gd-cell-en {
+    font-size: 0.78rem;
+    hyphens: auto;
+  }
+
+  .gd-cell-gu {
+    font-size: 0.7rem;
+  }
+
+  .gd-cell-later {
+    font-size: 0.66rem;
+  }
+
+  .gd-practice-btn {
+    width: 100%;
+  }
+
+  .gd-mixed {
+    padding: 16px 14px 18px;
+  }
+}
+
+@media (max-width: 899px) {
+  .gd-chips {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .gd-chip {
+    padding: 6px 10px;
+    border-radius: var(--r-md);
+    font-size: 0.9rem;
+    line-height: 1.3;
+  }
+
+  .gd-item {
+    padding: 16px 14px 18px;
+  }
+
+  .gd-en {
+    font-size: 1.15rem;
+  }
+
+  .gd-checks {
+    padding: 16px 14px;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .gd-item.picked {
+    animation: gd-flash 1.2s var(--ease-out);
+  }
+}
+
+@keyframes gd-flash {
+  0% {
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--primary) 45%, transparent);
+  }
+  100% {
+    box-shadow: 0 0 0 12px color-mix(in srgb, var(--primary) 0%, transparent);
+  }
+}

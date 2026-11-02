@@ -62,8 +62,54 @@ There is a second question type, "put the words in order". She taps shuffled wor
 
 `words` is the right order (the site shuffles them). Leave the full stop or question mark off the last word and put it in `end` (default `.`).
 
+A third type, "say it aloud", asks her to say a sentence into the microphone. The site shows which words the phone heard; she passes when at least 80% were heard in order. On phones that can't listen she says it aloud and taps "done", which counts as right:
+
+```json
+{
+  "type": "say",
+  "questionGu": "\"મારી પાસે ગાડી છે.\" અંગ્રેજીમાં બોલો.",
+  "text": "I have a car.",
+  "translit": "આઇ હૅવ અ કાર.",
+  "explainGu": "I have a car. – આઇ હૅવ અ કાર."
+}
+```
+
+`text` is plain English (no Gujarati, no `[[ ]]`) and ends with `.`, `?` or `!`. `translit` is optional and shows under the sentence. Put 2–3 of these as the last questions of a lesson, picked from its examples.
+
+A fourth type, "fill the labelled boxes", is word order with a label on every box (કોણ? શું કરે? શું? ક્યાં? ક્યારે? …). A piece can be a few words. If she puts a piece in the wrong box, the site says which box it belongs in:
+
+```json
+{
+  "type": "build",
+  "questionGu": "\"હું રોજ ચા પીઉં છું.\" ખાનામાં ગોઠવો.",
+  "parts": [
+    { "text": "I", "role": "who" },
+    { "text": "drink", "role": "verb" },
+    { "text": "tea", "role": "what" },
+    { "text": "every day", "role": "when" }
+  ],
+  "end": ".",
+  "explainGu": "I drink tea every day. – આઇ ડ્રિન્ક ટી એવરી ડે."
+}
+```
+
+`role` is one of `who` (કોણ?), `verb` (શું કરે?), `helper` (મદદગાર: am, will, has, didn't …), `what` (શું?), `where` (ક્યાં?), `when` (ક્યારે?) and `link` (જોડતો શબ્દ: if, and, because …). Each has its own colour. Leave the end mark off the last piece and put it in `end`.
+
+A lesson can also have `patterns`: colour pictures of a sentence shown at the end of "સમજીએ", with the Gujarati order above the English order. Each piece uses the same roles:
+
+```json
+"patterns": [
+  {
+    "titleGu": "ક્રિયા બીજા નંબરે આવે",
+    "gu": [{ "text": "હું", "role": "who" }, { "text": "ચા", "role": "what" }, { "text": "પીઉં છું", "role": "verb" }],
+    "en": [{ "text": "I", "role": "who" }, { "text": "drink", "role": "verb" }, { "text": "tea", "role": "what" }],
+    "end": ".",
+    "noteGu": "ગુજરાતીમાં ક્રિયા છેલ્લે, અંગ્રેજીમાં બીજા નંબરે."
+  }
+]
+```
 Every example card can be tapped to hear the English, using a recording from `public/audio/` (made with `npm run audio`, voice: Microsoft Neerja via the free `edge-tts` tool). A sentence with no recording falls back to the phone's built-in voice.
 
 3. Run `npm test` to catch mistakes in the file.
 
-Progress (finished topics) is saved in the browser's localStorage under `guj-eng.completed.v1`.
+Progress (finished topics) is saved in the browser's localStorage under `guj-eng.completed.v1`. The one-time microphone note is remembered under `guj-eng.mic-note.v1`.

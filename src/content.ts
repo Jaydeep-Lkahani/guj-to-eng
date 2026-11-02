@@ -2,6 +2,7 @@
 // parts.json lists the parts and their topics in order.
 // Each topic's lesson lives in content/lessons/<topic id>.json and is picked up automatically.
 import partsData from "../content/parts.json";
+import guideData from "../content/guide.json";
 
 export type TopicMeta = {
   id: string;
@@ -42,12 +43,96 @@ export type OrderQuestion = {
   explainGu?: string;
 };
 
-export type Question = ChoiceQuestion | OrderQuestion;
+// "Say it aloud": she hears the sentence, then says it into the phone's microphone.
+// `text` is plain English with its end mark; `translit` is how it sounds, in Gujarati letters.
+export type SayQuestion = {
+  type: "say";
+  questionGu: string;
+  text: string;
+  translit?: string;
+  explainGu?: string;
+};
+
+// The job a piece of a sentence does. Each has its own colour and Gujarati label on screen.
+export const ROLES = ["who", "verb", "helper", "what", "how", "where", "when", "link"] as const;
+export type Role = (typeof ROLES)[number];
+
+export type SentencePart = { text: string; role: Role };
+
+// "Fill the labelled boxes": like word order, but each box says which part goes in it
+// (કોણ? શું કરે? ...), and tiles can be a few words ("every day"). `parts` is the right order.
+export type BuildQuestion = {
+  type: "build";
+  questionGu: string;
+  parts: SentencePart[];
+  end?: string;
+  explainGu?: string;
+};
+
+export type Question = ChoiceQuestion | OrderQuestion | SayQuestion | BuildQuestion;
 
 // The right answer as one line of English, e.g. "I drink tea."
 export function answerText(q: Question): string {
-  return q.type === "choice" ? q.options[q.answer] : q.words.join(" ") + (q.end ?? ".");
+  switch (q.type) {
+    case "choice":
+      return q.options[q.answer];
+    case "order":
+      return q.words.join(" ") + (q.end ?? ".");
+    case "say":
+      return q.text;
+    case "build":
+      return q.parts.map((p) => p.text).join(" ") + (q.end ?? ".");
+  }
 }
+
+// A colour picture of one sentence: the Gujarati order above the English order,
+// each piece labelled with its job, so she sees where the verb moves to.
+export type Pattern = {
+  titleGu?: string;
+  gu: SentencePart[];
+  en: SentencePart[];
+  end?: string;
+  noteGu?: string;
+};
+
+export function patternEnglish(p: Pattern): string {
+  return p.en.map((x) => x.text).join(" ") + (p.end ?? ".");
+}
+
+// The sentence guide page (/guide): one card per kind of sentence she may want to say.
+export type GuideItem = {
+  id: string;
+  labelGu: string;
+  whenGu: string;
+  formula: SentencePart[];
+  example: { en: string; gu: string };
+  wrong?: string;
+  right?: string;
+  tipGu: string;
+  topicId: string;
+  practice?: Question[];
+};
+
+// Past / present / future × simple / -ing / perfect. A cell with `itemId` opens that guide card;
+// a cell without one is a tense not taught yet.
+export type TenseChart = {
+  titleGu: string;
+  noteGu: string;
+  columns: { id: string; labelGu: string; en: string }[];
+  rows: { id: string; labelGu: string; en: string }[];
+  cells: { row: string; column: string; en: string; gu: string; itemId?: string }[];
+};
+
+export type Guide = {
+  introGu: string;
+  basic: Pattern;
+  tenseChart: TenseChart;
+  items: GuideItem[];
+  mixed: { titleGu: string; introGu: string; questions: Question[] };
+  checksGu: string[];
+};
+
+export const guide = guideData as unknown as Guide;
 
 // True when the text is plain English (no Gujarati letters, no [[marked]] words), so it can be read aloud.
 export function isEnglishText(text: string): boolean {
@@ -60,6 +145,7 @@ export type Lesson = {
   explanationGu: string[];
   examples: Example[];
   practice: Question[];
+  patterns?: Pattern[];
 };
 
 export type TopicInfo = {

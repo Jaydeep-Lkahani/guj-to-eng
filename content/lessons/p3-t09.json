@@ -1,0 +1,408 @@
+{
+  "topicId": "p3-t09",
+  "explanationGu": [
+    "ગુજરાતીમાં એક જ કામ માટે શબ્દ બદલાય છે: \"હું રોજ મંદિરે જાઉં છું\", \"હું ગઈકાલે મંદિરે ગઈ\", \"મીના મંદિરે ગઈ છે\". અંગ્રેજીમાં પણ દરેક કામ બતાવતા શબ્દ (ક્રિયા) નાં ત્રણ રૂપ હોય છે: [[go]], [[went]], [[gone]]. ભાગ 2 માં [[went]] જેવું ભૂતકાળનું રૂપ શીખ્યા. હવે ત્રણેય રૂપ એક સાથે શીખીશું, જેથી કયું રૂપ ક્યારે વાપરવું તે પાકું થાય.",
+    "આ ત્રણ રૂપને ટૂંકમાં V1, V2, V3 કહે છે. V એટલે [[verb]] (વર્બ), એટલે કે ક્રિયા. V1 = પહેલું રૂપ, મૂળ શબ્દ: [[go]] (જવું). V2 = બીજું રૂપ, ભૂતકાળ: [[went]] (ગયા). V3 = ત્રીજું રૂપ: [[gone]] (ગયા છે). ચોપડીમાં અને શબ્દકોશમાં ત્રણેય આ જ ક્રમમાં લખેલાં હોય છે: [[go – went – gone]].",
+    "V1 ક્યાં આવે: રોજની વાતમાં, [[I go to the temple every day.]] [[He]], [[She]] સાથે અંતે [[s]] લાગે: [[She goes.]] અને [[will]], [[can]], [[did]], [[didn't]] પછી હંમેશાં V1 જ આવે: [[I will go.]], [[I can go.]], [[I didn't go.]]",
+    "V2 ક્યાં આવે: ગઈકાલે, ગયા વર્ષે કે પહેલાં થઈ ગયેલા કામ માટે. V2 એકલું જ આવે, તેની આગળ બીજો કોઈ મદદગાર શબ્દ નહીં: [[I went to the temple yesterday.]], [[Ravi ate breakfast at eight.]]",
+    "V3 ક્યાં આવે: V3 ક્યારેય એકલું નથી આવતું. તેની આગળ [[have]] કે [[has]] આવે: [[Meena has gone to the temple.]], [[Ravi has eaten breakfast.]] ગુજરાતીમાં \"ગઈ છે\", \"ખાધું છે\", \"કરી લીધું છે\" જેવું આવે તો V3 યાદ કરો. તેની પૂરી વાત આગળના પાઠ \"કામ પૂરું થયું\" માં છે.",
+    "પહેલો પ્રકાર (સૌથી સહેલો): મોટા ભાગની ક્રિયામાં V2 અને V3 સરખાં છે, અંતે [[ed]] લાગે: [[work – worked – worked]], [[cook – cooked – cooked]], [[clean – cleaned – cleaned]], [[play – played – played]], [[live – lived – lived]], [[study – studied – studied]]. [[ed]] લગાડવાના નિયમો ભાગ 2 માં જોયા હતા.",
+    "બીજો પ્રકાર: [[ed]] નથી લાગતો, પણ V2 અને V3 સરખાં છે. એક યાદ રાખો એટલે બંને આવડી જાય: [[buy – bought – bought]], [[bring – brought – brought]], [[think – thought – thought]], [[teach – taught – taught]], [[make – made – made]], [[have – had – had]], [[sleep – slept – slept]], [[sit – sat – sat]], [[tell – told – told]], [[sell – sold – sold]], [[send – sent – sent]], [[keep – kept – kept]], [[feel – felt – felt]], [[leave – left – left]], [[meet – met – met]], [[pay – paid – paid]], [[say – said – said]], [[get – got – got]], [[find – found – found]], [[stand – stood – stood]].",
+    "ત્રીજો પ્રકાર: ત્રણેય રૂપ સરખાં, કંઈ બદલાતું નથી: [[cut – cut – cut]], [[put – put – put]], [[hit – hit – hit]], [[shut – shut – shut]], [[cost – cost – cost]], [[let – let – let]]. ધ્યાન રાખો: [[read – read – read]] લખાય સરખું, પણ બોલાય જુદું. V1 \"રીડ\" અને V2, V3 \"રેડ\".",
+    "ચોથો પ્રકાર: ત્રણેય રૂપ જુદાં. આ મોઢે કરવાં પડે: [[go – went – gone]], [[eat – ate – eaten]], [[see – saw – seen]], [[do – did – done]], [[write – wrote – written]], [[take – took – taken]], [[give – gave – given]], [[know – knew – known]], [[drink – drank – drunk]], [[speak – spoke – spoken]], [[break – broke – broken]], [[forget – forgot – forgotten]], [[wake – woke – woken]], [[sing – sang – sung]], [[begin – began – begun]]. અને આ બેમાં V1 અને V3 સરખાં છે: [[come – came – come]], [[run – ran – run]].",
+    "સૌથી મોટી ભૂલો: (૧) [[have]] / [[has]] પછી V2 મૂકવું. [[I have went.]] ખોટું છે, [[I have gone.]] સાચું છે. (૨) V3 એકલું મૂકવું. [[I gone yesterday.]] ખોટું છે, [[I went yesterday.]] સાચું છે. (૩) [[did]] / [[didn't]] પછી V2 મૂકવું. [[I didn't went.]] અને [[Did you ate?]] ખોટાં છે, [[I didn't go.]] અને [[Did you eat?]] સાચાં છે, કારણ કે ભૂતકાળ [[did]] માં આવી ગયો.",
+    "ક્રમ યાદ રાખો: ગુજરાતીમાં \"ગઈ છે\" આખું છેલ્લે આવે છે: \"મીના બજારે ગઈ છે.\" અંગ્રેજીમાં [[has]] કર્તા પછી તરત આવે અને V3 તેની પાછળ. કર્તા + have/has + V3 + બાકીનું: [[Meena has gone to the market.]] V2 વાળા વાક્યમાં કર્તા + V2 + બાકીનું + સમય: [[Meena went to the market yesterday.]] રોજ પાંચ ક્રિયા મોટેથી બોલો, જેમ કે [[go – went – gone]]."
+  ],
+  "examples": [
+    {
+      "en": "work → worked → worked",
+      "translit": "વર્ક → વર્ક્ડ → વર્ક્ડ",
+      "gu": "કામ કરવું → કર્યું → કર્યું છે"
+    },
+    {
+      "en": "cook → cooked → cooked",
+      "translit": "કુક → કુક્ડ → કુક્ડ",
+      "gu": "રાંધવું → રાંધ્યું → રાંધ્યું છે"
+    },
+    {
+      "en": "buy → bought → bought",
+      "translit": "બાય → બૉટ → બૉટ",
+      "gu": "ખરીદવું → ખરીદ્યું → ખરીદ્યું છે"
+    },
+    {
+      "en": "bring → brought → brought",
+      "translit": "બ્રિંગ → બ્રૉટ → બ્રૉટ",
+      "gu": "લાવવું → લાવ્યા → લાવ્યા છે"
+    },
+    {
+      "en": "sleep → slept → slept",
+      "translit": "સ્લીપ → સ્લેપ્ટ → સ્લેપ્ટ",
+      "gu": "ઊંઘવું → ઊંઘ્યા → ઊંઘ્યા છે"
+    },
+    {
+      "en": "tell → told → told",
+      "translit": "ટેલ → ટોલ્ડ → ટોલ્ડ",
+      "gu": "કહેવું → કહ્યું → કહ્યું છે"
+    },
+    {
+      "en": "sit → sat → sat",
+      "translit": "સિટ → સૅટ → સૅટ",
+      "gu": "બેસવું → બેઠા → બેઠા છે"
+    },
+    {
+      "en": "cut → cut → cut",
+      "translit": "કટ → કટ → કટ",
+      "gu": "કાપવું → કાપ્યું → કાપ્યું છે"
+    },
+    {
+      "en": "put → put → put",
+      "translit": "પુટ → પુટ → પુટ",
+      "gu": "મૂકવું → મૂક્યું → મૂક્યું છે"
+    },
+    {
+      "en": "read → read → read",
+      "translit": "રીડ → રેડ → રેડ",
+      "gu": "વાંચવું → વાંચ્યું → વાંચ્યું છે"
+    },
+    {
+      "en": "go → went → gone",
+      "translit": "ગો → વેન્ટ → ગૉન",
+      "gu": "જવું → ગયા → ગયા છે"
+    },
+    {
+      "en": "eat → ate → eaten",
+      "translit": "ઈટ → એટ → ઈટન",
+      "gu": "ખાવું → ખાધું → ખાધું છે"
+    },
+    {
+      "en": "see → saw → seen",
+      "translit": "સી → સૉ → સીન",
+      "gu": "જોવું → જોયું → જોયું છે"
+    },
+    {
+      "en": "do → did → done",
+      "translit": "ડૂ → ડિડ → ડન",
+      "gu": "કરવું → કર્યું → કર્યું છે"
+    },
+    {
+      "en": "write → wrote → written",
+      "translit": "રાઇટ → રોટ → રિટન",
+      "gu": "લખવું → લખ્યું → લખ્યું છે"
+    },
+    {
+      "en": "give → gave → given",
+      "translit": "ગિવ → ગેવ → ગિવન",
+      "gu": "આપવું → આપ્યું → આપ્યું છે"
+    },
+    {
+      "en": "drink → drank → drunk",
+      "translit": "ડ્રિન્ક → ડ્રૅન્ક → ડ્રન્ક",
+      "gu": "પીવું → પીધું → પીધું છે"
+    },
+    {
+      "en": "speak → spoke → spoken",
+      "translit": "સ્પીક → સ્પોક → સ્પોકન",
+      "gu": "બોલવું → બોલ્યા → બોલ્યા છે"
+    },
+    {
+      "en": "forget → forgot → forgotten",
+      "translit": "ફરગેટ → ફરગૉટ → ફરગૉટન",
+      "gu": "ભૂલવું → ભૂલી ગયા → ભૂલી ગયા છે"
+    },
+    {
+      "en": "come → came → come",
+      "translit": "કમ → કેમ → કમ",
+      "gu": "આવવું → આવ્યા → આવ્યા છે"
+    },
+    {
+      "en": "I go to the temple every day.",
+      "translit": "આઇ ગો ટૂ ધ ટેમ્પલ એવરી ડે",
+      "gu": "હું રોજ મંદિરે જાઉં છું. (V1)"
+    },
+    {
+      "en": "I went to the temple yesterday.",
+      "translit": "આઇ વેન્ટ ટૂ ધ ટેમ્પલ યેસ્ટરડે",
+      "gu": "હું ગઈકાલે મંદિરે ગઈ. (V2)"
+    },
+    {
+      "en": "Meena has gone to the temple.",
+      "translit": "મીના હૅઝ ગૉન ટૂ ધ ટેમ્પલ",
+      "gu": "મીના મંદિરે ગઈ છે. (V3)"
+    },
+    {
+      "en": "Ravi eats breakfast at eight.",
+      "translit": "રવિ ઈટ્સ બ્રેકફાસ્ટ ઍટ એઇટ",
+      "gu": "રવિ આઠ વાગ્યે નાસ્તો કરે છે. (V1)"
+    },
+    {
+      "en": "Ravi ate breakfast at eight.",
+      "translit": "રવિ એટ બ્રેકફાસ્ટ ઍટ એઇટ",
+      "gu": "રવિએ આઠ વાગ્યે નાસ્તો કર્યો. (V2)"
+    },
+    {
+      "en": "Ravi has eaten breakfast.",
+      "translit": "રવિ હૅઝ ઈટન બ્રેકફાસ્ટ",
+      "gu": "રવિએ નાસ્તો કરી લીધો છે. (V3)"
+    },
+    {
+      "en": "She will come tomorrow.",
+      "translit": "શી વિલ કમ ટુમૉરો",
+      "gu": "તે કાલે આવશે. (will પછી V1)"
+    },
+    {
+      "en": "I didn't go to the market.",
+      "translit": "આઇ ડિડન્ટ ગો ટૂ ધ માર્કિટ",
+      "gu": "હું બજારે ન ગઈ. (didn't પછી V1)"
+    },
+    {
+      "en": "Did you eat?",
+      "translit": "ડિડ યૂ ઈટ?",
+      "gu": "તમે જમ્યા? (Did પછી V1)"
+    },
+    {
+      "en": "My mother has cut the vegetables.",
+      "translit": "માય મધર હૅઝ કટ ધ વેજિટેબલ્સ",
+      "gu": "મમ્મીએ શાક સમાર્યું છે."
+    },
+    {
+      "en": "I have forgotten his name.",
+      "translit": "આઇ હૅવ ફરગૉટન હિઝ નેમ",
+      "gu": "હું તેનું નામ ભૂલી ગઈ છું."
+    },
+    {
+      "en": "Meena + has + gone + to the market",
+      "translit": "મીના + હૅઝ + ગૉન + ટૂ ધ માર્કિટ",
+      "gu": "કર્તા + has + V3 + બાકીનું"
+    }
+  ],
+  "practice": [
+    {
+      "type": "choice",
+      "questionGu": "[[go]] નાં ત્રણ રૂપ સાચા ક્રમમાં કયાં છે?",
+      "options": [
+        "go – gone – went",
+        "go – went – gone",
+        "go – goed – goed"
+      ],
+      "answer": 1,
+      "explainGu": "go – went – gone. – ગો, વેન્ટ, ગૉન. પહેલાં V1, પછી V2, પછી V3."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: I ___ to the temple yesterday. (go)",
+      "options": [
+        "gone",
+        "go",
+        "went"
+      ],
+      "answer": 2,
+      "explainGu": "I went to the temple yesterday. – આઇ વેન્ટ ટૂ ધ ટેમ્પલ યેસ્ટરડે. yesterday એટલે ભૂતકાળ, એકલું V2 (went)."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: She has ___ her lunch. (eat)",
+      "options": [
+        "eaten",
+        "ate",
+        "eat"
+      ],
+      "answer": 0,
+      "explainGu": "She has eaten her lunch. – શી હૅઝ ઈટન હર લંચ. has પછી V3 (eaten) આવે."
+    },
+    {
+      "type": "choice",
+      "questionGu": "ખાલી જગ્યા પૂરો: I didn't ___ to the market. (go)",
+      "options": [
+        "went",
+        "go",
+        "gone"
+      ],
+      "answer": 1,
+      "explainGu": "I didn't go to the market. – આઇ ડિડન્ટ ગો ટૂ ધ માર્કિટ. didn't પછી હંમેશાં V1 (go)."
+    },
+    {
+      "type": "choice",
+      "questionGu": "કઈ ક્રિયાનાં ત્રણેય રૂપ સરખાં છે?",
+      "options": [
+        "cut",
+        "eat",
+        "go"
+      ],
+      "answer": 0,
+      "explainGu": "cut – cut – cut. – કટ, કટ, કટ. ત્રણેય રૂપ સરખાં, કંઈ બદલાતું નથી."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[write]] નું ત્રીજું રૂપ (V3) શું છે?",
+      "options": [
+        "wrote",
+        "writed",
+        "written"
+      ],
+      "answer": 2,
+      "explainGu": "write – wrote – written. – રાઇટ, રોટ, રિટન. V2 wrote અને V3 written."
+    },
+    {
+      "type": "choice",
+      "questionGu": "કયું વાક્ય સાચું છે?",
+      "options": [
+        "I have saw this film.",
+        "I have seen this film.",
+        "I seen this film."
+      ],
+      "answer": 1,
+      "explainGu": "I have seen this film. – આઇ હૅવ સીન ધિસ ફિલ્મ. have પછી V3 (seen), V2 (saw) નહીં."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"તમે જમ્યા?\" નું સાચું વાક્ય કયું છે?",
+      "options": [
+        "Did you ate?",
+        "Did you eaten?",
+        "Did you eat?"
+      ],
+      "answer": 2,
+      "explainGu": "Did you eat? – ડિડ યૂ ઈટ? Did માં ભૂતકાળ આવી ગયો, એટલે પછી V1 (eat)."
+    },
+    {
+      "type": "choice",
+      "questionGu": "[[bring]] નાં V2 અને V3 શું છે?",
+      "options": [
+        "brought – brought",
+        "bringed – bringed",
+        "brang – brung"
+      ],
+      "answer": 0,
+      "explainGu": "bring – brought – brought. – બ્રિંગ, બ્રૉટ, બ્રૉટ. V2 અને V3 સરખાં."
+    },
+    {
+      "type": "choice",
+      "questionGu": "\"મમ્મીએ શાક સમાર્યું છે.\" ને અંગ્રેજીમાં શું કહેવાય?",
+      "options": [
+        "My mother the vegetables has cut.",
+        "My mother has cut the vegetables.",
+        "My mother cut has the vegetables."
+      ],
+      "answer": 1,
+      "explainGu": "My mother has cut the vegetables. – માય મધર હૅઝ કટ ધ વેજિટેબલ્સ. કર્તા + has + V3 + બાકીનું."
+    },
+    {
+      "type": "order",
+      "questionGu": "\"મીના બજારે ગઈ છે.\" ને અંગ્રેજીમાં ગોઠવો.",
+      "words": [
+        "Meena",
+        "has",
+        "gone",
+        "to",
+        "the",
+        "market"
+      ],
+      "end": ".",
+      "explainGu": "Meena has gone to the market. – મીના હૅઝ ગૉન ટૂ ધ માર્કિટ. has કર્તા પછી તરત, gone (V3) તેની પાછળ."
+    },
+    {
+      "type": "order",
+      "questionGu": "\"રવિએ ગઈકાલે પત્ર લખ્યો.\" ને અંગ્રેજીમાં ગોઠવો.",
+      "words": [
+        "Ravi",
+        "wrote",
+        "a",
+        "letter",
+        "yesterday"
+      ],
+      "end": ".",
+      "explainGu": "Ravi wrote a letter yesterday. – રવિ રોટ અ લેટર યેસ્ટરડે. V2 (wrote) એકલું, સમય છેલ્લે."
+    },
+    {
+      "type": "build",
+      "questionGu": "\"મેં મારું નામ લખ્યું છે.\" ખાનામાં ગોઠવો.",
+      "parts": [
+        {
+          "text": "I",
+          "role": "who"
+        },
+        {
+          "text": "have",
+          "role": "helper"
+        },
+        {
+          "text": "written",
+          "role": "verb"
+        },
+        {
+          "text": "my name",
+          "role": "what"
+        }
+      ],
+      "end": ".",
+      "explainGu": "I have written my name. – આઇ હૅવ રિટન માય નેમ. have પછી V3 (written)."
+    },
+    {
+      "type": "build",
+      "questionGu": "\"તેઓએ ગઈકાલે નવું ઘર જોયું.\" ખાનામાં ગોઠવો.",
+      "parts": [
+        {
+          "text": "They",
+          "role": "who"
+        },
+        {
+          "text": "saw",
+          "role": "verb"
+        },
+        {
+          "text": "a new house",
+          "role": "what"
+        },
+        {
+          "text": "yesterday",
+          "role": "when"
+        }
+      ],
+      "end": ".",
+      "explainGu": "They saw a new house yesterday. – ધે સૉ અ ન્યૂ હાઉસ યેસ્ટરડે. yesterday એટલે V2 (saw) એકલું."
+    }
+  ],
+  "patterns": [
+    {
+      "titleGu": "\"ગઈ છે\" = has + V3",
+      "gu": [
+        {
+          "text": "મીના",
+          "role": "who"
+        },
+        {
+          "text": "મંદિરે",
+          "role": "where"
+        },
+        {
+          "text": "ગઈ",
+          "role": "verb"
+        },
+        {
+          "text": "છે",
+          "role": "helper"
+        }
+      ],
+      "en": [
+        {
+          "text": "Meena",
+          "role": "who"
+        },
+        {
+          "text": "has",
+          "role": "helper"
+        },
+        {
+          "text": "gone",
+          "role": "verb"
+        },
+        {
+          "text": "to the temple",
+          "role": "where"
+        }
+      ],
+      "end": ".",
+      "noteGu": "\"ગઈ છે\" = [[has]] + ત્રીજું રૂપ ([[gone]]). ગઈકાલે ગઈ હોય તો V2 એકલું: [[Meena went to the temple yesterday.]]"
+    }
+  ]
+}

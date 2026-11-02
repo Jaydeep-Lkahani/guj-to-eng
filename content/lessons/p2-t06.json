@@ -142,6 +142,11 @@
       "explainGu": "When did they come? – વેન ડિડ ધે કમ? did પછી ક્રિયા જેમ છે તેમ આવે."
     },
     {"type": "order", "questionGu": "\"શું તે ચા પીએ છે?\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["Does", "she", "drink", "tea"], "end": "?", "explainGu": "Does she drink tea? – ડઝ શી ડ્રિંક ટી. Does આગળ, પછી કર્તા, પછી સાદી ક્રિયા."},
-    {"type": "order", "questionGu": "\"શું તમે શાળાએ ગયા હતા?\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["Did", "you", "go", "to", "school"], "end": "?", "explainGu": "Did you go to school? – ડિડ યૂ ગો ટૂ સ્કૂલ. Did પછી સાદી ક્રિયા go."}
+    {"type": "order", "questionGu": "\"શું તમે શાળાએ ગયા હતા?\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["Did", "you", "go", "to", "school"], "end": "?", "explainGu": "Did you go to school? – ડિડ યૂ ગો ટૂ સ્કૂલ. Did પછી સાદી ક્રિયા go."},
+    {"type": "build", "questionGu": "\"તમારો ભાઈ ક્યાં કામ કરે છે?\" ખાનામાં ગોઠવો.", "parts": [{"text": "Where", "role": "where"}, {"text": "does", "role": "helper"}, {"text": "your brother", "role": "who"}, {"text": "work", "role": "verb"}], "end": "?", "explainGu": "Where does your brother work? – વેર ડઝ યોર બ્રધર વર્ક? ક્યાં = Where પહેલાં, brother (He) સાથે does."},
+    {"type": "build", "questionGu": "\"તમે ક્યારે ઊઠો છો?\" ખાનામાં ગોઠવો.", "parts": [{"text": "When", "role": "when"}, {"text": "do", "role": "helper"}, {"text": "you", "role": "who"}, {"text": "wake up", "role": "verb"}], "end": "?", "explainGu": "When do you wake up? – વેન ડૂ યૂ વેક અપ? ક્યારે = When પહેલાં, પછી do, પછી you."}
+  ],
+  "patterns": [
+    {"titleGu": "સવાલનો ક્રમ", "gu": [{"text": "તમે", "role": "who"}, {"text": "શું", "role": "what"}, {"text": "ખાઓ છો", "role": "verb"}], "en": [{"text": "What", "role": "what"}, {"text": "do", "role": "helper"}, {"text": "you", "role": "who"}, {"text": "eat", "role": "verb"}], "end": "?", "noteGu": "ગુજરાતીમાં \"શું\" વાક્યની વચ્ચે આવે છે. અંગ્રેજીમાં સવાલ-શબ્દ ([[What]]) સૌથી પહેલાં, પછી મદદગાર ([[do]]), પછી કર્તા, પછી ક્રિયા. રંગ જુઓ: \"શું\" = [[What]]."}
   ]
 }

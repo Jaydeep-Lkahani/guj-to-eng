@@ -130,6 +130,11 @@
       "explainGu": "We didn't go to school yesterday. – વી ડિડન્ટ ગો ટૂ સ્કૂલ યેસ્ટરડે. didn't પછી ક્રિયા જેમ છે તેમ આવે."
     },
     {"type": "order", "questionGu": "\"તે ઘરે નથી.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["She", "is", "not", "at", "home"], "end": ".", "explainGu": "She is not at home. – શી ઇઝ નૉટ ઍટ હોમ. not, is પછી આવે."},
-    {"type": "order", "questionGu": "\"તેઓ અહીં રહેતા નથી.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["They", "don't", "live", "here"], "end": ".", "explainGu": "They don't live here. – ધે ડોન્ટ લિવ હિયર. don't ક્રિયાની પહેલાં."}
+    {"type": "order", "questionGu": "\"તેઓ અહીં રહેતા નથી.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["They", "don't", "live", "here"], "end": ".", "explainGu": "They don't live here. – ધે ડોન્ટ લિવ હિયર. don't ક્રિયાની પહેલાં."},
+    {"type": "build", "questionGu": "\"રવિ માંસ નથી ખાતો.\" ખાનામાં ગોઠવો.", "parts": [{"text": "Ravi", "role": "who"}, {"text": "doesn't", "role": "helper"}, {"text": "eat", "role": "verb"}, {"text": "meat", "role": "what"}], "end": ".", "explainGu": "Ravi doesn't eat meat. – રવિ ડઝન્ટ ઈટ મીટ. He સાથે doesn't, પછી eat (s વગર)."},
+    {"type": "build", "questionGu": "\"અમે ગઈકાલે બજારે ન ગયા.\" ખાનામાં ગોઠવો.", "parts": [{"text": "We", "role": "who"}, {"text": "didn't", "role": "helper"}, {"text": "go", "role": "verb"}, {"text": "to the market", "role": "where"}, {"text": "yesterday", "role": "when"}], "end": ".", "explainGu": "We didn't go to the market yesterday. – વી ડિડન્ટ ગો ટૂ ધ માર્કિટ યેસ્ટરડે. didn't પછી V1 (go)."}
+  ],
+  "patterns": [
+    {"titleGu": "\"નથી\" નો ક્રમ", "gu": [{"text": "હું", "role": "who"}, {"text": "ચા", "role": "what"}, {"text": "પીતી", "role": "verb"}, {"text": "નથી", "role": "helper"}], "en": [{"text": "I", "role": "who"}, {"text": "don't", "role": "helper"}, {"text": "drink", "role": "verb"}, {"text": "tea", "role": "what"}], "end": ".", "noteGu": "ગુજરાતીમાં \"નથી\" સૌથી છેલ્લે આવે છે. અંગ્રેજીમાં [[don't]] કર્તા પછી તરત, ક્રિયાની પહેલાં આવે છે. પછી ક્રિયા જેમ છે તેમ (V1): [[I don't drink tea.]]"}
   ]
 }

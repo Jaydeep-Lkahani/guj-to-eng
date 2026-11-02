@@ -123,6 +123,11 @@
       "explainGu": "She will come tomorrow. – શી વિલ કમ ટુમૉરો. will પછી ક્રિયા જેમ છે તેમ આવે."
     },
     {"type": "order", "questionGu": "\"હું કાલે બજારમાં જઈશ.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["I", "will", "go", "to", "the", "market", "tomorrow"], "end": ".", "explainGu": "I will go to the market tomorrow. – આઇ વિલ ગો ટૂ ધ માર્કિટ ટુમૉરો. will ક્રિયાની પહેલાં, tomorrow છેલ્લે."},
-    {"type": "order", "questionGu": "\"તેઓ ઘર ખરીદવાના છે.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["They", "are", "going", "to", "buy", "a", "house"], "end": ".", "explainGu": "They are going to buy a house. – ધે આર ગોઇંગ ટૂ બાય અ હાઉસ. are going to + ક્રિયા."}
+    {"type": "order", "questionGu": "\"તેઓ ઘર ખરીદવાના છે.\" ને અંગ્રેજીમાં ગોઠવો.", "words": ["They", "are", "going", "to", "buy", "a", "house"], "end": ".", "explainGu": "They are going to buy a house. – ધે આર ગોઇંગ ટૂ બાય અ હાઉસ. are going to + ક્રિયા."},
+    {"type": "build", "questionGu": "\"રવિ આવતા વર્ષે કૉલેજ જશે.\" ખાનામાં ગોઠવો.", "parts": [{"text": "Ravi", "role": "who"}, {"text": "will", "role": "helper"}, {"text": "go", "role": "verb"}, {"text": "to college", "role": "where"}, {"text": "next year", "role": "when"}], "end": ".", "explainGu": "Ravi will go to college next year. – રવિ વિલ ગો ટૂ કૉલેજ નેક્સ્ટ યર. will + ક્રિયા, s વગર."},
+    {"type": "build", "questionGu": "\"અમે દિવાળી પહેલાં નવાં કપડાં લઈશું.\" ખાનામાં ગોઠવો.", "parts": [{"text": "We", "role": "who"}, {"text": "will", "role": "helper"}, {"text": "buy", "role": "verb"}, {"text": "new clothes", "role": "what"}, {"text": "before Diwali", "role": "when"}], "end": ".", "explainGu": "We will buy new clothes before Diwali. – વી વિલ બાય ન્યૂ ક્લોધ્ઝ બિફોર દિવાળી. \"-ઈશું\" = will."}
+  ],
+  "patterns": [
+    {"titleGu": "ભવિષ્યનો ક્રમ", "gu": [{"text": "હું", "role": "who"}, {"text": "કાલે", "role": "when"}, {"text": "બજારે", "role": "where"}, {"text": "જઈશ", "role": "verb"}], "en": [{"text": "I", "role": "who"}, {"text": "will", "role": "helper"}, {"text": "go", "role": "verb"}, {"text": "to the market", "role": "where"}, {"text": "tomorrow", "role": "when"}], "end": ".", "noteGu": "ગુજરાતીમાં \"-ઈશ\" ક્રિયાના અંતે જોડાય છે. અંગ્રેજીમાં તે [[will]] બને છે અને કર્તા પછી તરત, ક્રિયાની પહેલાં આવે. પહેલાં જગ્યા, પછી સમય."}
   ]
 }

@@ -42,7 +42,8 @@
         { "id": "p2-t05", "titleGu": "\"ના\" વાળાં વાક્યો", "titleEn": "Negative Sentences" },
         { "id": "p2-t06", "titleGu": "સવાલ પૂછતાં શીખો", "titleEn": "Questions" },
         { "id": "p2-t07", "titleGu": "વાતચીત", "titleEn": "Conversations" },
-        { "id": "p2-t08", "titleGu": "નાના પાઠ વાંચીએ", "titleEn": "Reading Short Passages" }
+        { "id": "p2-t08", "titleGu": "નાના પાઠ વાંચીએ", "titleEn": "Reading Short Passages" },
+        { "id": "p2-t11", "titleGu": "ત્રણેય કાળ સાથે", "titleEn": "Mixing Tenses: Past, Present, Future" }
       ]
     },
     {
@@ -52,6 +53,7 @@
       "titleEn": "Advanced",
       "introGu": "હવે અંગ્રેજી પાકું કરીશું. થોડું અઘરું વ્યાકરણ, લખવાનું, રૂઢિપ્રયોગો અને છૂટથી બોલવાનું શીખીશું.",
       "topics": [
+        { "id": "p3-t09", "titleGu": "ક્રિયાનાં 3 રૂપ — go, went, gone", "titleEn": "Verb Forms: V1, V2, V3" },
         { "id": "p3-t01", "titleGu": "કામ પૂરું થયું", "titleEn": "Present Perfect" },
         { "id": "p3-t02", "titleGu": "can, should, must", "titleEn": "Modal Verbs" },
         { "id": "p3-t03", "titleGu": "જો… તો…", "titleEn": "If Sentences" },

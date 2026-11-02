@@ -44,6 +44,32 @@
   --p3-ink: #b45309;
   --p3-soft: #fef3e2;
 
+  /* Sentence parts (who, verb, what …): one colour each, used in pattern pictures and labelled boxes. */
+  --role-who: var(--primary);
+  --role-who-soft: var(--primary-soft);
+  --role-who-ink: var(--primary-ink);
+  --role-verb: var(--warn);
+  --role-verb-soft: var(--warn-soft);
+  --role-verb-ink: var(--warn-ink);
+  --role-what: var(--p1);
+  --role-what-soft: var(--p1-soft);
+  --role-what-ink: var(--p1-ink);
+  --role-how: #65a30d;
+  --role-how-soft: #eef7dc;
+  --role-how-ink: #3f6212;
+  --role-where: #0891b2;
+  --role-where-soft: #e0f4f9;
+  --role-where-ink: #0e7490;
+  --role-when: #db2777;
+  --role-when-soft: #fce7f1;
+  --role-when-ink: #be185d;
+  --role-helper: #64748b;
+  --role-helper-soft: #eef1f5;
+  --role-helper-ink: #475569;
+  --role-link: #7c3aed;
+  --role-link-soft: #f1eafe;
+  --role-link-ink: #6d28d9;
+
   --hero-a: #4f46e5;
   --hero-b: #7c3aed;
   --glow-1: rgb(99 102 241 / 0.12);
@@ -114,6 +140,22 @@
   --p3: #fbbf24;
   --p3-ink: #fcd34d;
   --p3-soft: #362a0c;
+
+  --role-how: #a3e635;
+  --role-how-soft: #1f2e0a;
+  --role-how-ink: #bef264;
+  --role-where: #22d3ee;
+  --role-where-soft: #0b2d36;
+  --role-where-ink: #67e8f9;
+  --role-when: #f472b6;
+  --role-when-soft: #3a1428;
+  --role-when-ink: #f9a8d4;
+  --role-helper: #94a3b8;
+  --role-helper-soft: #222a3d;
+  --role-helper-ink: #cbd5e1;
+  --role-link: #a78bfa;
+  --role-link-soft: #2a1f4d;
+  --role-link-ink: #c4b5fd;
 
   --hero-a: #3730a3;
   --hero-b: #6d28d9;

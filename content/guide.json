@@ -1,0 +1,1622 @@
+{
+  "introGu": "અંગ્રેજી વાક્ય બનાવતી વખતે અહીં જુઓ. પહેલાં નક્કી કરો કે તમારે શું કહેવું છે, પછી તેની પેટર્ન પ્રમાણે ટુકડા ગોઠવો. એક જ રંગ એટલે એક જ કામ.",
+  "basic": {
+    "titleGu": "દરેક વાક્યનો મૂળ ક્રમ",
+    "gu": [
+      {
+        "text": "હું",
+        "role": "who"
+      },
+      {
+        "text": "સવારે",
+        "role": "when"
+      },
+      {
+        "text": "ઘરે",
+        "role": "where"
+      },
+      {
+        "text": "ચા",
+        "role": "what"
+      },
+      {
+        "text": "પીઉં છું",
+        "role": "verb"
+      }
+    ],
+    "en": [
+      {
+        "text": "I",
+        "role": "who"
+      },
+      {
+        "text": "drink",
+        "role": "verb"
+      },
+      {
+        "text": "tea",
+        "role": "what"
+      },
+      {
+        "text": "at home",
+        "role": "where"
+      },
+      {
+        "text": "in the morning",
+        "role": "when"
+      }
+    ],
+    "end": ".",
+    "noteGu": "અંગ્રેજીમાં હંમેશાં: કોણ → શું કરે → શું → ક્યાં → ક્યારે. ક્રિયા કર્તા પછી તરત, બીજા નંબરે આવે છે."
+  },
+  "items": [
+    {
+      "id": "be",
+      "labelGu": "છે (am / is / are)",
+      "whenGu": "કોઈ કામ ન હોય, ફક્ત કોઈ કેવું છે, ક્યાં છે કે કોણ છે તે કહેવું હોય.",
+      "formula": [
+        {
+          "text": "I / He / She / They",
+          "role": "who"
+        },
+        {
+          "text": "am / is / are",
+          "role": "helper"
+        },
+        {
+          "text": "happy",
+          "role": "how"
+        }
+      ],
+      "example": {
+        "en": "She is happy.",
+        "gu": "તે ખુશ છે."
+      },
+      "wrong": "She happy.",
+      "right": "She is happy.",
+      "tipGu": "[[I]] સાથે [[am]], [[He]] / [[She]] / [[It]] સાથે [[is]], [[You]] / [[We]] / [[They]] સાથે [[are]]. ભૂતકાળમાં [[was]] / [[were]].",
+      "topicId": "p1-t08",
+      "practice": [
+        {
+          "type": "build",
+          "questionGu": "\"મીના ખુશ છે.\" ખાનામાં ગોઠવો.",
+          "parts": [
+            {
+              "text": "Meena",
+              "role": "who"
+            },
+            {
+              "text": "is",
+              "role": "helper"
+            },
+            {
+              "text": "happy",
+              "role": "how"
+            }
+          ],
+          "end": ".",
+          "explainGu": "Meena is happy. – મીના ઇઝ હૅપી. એક વ્યક્તિ સાથે is."
+        },
+        {
+          "type": "build",
+          "questionGu": "\"અમે ઘરે છીએ.\" ખાનામાં ગોઠવો.",
+          "parts": [
+            {
+              "text": "We",
+              "role": "who"
+            },
+            {
+              "text": "are",
+              "role": "helper"
+            },
+            {
+              "text": "at home",
+              "role": "where"
+            }
+          ],
+          "end": ".",
+          "explainGu": "We are at home. – વી આર ઍટ હોમ. We સાથે are."
+        },
+        {
+          "type": "build",
+          "questionGu": "\"હું થાકેલી છું.\" ખાનામાં ગોઠવો.",
+          "parts": [
+            {
+              "text": "I",
+              "role": "who"
+            },
+            {
+              "text": "am",
+              "role": "helper"
+            },
+            {
+              "text": "tired",
+              "role": "how"
+            }
+          ],
+          "end": ".",
+          "explainGu": "I am tired. – આઇ ઍમ ટાયર્ડ. I સાથે am."
+        }
+      ]
+    },
+    {
+      "id": "habit",
+      "labelGu": "રોજ / ટેવ",
+      "whenGu": "રોજ, હંમેશાં કે વારંવાર થતું કામ, અને હકીકત.",
+      "formula": [
+        {
+          "text": "I / She",
+          "role": "who"
+        },
+        {
+          "text": "drink / drinks",
+          "role": "verb"
+        },
+        {
+          "text": "tea",
+          "role": "what"
+        },
+        {
+          "text": "every day",
+          "role": "when"
+        }
+      ],
+      "example": {
+        "en": "She drinks tea every day.",
+        "gu": "તે રોજ ચા પીએ છે."
+      },
+      "wrong": "She is drink tea every day.",
+      "right": "She drinks tea every day.",
+      "tipGu": "[[He]], [[She]], [[It]] સાથે ક્રિયાને [[s]] લાગે: [[drinks]], [[goes]]. બીજી ક્રિયા સાથે [[am]] / [[is]] / [[are]] નહીં.",
+      "topicId": "p2-t01",
+      "practice": [
+        {
+          "type": "build",
+          "questionGu": "\"હું રોજ દૂધ પીઉં છું.\" ખાનામાં ગોઠવો.",
+          "parts": [
+            {
+              "text": "I",
+              "role": "who"
+            },
+            {
+              "text": "drink",
+              "role": "verb"
+            },
+            {
+              "text": "milk",
+              "role": "what"
+            },
+            {
+              "text": "every day",
+              "role": "when"
+            }
+          ],
+          "end": ".",
+          "explainGu": "I drink milk every day. – આઇ ડ્રિન્ક મિલ્ક એવરી ડે. કોણ + શું કરે + શું + ક્યારે."
+        },
+        {
+          "type": "build",
+          "questionGu": "\"રવિ રોજ શાળાએ જાય છે.\" ખાનામાં ગોઠવો.",
+          "parts": [
+            {
+              "text": "Ravi",
+              "role": "who"
+            },
+            {
+              "text": "goes",
+              "role": "verb"
+            },
+            {
+              "text": "to school",
+              "role": "where"
+            },
+            {
+              "text": "every day",
+              "role": "when"
+            }
+          ],
+          "end": ".",
+          "explainGu": "Ravi goes to school every day. – રવિ ગોઝ ટૂ સ્કૂલ એવરી ડે. Ravi (He) સાથે go નું goes."
+        },
+        {
+          "type": "build",
+          "questionGu": "\"મીના સવારે રસોઈ બનાવે છે.\" ખાનામાં ગોઠવો.",
+          "parts": [
+            {
+              "text": "Meena",
+              "role": "who"
+            },
+            {
+              "text": "cooks",
+              "role": "verb"
+            },
+            {
+              "text": "in the morning",
+              "role": "when"
+            }
+          ],
+          "end": ".",
+          "explainGu": "Meena cooks in the morning. – મીના કુક્સ ઇન ધ મૉર્નિંગ. Meena (She) સાથે cook ને s લાગે."
+        }
+      ]
+    },
+    {
+      "id": "now",
+      "labelGu": "અત્યારે ચાલે છે",
+      "whenGu": "આ જ ક્ષણે ચાલતું કામ: \"પી રહી છું\", \"રમી રહ્યા છે\".",
+      "formula": [
+        {
+          "text": "I",
+          "role": "who"
+        },
+        {
+          "text": "am / is / are",
+          "role": "helper"
+        },
+        {
+          "text": "drinking",
+          "role": "verb"
+        },
+        {
+          "text": "tea",
+          "role": "what"
+        },
+        {
+          "text": "now",
+          "role": "when"
+        }
+      ],
+      "example": {
+        "en": "I am drinking tea now.",
+        "gu": "હું અત્યારે ચા પી રહી છું."
+      },
+      "wrong": "I drinking tea now.",
+      "right": "I am drinking tea now.",
+      "tipGu": "ક્રિયાને [[ing]] લાગે અને તેની આગળ [[am]] / [[is]] / [[are]] જરૂર આવે.",
+      "topicId": "p2-t02",
+      "practice": [
+        {
+          "type": "build",
+          "questionGu": "\"હું અત્યારે ચા પી રહી છું.\" ખાનામાં ગોઠવો.",
+          "parts": [
+            {
+              "text": "I",
+              "role": "who"
+            },
+            {
+              "text": "am",
+              "role": "helper"
+            },
+            {
+              "text": "drinking",
+              "role": "verb"
+            },
+            {
+              "text": "tea",
+              "role": "what"
+            },
+            {
+              "text": "now",
+              "role": "when"
+            }
+          ],
+          "end": ".",
+          "explainGu": "I am drinking tea now. – આઇ ઍમ ડ્રિન્કિંગ ટી નાઉ. am + ing."
+        },
+        {
+          "type": "build",
+          "questionGu": "\"બાળકો બગીચામાં રમી રહ્યાં છે.\" ખાનામાં ગોઠવો.",
+          "parts": [
+            {
+              "text": "The children",
+              "role": "who"
+            },
+            {
+              "text": "are",
+              "role": "helper"
+            },
+            {
+              "text": "playing",
+              "role": "verb"
+            },
+            {
+              "text": "in the garden",
+              "role": "where"
+            }
+          ],
+          "end": ".",
+          "explainGu": "The children are playing in the garden. – ધ ચિલ્ડ્રન આર પ્લેઇંગ ઇન ધ ગાર્ડન. ઘણા માટે are + ing."
+        },
+        {
+          "type": "build",
+          "questionGu": "\"રાજ ટીવી જોઈ રહ્યો છે.\" ખાનામાં ગોઠવો.",
+          "parts": [
+            {
+              "text": "Raj",
+              "role": "who"
+            },
+            {
+              "text": "is",
+              "role": "helper"
+            },
+            {
+              "text": "watching",
+              "role": "verb"
+            },
+            {
+              "text": "TV",
+              "role": "what"
+            }
+          ],
+          "end": ".",
+          "explainGu": "Raj is watching TV. – રાજ ઇઝ વૉચિંગ ટીવી. એક વ્યક્તિ માટે is + ing."
+        }
+      ]
+    },
+    {
+      "id": "past",
+      "labelGu": "ગઈકાલે / પહેલાં",
+      "whenGu": "પૂરું થઈ ગયેલું કામ, જેનો સમય ખબર છે: ગઈકાલે, ગયા વર્ષે.",
+      "formula": [
+        {
+          "text": "I",
+          "role": "who"
+        },
+        {
+          "text": "drank (V2)",
+          "role": "verb"
+        },
+        {
+          "text": "tea",
+          "role": "what"
+        },
+        {
+          "text": "yesterday",
+          "role": "when"
+        }
+      ],
+      "example": {
+        "en": "I drank tea yesterday.",
+        "gu": "મેં ગઈકાલે ચા પીધી."
+      },
+      "wrong": "I drink tea yesterday.",
+      "right": "I drank tea yesterday.",
+      "tipGu": "ક્રિયાનું બીજું રૂપ (V2) એકલું આવે. બધા કર્તા સાથે એક જ રૂપ: [[I drank]], [[She drank]].",
+      "topicId": "p2-t03",
+      "practice": [
+        {
+          "type": "build",
+          "questionGu": "\"હું ગઈકાલે મંદિરે ગઈ.\" ખાનામાં ગોઠવો.",
+          "parts": [
+            {
+              "text": "I",
+              "role": "who"
+            },
+            {
+              "text": "went",
+              "role": "verb"
+            },
+            {
+              "text": "to the temple",
+              "role": "where"
+            },
+            {
+              "text": "yesterday",
+              "role": "when"
+            }
+          ],
+          "end": ".",
+          "explainGu": "I went to the temple yesterday. – આઇ વેન્ટ ટૂ ધ ટેમ્પલ યેસ્ટરડે. go નું V2 went."
+        },
+        {
+          "type": "build",
+          "questionGu": "\"નેહાએ ગઈ રાત્રે ફિલ્મ જોઈ.\" ખાનામાં ગોઠવો.",
+          "parts": [
+            {
+              "text": "Neha",
+              "role": "who"
+            },
+            {
+              "text": "watched",
+              "role": "verb"
+            },
+            {
+              "text": "a film",
+              "role": "what"
+            },
+            {
+              "text": "last night",
+              "role": "when"
+            }
+          ],
+          "end": ".",
+          "explainGu": "Neha watched a film last night. – નેહા વૉચ્ડ અ ફિલ્મ લાસ્ટ નાઇટ. \"નેહાએ\" હોય તો પણ અંગ્રેજીમાં ફક્ત Neha."
+        },
+        {
+          "type": "build",
+          "questionGu": "\"અમે ગયા વર્ષે ગાડી ખરીદી.\" ખાનામાં ગોઠવો.",
+          "parts": [
+            {
+              "text": "We",
+              "role": "who"
+            },
+            {
+              "text": "bought",
+              "role": "verb"
+            },
+            {
+              "text": "a car",
+              "role": "what"
+            },
+            {
+              "text": "last year",
+              "role": "when"
+            }
+          ],
+          "end": ".",
+          "explainGu": "We bought a car last year. – વી બૉટ અ કાર લાસ્ટ યર. buy નું V2 bought."
+        }
+      ]
+    },
+    {
+      "id": "future",
+      "labelGu": "કાલે / પછી",
+      "whenGu": "આગળ થનારું કામ: \"પીશ\", \"જઈશું\".",
+      "formula": [
+        {
+          "text": "I",
+          "role": "who"
+        },
+        {
+          "text": "will",
+          "role": "helper"
+        },
+        {
+          "text": "drink (V1)",
+          "role": "verb"
+        },
+        {
+          "text": "tea",
+          "role": "what"
+        },
+        {
+          "text": "tomorrow",
+          "role": "when"
+        }
+      ],
+      "example": {
+        "en": "I will drink tea tomorrow.",
+        "gu": "હું કાલે ચા પીશ."
+      },
+      "wrong": "I will drank tea tomorrow.",
+      "right": "I will drink tea tomorrow.",
+      "tipGu": "[[will]] પછી હંમેશાં ક્રિયાનું પહેલું રૂપ (V1). બધા કર્તા સાથે [[will]] જ.",
+      "topicId": "p2-t04",
+      "practice": [
+        {
+          "type": "build",
+          "questionGu": "\"હું કાલે બજારે જઈશ.\" ખાનામાં ગોઠવો.",
+          "parts": [
+            {
+              "text": "I",
+              "role": "who"
+            },
+            {
+              "text": "will",
+              "role": "helper"
+            },
+            {
+              "text": "go",
+              "role": "verb"
+            },
+            {
+              "text": "to the market",
+              "role": "where"
+            },
+            {
+              "text": "tomorrow",
+              "role": "when"
+            }
+          ],
+          "end": ".",
+          "explainGu": "I will go to the market tomorrow. – આઇ વિલ ગો ટૂ ધ માર્કિટ ટુમૉરો. will + V1."
+        },
+        {
+          "type": "build",
+          "questionGu": "\"રવિ આવતા અઠવાડિયે મુંબઈ જશે.\" ખાનામાં ગોઠવો.",
+          "parts": [
+            {
+              "text": "Ravi",
+              "role": "who"
+            },
+            {
+              "text": "will",
+              "role": "helper"
+            },
+            {
+              "text": "go",
+              "role": "verb"
+            },
+            {
+              "text": "to Mumbai",
+              "role": "where"
+            },
+            {
+              "text": "next week",
+              "role": "when"
+            }
+          ],
+          "end": ".",
+          "explainGu": "Ravi will go to Mumbai next week. – રવિ વિલ ગો ટૂ મુંબઈ નેક્સ્ટ વીક. will સાથે s નહીં: will go."
+        },
+        {
+          "type": "build",
+          "questionGu": "\"અમે સાંજે પ્રાર્થના કરીશું.\" ખાનામાં ગોઠવો.",
+          "parts": [
+            {
+              "text": "We",
+              "role": "who"
+            },
+            {
+              "text": "will",
+              "role": "helper"
+            },
+            {
+              "text": "pray",
+              "role": "verb"
+            },
+            {
+              "text": "in the evening",
+              "role": "when"
+            }
+          ],
+          "end": ".",
+          "explainGu": "We will pray in the evening. – વી વિલ પ્રે ઇન ધ ઇવનિંગ. will + V1."
+        }
+      ]
+    },
+    {
+      "id": "done",
+      "labelGu": "થઈ ગયું છે",
+      "whenGu": "કામ પૂરું થઈ ગયું છે, ક્યારે એ મહત્ત્વનું નથી: \"જમી લીધું છે\".",
+      "formula": [
+        {
+          "text": "I / She",
+          "role": "who"
+        },
+        {
+          "text": "have / has",
+          "role": "helper"
+        },
+        {
+          "text": "eaten (V3)",
+          "role": "verb"
+        },
+        {
+          "text": "lunch",
+          "role": "what"
+        }
+      ],
+      "example": {
+        "en": "I have eaten lunch.",
+        "gu": "મેં જમી લીધું છે."
+      },
+      "wrong": "I have ate lunch.",
+      "right": "I have eaten lunch.",
+      "tipGu": "[[have]] / [[has]] પછી ત્રીજું રૂપ (V3). [[He]] / [[She]] સાથે [[has]]. ત્રણ રૂપ માટે \"ક્રિયાનાં 3 રૂપ\" પાઠ જુઓ.",
+      "topicId": "p3-t01",
+      "practice": [
+        {
+          "type": "build",
+          "questionGu": "\"મેં મારું કામ પૂરું કર્યું છે.\" ખાનામાં ગોઠવો.",
+          "parts": [
+            {
+              "text": "I",
+              "role": "who"
+            },
+            {
+              "text": "have",
+              "role": "helper"
+            },
+            {
+              "text": "finished",
+              "role": "verb"
+            },
+            {
+              "text": "my work",
+              "role": "what"
+            }
+          ],
+          "end": ".",
+          "explainGu": "I have finished my work. – આઇ હૅવ ફિનિશ્ડ માય વર્ક. I સાથે have + V3."
+        },
+        {
+          "type": "build",
+          "questionGu": "\"નેહાએ પત્ર લખ્યો છે.\" ખાનામાં ગોઠવો.",
+          "parts": [
+            {
+              "text": "Neha",
+              "role": "who"
+            },
+            {
+              "text": "has",
+              "role": "helper"
+            },
+            {
+              "text": "written",
+              "role": "verb"
+            },
+            {
+              "text": "a letter",
+              "role": "what"
+            }
+          ],
+          "end": ".",
+          "explainGu": "Neha has written a letter. – નેહા હૅઝ રિટન અ લેટર. She સાથે has, write નું V3 written."
+        },
+        {
+          "type": "build",
+          "questionGu": "\"અમે તે ફિલ્મ જોઈ છે.\" ખાનામાં ગોઠવો.",
+          "parts": [
+            {
+              "text": "We",
+              "role": "who"
+            },
+            {
+              "text": "have",
+              "role": "helper"
+            },
+            {
+              "text": "seen",
+              "role": "verb"
+            },
+            {
+              "text": "that film",
+              "role": "what"
+            }
+          ],
+          "end": ".",
+          "explainGu": "We have seen that film. – વી હૅવ સીન ધૅટ ફિલ્મ. see નું V3 seen."
+        }
+      ]
+    },
+    {
+      "id": "not",
+      "labelGu": "ના (નથી)",
+      "whenGu": "\"નથી\", \"ન કર્યું\", \"નહીં કરું\" વાળું વાક્ય.",
+      "formula": [
+        {
+          "text": "I",
+          "role": "who"
+        },
+        {
+          "text": "don't / doesn't / didn't",
+          "role": "helper"
+        },
+        {
+          "text": "drink (V1)",
+          "role": "verb"
+        },
+        {
+          "text": "coffee",
+          "role": "what"
+        }
+      ],
+      "example": {
+        "en": "I don't drink coffee.",
+        "gu": "હું કૉફી નથી પીતી."
+      },
+      "wrong": "I not drink coffee.",
+      "right": "I don't drink coffee.",
+      "tipGu": "[[don't]] (રોજ), [[doesn't]] (He / She), [[didn't]] (ભૂતકાળ), [[won't]] (કાલે). પછી ક્રિયાનું પહેલું રૂપ: [[I didn't go.]]",
+      "topicId": "p2-t05",
+      "practice": [
+        {
+          "type": "build",
+          "questionGu": "\"હું માંસ નથી ખાતી.\" ખાનામાં ગોઠવો.",
+          "parts": [
+            {
+              "text": "I",
+              "role": "who"
+            },
+            {
+              "text": "don't",
+              "role": "helper"
+            },
+            {
+              "text": "eat",
+              "role": "verb"
+            },
+            {
+              "text": "meat",
+              "role": "what"
+            }
+          ],
+          "end": ".",
+          "explainGu": "I don't eat meat. – આઇ ડોન્ટ ઈટ મીટ. don't પછી V1."
+        },
+        {
+          "type": "build",
+          "questionGu": "\"રવિ ગઈકાલે શાળાએ ન ગયો.\" ખાનામાં ગોઠવો.",
+          "parts": [
+            {
+              "text": "Ravi",
+              "role": "who"
+            },
+            {
+              "text": "didn't",
+              "role": "helper"
+            },
+            {
+              "text": "go",
+              "role": "verb"
+            },
+            {
+              "text": "to school",
+              "role": "where"
+            },
+            {
+              "text": "yesterday",
+              "role": "when"
+            }
+          ],
+          "end": ".",
+          "explainGu": "Ravi didn't go to school yesterday. – રવિ ડિડન્ટ ગો ટૂ સ્કૂલ યેસ્ટરડે. didn't પછી V1 (go), went નહીં."
+        },
+        {
+          "type": "build",
+          "questionGu": "\"મીના ચા નથી પીતી.\" ખાનામાં ગોઠવો.",
+          "parts": [
+            {
+              "text": "Meena",
+              "role": "who"
+            },
+            {
+              "text": "doesn't",
+              "role": "helper"
+            },
+            {
+              "text": "drink",
+              "role": "verb"
+            },
+            {
+              "text": "tea",
+              "role": "what"
+            }
+          ],
+          "end": ".",
+          "explainGu": "Meena doesn't drink tea. – મીના ડઝન્ટ ડ્રિન્ક ટી. She સાથે doesn't, પછી drink (s વગર)."
+        }
+      ]
+    },
+    {
+      "id": "wh",
+      "labelGu": "સવાલ (શું, ક્યાં, ક્યારે)",
+      "whenGu": "શું, ક્યાં, ક્યારે, કેમ કે કોણ વાળો સવાલ.",
+      "formula": [
+        {
+          "text": "What",
+          "role": "what"
+        },
+        {
+          "text": "do / does / did",
+          "role": "helper"
+        },
+        {
+          "text": "you",
+          "role": "who"
+        },
+        {
+          "text": "eat (V1)",
+          "role": "verb"
+        }
+      ],
+      "example": {
+        "en": "What do you eat?",
+        "gu": "તમે શું ખાઓ છો?"
+      },
+      "wrong": "What you eat?",
+      "right": "What do you eat?",
+      "tipGu": "સવાલ-શબ્દ સૌથી પહેલાં. તેનો રંગ જુઓ: [[What]] = શું?, [[Where]] = ક્યાં?, [[When]] = ક્યારે?. પછી મદદગાર, પછી કર્તા.",
+      "topicId": "p2-t06",
+      "practice": [
+        {
+          "type": "build",
+          "questionGu": "\"તમે ક્યાં રહો છો?\" ખાનામાં ગોઠવો.",
+          "parts": [
+            {
+              "text": "Where",
+              "role": "where"
+            },
+            {
+              "text": "do",
+              "role": "helper"
+            },
+            {
+              "text": "you",
+              "role": "who"
+            },
+            {
+              "text": "live",
+              "role": "verb"
+            }
+          ],
+          "end": "?",
+          "explainGu": "Where do you live? – વેર ડૂ યૂ લિવ? ક્યાં = Where, સૌથી પહેલાં."
+        },
+        {
+          "type": "build",
+          "questionGu": "\"તે શું ખાય છે?\" ખાનામાં ગોઠવો.",
+          "parts": [
+            {
+              "text": "What",
+              "role": "what"
+            },
+            {
+              "text": "does",
+              "role": "helper"
+            },
+            {
+              "text": "she",
+              "role": "who"
+            },
+            {
+              "text": "eat",
+              "role": "verb"
+            }
+          ],
+          "end": "?",
+          "explainGu": "What does she eat? – વૉટ ડઝ શી ઈટ? She સાથે does, પછી eat (s વગર)."
+        },
+        {
+          "type": "build",
+          "questionGu": "\"તમે ક્યારે આવ્યા?\" ખાનામાં ગોઠવો.",
+          "parts": [
+            {
+              "text": "When",
+              "role": "when"
+            },
+            {
+              "text": "did",
+              "role": "helper"
+            },
+            {
+              "text": "you",
+              "role": "who"
+            },
+            {
+              "text": "come",
+              "role": "verb"
+            }
+          ],
+          "end": "?",
+          "explainGu": "When did you come? – વેન ડિડ યૂ કમ? did પછી V1 (come)."
+        }
+      ]
+    },
+    {
+      "id": "yesno",
+      "labelGu": "હા / ના વાળો સવાલ",
+      "whenGu": "જેનો જવાબ હા કે ના હોય: \"તમને ચા ગમે છે?\"",
+      "formula": [
+        {
+          "text": "Do / Does / Did",
+          "role": "helper"
+        },
+        {
+          "text": "you",
+          "role": "who"
+        },
+        {
+          "text": "like (V1)",
+          "role": "verb"
+        },
+        {
+          "text": "tea",
+          "role": "what"
+        }
+      ],
+      "example": {
+        "en": "Do you like tea?",
+        "gu": "તમને ચા ગમે છે?"
+      },
+      "wrong": "You like tea?",
+      "right": "Do you like tea?",
+      "tipGu": "મદદગાર શબ્દ કર્તાની પહેલાં આવે. [[am]] / [[is]] / [[are]] વાળા વાક્યમાં તે જ આગળ આવે: [[Are you happy?]]",
+      "topicId": "p2-t06",
+      "practice": [
+        {
+          "type": "build",
+          "questionGu": "\"શું તમે અંગ્રેજી બોલો છો?\" ખાનામાં ગોઠવો.",
+          "parts": [
+            {
+              "text": "Do",
+              "role": "helper"
+            },
+            {
+              "text": "you",
+              "role": "who"
+            },
+            {
+              "text": "speak",
+              "role": "verb"
+            },
+            {
+              "text": "English",
+              "role": "what"
+            }
+          ],
+          "end": "?",
+          "explainGu": "Do you speak English? – ડૂ યૂ સ્પીક ઇંગ્લિશ? Do સૌથી પહેલાં."
+        },
+        {
+          "type": "build",
+          "questionGu": "\"શું રવિ ક્રિકેટ રમે છે?\" ખાનામાં ગોઠવો.",
+          "parts": [
+            {
+              "text": "Does",
+              "role": "helper"
+            },
+            {
+              "text": "Ravi",
+              "role": "who"
+            },
+            {
+              "text": "play",
+              "role": "verb"
+            },
+            {
+              "text": "cricket",
+              "role": "what"
+            }
+          ],
+          "end": "?",
+          "explainGu": "Does Ravi play cricket? – ડઝ રવિ પ્લે ક્રિકેટ? Ravi (He) સાથે Does, પછી play."
+        },
+        {
+          "type": "build",
+          "questionGu": "\"શું તમે ગઈકાલે ફોન કર્યો?\" ખાનામાં ગોઠવો.",
+          "parts": [
+            {
+              "text": "Did",
+              "role": "helper"
+            },
+            {
+              "text": "you",
+              "role": "who"
+            },
+            {
+              "text": "call",
+              "role": "verb"
+            },
+            {
+              "text": "yesterday",
+              "role": "when"
+            }
+          ],
+          "end": "?",
+          "explainGu": "Did you call yesterday? – ડિડ યૂ કૉલ યેસ્ટરડે? Did પછી V1 (call)."
+        }
+      ]
+    },
+    {
+      "id": "modal",
+      "labelGu": "શકું / જોઈએ",
+      "whenGu": "શક્તિ, સલાહ કે ફરજ: \"તરી શકું છું\", \"આરામ કરવો જોઈએ\".",
+      "formula": [
+        {
+          "text": "You",
+          "role": "who"
+        },
+        {
+          "text": "can / should / must",
+          "role": "helper"
+        },
+        {
+          "text": "rest (V1)",
+          "role": "verb"
+        }
+      ],
+      "example": {
+        "en": "You should rest.",
+        "gu": "તમારે આરામ કરવો જોઈએ."
+      },
+      "wrong": "You should to rest.",
+      "right": "You should rest.",
+      "tipGu": "[[can]], [[should]], [[must]] પછી સીધી ક્રિયા, [[to]] વગર. [[s]] પણ નહીં: [[He can swim.]]",
+      "topicId": "p3-t02",
+      "practice": [
+        {
+          "type": "build",
+          "questionGu": "\"હું તરી શકું છું.\" ખાનામાં ગોઠવો.",
+          "parts": [
+            {
+              "text": "I",
+              "role": "who"
+            },
+            {
+              "text": "can",
+              "role": "helper"
+            },
+            {
+              "text": "swim",
+              "role": "verb"
+            }
+          ],
+          "end": ".",
+          "explainGu": "I can swim. – આઇ કૅન સ્વિમ. can પછી સીધી ક્રિયા."
+        },
+        {
+          "type": "build",
+          "questionGu": "\"તમારે વધારે પાણી પીવું જોઈએ.\" ખાનામાં ગોઠવો.",
+          "parts": [
+            {
+              "text": "You",
+              "role": "who"
+            },
+            {
+              "text": "should",
+              "role": "helper"
+            },
+            {
+              "text": "drink",
+              "role": "verb"
+            },
+            {
+              "text": "more water",
+              "role": "what"
+            }
+          ],
+          "end": ".",
+          "explainGu": "You should drink more water. – યૂ શુડ ડ્રિન્ક મોર વૉટર. should પછી to નહીં."
+        },
+        {
+          "type": "build",
+          "questionGu": "\"આપણે સમયસર જવું જ જોઈએ.\" ખાનામાં ગોઠવો.",
+          "parts": [
+            {
+              "text": "We",
+              "role": "who"
+            },
+            {
+              "text": "must",
+              "role": "helper"
+            },
+            {
+              "text": "go",
+              "role": "verb"
+            },
+            {
+              "text": "on time",
+              "role": "when"
+            }
+          ],
+          "end": ".",
+          "explainGu": "We must go on time. – વી મસ્ટ ગો ઑન ટાઇમ. \"જ જોઈએ\" = must."
+        }
+      ]
+    },
+    {
+      "id": "if",
+      "labelGu": "જો… તો…",
+      "whenGu": "શરત વાળું વાક્ય: \"જો વરસાદ પડશે તો…\"",
+      "formula": [
+        {
+          "text": "If",
+          "role": "link"
+        },
+        {
+          "text": "it",
+          "role": "who"
+        },
+        {
+          "text": "rains,",
+          "role": "verb"
+        },
+        {
+          "text": "I",
+          "role": "who"
+        },
+        {
+          "text": "will",
+          "role": "helper"
+        },
+        {
+          "text": "stay (V1)",
+          "role": "verb"
+        },
+        {
+          "text": "at home",
+          "role": "where"
+        }
+      ],
+      "example": {
+        "en": "If it rains, I will stay at home.",
+        "gu": "જો વરસાદ પડશે તો હું ઘરે રહીશ."
+      },
+      "wrong": "If it will rain, I will stay at home.",
+      "right": "If it rains, I will stay at home.",
+      "tipGu": "[[If]] વાળા ભાગમાં [[will]] નહીં. \"તો\" માટે કોઈ શબ્દ નથી, ફક્ત comma (,).",
+      "topicId": "p3-t03",
+      "practice": [
+        {
+          "type": "build",
+          "questionGu": "\"જો વરસાદ પડશે તો અમે ઘરે રહીશું.\" ખાનામાં ગોઠવો.",
+          "parts": [
+            {
+              "text": "If",
+              "role": "link"
+            },
+            {
+              "text": "it",
+              "role": "who"
+            },
+            {
+              "text": "rains,",
+              "role": "verb"
+            },
+            {
+              "text": "we",
+              "role": "who"
+            },
+            {
+              "text": "will",
+              "role": "helper"
+            },
+            {
+              "text": "stay",
+              "role": "verb"
+            },
+            {
+              "text": "at home",
+              "role": "where"
+            }
+          ],
+          "end": ".",
+          "explainGu": "If it rains, we will stay at home. – ઇફ ઇટ રેઇન્ઝ, વી વિલ સ્ટે ઍટ હોમ. If વાળા ભાગમાં will નહીં."
+        },
+        {
+          "type": "build",
+          "questionGu": "\"જો મીના ફોન કરશે તો હું જવાબ આપીશ.\" ખાનામાં ગોઠવો.",
+          "parts": [
+            {
+              "text": "If",
+              "role": "link"
+            },
+            {
+              "text": "Meena",
+              "role": "who"
+            },
+            {
+              "text": "calls,",
+              "role": "verb"
+            },
+            {
+              "text": "I",
+              "role": "who"
+            },
+            {
+              "text": "will",
+              "role": "helper"
+            },
+            {
+              "text": "answer",
+              "role": "verb"
+            }
+          ],
+          "end": ".",
+          "explainGu": "If Meena calls, I will answer. – ઇફ મીના કૉલ્ઝ, આઇ વિલ આન્સર. Meena (She) સાથે calls."
+        },
+        {
+          "type": "build",
+          "questionGu": "\"જો રવિ વહેલો ઊઠશે તો તે મંદિરે જશે.\" ખાનામાં ગોઠવો.",
+          "parts": [
+            {
+              "text": "If",
+              "role": "link"
+            },
+            {
+              "text": "Ravi",
+              "role": "who"
+            },
+            {
+              "text": "wakes up",
+              "role": "verb"
+            },
+            {
+              "text": "early,",
+              "role": "when"
+            },
+            {
+              "text": "he",
+              "role": "who"
+            },
+            {
+              "text": "will",
+              "role": "helper"
+            },
+            {
+              "text": "go",
+              "role": "verb"
+            },
+            {
+              "text": "to the temple",
+              "role": "where"
+            }
+          ],
+          "end": ".",
+          "explainGu": "If Ravi wakes up early, he will go to the temple. – ઇફ રવિ વેક્સ અપ અર્લી, હી વિલ ગો ટૂ ધ ટેમ્પલ. બંને ભાગમાં કર્તા પછી તરત ક્રિયા."
+        }
+      ]
+    },
+    {
+      "id": "join",
+      "labelGu": "બે વાત જોડવી",
+      "whenGu": "\"અને\", \"પણ\", \"એટલે\", \"કારણ કે\" થી બે વાક્ય જોડવાં.",
+      "formula": [
+        {
+          "text": "I",
+          "role": "who"
+        },
+        {
+          "text": "drank",
+          "role": "verb"
+        },
+        {
+          "text": "tea",
+          "role": "what"
+        },
+        {
+          "text": "and / but / because",
+          "role": "link"
+        },
+        {
+          "text": "watched",
+          "role": "verb"
+        },
+        {
+          "text": "TV",
+          "role": "what"
+        }
+      ],
+      "example": {
+        "en": "I drank tea and watched TV.",
+        "gu": "મેં ચા પીધી અને ટીવી જોયું."
+      },
+      "tipGu": "દરેક ભાગ અંગ્રેજી ક્રમમાં બનાવો, પછી વચ્ચે [[and]] / [[but]] / [[so]] / [[because]] મૂકો: [[She went home because she was tired.]]",
+      "topicId": "p3-t05",
+      "practice": [
+        {
+          "type": "build",
+          "questionGu": "\"મેં ચા પીધી અને છાપું વાંચ્યું.\" ખાનામાં ગોઠવો.",
+          "parts": [
+            {
+              "text": "I",
+              "role": "who"
+            },
+            {
+              "text": "drank",
+              "role": "verb"
+            },
+            {
+              "text": "tea",
+              "role": "what"
+            },
+            {
+              "text": "and",
+              "role": "link"
+            },
+            {
+              "text": "read",
+              "role": "verb"
+            },
+            {
+              "text": "the newspaper",
+              "role": "what"
+            }
+          ],
+          "end": ".",
+          "explainGu": "I drank tea and read the newspaper. – આઇ ડ્રૅન્ક ટી ઍન્ડ રેડ ધ ન્યૂઝપેપર. બંને ક્રિયા ભૂતકાળમાં."
+        },
+        {
+          "type": "build",
+          "questionGu": "\"તે ઘરે ગઈ કારણ કે તે થાકેલી હતી.\" ખાનામાં ગોઠવો.",
+          "parts": [
+            {
+              "text": "She",
+              "role": "who"
+            },
+            {
+              "text": "went",
+              "role": "verb"
+            },
+            {
+              "text": "home",
+              "role": "where"
+            },
+            {
+              "text": "because",
+              "role": "link"
+            },
+            {
+              "text": "she",
+              "role": "who"
+            },
+            {
+              "text": "was",
+              "role": "helper"
+            },
+            {
+              "text": "tired",
+              "role": "how"
+            }
+          ],
+          "end": ".",
+          "explainGu": "She went home because she was tired. – શી વેન્ટ હોમ બિકૉઝ શી વૉઝ ટાયર્ડ. કારણ કે = because."
+        },
+        {
+          "type": "build",
+          "questionGu": "\"મને ભૂખ લાગી હતી એટલે મેં ભાત ખાધા.\" ખાનામાં ગોઠવો.",
+          "parts": [
+            {
+              "text": "I",
+              "role": "who"
+            },
+            {
+              "text": "was",
+              "role": "helper"
+            },
+            {
+              "text": "hungry,",
+              "role": "how"
+            },
+            {
+              "text": "so",
+              "role": "link"
+            },
+            {
+              "text": "I",
+              "role": "who"
+            },
+            {
+              "text": "ate",
+              "role": "verb"
+            },
+            {
+              "text": "rice",
+              "role": "what"
+            }
+          ],
+          "end": ".",
+          "explainGu": "I was hungry, so I ate rice. – આઇ વૉઝ હંગ્રી, સો આઇ એટ રાઇસ. એટલે = so."
+        }
+      ]
+    }
+  ],
+  "checksGu": [
+    "કર્તા (કોણ?) છે? અંગ્રેજીમાં કર્તા વગર વાક્ય ન બને: \"ચા પીઉં છું\" = [[I drink tea.]]",
+    "ક્રિયા કર્તા પછી તરત, બીજા નંબરે છે?",
+    "ક્રિયાનું રૂપ સાચું છે? [[will]], [[can]], [[did]], [[don't]] પછી V1. એકલો ભૂતકાળ હોય તો V2. [[have]] / [[has]] પછી V3.",
+    "[[He]], [[She]], [[It]] સાથે રોજની વાતમાં ક્રિયાને [[s]] લાગ્યો? [[She drinks.]]",
+    "કોઈ કામ ન હોય, ફક્ત \"છે\" હોય, તો [[am]] / [[is]] / [[are]]: [[She is happy.]]"
+  ],
+  "tenseChart": {
+    "titleGu": "ત્રણ કાળ એક નજરમાં",
+    "noteGu": "ખાનું દબાવો તો તેની પેટર્ન, ઉદાહરણ અને પ્રેક્ટિસ ખૂલશે. ઝાંખાં ખાનાં આગળ શીખીશું.",
+    "columns": [
+      {
+        "id": "past",
+        "labelGu": "ભૂતકાળ",
+        "en": "Past"
+      },
+      {
+        "id": "present",
+        "labelGu": "વર્તમાન",
+        "en": "Present"
+      },
+      {
+        "id": "future",
+        "labelGu": "ભવિષ્ય",
+        "en": "Future"
+      }
+    ],
+    "rows": [
+      {
+        "id": "simple",
+        "labelGu": "સાદો",
+        "en": "Simple"
+      },
+      {
+        "id": "continuous",
+        "labelGu": "ચાલુ",
+        "en": "-ing"
+      },
+      {
+        "id": "perfect",
+        "labelGu": "પૂરું થયેલું",
+        "en": "Perfect"
+      }
+    ],
+    "cells": [
+      {
+        "row": "simple",
+        "column": "past",
+        "en": "I drank",
+        "gu": "મેં પીધું",
+        "itemId": "past"
+      },
+      {
+        "row": "simple",
+        "column": "present",
+        "en": "I drink",
+        "gu": "હું પીઉં છું",
+        "itemId": "habit"
+      },
+      {
+        "row": "simple",
+        "column": "future",
+        "en": "I will drink",
+        "gu": "હું પીશ",
+        "itemId": "future"
+      },
+      {
+        "row": "continuous",
+        "column": "past",
+        "en": "I was drinking",
+        "gu": "હું પી રહી હતી"
+      },
+      {
+        "row": "continuous",
+        "column": "present",
+        "en": "I am drinking",
+        "gu": "હું પી રહી છું",
+        "itemId": "now"
+      },
+      {
+        "row": "continuous",
+        "column": "future",
+        "en": "I will be drinking",
+        "gu": "હું પી રહી હોઈશ"
+      },
+      {
+        "row": "perfect",
+        "column": "past",
+        "en": "I had drunk",
+        "gu": "મેં પીધું હતું"
+      },
+      {
+        "row": "perfect",
+        "column": "present",
+        "en": "I have drunk",
+        "gu": "મેં પીધું છે",
+        "itemId": "done"
+      },
+      {
+        "row": "perfect",
+        "column": "future",
+        "en": "I will have drunk",
+        "gu": "મેં પીધું હશે"
+      }
+    ]
+  },
+  "mixed": {
+    "titleGu": "કયો કાળ? મિક્સ પ્રેક્ટિસ",
+    "introGu": "સમય બતાવતો શબ્દ જુઓ ([[yesterday]], [[now]], [[tomorrow]], [[every day]]) અને સાચો કાળ પસંદ કરો.",
+    "questions": [
+      {
+        "type": "choice",
+        "questionGu": "ખાલી જગ્યા પૂરો: Ravi ___ to school yesterday.",
+        "options": [
+          "goes",
+          "went",
+          "will go"
+        ],
+        "answer": 1,
+        "explainGu": "Ravi went to school yesterday. – રવિ વેન્ટ ટૂ સ્કૂલ યેસ્ટરડે. yesterday એટલે ભૂતકાળ (V2)."
+      },
+      {
+        "type": "choice",
+        "questionGu": "ખાલી જગ્યા પૂરો: Look! The baby ___ .",
+        "options": [
+          "is sleeping",
+          "sleeps",
+          "slept"
+        ],
+        "answer": 0,
+        "explainGu": "Look! The baby is sleeping. – લુક! ધ બેબી ઇઝ સ્લીપિંગ. Look! એટલે અત્યારે ચાલે છે: is + ing."
+      },
+      {
+        "type": "choice",
+        "questionGu": "ખાલી જગ્યા પૂરો: I ___ my mother tomorrow.",
+        "options": [
+          "called",
+          "call",
+          "will call"
+        ],
+        "answer": 2,
+        "explainGu": "I will call my mother tomorrow. – આઇ વિલ કૉલ માય મધર ટુમૉરો. tomorrow એટલે ભવિષ્ય: will + V1."
+      },
+      {
+        "type": "choice",
+        "questionGu": "ખાલી જગ્યા પૂરો: Meena ___ tea every morning.",
+        "options": [
+          "drinks",
+          "is drinking",
+          "drank"
+        ],
+        "answer": 0,
+        "explainGu": "Meena drinks tea every morning. – મીના ડ્રિન્ક્સ ટી એવરી મૉર્નિંગ. every morning એટલે ટેવ: She સાથે drinks."
+      },
+      {
+        "type": "choice",
+        "questionGu": "ખાલી જગ્યા પૂરો: I have already ___ lunch.",
+        "options": [
+          "eat",
+          "ate",
+          "eaten"
+        ],
+        "answer": 2,
+        "explainGu": "I have already eaten lunch. – આઇ હૅવ ઑલરેડી ઈટન લંચ. have પછી V3."
+      },
+      {
+        "type": "choice",
+        "questionGu": "\"રાજ કાલે મુંબઈ જશે.\" કયો કાળ છે?",
+        "options": [
+          "ભૂતકાળ",
+          "ભવિષ્ય",
+          "વર્તમાન"
+        ],
+        "answer": 1,
+        "explainGu": "Raj will go to Mumbai tomorrow. – રાજ વિલ ગો ટૂ મુંબઈ ટુમૉરો. કાલે = ભવિષ્ય, will + V1."
+      },
+      {
+        "type": "build",
+        "questionGu": "\"નેહા અત્યારે રસોઈ બનાવી રહી છે.\" ખાનામાં ગોઠવો.",
+        "parts": [
+          {
+            "text": "Neha",
+            "role": "who"
+          },
+          {
+            "text": "is",
+            "role": "helper"
+          },
+          {
+            "text": "cooking",
+            "role": "verb"
+          },
+          {
+            "text": "now",
+            "role": "when"
+          }
+        ],
+        "end": ".",
+        "explainGu": "Neha is cooking now. – નેહા ઇઝ કુકિંગ નાઉ. અત્યારે = is + ing."
+      },
+      {
+        "type": "build",
+        "questionGu": "\"મેં ગઈકાલે મારી બહેનને ફોન કર્યો.\" ખાનામાં ગોઠવો.",
+        "parts": [
+          {
+            "text": "I",
+            "role": "who"
+          },
+          {
+            "text": "called",
+            "role": "verb"
+          },
+          {
+            "text": "my sister",
+            "role": "what"
+          },
+          {
+            "text": "yesterday",
+            "role": "when"
+          }
+        ],
+        "end": ".",
+        "explainGu": "I called my sister yesterday. – આઇ કૉલ્ડ માય સિસ્ટર યેસ્ટરડે. ગઈકાલે = V2 (called)."
+      }
+    ]
+  }
+}

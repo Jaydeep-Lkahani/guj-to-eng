@@ -192,6 +192,10 @@
   color: var(--warn-ink);
   font-size: 22px;
 }
+.side-guide .side-review-icon {
+  background: var(--primary-soft);
+  color: var(--primary-ink);
+}
 .side-review-text {
   display: flex;
   flex: 1;
