@@ -19,8 +19,8 @@
   margin: 0;
   padding: 4px 14px 4px 10px;
   border-radius: 999px;
-  background: var(--warn-soft);
-  color: var(--warn-ink);
+  background: var(--accent-soft);
+  color: var(--accent-ink);
   font-size: 0.95rem;
   font-weight: 700;
 }

@@ -33,6 +33,13 @@
   --warn-ink: #b45309;
   --warn-soft: #fef3e2;
 
+  /* Warm accent (the logo's yellow): only for good moments, so it balances the blue */
+  --accent: #fbbf24;
+  --accent-hover: #f59e0b;
+  --accent-soft: #fef3c7;
+  --accent-ink: #92400e;
+  --on-accent: #3b1f00;
+
   /* One colour per part: green sprout, sky-blue path, saffron mountain. */
   --p1: #059669;
   --p1-ink: #047857;
@@ -130,6 +137,12 @@
   --warn: #fbbf24;
   --warn-ink: #fcd34d;
   --warn-soft: #362a0c;
+
+  --accent: #fbbf24;
+  --accent-hover: #fcd34d;
+  --accent-soft: #3a2c0b;
+  --accent-ink: #fcd34d;
+  --on-accent: #1f1300;
 
   --p1: #34d399;
   --p1-ink: #6ee7b7;
@@ -973,7 +986,7 @@ button:hover .spin-hover {
 }
 
 .ring-fill {
-  stroke: #fbbf24;
+  stroke: var(--accent);
   stroke-linecap: round;
   animation: ring-in 1.2s var(--ease-out) 0.2s both;
 }
@@ -1040,7 +1053,7 @@ button:hover .spin-hover {
 .prose .en,
 .question .en,
 .feedback .en {
-  color: var(--primary-ink);
+  color: var(--text);
 }
 
 .examples {

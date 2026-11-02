@@ -160,7 +160,7 @@ export function TopicPage() {
                 <span className="lx-count-num">{ideasRead}</span>/{lesson.explanationGu.length} વાંચ્યું
               </p>
             </div>
-            {canSpeak && <p className="lx-hint">વાદળી અંગ્રેજી શબ્દ પર ટૅપ કરશો તો તે બોલીને સંભળાવશે.</p>}
+            {canSpeak && <p className="lx-hint">જે અંગ્રેજી શબ્દ નીચે વાદળી લીટી છે, તેના પર ટૅપ કરશો તો તે બોલીને સંભળાવશે.</p>}
             <ExplainList paras={lesson.explanationGu} onSeen={onSeen} />
             {lesson.patterns?.map((p, i) => <PatternCard key={i} pattern={p} />)}
           </section>

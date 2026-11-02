@@ -460,20 +460,19 @@
   padding: 0 16px;
   border: 0;
   border-radius: 999px;
-  background: var(--primary);
-  color: var(--on-primary);
+  background: var(--primary-soft);
+  color: var(--primary-ink);
   font: inherit;
   font-size: 0.9rem;
   font-weight: 700;
   cursor: pointer;
-  box-shadow: 0 8px 18px -8px color-mix(in srgb, var(--primary) 80%, transparent);
   transition:
     transform 0.2s var(--ease-spring),
     background-color 0.2s;
 }
 
 .wd-listen:hover {
-  background: var(--primary-hover);
+  background: color-mix(in srgb, var(--primary) 18%, var(--surface));
   transform: translateY(-1px);
 }
 
@@ -486,8 +485,8 @@
 }
 
 .wd-listen.playing {
-  background: var(--good);
-  color: #fff;
+  background: var(--good-soft);
+  color: var(--good-ink);
 }
 
 .wd-bars {
@@ -523,10 +522,19 @@
   gap: 14px;
   width: min(100%, 360px);
   padding: 10px 18px 10px 10px;
+  border: 1px solid var(--line);
   border-radius: 22px;
-  background: linear-gradient(135deg, var(--hero-a), var(--hero-b));
-  color: #fff;
-  box-shadow: var(--shadow-lg);
+  background: var(--surface);
+  color: var(--text);
+  box-shadow: var(--shadow-md);
+}
+
+.hx-progress .ring-track {
+  stroke: var(--surface-3);
+}
+
+.hx-progress .ring-label {
+  color: var(--text);
 }
 
 .hx-progress .ring {
@@ -552,13 +560,13 @@
   flex-direction: column;
   font-size: 0.8rem;
   line-height: 1.35;
-  color: rgb(255 255 255 / 0.85);
+  color: var(--text-2);
 }
 
 .hx-progress-title {
   font-size: 0.95rem;
   font-weight: 700;
-  color: #fff;
+  color: var(--text);
 }
 
 .hx-chip {
@@ -1205,10 +1213,14 @@
   gap: 20px 28px;
   margin-top: 76px;
   padding: 36px 40px;
+  border: 1px solid color-mix(in srgb, var(--primary) 18%, transparent);
   border-radius: 28px;
-  background: linear-gradient(135deg, var(--hero-a), var(--hero-b));
-  color: #fff;
-  box-shadow: var(--shadow-lg);
+  background: linear-gradient(
+    135deg,
+    var(--primary-soft) 30%,
+    color-mix(in srgb, var(--accent) 22%, var(--surface))
+  );
+  color: var(--text);
 }
 
 .hc::before,
@@ -1224,7 +1236,7 @@
   height: 300px;
   right: -80px;
   top: -150px;
-  background: rgb(255 255 255 / 0.1);
+  background: color-mix(in srgb, var(--surface) 45%, transparent);
 }
 
 .hc::after {
@@ -1232,7 +1244,7 @@
   height: 220px;
   left: 30%;
   bottom: -160px;
-  background: rgb(251 191 36 / 0.22);
+  background: color-mix(in srgb, var(--accent) 30%, transparent);
 }
 
 /* A slow light passing over the band */
@@ -1240,7 +1252,7 @@
   position: absolute;
   z-index: -1;
   inset: -50%;
-  background: linear-gradient(115deg, transparent 42%, rgb(255 255 255 / 0.12) 50%, transparent 58%);
+  background: linear-gradient(115deg, transparent 42%, color-mix(in srgb, var(--surface) 35%, transparent) 50%, transparent 58%);
   animation: sweep 7s ease-in-out infinite;
 }
 
@@ -1250,24 +1262,13 @@
 
 .hc h2 {
   margin: 0 0 6px;
-  color: #fff;
+  color: var(--text);
   font-size: 1.75rem;
 }
 
 .hc p {
   margin: 0;
-  color: rgb(255 255 255 / 0.88);
-}
-
-.hc-button,
-.hc-button:hover {
-  background: #fff;
-  color: #075985;
-  box-shadow: 0 12px 26px -12px rgb(0 0 0 / 0.5);
-}
-
-.hc-button:hover {
-  background: #f0f9ff;
+  color: var(--text-2);
 }
 
 /* ---------- Entrance and scroll animations ---------- */
